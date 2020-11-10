@@ -1,9 +1,10 @@
 //on about page video, make short video loop play on hover, stop when mouse leaves
-console.log('video script loaded')
+console.log('video script loaded');
 
     jQuery(function($){
         var figure = $(".nm-video-outer").hover( hoverVideo, pauseVideo );
-        function hoverVideo(e) {  
+        function hoverVideo(e) {
+            $('video', this).prop('muted', true);
             $('video', this).get(0).play(); 
         }
         function pauseVideo(e) {

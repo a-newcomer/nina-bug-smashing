@@ -1,4 +1,4 @@
-console.log('masonry script connected.')
+console.log('masonry script loaded.');
 //grab the container that Masonry will be inside of in a var
 let container = document.querySelector('.msnry-container-inner');
 let msnry;

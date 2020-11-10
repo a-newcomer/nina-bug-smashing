@@ -193,7 +193,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: pointer;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         color: $primary_color;
     }
 }
@@ -216,7 +216,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: pointer;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         color: $link_color;
     }
 }
@@ -239,7 +239,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: pointer;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         text-decoration: underline;
     }
 }
@@ -296,7 +296,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: pointer;
+            cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         color: $header_hover;
     }
 }
@@ -319,7 +319,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: pointer;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         color: $link_color;
     }
 }
@@ -440,6 +440,7 @@ $body: 14px;
             .sub-menu {
                 opacity: 1;
                 visibility: visible;
+                cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
             }
         }
 
@@ -538,6 +539,7 @@ $body: 14px;
         
         a {
             color: $btn_hover_text_primary !important;
+            cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         }
         
         .icon {
@@ -566,6 +568,7 @@ $body: 14px;
         background: $btn_hover_secondary !important;
         border: 2px solid $btn_hover_border_secondary !important;
         color: $btn_hover_text_secondary !important;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         
         a {
             color: $btn_hover_text_secondary !important;
@@ -597,6 +600,7 @@ $body: 14px;
         background: $btn_hover_tertiary !important;
         border: 2px solid $btn_hover_border_tertiary !important;
         color: $btn_hover_text_tertiary !important;
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
         
         a {
             color: $btn_hover_text_tertiary !important;

@@ -5,6 +5,9 @@
     .slick-dots {
         margin-bottom: 0;
     }
+    .slick-slider .slick-arrow.slick-next:hover {
+        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-arrow-r.png'), pointer;
+    }
 
     .collection-slider {
         width: 100%;
@@ -17,7 +20,7 @@
                 @include flex(row, end, start);
                 padding: 50px 50px 0;
                 height: 490px;
-
+                
                 .collection-image {
                     width: 70%;
                     max-height: 330px;

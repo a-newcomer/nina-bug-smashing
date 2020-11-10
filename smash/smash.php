@@ -63,15 +63,17 @@ add_action( 'wp_enqueue_scripts', function(){
 	wp_enqueue_script( 'cookie-script', get_template_directory_uri().'/smash/js/js-cookie.js', array(), '1', true);
 	wp_enqueue_script( 'waypoints-script', get_template_directory_uri().'/smash/js/waypoints/jquery.waypoints.js', array(), '1', true);
 	wp_enqueue_script( 'social-script', get_template_directory_uri().'/smash/js/social/social.min.js', array(), '1', true);
-	wp_enqueue_script( 'clipboard-script', get_template_directory_uri().'/smash/js/clipboard.js', array(), '1', true);
-	
+    wp_enqueue_script( 'clipboard-script', get_template_directory_uri().'/smash/js/clipboard.js', array(), '1', true);
+    if(is_page_template('page-social.php')) {
+    wp_enqueue_script('masonry', get_template_directory_uri() . '/smash/js/masonry-type-gallery.js', array(),'4.2.2', true );
+    wp_enqueue_script( 'masonry_type_gallery', get_template_directory_uri() . '/smash/js/masonry-type-gallery.js', array('masonry'), '20151215', true );
+	}
     if(is_singular('post')){
         wp_enqueue_script( 'social-script', get_template_directory_uri().'/smash/js/social/social.min.js', array(), '1', true);
     }
     wp_enqueue_script( 'vimeo-script',  get_template_directory_uri().'/smash/js/vimeo-player.js', array(), '20151215', true );
-    if(is_page_template('page-about.php')){
-        wp_enqueue_script( 'video-about-script', get_template_directory_uri(). '/smash/js/video-about.js', array('vimeo-script'), '20151215', true );
-    }
+    
+    wp_enqueue_script( 'video-about-script', get_template_directory_uri(). '/smash/js/video-about.js', array('vimeo-script'), '20151215', true );
 	
     wp_enqueue_script( 'smash-scripts', get_template_directory_uri() . '/smash/js/smash-scripts.js', array(), '20151215', true );
     wp_enqueue_script( 'smash', get_template_directory_uri() . '/smash/js/smash.js', array(), '20151215', true );
@@ -87,7 +89,6 @@ add_action( 'wp_enqueue_scripts', function(){
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
     }
-    wp_enqueue_script('masonry', get_template_directory_uri() . '/smash/js/masonry-type-gallery.js', array(),'4.2.2', true );
 
 } );
 

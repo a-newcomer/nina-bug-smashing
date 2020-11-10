@@ -1,17 +1,10 @@
-<?php
-add_action( 'wp_enqueue_scripts', function(){
-    wp_enqueue_script( 'slider_featured_products_script', get_template_directory_uri() . '/smash/modules/slider_featured_products/slider_featured_products.js', array(), '1', true );
-} ); ?>
-
-
-
 <span id="nmsc-section-2"></span>
 <div class="video-block-outer ">
     <div class="about-inner container-xl">
         
         <div class="nm-video-outer nm-player">
-
-            <video id="nm-about-video" poster="<?php the_field('video_poster') ?>" loop muted width="1200" height="800">
+            <!-- If this doesn't work, remove looping function as apparently browsers don't like it -->
+            <video id="nm-about-video" poster="<?php the_field('video_poster') ?>" muted="true" loop="true" disablePictureInPicture="true" width="1200" height="800">
             
                 <source id="webm-source" src="<?php the_field('video_loop_webm') ?>" type="video/webm" width="1200">
                 <source id="mp4-source" src="<?php the_field('video_loop_mp4') ?>" type="video/mp4">

@@ -1057,7 +1057,7 @@ article.snapshot .quick-links a, .quick-links a {
   /* line 195, smash/styles/_vars.scss */
   p a:hover, article.post .quick-links a:hover,
   article.snapshot .quick-links a:hover, .quick-links a:hover {
-    cursor: pointer;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
     color: #141414; }
 
 /* line 201, smash/styles/_vars.scss */
@@ -1076,7 +1076,7 @@ a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page
     color: #141414; }
   /* line 218, smash/styles/_vars.scss */
   a:hover, #shop_page .shop-nav #shop_menu li a:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:hover, .share-icons .social-share .share:hover, .share-icons .social-share .share a:hover, #colophon .mobile-nav-outer a:hover, #colophon .subscribe-nav-outer a:hover {
-    cursor: pointer;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
     color: #BFCECE; }
 
 /* line 224, smash/styles/_vars.scss */
@@ -1095,7 +1095,7 @@ a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inn
     color: #ffffff; }
   /* line 241, smash/styles/_vars.scss */
   a.white-link:hover, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:hover, .subscribe-nav-outer a:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:hover {
-    cursor: pointer;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
     text-decoration: underline; }
 
 /* line 281, smash/styles/_vars.scss */
@@ -1114,7 +1114,7 @@ a.nav-link, #masthead a {
     color: #444444; }
   /* line 298, smash/styles/_vars.scss */
   a.nav-link:hover, #masthead a:hover {
-    cursor: pointer;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
     color: #BFCECE; }
 
 /* line 304, smash/styles/_vars.scss */
@@ -1133,7 +1133,7 @@ a.nav-link, #masthead a {
     color: #ffffff; }
   /* line 321, smash/styles/_vars.scss */
   #colophon a:hover {
-    cursor: pointer;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
     color: #BFCECE; }
 
 /* line 398, smash/styles/_vars.scss */
@@ -1176,58 +1176,59 @@ a.nav-link, #masthead a {
     /* line 440, smash/styles/_vars.scss */
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li:hover .sub-menu, #masthead #primary_left_menu li:hover .sub-menu, #masthead .site-navigation-wrap #primary_menu li:hover .sub-menu, #masthead #primary-menu li:hover .sub-menu, #shop_page .shop-nav #shop_menu li:hover .sub-menu, #more_nav #category_menu li:hover .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li:hover .sub-menu {
       opacity: 1;
-      visibility: visible; }
-    /* line 446, smash/styles/_vars.scss */
+      visibility: visible;
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+    /* line 447, smash/styles/_vars.scss */
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .icon, #masthead #primary_left_menu li .icon, #masthead .site-navigation-wrap #primary_menu li .icon, #masthead #primary-menu li .icon, #shop_page .shop-nav #shop_menu li .icon, #more_nav #category_menu li .icon, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .icon {
       position: relative;
       top: -1px;
       width: 10px;
       height: 10px;
       margin-left: 4px; }
-    /* line 455, smash/styles/_vars.scss */
+    /* line 456, smash/styles/_vars.scss */
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li.menu-item-header > .menu-item-header, #masthead #primary_left_menu li.menu-item-header > .menu-item-header, #masthead .site-navigation-wrap #primary_menu li.menu-item-header > .menu-item-header, #masthead #primary-menu li.menu-item-header > .menu-item-header, #shop_page .shop-nav #shop_menu li.menu-item-header > .menu-item-header, #more_nav #category_menu li.menu-item-header > .menu-item-header, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li.menu-item-header > .menu-item-header {
       font-weight: bold; }
 
-/* line 462, smash/styles/_vars.scss */
+/* line 463, smash/styles/_vars.scss */
 .container {
   width: 85%;
   max-width: 960px;
   margin: 0 auto !important; }
 
-/* line 467, smash/styles/_vars.scss */
+/* line 468, smash/styles/_vars.scss */
 .container-sm {
   width: 100%;
   max-width: 650px;
   margin: 0 auto !important; }
 
-/* line 472, smash/styles/_vars.scss */
+/* line 473, smash/styles/_vars.scss */
 .container-md {
   width: 100%;
   max-width: 960px;
   margin: 0 auto !important; }
 
-/* line 477, smash/styles/_vars.scss */
+/* line 478, smash/styles/_vars.scss */
 .container-lg {
   width: 100%;
   max-width: 1060px;
   margin: 0 auto !important; }
 
-/* line 482, smash/styles/_vars.scss */
+/* line 483, smash/styles/_vars.scss */
 .container-xl {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto !important; }
 
-/* line 491, smash/styles/_vars.scss */
+/* line 492, smash/styles/_vars.scss */
 .product .product-wrap .product-image-wrap > .fade, .post-block .post-block-image > .fade, .share-icons .social-share .social-share-inner.fade-share > .fade {
   opacity: 0;
   visibility: hidden; }
-/* line 499, smash/styles/_vars.scss */
+/* line 500, smash/styles/_vars.scss */
 .product .product-wrap .product-image-wrap:hover > .fade, .post-block .post-block-image:hover > .fade, .share-icons .social-share .social-share-inner.fade-share:hover > .fade {
   opacity: 1;
   visibility: visible; }
 
-/* line 506, smash/styles/_vars.scss */
+/* line 507, smash/styles/_vars.scss */
 a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"], a.btn-secondary, .btn-secondary, a.btn-tertiary, .btn-tertiary, a.btn, .btn, .nina-btn {
   display: inline-block !important;
   padding: 15px 25px !important;
@@ -1239,78 +1240,81 @@ a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"]
   font-weight: 200 !important;
   text-align: center !important; }
 
-/* line 518, smash/styles/_vars.scss */
+/* line 519, smash/styles/_vars.scss */
 a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"] {
   background: #141414 !important;
   border: 2px solid #141414 !important;
   color: #ffffff !important;
   border-radius: 30px; }
-  /* line 525, smash/styles/_vars.scss */
+  /* line 526, smash/styles/_vars.scss */
   .btn-primary a, .modal .modal-box .modal-inner input[type="button"] a, .modal #mc-embedded-subscribe-form input[type="submit"] a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"] a, #search-modal .modal-box .modal-inner input[type="submit"] a {
     color: #ffffff !important; }
-  /* line 529, smash/styles/_vars.scss */
+  /* line 530, smash/styles/_vars.scss */
   .btn-primary .icon, .modal .modal-box .modal-inner input[type="button"] .icon, .modal #mc-embedded-subscribe-form input[type="submit"] .icon, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"] .icon, #search-modal .modal-box .modal-inner input[type="submit"] .icon, .icon.btn-primary, .modal .modal-box .modal-inner input.icon[type="button"], .modal #mc-embedded-subscribe-form input.icon[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input.icon[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input.icon[type="submit"] {
     fill: #ffffff !important; }
-  /* line 534, smash/styles/_vars.scss */
+  /* line 535, smash/styles/_vars.scss */
   .btn-primary:hover, .modal .modal-box .modal-inner input[type="button"]:hover, .modal #mc-embedded-subscribe-form input[type="submit"]:hover, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover, #search-modal .modal-box .modal-inner input[type="submit"]:hover {
     background: #444444 !important;
     border: 2px solid #141414 !important;
     color: #ffffff !important; }
-    /* line 539, smash/styles/_vars.scss */
+    /* line 540, smash/styles/_vars.scss */
     .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a {
-      color: #ffffff !important; }
-    /* line 543, smash/styles/_vars.scss */
+      color: #ffffff !important;
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+    /* line 545, smash/styles/_vars.scss */
     .btn-primary:hover .icon, .modal .modal-box .modal-inner input[type="button"]:hover .icon, .modal #mc-embedded-subscribe-form input[type="submit"]:hover .icon, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover .icon, #search-modal .modal-box .modal-inner input[type="submit"]:hover .icon {
       fill: #ffffff !important; }
 
-/* line 550, smash/styles/_vars.scss */
+/* line 552, smash/styles/_vars.scss */
 a.btn-secondary, .btn-secondary {
   background: rgba(0, 0, 0, 0.5) !important;
   border: 2px solid transparent !important;
   color: #ffffff !important; }
-  /* line 556, smash/styles/_vars.scss */
+  /* line 558, smash/styles/_vars.scss */
   .btn-secondary a {
     color: #ffffff !important; }
-  /* line 560, smash/styles/_vars.scss */
+  /* line 562, smash/styles/_vars.scss */
   .btn-secondary .icon, .icon.btn-secondary {
     fill: #ffffff !important; }
-  /* line 565, smash/styles/_vars.scss */
+  /* line 567, smash/styles/_vars.scss */
   .btn-secondary:hover {
     background: #141414 !important;
     border: 2px solid #141414 !important;
-    color: #ffffff !important; }
-    /* line 570, smash/styles/_vars.scss */
+    color: #ffffff !important;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+    /* line 573, smash/styles/_vars.scss */
     .btn-secondary:hover a {
       color: #ffffff !important; }
-    /* line 574, smash/styles/_vars.scss */
+    /* line 577, smash/styles/_vars.scss */
     .btn-secondary:hover .icon {
       fill: #ffffff !important; }
 
-/* line 580, smash/styles/_vars.scss */
+/* line 583, smash/styles/_vars.scss */
 a.btn-tertiary, .btn-tertiary {
   background: rgba(255, 255, 255, 0.7) !important;
   border: 2px solid rgba(255, 255, 255, 0) !important;
   border-radius: 30px;
   color: #141414 !important; }
-  /* line 587, smash/styles/_vars.scss */
+  /* line 590, smash/styles/_vars.scss */
   .btn-tertiary a {
     color: #141414 !important; }
-  /* line 591, smash/styles/_vars.scss */
+  /* line 594, smash/styles/_vars.scss */
   .btn-tertiary .icon, .icon.btn-tertiary {
     fill: #141414 !important; }
-  /* line 596, smash/styles/_vars.scss */
+  /* line 599, smash/styles/_vars.scss */
   .btn-tertiary:hover {
     background: #ffffff !important;
     border: 2px solid rgba(255, 255, 255, 0) !important;
-    color: #141414 !important; }
-    /* line 601, smash/styles/_vars.scss */
+    color: #141414 !important;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+    /* line 605, smash/styles/_vars.scss */
     .btn-tertiary:hover a {
       color: #141414 !important; }
-    /* line 605, smash/styles/_vars.scss */
+    /* line 609, smash/styles/_vars.scss */
     .btn-tertiary:hover .icon {
       fill: #141414 !important; }
 
-/* line 611, smash/styles/_vars.scss */
+/* line 615, smash/styles/_vars.scss */
 .animate-right {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1325,14 +1329,14 @@ a.btn-tertiary, .btn-tertiary {
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
-  /* line 623, smash/styles/_vars.scss */
+  /* line 627, smash/styles/_vars.scss */
   .animate-right > .icon {
     margin-left: 5px; }
-  /* line 630, smash/styles/_vars.scss */
+  /* line 634, smash/styles/_vars.scss */
   .animate-right:hover > .icon {
     transform: translate(10px, 0); }
 
-/* line 636, smash/styles/_vars.scss */
+/* line 640, smash/styles/_vars.scss */
 .adjust-center {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1342,10 +1346,10 @@ a.btn-tertiary, .btn-tertiary {
   -webkit-align-items: center !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
-  /* line 639, smash/styles/_vars.scss */
+  /* line 643, smash/styles/_vars.scss */
   .adjust-center > * {
     flex: 1; }
-    /* line 642, smash/styles/_vars.scss */
+    /* line 646, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(1) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1356,7 +1360,7 @@ a.btn-tertiary, .btn-tertiary {
       justify-content: flex-start !important;
       -webkit-justify-content: flex-start !important;
       margin-right: auto; }
-    /* line 647, smash/styles/_vars.scss */
+    /* line 651, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(2) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1367,7 +1371,7 @@ a.btn-tertiary, .btn-tertiary {
       justify-content: center !important;
       -webkit-justify-content: center !important;
       flex: 2; }
-    /* line 652, smash/styles/_vars.scss */
+    /* line 656, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(3) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1381,13 +1385,14 @@ a.btn-tertiary, .btn-tertiary {
 
 /* line 3, smash/styles/_general.scss */
 body {
-  color: #141414; }
+  color: #141414;
+  cursor: url("/wp-content/themes/nina_magon/smash/images/circle-sm.png"), pointer; }
 
-/* line 8, smash/styles/_general.scss */
+/* line 9, smash/styles/_general.scss */
 .post, .page {
   margin: 0; }
 
-/* line 12, smash/styles/_general.scss */
+/* line 13, smash/styles/_general.scss */
 #page {
   position: relative;
   overflow: hidden;
@@ -1395,52 +1400,53 @@ body {
   margin-bottom: 87vh;
   z-index: 20; }
 
-/* line 22, smash/styles/_general.scss */
+/* line 23, smash/styles/_general.scss */
 .no-results .page-content {
   text-align: center; }
 
-/* line 27, smash/styles/_general.scss */
+/* line 28, smash/styles/_general.scss */
 body {
   font-family: "futura-pt", serif;
   font-size: 14px; }
 
-/* line 36, smash/styles/_general.scss */
+/* line 37, smash/styles/_general.scss */
 h1 {
   font-size: 50px; }
 
-/* line 40, smash/styles/_general.scss */
+/* line 41, smash/styles/_general.scss */
 h2 {
   font-size: 40px; }
 
-/* line 44, smash/styles/_general.scss */
+/* line 45, smash/styles/_general.scss */
 h3 {
   font-size: 36px; }
 
-/* line 48, smash/styles/_general.scss */
+/* line 49, smash/styles/_general.scss */
 h4 {
   font-size: 18px; }
 
-/* line 52, smash/styles/_general.scss */
+/* line 53, smash/styles/_general.scss */
 h5 {
   font-size: 16px; }
 
-/* line 56, smash/styles/_general.scss */
+/* line 57, smash/styles/_general.scss */
 h6 {
   font-size: 16px;
   text-transform: initial; }
 
-/* line 76, smash/styles/_general.scss */
+/* line 77, smash/styles/_general.scss */
 a:focus {
   outline: none; }
 
-/* line 81, smash/styles/_general.scss */
+/* line 82, smash/styles/_general.scss */
 .edit-link a {
   color: #141414; }
-  /* line 84, smash/styles/_general.scss */
+  /* line 85, smash/styles/_general.scss */
   .edit-link a:hover {
-    color: #BFCECE; }
+    color: #BFCECE;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
 
-/* line 89, smash/styles/_general.scss */
+/* line 91, smash/styles/_general.scss */
 p {
   margin-top: 0;
   margin-bottom: 20px;
@@ -1448,11 +1454,12 @@ p {
   font-family: "futura-pt", serif;
   line-height: 19px;
   letter-spacing: 0.5px; }
-  /* line 97, smash/styles/_general.scss */
+  /* line 99, smash/styles/_general.scss */
   p a {
-    font-weight: bold; }
+    font-weight: bold;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-sm.png"), pointer; }
 
-/* line 103, smash/styles/_general.scss */
+/* line 106, smash/styles/_general.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -1474,7 +1481,7 @@ textarea {
   padding: 5px 10px;
   background: unset; }
 
-/* line 125, smash/styles/_general.scss */
+/* line 128, smash/styles/_general.scss */
 button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   box-shadow: unset;
   background: unset;
@@ -1482,15 +1489,15 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   border-radius: 0 !important;
   padding: unset;
   font-size: .90rem; }
-  /* line 133, smash/styles/_general.scss */
+  /* line 136, smash/styles/_general.scss */
   button:focus, input:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
     outline: none !important; }
 
-/* line 138, smash/styles/_general.scss */
+/* line 141, smash/styles/_general.scss */
 .anchor {
   scroll-margin-top: 200px; }
 
-/* line 142, smash/styles/_general.scss */
+/* line 145, smash/styles/_general.scss */
 .site-search {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1501,12 +1508,12 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   justify-content: center !important;
   -webkit-justify-content: center !important;
   padding: 50px 50px 20px; }
-  /* line 146, smash/styles/_general.scss */
+  /* line 149, smash/styles/_general.scss */
   .site-search .basic-search-form {
     width: 100%;
     max-width: 600px;
     margin: 0 auto; }
-    /* line 151, smash/styles/_general.scss */
+    /* line 154, smash/styles/_general.scss */
     .site-search .basic-search-form .search-fields {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1514,37 +1521,37 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
       -webkit-flex-direction: row !important;
       justify-content: center !important;
       -webkit-justify-content: center !important; }
-      /* line 154, smash/styles/_general.scss */
+      /* line 157, smash/styles/_general.scss */
       .site-search .basic-search-form .search-fields input {
         flex: 1; }
-        /* line 157, smash/styles/_general.scss */
+        /* line 160, smash/styles/_general.scss */
         .site-search .basic-search-form .search-fields input[type="submit"] {
           flex: 0; }
 
-/* line 169, smash/styles/_general.scss */
+/* line 172, smash/styles/_general.scss */
 .signature {
   text-align: center;
   font-family: "magical", serif;
   font-size: 22px;
   margin: 20px 0; }
 
-/* line 176, smash/styles/_general.scss */
+/* line 179, smash/styles/_general.scss */
 .script-font {
   font-family: "magical", serif; }
 
-/* line 180, smash/styles/_general.scss */
+/* line 183, smash/styles/_general.scss */
 .lazy {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
-/* line 186, smash/styles/_general.scss */
+/* line 189, smash/styles/_general.scss */
 .lazy-contain {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
 
-/* line 192, smash/styles/_general.scss */
+/* line 195, smash/styles/_general.scss */
 .line-sep {
   position: relative;
   width: 1px;
@@ -1552,21 +1559,21 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   background: #979797;
   margin: 0 10px; }
 
-/* line 200, smash/styles/_general.scss */
+/* line 203, smash/styles/_general.scss */
 .dot-sep {
   position: relative; }
-  /* line 203, smash/styles/_general.scss */
+  /* line 206, smash/styles/_general.scss */
   .dot-sep::before {
     content: '\00B7';
     font-size: 25px;
     color: #141414;
     margin: 0 10px; }
 
-/* line 211, smash/styles/_general.scss */
+/* line 214, smash/styles/_general.scss */
 .show {
   display: block !important; }
 
-/* line 215, smash/styles/_general.scss */
+/* line 218, smash/styles/_general.scss */
 .social-icon {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1578,27 +1585,27 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-justify-content: center !important;
   margin: 0; }
 
-/* line 220, smash/styles/_general.scss */
+/* line 223, smash/styles/_general.scss */
 .block-full {
   width: 100%; }
 
-/* line 224, smash/styles/_general.scss */
+/* line 227, smash/styles/_general.scss */
 .block-half {
   width: 49%; }
 
-/* line 228, smash/styles/_general.scss */
+/* line 231, smash/styles/_general.scss */
 .block-fourth {
   width: 23%; }
 
-/* line 232, smash/styles/_general.scss */
+/* line 235, smash/styles/_general.scss */
 .block-third {
   width: 32%; }
 
-/* line 236, smash/styles/_general.scss */
+/* line 239, smash/styles/_general.scss */
 .block-fifth {
   width: 19%; }
 
-/* line 255, smash/styles/_general.scss */
+/* line 258, smash/styles/_general.scss */
 .nina-btn {
   background: #141414 !important;
   padding: 12px 50px !important;
@@ -1606,12 +1613,12 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   font-size: 14px !important;
   font-weight: 400 !important;
   border-radius: 30px !important; }
-  /* line 264, smash/styles/_general.scss */
+  /* line 267, smash/styles/_general.scss */
   .nina-btn h5 {
     position: relative;
     transition: .2s;
     left: 0; }
-  /* line 270, smash/styles/_general.scss */
+  /* line 273, smash/styles/_general.scss */
   .nina-btn .icon {
     opacity: 0;
     position: relative;
@@ -1619,71 +1626,75 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
     bottom: 2px;
     transition: right .3s, opacity .4s ease-in-out; }
 
-/* line 279, smash/styles/_general.scss */
+/* line 282, smash/styles/_general.scss */
 .nina-btn:hover h5 {
   left: -10px;
-  transform: scale(1); }
-/* line 284, smash/styles/_general.scss */
+  transform: scale(1);
+  cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+/* line 289, smash/styles/_general.scss */
 .nina-btn:hover .icon {
   opacity: 1;
   right: -5px;
   transform: scale(1.3); }
 
-/* line 290, smash/styles/_general.scss */
+/* line 295, smash/styles/_general.scss */
 .nina-cta {
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px; }
-  /* line 296, smash/styles/_general.scss */
+  /* line 301, smash/styles/_general.scss */
   .nina-cta a {
     align-items: center;
     color: black; }
-    /* line 300, smash/styles/_general.scss */
+    /* line 305, smash/styles/_general.scss */
     .nina-cta a h5 {
       position: relative;
       transition: .2s ease-in-out;
       left: 0; }
-    /* line 306, smash/styles/_general.scss */
+    /* line 311, smash/styles/_general.scss */
     .nina-cta a .icon {
       position: relative;
       right: -5px;
       bottom: 2px;
       transition: right .3s ease-out, opacity .2s; }
-  /* line 316, smash/styles/_general.scss */
+  /* line 320, smash/styles/_general.scss */
+  .nina-cta a:hover:hover {
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+  /* line 324, smash/styles/_general.scss */
   .nina-cta a:hover h5 {
     left: -10px;
     transform: scale(1); }
-  /* line 321, smash/styles/_general.scss */
+  /* line 329, smash/styles/_general.scss */
   .nina-cta a:hover .icon {
     right: -15px;
     transform: scale(1.2); }
 
-/* line 329, smash/styles/_general.scss */
+/* line 337, smash/styles/_general.scss */
 .pad-section {
   padding: 30px 0;
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 355, smash/styles/_general.scss */
+/* line 363, smash/styles/_general.scss */
 #content {
   position: relative;
   padding: 0; }
-  /* line 359, smash/styles/_general.scss */
+  /* line 367, smash/styles/_general.scss */
   #content .site-branding {
     padding: 65px 0; }
-    /* line 362, smash/styles/_general.scss */
+    /* line 370, smash/styles/_general.scss */
     #content .site-branding #logo {
       display: block;
       margin: 0 auto;
       max-width: 380px; }
 
-/* line 370, smash/styles/_general.scss */
+/* line 378, smash/styles/_general.scss */
 .page-title {
   position: relative;
   text-align: center; }
-  /* line 374, smash/styles/_general.scss */
+  /* line 382, smash/styles/_general.scss */
   .page-title.has-bar:after {
     content: '';
     position: absolute;
@@ -1695,98 +1706,98 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
     background: #ffffff;
     margin: 0 auto; }
 
-/* line 387, smash/styles/_general.scss */
+/* line 395, smash/styles/_general.scss */
 .flex-wrap {
   display: -webkit-flex !important;
   display: flex !important;
   flex-wrap: wrap !important;
   -webkit-flex-wrap: wrap !important; }
 
-/* line 391, smash/styles/_general.scss */
+/* line 399, smash/styles/_general.scss */
 .flex-row {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row !important;
   -webkit-flex-direction: row !important; }
 
-/* line 395, smash/styles/_general.scss */
+/* line 403, smash/styles/_general.scss */
 .flex-row-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row-reverse !important;
   -webkit-flex-direction: row-reverse !important; }
 
-/* line 399, smash/styles/_general.scss */
+/* line 407, smash/styles/_general.scss */
 .flex-col {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column !important;
   -webkit-flex-direction: column !important; }
 
-/* line 403, smash/styles/_general.scss */
+/* line 411, smash/styles/_general.scss */
 .flex-col-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column-reverse !important;
   -webkit-flex-direction: column-reverse !important; }
 
-/* line 407, smash/styles/_general.scss */
+/* line 415, smash/styles/_general.scss */
 .align-start {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-start !important;
   -webkit-align-items: flex-start !important; }
 
-/* line 411, smash/styles/_general.scss */
+/* line 419, smash/styles/_general.scss */
 .align-center {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: center !important;
   -webkit-align-items: center !important; }
 
-/* line 415, smash/styles/_general.scss */
+/* line 423, smash/styles/_general.scss */
 .align-end {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-end !important;
   -webkit-align-items: flex-end !important; }
 
-/* line 419, smash/styles/_general.scss */
+/* line 427, smash/styles/_general.scss */
 .justify-start {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-start !important;
   -webkit-justify-content: flex-start !important; }
 
-/* line 423, smash/styles/_general.scss */
+/* line 431, smash/styles/_general.scss */
 .justify-end {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-end !important;
   -webkit-justify-content: flex-end !important; }
 
-/* line 427, smash/styles/_general.scss */
+/* line 435, smash/styles/_general.scss */
 .justify-around {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-around !important;
   -webkit-justify-content: space-around !important; }
 
-/* line 431, smash/styles/_general.scss */
+/* line 439, smash/styles/_general.scss */
 .justify-center {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: center !important;
   -webkit-justify-content: center !important; }
 
-/* line 435, smash/styles/_general.scss */
+/* line 443, smash/styles/_general.scss */
 .justify-between {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
 
-/* line 439, smash/styles/_general.scss */
+/* line 447, smash/styles/_general.scss */
 .icon {
   display: inline-block;
   width: 15px;
@@ -1796,14 +1807,14 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-/* line 449, smash/styles/_general.scss */
+/* line 457, smash/styles/_general.scss */
 a .icon {
   -webkit-transition: unset;
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
 
-/* line 456, smash/styles/_general.scss */
+/* line 464, smash/styles/_general.scss */
 .alm-btn-wrap .alm-load-more-btn {
   height: auto !important;
   background: unset !important;
@@ -1815,30 +1826,32 @@ a .icon {
   margin-bottom: 0px !important;
   margin-top: 50px !important;
   font-family: "futura-pt", sans-serif !important; }
-  /* line 474, smash/styles/_general.scss */
+  /* line 482, smash/styles/_general.scss */
   .alm-btn-wrap .alm-load-more-btn:hover span {
     margin-left: 10px; }
 
-/* line 481, smash/styles/_general.scss */
+/* line 489, smash/styles/_general.scss */
 .slick-slider {
   position: relative; }
-  /* line 484, smash/styles/_general.scss */
+  /* line 492, smash/styles/_general.scss */
   .slick-slider .slick-arrow {
     position: absolute;
     top: 35%;
     font-size: 20px;
     color: #141414; }
-    /* line 490, smash/styles/_general.scss */
-    .slick-slider .slick-arrow.slick-prev {
-      left: -1%; }
-    /* line 494, smash/styles/_general.scss */
-    .slick-slider .slick-arrow.slick-next {
-      right: -1%; }
     /* line 498, smash/styles/_general.scss */
+    .slick-slider .slick-arrow.slick-prev {
+      left: -1%;
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-arrow-l.png"), pointer; }
+    /* line 504, smash/styles/_general.scss */
+    .slick-slider .slick-arrow.slick-next {
+      right: -1%;
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-arrow-r.png"), pointer; }
+    /* line 510, smash/styles/_general.scss */
     .slick-slider .slick-arrow:hover {
-      cursor: pointer;
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer;
       color: #ffffff; }
-  /* line 504, smash/styles/_general.scss */
+  /* line 516, smash/styles/_general.scss */
   .slick-slider .slick-dots {
     padding: 0;
     margin: 20px 0 40px;
@@ -1849,11 +1862,11 @@ a .icon {
     -webkit-align-items: center;
     justify-content: center;
     -webkit-justify-content: center; }
-    /* line 518, smash/styles/_general.scss */
+    /* line 530, smash/styles/_general.scss */
     .slick-slider .slick-dots li.slick-active button {
       padding: 0;
       background: #E7E7E7 !important; }
-    /* line 524, smash/styles/_general.scss */
+    /* line 536, smash/styles/_general.scss */
     .slick-slider .slick-dots li button {
       position: relative;
       color: transparent !important;
@@ -1864,27 +1877,28 @@ a .icon {
       border-radius: 100% !important;
       margin: 0 10px;
       padding: 0; }
-      /* line 535, smash/styles/_general.scss */
+      /* line 547, smash/styles/_general.scss */
       .slick-slider .slick-dots li button:hover {
-        background: #E7E7E7 !important; }
-        /* line 538, smash/styles/_general.scss */
+        background: #E7E7E7 !important;
+        cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+        /* line 551, smash/styles/_general.scss */
         .slick-slider .slick-dots li button:hover::after {
           background: unset !important; }
-      /* line 543, smash/styles/_general.scss */
+      /* line 556, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::after {
         background: unset !important; }
-      /* line 547, smash/styles/_general.scss */
+      /* line 560, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::focus {
         outline: none !important; }
-  /* line 555, smash/styles/_general.scss */
+  /* line 568, smash/styles/_general.scss */
   .slick-slider .slick-slide:focus {
     outline: none !important; }
 
-/* line 566, smash/styles/_general.scss */
+/* line 579, smash/styles/_general.scss */
 .nf-form-wrap .nf-form-fields-required {
   display: none; }
 
-/* line 571, smash/styles/_general.scss */
+/* line 584, smash/styles/_general.scss */
 .numbered-pagination {
   position: relative;
   display: -webkit-flex !important;
@@ -1897,10 +1911,10 @@ a .icon {
   -webkit-justify-content: center !important;
   font-size: 12px;
   padding: 50px 20px; }
-  /* line 577, smash/styles/_general.scss */
+  /* line 590, smash/styles/_general.scss */
   .numbered-pagination > * {
     margin: 0 6px; }
-  /* line 581, smash/styles/_general.scss */
+  /* line 594, smash/styles/_general.scss */
   .numbered-pagination > .page-numbers {
     display: -webkit-flex !important;
     display: flex !important;
@@ -1911,28 +1925,28 @@ a .icon {
     width: 26px;
     height: 26px;
     text-align: center; }
-    /* line 587, smash/styles/_general.scss */
+    /* line 600, smash/styles/_general.scss */
     .numbered-pagination > .page-numbers.current {
       background: #FDFBFA;
       border-radius: 100%; }
 
 @media screen and (min-width: 400px) {
-  /* line 595, smash/styles/_general.scss */
+  /* line 608, smash/styles/_general.scss */
   #page {
     margin-bottom: 77vh; } }
 @media screen and (min-width: 768px) {
-  /* line 605, smash/styles/_general.scss */
+  /* line 618, smash/styles/_general.scss */
   #page {
     margin-bottom: 43vh; } }
 @media screen and (min-width: 960px) {
-  /* line 611, smash/styles/_general.scss */
+  /* line 624, smash/styles/_general.scss */
   #page {
     margin-bottom: 32vh; } }
 @media screen and (min-width: 1024px) {
-  /* line 616, smash/styles/_general.scss */
+  /* line 629, smash/styles/_general.scss */
   #page {
     margin-bottom: 34vh; } }
-/* line 621, smash/styles/_general.scss */
+/* line 634, smash/styles/_general.scss */
 .rising-card {
   margin-top: 100px; }
 
@@ -3040,7 +3054,7 @@ article.snapshot {
   transition: opacity .9s ease-in-out; }
   /* line 72, smash/styles/_page-about.scss */
   #about_page .video-block-outer .about-inner #nm-about-video:hover {
-    cursor: url("/wp-content/uploads/2020/10/cirecle-triangle.png"), pointer; }
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png"), pointer; }
 /* line 78, smash/styles/_page-about.scss */
 #about_page .video-block-outer .about-inner .iframe-container {
   opacity: 0;
@@ -3054,13 +3068,13 @@ article.snapshot {
   transition: opacity .9s ease-in-out; }
   /* line 89, smash/styles/_page-about.scss */
   #about_page .video-block-outer .about-inner .iframe-container:hover {
-    cursor: url("/wp-content/uploads/2020/10/cirecle-triangle.png"), auto; }
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png"), auto; }
   /* line 93, smash/styles/_page-about.scss */
   #about_page .video-block-outer .about-inner .iframe-container #nm-about-frame {
     height: 100%; }
     /* line 96, smash/styles/_page-about.scss */
     #about_page .video-block-outer .about-inner .iframe-container #nm-about-frame:hover {
-      cursor: url("/wp-content/uploads/2020/10/cirecle-triangle.png"), auto; }
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png"), auto; }
 
 /* line 106, smash/styles/_page-about.scss */
 .page-id-39 .nav-dots {
@@ -3812,7 +3826,7 @@ article.snapshot {
 
 /* line 45, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-next:hover {
-  cursor: url("http://magon.test/wp-content/uploads/2020/11/circle-r-arrow-e1604297631453.png"), pointer; }
+  cursor: url("/wp-content/themes/nina_magon/smash/images/circle-arrow-r.png"), pointer; }
 
 /* line 48, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-prev {
@@ -3823,7 +3837,7 @@ article.snapshot {
 
 /* line 54, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-prev:hover {
-  cursor: url("http://magon.test/wp-content/uploads/2020/11/circle-l-arrow-e1604297601162.png"), pointer; }
+  cursor: url("/wp-content/themes/nina_magon/smash/images/circle-arrow-l.png"), pointer; }
 
 /* line 58, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow {
@@ -4511,7 +4525,7 @@ article.snapshot {
         opacity: .7; }
     /* line 76, smash/styles/_footer.scss */
     #colophon .site-info .grid-box2, #colophon .site-info .grid-box5 {
-      grid-column: 1/3;
+      grid-column: 1/-1;
       border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
     /* line 81, smash/styles/_footer.scss */
     #colophon .site-info .grid-box3 {
@@ -4614,66 +4628,72 @@ article.snapshot {
     /* line 13, smash/styles/_footer.scss */
     #colophon {
       height: 48vh;
-      grid-template-columns: repeat(3, auto); }
-      /* line 203, smash/styles/_footer.scss */
-      #colophon .site-info #logo_wrap.grid-box1 {
-        grid-column: 2/3;
-        padding-left: 0; }
-      /* line 207, smash/styles/_footer.scss */
-      #colophon .site-info .grid-box2 {
-        grid-column: 1/-1; }
-      /* line 210, smash/styles/_footer.scss */
-      #colophon .site-info .form.grid-box3 {
-        display: none; }
-      /* line 213, smash/styles/_footer.scss */
-      #colophon .site-info .footer-menu-container {
-        grid-column: 1/-1; }
-        /* line 215, smash/styles/_footer.scss */
-        #colophon .site-info .footer-menu-container #footer_menu {
-          grid-template-columns: repeat(4, minmax(180px, 1fr));
-          margin: 0 auto; }
-      /* line 225, smash/styles/_footer.scss */
-      #colophon .site-info .footer-contact-info.grid-box4 {
-        display: none !important; }
-      /* line 228, smash/styles/_footer.scss */
-      #colophon .site-info .site-built {
-        grid-column: 2/-1;
-        display: flex;
-        justify-content: flex-end; } }
+      grid-template-columns: repeat(3, auto);
+      padding-top: 4rem; }
+      /* line 200, smash/styles/_footer.scss */
+      #colophon .site-info {
+        grid-template-columns: repeat(4, auto); }
+        /* line 203, smash/styles/_footer.scss */
+        #colophon .site-info #logo_wrap.grid-box1 {
+          grid-column: 2/3;
+          padding-left: 0; }
+        /* line 207, smash/styles/_footer.scss */
+        #colophon .site-info .grid-box2 {
+          grid-column: 1/-1; }
+        /* line 210, smash/styles/_footer.scss */
+        #colophon .site-info .form.grid-box3 {
+          display: none; }
+        /* line 213, smash/styles/_footer.scss */
+        #colophon .site-info .footer-menu-container {
+          margin: 0 auto;
+          grid-column: 1/-1; }
+          /* line 218, smash/styles/_footer.scss */
+          #colophon .site-info .footer-menu-container #footer_menu {
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
+            margin: 0 auto; }
+        /* line 228, smash/styles/_footer.scss */
+        #colophon .site-info .footer-contact-info.grid-box4 {
+          display: none !important; }
+        /* line 231, smash/styles/_footer.scss */
+        #colophon .site-info .site-built {
+          grid-column: 2/-1;
+          display: flex;
+          justify-content: flex-end; } }
   @media screen and (min-width: 960px) {
     /* line 13, smash/styles/_footer.scss */
     #colophon {
       height: 35vh;
       padding: 7vh 4vw;
       grid-template-columns: 1.2fr 1fr 1fr 1fr; }
-      /* line 244, smash/styles/_footer.scss */
+      /* line 247, smash/styles/_footer.scss */
       #colophon .container-lg {
         max-width: unset; }
-      /* line 249, smash/styles/_footer.scss */
+      /* line 252, smash/styles/_footer.scss */
       #colophon .site-info #logo_wrap.grid-box1 {
-        grid-column: 1/2;
+        grid-column: 1/3;
         grid-row: 2/3; }
-      /* line 253, smash/styles/_footer.scss */
-      #colophon .site-info .break {
-        grid-column: 1/5; }
       /* line 256, smash/styles/_footer.scss */
+      #colophon .site-info .break {
+        grid-column: 1/-1; }
+      /* line 259, smash/styles/_footer.scss */
       #colophon .site-info #footer_menu_container {
-        grid-column: 2/4;
-        grid-row: 2/3; }
-        /* line 259, smash/styles/_footer.scss */
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: -3vw; }
+        /* line 264, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container #footer_menu {
           width: unset;
-          grid-template-columns: repeat(4, minmax(150px, 1fr));
+          grid-template-columns: repeat(3, minmax(150px, 1fr));
           margin: 0 auto; }
-          /* line 264, smash/styles/_footer.scss */
+          /* line 269, smash/styles/_footer.scss */
           #colophon .site-info #footer_menu_container #footer_menu li {
             padding-left: 2rem; }
-      /* line 269, smash/styles/_footer.scss */
+      /* line 274, smash/styles/_footer.scss */
       #colophon .site-info .footer-social {
         grid-column: 4/5;
         grid-row: 2/3;
         display: flex; }
-      /* line 274, smash/styles/_footer.scss */
+      /* line 279, smash/styles/_footer.scss */
       #colophon .site-info .site-built {
         grid-column: 1/5;
         justify-content: center; } }
@@ -4682,16 +4702,20 @@ article.snapshot {
     #colophon {
       grid-template-columns: repeat(5, auto);
       height: 35vh; }
-      /* line 285, smash/styles/_footer.scss */
+      /* line 290, smash/styles/_footer.scss */
       #colophon .site-info {
         padding-top: 3vh; }
-        /* line 287, smash/styles/_footer.scss */
+        /* line 292, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
           margin-bottom: 1rem; }
-        /* line 290, smash/styles/_footer.scss */
+        /* line 295, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container {
-          grid-column: 3/4; }
-        /* line 293, smash/styles/_footer.scss */
+          grid-column: 2/4;
+          margin-left: 9vw; }
+          /* line 298, smash/styles/_footer.scss */
+          #colophon .site-info #footer_menu_container #footer_menu {
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+        /* line 302, smash/styles/_footer.scss */
         #colophon .site-info .footer-social {
           justify-content: flex-end; } }
 
@@ -5574,19 +5598,21 @@ input#postURL {
 /* line 1, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_wrap {
   display: block;
-  cursor: pointer;
   position: relative;
   z-index: 500; }
-  /* line 7, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 3, smash/modules/nav_mobile/_nav_mobile.scss */
+  #mobile_nav_wrap:hover {
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+  /* line 9, smash/modules/nav_mobile/_nav_mobile.scss */
   #mobile_nav_wrap .mobile-nav-trigger-open {
     display: block;
     margin: 0px 20px;
     font-size: 18px; }
     @media screen and (max-width: 768px) {
-      /* line 7, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 9, smash/modules/nav_mobile/_nav_mobile.scss */
       #mobile_nav_wrap .mobile-nav-trigger-open {
         display: block; } }
-  /* line 18, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 20, smash/modules/nav_mobile/_nav_mobile.scss */
   #mobile_nav_wrap.toggled .mobile-nav-trigger-open {
     display: none; }
   @media screen and (min-width: 768px) {
@@ -5597,14 +5623,14 @@ input#postURL {
     /* line 1, smash/modules/nav_mobile/_nav_mobile.scss */
     #mobile_nav_wrap {
       display: block; }
-      /* line 34, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 36, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support #mobile_nav_wrap .mobile-nav-outer {
         top: 92px; }
-      /* line 45, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 47, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support.lock_nav #mobile_nav_wrap .mobile-nav-outer {
         top: 46px; } }
 
-/* line 54, smash/modules/nav_mobile/_nav_mobile.scss */
+/* line 56, smash/modules/nav_mobile/_nav_mobile.scss */
 .mobile-nav-outer {
   display: -webkit-flex !important;
   display: flex !important;
@@ -5624,10 +5650,10 @@ input#postURL {
   overflow-y: scroll;
   z-index: 1000000; }
   @media screen and (max-width: 600px) {
-    /* line 54, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 56, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer {
       max-width: 355px; } }
-  /* line 70, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 72, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-outer-inner {
     position: absolute;
     width: 100%;
@@ -5637,10 +5663,10 @@ input#postURL {
     bottom: 0;
     z-index: 2;
     background: radial-gradient(127.7% 62.56% at 98% 50.72%, rgba(0, 0, 0, 0.7) 0%, rgba(80, 80, 80, 0.51015) 0.01%, rgba(255, 255, 255, 0) 100%), rgba(90, 90, 90, 0.7); }
-  /* line 82, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 84, smash/modules/nav_mobile/_nav_mobile.scss */
   #colophon .mobile-nav-outer {
     color: #141414; }
-  /* line 95, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 97, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-trigger-close {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5655,44 +5681,45 @@ input#postURL {
     left: 30px;
     font-size: 9px;
     text-transform: uppercase;
-    color: #ffffff; }
-    /* line 104, smash/modules/nav_mobile/_nav_mobile.scss */
+    color: #ffffff;
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
+    /* line 107, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close .icon {
       width: 10px;
       height: 10px;
       margin-right: 6px; }
-    /* line 110, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 113, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close span {
       margin-top: 2px; }
-    /* line 116, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 119, smash/modules/nav_mobile/_nav_mobile.scss */
     #masthead.lock_nav #mobile_nav_wrap .mobile-nav-trigger-close {
       top: 13px; }
     @media screen and (max-width: 768px) {
-      /* line 95, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 97, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-trigger-close {
         top: 13px; } }
-  /* line 127, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 130, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar {
     width: 1px; }
-  /* line 131, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 134, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-track {
     background: #ffffff;
     width: 1px; }
-  /* line 136, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 139, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-thumb {
     background-color: #141414;
     width: 1px; }
-  /* line 144, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 147, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #mobile_nav_wrap .mobile-nav-outer {
     top: 32px; }
     @media screen and (max-width: 782px) {
-      /* line 144, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 147, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support #mobile_nav_wrap .mobile-nav-outer {
         top: 46px; } }
-  /* line 155, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 158, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #masthead.lock_nav #mobile_nav_wrap .mobile-nav-outer {
     top: 0; }
-  /* line 163, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 166, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-inner {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5704,16 +5731,16 @@ input#postURL {
     -webkit-justify-content: flex-start !important;
     position: relative;
     width: 100%; }
-    /* line 168, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 171, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-inner .mobile-nav-body {
       padding: 50px 0; }
-      /* line 171, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 174, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body > * {
         width: 100%; }
-      /* line 175, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 178, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container {
         width: auto; }
-        /* line 178, smash/modules/nav_mobile/_nav_mobile.scss */
+        /* line 181, smash/modules/nav_mobile/_nav_mobile.scss */
         .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu {
           display: -webkit-flex !important;
           display: flex !important;
@@ -5735,10 +5762,10 @@ input#postURL {
           margin: 0;
           list-style: none;
           transform: translate(-100%, 0); }
-          /* line 194, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 197, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu.selected {
             transform: translate(0, 0); }
-          /* line 198, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 201, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5754,21 +5781,21 @@ input#postURL {
             width: 100%;
             z-index: 1;
             transform: translate(-100%, 0); }
-            /* line 208, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 211, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links.selected {
               transform: translate(100%, 0); }
-          /* line 213, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 216, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu li {
             position: unset !important;
             margin: 0;
             padding: 0; }
-          /* line 219, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 222, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label {
             margin-bottom: 20px; }
-            /* line 223, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 226, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label .icon {
               margin: 0 10px; }
-          /* line 228, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 231, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .nav-back {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5781,7 +5808,7 @@ input#postURL {
             display: block;
             padding: 0 50px;
             margin-bottom: 70px; }
-          /* line 235, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 238, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item {
             position: relative;
             left: -500px;
@@ -5789,13 +5816,13 @@ input#postURL {
             display: block;
             padding: 0 50px;
             margin-bottom: 70px; }
-            /* line 243, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 246, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a {
               margin-bottom: 20px; }
-            /* line 248, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 251, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item.light-menu-item {
               font-weight: 100; }
-          /* line 253, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 256, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5808,7 +5835,7 @@ input#postURL {
             padding: 0;
             margin: 0;
             list-style: none; }
-  /* line 265, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 268, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .menu-images-wrapper .menu-image {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5824,10 +5851,10 @@ input#postURL {
     transform: translate(-100%, 0);
     transition: transform 1s ease;
     z-index: 1; }
-    /* line 277, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 280, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
       transform: translate(0, 0); }
-    /* line 281, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 284, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner {
       display: -webkit-flex !important;
       display: flex !important;
@@ -5840,18 +5867,18 @@ input#postURL {
       width: calc(100% - 355px);
       height: 100vh;
       padding-bottom: 100px; }
-      /* line 287, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 290, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn {
         min-width: 250px !important; }
-    /* line 293, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 296, smash/modules/nav_mobile/_nav_mobile.scss */
     body.customize-support .mobile-nav-outer .menu-images-wrapper .menu-image {
       top: 32px; }
   @media screen and (max-width: 768px) {
-    /* line 54, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 56, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer {
       padding-top: 45px; } }
 
-/* line 307, smash/modules/nav_mobile/_nav_mobile.scss */
+/* line 310, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_bg {
   display: none;
   background: rgba(0, 0, 0, 0.4);
@@ -5975,7 +6002,7 @@ input#postURL {
     right: 0;
     bottom: 0;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.73); }
+    background: rgba(0, 0, 0, 0.63); }
   /* line 83, smash/modules/nav_subscribe/_nav_subscribe.scss */
   #colophon .subscribe-nav-outer {
     color: #141414; }
@@ -6096,11 +6123,14 @@ input#postURL {
   /* line 5, smash/modules/slider_collection/_slider_collection.scss */
   .collection-slider-wrapper .slick-dots {
     margin-bottom: 0; }
-  /* line 9, smash/modules/slider_collection/_slider_collection.scss */
+  /* line 8, smash/modules/slider_collection/_slider_collection.scss */
+  .collection-slider-wrapper .slick-slider .slick-arrow.slick-next:hover {
+    cursor: url("/wp-content/themes/nina_magon/smash/images/circle-arrow-r.png"), pointer; }
+  /* line 12, smash/modules/slider_collection/_slider_collection.scss */
   .collection-slider-wrapper .collection-slider {
     width: 100%;
     max-width: 1160px; }
-    /* line 16, smash/modules/slider_collection/_slider_collection.scss */
+    /* line 19, smash/modules/slider_collection/_slider_collection.scss */
     .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner {
       display: -webkit-flex !important;
       display: flex !important;
@@ -6112,12 +6142,12 @@ input#postURL {
       -webkit-justify-content: flex-start !important;
       padding: 50px 50px 0;
       height: 490px; }
-      /* line 21, smash/modules/slider_collection/_slider_collection.scss */
+      /* line 24, smash/modules/slider_collection/_slider_collection.scss */
       .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner .collection-image {
         width: 70%;
         max-height: 330px;
         transition: max-height 0.8s ease-out; }
-      /* line 27, smash/modules/slider_collection/_slider_collection.scss */
+      /* line 30, smash/modules/slider_collection/_slider_collection.scss */
       .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner .collection-body {
         display: -webkit-flex !important;
         display: flex !important;
@@ -6133,7 +6163,7 @@ input#postURL {
         padding-top: 50px;
         padding-left: 30px; }
       @media screen and (max-width: 960px) {
-        /* line 16, smash/modules/slider_collection/_slider_collection.scss */
+        /* line 19, smash/modules/slider_collection/_slider_collection.scss */
         .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner {
           display: -webkit-flex !important;
           display: flex !important;
@@ -6144,16 +6174,16 @@ input#postURL {
           justify-content: center !important;
           -webkit-justify-content: center !important;
           height: unset; }
-          /* line 40, smash/modules/slider_collection/_slider_collection.scss */
+          /* line 43, smash/modules/slider_collection/_slider_collection.scss */
           .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner .collection-image {
             width: 100%; }
-          /* line 44, smash/modules/slider_collection/_slider_collection.scss */
+          /* line 47, smash/modules/slider_collection/_slider_collection.scss */
           .collection-slider-wrapper .collection-slider .collection-slide .collection-slide-inner .collection-body {
             width: 100%; } }
-    /* line 52, smash/modules/slider_collection/_slider_collection.scss */
+    /* line 55, smash/modules/slider_collection/_slider_collection.scss */
     .collection-slider-wrapper .collection-slider.slick-slider .slick-list {
       overflow: visible; }
-      /* line 57, smash/modules/slider_collection/_slider_collection.scss */
+      /* line 60, smash/modules/slider_collection/_slider_collection.scss */
       .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner {
         display: -webkit-flex !important;
         display: flex !important;
@@ -6162,15 +6192,15 @@ input#postURL {
         justify-content: center !important;
         -webkit-justify-content: center !important;
         padding: 0; }
-        /* line 61, smash/modules/slider_collection/_slider_collection.scss */
+        /* line 64, smash/modules/slider_collection/_slider_collection.scss */
         .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner .collection-image {
           max-height: 490px; }
           @media screen and (max-width: 960px) {
-            /* line 61, smash/modules/slider_collection/_slider_collection.scss */
+            /* line 64, smash/modules/slider_collection/_slider_collection.scss */
             .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner .collection-image {
               max-height: 400px; } }
         @media screen and (max-width: 960px) {
-          /* line 57, smash/modules/slider_collection/_slider_collection.scss */
+          /* line 60, smash/modules/slider_collection/_slider_collection.scss */
           .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner {
             display: -webkit-flex !important;
             display: flex !important;
@@ -6181,10 +6211,10 @@ input#postURL {
             justify-content: center !important;
             -webkit-justify-content: center !important;
             height: unset; }
-            /* line 73, smash/modules/slider_collection/_slider_collection.scss */
+            /* line 76, smash/modules/slider_collection/_slider_collection.scss */
             .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner .collection-image {
               width: 100%; }
-            /* line 77, smash/modules/slider_collection/_slider_collection.scss */
+            /* line 80, smash/modules/slider_collection/_slider_collection.scss */
             .collection-slider-wrapper .collection-slider.slick-slider .slick-list .slick-slide.slick-current .collection-slide-inner .collection-body {
               width: 100%; } }
 

@@ -42,13 +42,13 @@ get_header();
                 
                 <?php if($type == 'feed'){ ?>
 
-                    <div class="feed-shortcode-outer">
-                        <section class="msnry-container-outer">
+                    
+                        <section class="msnry-container-outer feed-shortcode-outer">
                             <div class="msnry-container-inner">
                                 <?php the_field('feed'); ?>
                             </div>
                         </section>
-                    </div>
+                    
                     
                 <?php } elseif($type == 'manual') { ?>
 
