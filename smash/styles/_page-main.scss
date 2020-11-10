@@ -1,0 +1,197 @@
+//* Main page* * * * */
+.main {
+    .container-lg {
+        width: 90%;
+        max-width: 1200px;
+    }
+    .entry-header {
+        background-position-y: 70% !important;
+
+    }
+    .video-block-outer {
+        padding: 8vw 50px;
+    }
+    .second-header-block .header-block-content {
+        padding:  0 25vw 8vh 25vw;
+        color: $color__text-main;
+        background-color: $color__background-body;justify-content: center;
+        align-items: center;
+    }
+    // @include respond-to(xlarge, max) {
+    //     background-position-y: center !important;
+    // }
+    .blog-card-holder {
+        .blog-card {
+            border-left: 0;
+            h6, h5 {
+                font-size: 16px;
+                padding: .5rem .5rem 0 .5rem;
+            }
+            a:hover, h6:hover, h5:hover {
+                color: tint($primary_color, 60%);
+            }
+            h5 {
+                padding-top: 1rem;
+            }
+            h6 {
+                color: tint($primary_color, 40%);
+            }
+            
+        }
+        .blog-card:nth-child(1) {
+            //this unsets the archive sizing
+            grid-column: unset;
+
+        }
+    }
+    
+}
+.nina-cta {
+    align-items: center;
+    padding: 7vh 0;
+    a {
+        align-items: center;
+        color: black;
+        
+        h5 {
+            position: relative;
+            transition: .2s;
+            left: 0;
+        }
+        
+        .icon {
+            //opacity: 0;
+            position: relative;
+            right: -5px;
+            bottom: 2px;
+            transition: right .3s, opacity .2s;
+        }   
+    }
+    a:hover {
+        
+        h5 {
+            left: -5px;
+            transform: scale(1);
+        }
+
+         .icon{
+            // opacity: 1;
+            right: -15px;
+            transform: scale(1.2);
+        }
+    }
+}
+
+.blog-card-holder  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,(minmax(320px, 1fr)));
+    grid-gap: 1rem;
+    min-height: 50vh;
+    
+    .blog-card {
+        display: flex;
+        flex-direction: column;
+        border-left: 1px rgba(0, 0, 0, 0.3) solid;
+        margin-bottom: 1rem;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        
+        .blog-card-inner {
+            overflow: hidden;
+        }
+        
+        .blog-card-bgr-pic {
+            height: 320px;
+            transition: transform .5s;
+            
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            .blog-card-shade {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                transition: all .7s;
+
+                h3 {
+                    margin-left: 10vw;
+                    font-size: 1.8rem;
+                    letter-spacing: 5px;
+                    color: $secondary_color;
+                }
+            }
+            .blog-card-shade:hover {
+                background-color: rgba(255, 250, 253, 0.212);
+            }
+        }
+        
+        h6, h5, p{
+            padding: .5rem 0 0 1rem;
+        }
+        a {
+            text-transform: uppercase;
+        }
+        a, p {
+            color: $btn_text_tertiary;
+            font-weight: 300;
+            font-size: 16px !important;
+        }
+        h6, h5 {
+            color: black;
+            font-weight: 500;
+        }
+        a:hover {
+            color: $btn_hover_tertiary;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 993px ) {
+   
+    .blog-card-holder {
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+
+    }
+    
+}
+
+@media only screen and (max-width: 768px ) {
+   
+    .main .blog-card-holder {
+        grid-template-columns: repeat(1, minmax(280px, auto));
+        
+    }
+    .header-block-content {
+        padding: 10vh 10vw;
+        h2, h3 {
+            font-size: 24px;
+        }
+    }
+
+    .nina-cta {
+        padding: 3vh 0;
+    }
+    
+}
+
+//* Main Page * * * * */
+@include respond-to(medium, max) {
+
+    #post-35.page {
+        .entry-header {
+            h1 {
+                
+                //margin-bottom: 40%;
+            }
+    
+        }
+    }
+
+
+}

@@ -1,0 +1,34 @@
+.shop-widget {
+    position: relative;
+    background: $accent_color_2;
+    padding: 20px;
+    text-align: center;
+
+    .shop-widget-title {
+        font-size: 32px;
+
+        span {
+            font-style: italic;
+            text-transform: lowercase;
+        }
+    }
+
+    .shop-widget-body {
+        background: white;
+        padding: 20px;
+        
+        .shop-widget-image {
+            width: 100%;
+        }
+
+        .shop-widget-text {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .shop-widget-cta {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

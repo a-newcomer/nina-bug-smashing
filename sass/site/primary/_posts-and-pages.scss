@@ -1,0 +1,60 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+.page {
+
+	.entry-header {
+		//Why do I get an undefined error if I use this?
+		//@include flex(col, center, center);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+article {
+	.entry-header {
+		height: 100vh;
+		width: 100%;
+		// a gradient darkening is added in PHP template part with bg image
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: cover;
+		color: $color__background-body;
+		
+		.dot-sep::before {
+			font-size: 30px;
+			color: white;
+		}
+	}
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.entry-content.container-lg {
+	margin: 1.5em auto 0 auto !important;
+	color: $color__text-main;
+}
+
+// .entry-content {
+// 	color: #141414;
+// }
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+

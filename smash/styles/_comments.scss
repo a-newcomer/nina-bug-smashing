@@ -1,0 +1,102 @@
+#comments {
+    display: none;
+    max-width: 80%;
+    margin: 50px auto 0;
+
+    .comment-subtitle{
+        font-family: $font-title;
+        letter-spacing: 2px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        max-width: 685px;
+    }
+
+    .comments-title {
+        display: none;
+        text-align: center;
+    }
+
+    .respond{
+        textarea {
+            width: 100%;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-family: $font_body;
+        }
+    }
+
+    .comment-input-half {
+        width: $half;
+    }
+
+    input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+        font-family: $font_body;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 7px 10px;
+        border-radius: 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    input#submit {
+        width: 100%;
+        background: #aba9a2 !important;
+        color: white !important;
+        border:none;
+    }
+
+    div#respond{
+        margin-bottom: 50px;
+    }
+
+    .comment-list {
+        margin: 0;
+        padding: 0;
+        font-family: $font_body;
+        
+        .comment {
+    
+            .comment-meta {
+                display: -webkit-flex;
+                display: flex;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 13px;
+                padding-bottom: 20px;
+             
+                .avatar, .says {
+                    display: none;
+                }
+
+                .comment-metadata{
+                    display: none; 
+                }
+            }
+
+            .children {
+                margin: 40px 0px;
+            }
+
+            .reply {
+                border-bottom: 1px solid #dadada;
+                padding-bottom: 15px;
+            }
+        }
+    }  
+    
+    @include respond-to(large, max) {
+        
+    }
+    @include respond-to(medium, max) {
+        
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

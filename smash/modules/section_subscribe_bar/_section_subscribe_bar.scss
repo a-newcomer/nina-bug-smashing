@@ -1,0 +1,56 @@
+#subscribe_bar {
+    position: relative;
+    padding: 20px;
+
+    .subscribe-bar-title {
+        margin-bottom: 0;
+    }
+
+    .subscribe-bar-body {
+
+        p {
+            margin: 0;
+        }
+
+        #mc_embed_signup {
+            form {
+                #mc_embed_signup_scroll {
+                    .mc-field-group {
+                        padding-bottom: 0 !important;
+
+                        input {
+                            border-radius: 0px;
+                            font-family: $font_nav;
+                            text-transform: uppercase;
+                            font-size: 13px;
+                            padding: 4px;
+                            width: 210px;
+                            margin: 7px;
+                        }
+                        .btn-primary {
+                            padding: 0px !important;
+                            height: 36px;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(xxlarge, max){ 
+        @include flex(col, center, center);
+        
+        .mc-field-group {
+            @include flex(col, center, center);
+
+            br {
+                display: none;
+            }
+
+            .btn-primary {
+                width: 210px;
+            }
+        }
+    }
+}

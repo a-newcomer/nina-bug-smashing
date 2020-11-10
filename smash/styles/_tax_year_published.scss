@@ -1,0 +1,170 @@
+#taxonomy_page {
+    .cat-nav {
+        @include flex(wrap, center, center);
+        position: unset;
+        top: unset;
+        padding: 10vh 3vw 3vh 3vw;
+        margin: 0;
+        font-size: 16px;
+
+        a {
+            color: $primary_color;
+        }
+    }
+    .cat-nav-item.active {
+        border-bottom: 3px solid $primary_color;
+    }
+
+   .custom-post-holder {
+        padding: 4vw 0;
+
+        .blog-holder {
+            padding: 2vw 0;
+            width: 100%;
+            display: grid;
+            grid-gap: 2rem;
+            min-height: 50vh;
+
+            h5 {
+                padding: 10px 0;
+                text-align: center;
+            }
+        }
+    }
+    
+    .alm-reveal {
+        padding: 2vw 0;
+        width: 100%;
+        display: grid;
+        grid-gap: 2rem;
+        min-height: 50vh;
+    }
+}
+// .nina-cta {
+//     padding: 2rem;
+//     margin: 0 auto;
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-size: 16px;
+//     a {
+//         align-items: center;
+//         color: black;
+        
+//         h5 {
+//             position: relative;
+//             transition: .2s ease-in-out;
+//             left: 0;
+//         }
+        
+//         .icon {
+//             //opacity: 0;
+//             position: relative;
+//             right: -5px;
+//             bottom: 2px;
+//             transition: right .3s ease-out, opacity .2s;
+//         }   
+//     }
+//     a:hover {
+        
+//         h5 {
+//             left: -10px;
+//             transform: scale(1);
+//         }
+
+//          .icon{
+//             // opacity: 1;
+//             right: -15px;
+//             transform: scale(1.2) ;
+//         }
+//     }
+// }
+//* * * * * PRESS SECTION * * * * * 
+#taxonomy_page .press-holder {
+    grid-template-columns: repeat(auto-fit,(minmax(190px, 1fr)));
+    
+    .alm-reveal {
+        grid-template-columns: repeat(auto-fit,(minmax(190px, 1fr)));
+    }
+
+    .blog-card-inner {
+        width: 100%;
+        border: 4px solid $primary_color;
+        padding: 15%;
+    }
+
+}
+#taxonomy_page {
+    @media only screen and (max-width: 1124px ) {
+         
+        .custom-post-holder {
+            padding: 2rem;
+
+            .press-holder {
+                
+                .blog-card-inner {
+                  
+                }
+            }
+        }
+
+    }
+    
+    @media only screen and (max-width: 600px ) {
+      
+        .cat-nav-item {
+            margin: 0 5px;
+        }
+    
+        .custom-post-holder {
+            padding: 5vw;
+
+            .press-holder {
+                grid-gap: 1rem;
+                h5 {
+                    padding: 5px 0;
+                    font-size: 14px;
+                }
+
+                .blog-card-inner {
+                    border: 8px solid $primary_color;
+                }
+            }
+        }
+        
+    }
+     
+    @media only screen and (max-width: 430px ) {
+    
+        .custom-post-holder {
+ 
+            .press-holder {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+                .blog-card-inner {
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+//* * * * * VIDEO SECTION * * * * * 
+#taxonomy_page .video_press-holder {
+    grid-template-columns: repeat(auto-fit,(minmax(380px, 1fr)));
+    
+    .alm-reveal {
+        grid-template-columns: repeat(auto-fit,(minmax(380px, 1fr)));
+    }
+    
+    .blog-card {
+        
+        .blog-card-bgr-pic {
+            border-radius: 3px;
+       
+        &:hover {
+            cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), auto;
+            }
+        }
+    }
+}

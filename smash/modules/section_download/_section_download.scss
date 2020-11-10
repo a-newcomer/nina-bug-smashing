@@ -1,0 +1,60 @@
+#download {
+    position: relative;
+
+    .download-container {
+        @extend %container;
+        max-width: 1135px;
+        
+        .download-image {
+            width: 32%;
+            height: 365px;
+            margin-right: 2%;
+        }
+
+        .download-body {
+            width: 66%;
+            text-align: center;
+
+            .download-title{
+                margin-bottom: 10px;
+            }
+
+            .download-text {
+                width: 72%;
+                margin: 20px auto;
+                font-family: $font_body ;
+            }
+        }
+    }
+
+    .download-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        
+        .download-bg-inner {
+            height: 75%;
+            width: 100%;
+            background: #F7F4EF;
+        }
+    }
+
+    @include respond-to(large, max) {
+        
+        .download-container {
+            flex-direction: column;
+
+            .download-image{
+                width: 80%;
+            }
+
+            .download-body{
+                width: 90%;
+                margin-top: 30px;
+            }
+        }
+    }  
+}

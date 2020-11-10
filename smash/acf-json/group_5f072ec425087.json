@@ -1,0 +1,111 @@
+{
+    "key": "group_5f072ec425087",
+    "title": "Large Video Block",
+    "fields": [
+        {
+            "key": "field_5f9b19caa7076",
+            "label": "Video Poster",
+            "name": "video_poster",
+            "type": "text",
+            "instructions": "Add a still or screenshot of the video, as a backup.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f9b1a5e9b2fe",
+            "label": "Video Loop Webm Format",
+            "name": "video_loop_webm",
+            "type": "text",
+            "instructions": "Add the URL of  a short video loop, in Webm format only,  that will play on hover. You can upload a short loop to the media library or use an external link. You need both webm and mp4 versions for backups",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f9b512e9755a",
+            "label": "Video Loop mp4 Format",
+            "name": "video_loop_mp4",
+            "type": "text",
+            "instructions": "Add the URL of a short video loop, in mp4 format only, that will play on hover. You can upload a short loop to the media library or use an external link",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f84d0e5432c8",
+            "label": "Vimeo Link",
+            "name": "vimeo_link",
+            "type": "oembed",
+            "instructions": "You must host your video on Vimeo, or it won't work. YouTube refuses to remove their ugly branding and marketing.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "width": 1400,
+            "height": 800
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "x-page-about.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-main.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-services.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1604288399
+}

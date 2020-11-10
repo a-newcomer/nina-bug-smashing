@@ -1,0 +1,99 @@
+a.share-icon {
+    @extend %alt_link;
+}
+.share-icon {
+    @include flex(row, center, center);
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid $line_color;
+    z-index: 2;
+}
+
+input#postURL {
+    position: absolute;
+    right: -9999px;
+}
+.share-icons {
+    position: relative;
+
+    .social-share {
+        position: relative;
+
+        .social-share-inner {
+            @include flex(row, center, center);
+            position: relative;
+            background-color: #fff7;
+
+            &.vertical-share {
+                @include flex(col, center, start);
+
+                .fa, .fab, .fal, .far, .fas, .icon {
+                    color: $primary_color;
+                }
+                
+                .social-share-title {
+                    transform: rotate(90deg) translate(0, -167%);
+                    transform-origin: top left;
+                    margin-bottom: 60%;
+                    font-family: $font_nav;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-size: 11px;
+                }
+                
+                .share-icons-wrap {
+                    @include flex(col, center, start);
+                    position: relative;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+            &.fade-share {
+                @extend %fade;
+                
+                .social-share-title {
+                    display: block;
+                }
+
+                .share-icons-wrap {
+                    @include flex(row, center, center);
+                    position: absolute;
+                    z-index: 1;
+                    background: $secondary_color;
+                    padding: 2px 20px;
+                }
+            }
+
+            .social-share-title {
+                display: none;
+            }
+            
+            .share-icons-wrap {
+                @include flex(row, center, center);
+                position: relative;
+            }
+        }
+
+        .share {
+            @extend %alt_link;
+            margin: 8px;
+
+            span {
+                margin-left: 6px;
+                font-size: 10px;
+                text-transform: uppercase;
+            }
+            
+            a {
+                @extend %alt_link;
+            }
+        }
+    }
+}

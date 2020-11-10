@@ -1,0 +1,180 @@
+{
+    "key": "group_5f98c05e1fef2",
+    "title": "Social Page",
+    "fields": [
+        {
+            "key": "field_5fa07771a48ac",
+            "label": "Social Media Name",
+            "name": "social_media_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fa063ecbea39",
+            "label": "Social Feed Type",
+            "name": "social_feed_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "manual": "Manual",
+                "feed": "Feed"
+            },
+            "default_value": "feed",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f98c0b293209",
+            "label": "Link to Page",
+            "name": "link_to_page",
+            "type": "url",
+            "instructions": "Add the link to the feed of your choice",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f98c9fab5b0e",
+            "label": "Feed Link CTA",
+            "name": "cta",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f98c1149320a",
+            "label": "Individual Images",
+            "name": "individual_images",
+            "type": "repeater",
+            "instructions": "Add the URL to an image, either from the media gallery or externally. If you add from Pinterest, be sure to right-click choose \"open image in new link\", then take that URL - a regular Pinterest link won't work, only an image link. Be aware of copyright laws.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fa063ecbea39",
+                        "operator": "==",
+                        "value": "manual"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5f98c13a9320b",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Image link",
+            "sub_fields": [
+                {
+                    "key": "field_5f98c13a9320b",
+                    "label": "image link",
+                    "name": "image_link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fa06464bea3a",
+            "label": "Feed",
+            "name": "feed",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fa063ecbea39",
+                        "operator": "==",
+                        "value": "feed"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-social.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1604352881
+}

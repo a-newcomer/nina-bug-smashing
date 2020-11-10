@@ -1,0 +1,118 @@
+.snapshot-post-wrapper {
+    padding: 50px;
+
+    .snapshot-post-inner {
+        @include flex(row, center, center);
+        position: relative;
+
+        .snapshot-image {
+            width: 50%;
+        }
+
+        .snapshot-body {
+            position: relative;
+            width: 50%;
+            padding: 20px 50px;
+            z-index: 1;
+
+            h5.snapshot-label {
+                display: inline-block;
+                font-family: $font_script;
+                font-size: 50px;
+                line-height: 30px;
+                letter-spacing: 0;
+            }
+
+            .snapshot-products {
+                width: 100%;
+                
+                .product {
+                    .product-image {
+                        max-height: 150px;
+                        width: auto;
+                    }
+
+                    .product-brand {
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-size: 11px;
+                        font-family: $font_nav;
+                    }
+
+                    .product-link {
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-size: 13px;
+                        font-weight: bold;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(xxlarge, max){  
+        .snapshot-post-inner {
+            .snapshot-body {
+                padding: 30px;
+            }
+        }
+    }
+
+    @include respond-to(large, max){  
+        .snapshot-post-inner {
+            flex-direction: column !important;
+
+            .snapshot-image {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .snapshot-body {
+                padding: 30px;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
+
+    @include respond-to(medium, max) {  
+        padding: 50px 20px;
+        
+        .snapshot-post-inner {
+            flex-direction: column !important;
+
+            .snapshot-image {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .snapshot-body {
+                padding: 30px;
+                width: 100%;
+                margin-left: 0;
+
+                h2.snapshot-title {
+                    line-height: 33px;
+                    font-size: 29px;
+                    margin-bottom: 15px;
+                }
+
+                .snapshot-products {
+                    .snapshot-product {
+                        .snapshot-product-wrapper {
+                            text-align: center;
+                            .snapshot-product-brand {
+                                
+                                h3 {
+                                    font-size: 28px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

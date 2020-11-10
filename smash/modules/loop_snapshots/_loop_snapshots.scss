@@ -1,0 +1,32 @@
+#snapshots_loop {
+    padding: 50px;
+
+    .snapshots-wrapper {
+        .snapshots-header {
+            @include flex(row, center, between);
+            width: 100%;
+
+            .snapshots-title-wrap {
+                @include flex(col, start, center);
+            }
+
+            .snapshots-menu-container {
+                @include flex(row, center, end);
+
+                .snapshots-menu {
+                    @extend %nav;
+                    @include flex(row, center, end);
+                }
+            }
+        }
+
+        .snapshots-inner {
+            @include flex(row, center, between);
+
+            .snapshot {
+                flex: 1;
+                margin: 12px;
+            }
+        }
+    }
+}

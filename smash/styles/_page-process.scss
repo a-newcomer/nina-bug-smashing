@@ -1,0 +1,103 @@
+#process_page {
+    padding: 5vh 0;
+
+    .slider {
+        width: 99.5vw;
+        height: 100%;
+
+        .slider-box {
+            width: 100%;
+            height: 100%;
+
+            .process-block {
+                width: 100%;
+                padding: 4vh 0;
+
+                .img-box {
+                    height: 45vh;
+                    width: 100%;
+                    transition: transform .5s;
+                    flex: 1.1;
+                    padding-left: 6vw;
+                    padding-right: 6vw;
+                }
+                .text-box {
+                    flex: 1;
+                    padding-left: 6vw;
+                    padding-right: 6vw;
+                    justify-content: center;
+                    h4 {
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+//general slider arrows
+.slick-slider .slick-arrow.slick-next{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10%;  
+}
+.slick-slider .slick-arrow.slick-next:hover {
+    cursor: url('http://magon.test/wp-content/uploads/2020/11/circle-r-arrow-e1604297631453.png'), pointer;
+}
+.slick-slider .slick-arrow.slick-prev{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+}
+.slick-slider .slick-arrow.slick-prev:hover {
+    cursor: url('http://magon.test/wp-content/uploads/2020/11/circle-l-arrow-e1604297601162.png'), pointer;
+}
+
+.slick-slider .slick-arrow {
+    padding: 5vh;
+    z-index: 50;
+    // color: #141414;
+}
+.slick-slider .slick-dots li button {
+    
+    width: 6px;
+    height: 6px;
+    background: #141414 !important;
+    border: 2px solid #141414;
+    
+}
+.slick-slider .slick-dots li.slick-active button {
+    padding: 0;
+    background: #DDD !important;
+    border: #ddd 1px solid;
+}
+@media only screen and (max-width: 768px ) {
+    
+    #process_page {
+
+        .slider .slider-box .process-block {
+            flex-direction: column !important;
+            flex-wrap: wrap !important;
+
+            .img-box {
+                flex: unset;
+                height: 60vw !important;
+            }
+            .text-box {
+                flex: unset;
+                padding: 6vw;
+                padding-top: 10vw;
+
+            }
+        }
+        .slick-slider .slick-dots {
+            margin: 0;
+        }
+        .icon {
+            display: none;
+        }
+    }
+ 
+}

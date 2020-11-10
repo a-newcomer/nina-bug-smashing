@@ -1,0 +1,126 @@
+.social-page {
+    @include flex(row, center, center);
+    flex-wrap: wrap;
+    padding: 5vh 2vw;
+
+    .title-block {
+        @include flex(col, start, center);
+        flex: 4;
+        padding-left: 4%;
+
+        a {
+            text-transform: uppercase;
+            font-size: 16px;
+            margin-top: -1rem;
+            //this centers the cross in the span
+            display: flex;
+            align-items: center;
+            color: tint($primary_color, 32%);
+
+            span {
+                font-size: 30px;
+                padding-right: 5px;
+            }
+        }
+        a:hover {
+            color: tint($primary_color, 62%);
+        }
+
+    }
+    
+
+}
+
+#pinterest_page.social-page {
+    .msnry-container-outer.feed-shortcode-outer{ 
+    
+    .msnry-container-inner {
+        border: none;
+    }
+}
+    .msnry-container-outer {
+        flex: 6;
+        height: 100vh; 
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+
+        .msnry-container-inner {
+            border: 1px solid gray;
+            // display: flex;
+            // flex-flow: column;
+            flex-wrap: wrap;
+
+            .msnry-item-outer {
+                width: 33%;
+                border-radius: 20px;
+                overflow: hidden;
+                padding: .7rem .5rem;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    opacity: 1;
+                    transition: all .3s;
+                    border-radius: 20px;
+                }
+                img:hover {
+                    opacity: .7;
+                    transform: scale(1.05);
+                }
+                
+            }
+        }
+      
+    }
+    .msnry-container-outer::-webkit-scrollbar {
+        display: none;
+    }
+    @include respond-to( 1120, max) {
+       
+    }
+   
+}
+@include respond-to( 1120, max) {
+
+    #pinterest_page.social-page {
+        
+        .msnry-container-outer {
+
+            .msnry-item-outer {
+                width: 50% !important;
+                padding: 9px 5px !important;
+                
+            }
+        }
+    }
+
+}
+@include respond-to(medium, max) {
+    .social-page {
+        @include flex(col, center, center);
+
+        .title-block {
+            flex: 1;
+            h2 {
+                padding: 0;
+                margin: 0;
+            }
+            a {
+                margin-bottom: 3vh;
+            }
+        }
+        .msnry-container-outer {
+            flex: 1;
+            width: 100%;
+
+            .msnry-container-inner {
+                border: none !important;
+                .msnry-item-outer {
+                    
+                }
+            } 
+        }
+    }
+}

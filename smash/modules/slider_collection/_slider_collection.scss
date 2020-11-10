@@ -1,0 +1,91 @@
+.collection-slider-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    .slick-dots {
+        margin-bottom: 0;
+    }
+
+    .collection-slider {
+        width: 100%;
+        max-width: 1160px;
+        // height: 600px;
+
+        .collection-slide {
+            
+            .collection-slide-inner {
+                @include flex(row, end, start);
+                padding: 50px 50px 0;
+                height: 490px;
+
+                .collection-image {
+                    width: 70%;
+                    max-height: 330px;
+                    transition: max-height 0.8s ease-out;
+                }
+
+                .collection-body {
+                    @include flex(col, start, start);
+                    align-self: flex-start;
+                    -webkit-align-self: flex-start;
+                    width: 30%;
+                    padding-top: 50px;
+                    padding-left: 30px;
+                }
+
+                @include respond-to(xlarge, max){
+                    @include flex(col, center, center);
+                    height: unset;
+
+                    .collection-image {
+                        width: 100%;
+                    }
+
+                    .collection-body {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &.slick-slider {
+            .slick-list {
+                overflow: visible;
+
+                .slick-slide {
+                    &.slick-current {
+                        .collection-slide-inner {
+                            @include flex(row, null, center);
+                            padding: 0;
+
+                            .collection-image {
+                                max-height: 490px;
+
+                                @include respond-to(xlarge, max){
+                                    max-height: 400px;
+                                }
+                            }
+
+                            @include respond-to(xlarge, max){
+                                @include flex(col, center, center);
+                                height: unset;
+            
+                                .collection-image {
+                                    width: 100%;
+                                }
+            
+                                .collection-body {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // @include respond-to(xlarge, max){
+        //     height: 400px;
+        // }
+    }
+}

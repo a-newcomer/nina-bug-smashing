@@ -1,0 +1,94 @@
+#ltki_wrapper {
+    position: relative;
+    padding: 50px;
+    background: $bg_color;
+    margin-top: 50px;
+
+    .ltki-container { 
+        @include flex(col, center, center);
+        
+        .ltki-header {
+            @include flex(row, center, between);
+            width: 100%;
+
+            .ltki-header-col {
+                @include flex(col, start, center);
+
+                h3.ltki-title {
+                    font-size: 38px;
+                    margin-bottom: 0;
+                }
+
+                h3.ltki-subtitle {
+                    font-family: $font_nav;
+                    letter-spacing: 1px;
+                    font-size: 11px;
+                    font-style: italic;
+                    margin-top: -10px;
+                }
+            }
+
+            .ltki-handle {
+                font-family: $font_nav;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                letter-spacing: 1px;
+                font-size: 11px;
+                font-weight: bold;
+            }
+        }
+
+        .ltki-feed {
+            width: 100%;
+            
+            @include respond-to(large, max){
+                display: none;
+            }
+        }
+
+        .ltki-feed-mobile {
+            width: 100%;
+            display: none;
+
+            @include respond-to(large, max){
+                display: block;
+            }
+        }
+
+        .ltki-cta {
+            margin-top: 20px;
+            text-align: center;
+            font-family: $font_nav;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            letter-spacing: 1px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+    }
+
+    @include respond-to(medium, max) { 
+        padding: 30px 20px;
+
+        .ltki-container {
+            .ltki-header {
+                flex-direction: column !important;
+
+                .ltki-header-col {
+                    h3.ltki-subtitle {
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#rs-ltk-widget-2-wrapper #rs-ltk-widget-2-extra-style-wrapper .rs-ltk-content-frame-wrapper .rs-ltk-widget-content-wrapper .rs-ltk-content-wrapper .rs-ltk-wrapper .rs-ltk-image {
+    background-color: white !important;
+
+    &:hover {
+        background-color: white !important;
+    }
+}

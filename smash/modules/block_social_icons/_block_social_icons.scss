@@ -1,0 +1,22 @@
+.social-icons {
+    position: relative;
+
+    .social-icons-header {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        text-transform: uppercase;
+    }
+}
+
+.social-icon {
+    @include flex(row, center, center);
+    font-size: 12px;
+    margin: 0 5px;
+
+    span {
+        margin-left: 6px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}

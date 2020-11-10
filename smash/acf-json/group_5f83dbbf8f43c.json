@@ -1,0 +1,76 @@
+{
+    "key": "group_5f83dbbf8f43c",
+    "title": "Block Under Header",
+    "fields": [
+        {
+            "key": "field_5f83dbf17a189",
+            "label": "Headline Under Top Image",
+            "name": "headline_under_top_image",
+            "type": "text",
+            "instructions": "Add the headline which appears in the first block under the header image.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 34
+        },
+        {
+            "key": "field_5f83dc387a18a",
+            "label": "Text Under Header Image",
+            "name": "text_under_header_image",
+            "type": "text",
+            "instructions": "Add the blurb which appears in the first block under the header image.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 250
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_template",
+                "operator": "!=",
+                "value": "page-contact.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "page-social.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1604565013
+}

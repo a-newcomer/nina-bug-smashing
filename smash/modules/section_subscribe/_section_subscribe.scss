@@ -1,0 +1,116 @@
+#subscribe_section {
+    position: relative;
+
+    .subscribe-section-wrapper {
+        background: $secondary_color;
+
+        .subscribe-section-image {
+            width: 55%;
+            min-height: 400px;
+        }
+        .subscribe-section-content {
+            position: relative;
+            background: $bg_color_2;
+            width: 45%;
+            text-align: center;
+            padding: 50px;
+
+            .subscribe-section-content-inner {
+                @include flex(col, center, center);
+                max-width: 365px;
+                width: 100%;
+
+                .subscribe-section-subtitle {
+                    font-family:$font_title;
+                    font-size: 30px;
+                    text-transform: capitalize;
+                    letter-spacing: 1px;
+                }
+
+                .subscribe-section-title{
+                    font-family:$font_script;
+                    font-size: 70px;
+                    text-transform: lowercase;
+                    margin-bottom: 0px;
+                    letter-spacing: 1px;
+                    margin-top: -20px;
+                }
+    
+                .subscribe-section-text {
+                    font-family:$font_body;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+    
+                .subscribe-section-form {
+                    width: 100%;
+    
+                    #mc_embed_signup{
+    
+                        input{
+                            border-radius: 0px !important;
+                            font-size: 10px;
+                            letter-spacing: 1px;
+                            padding: 13px;
+                            margin-bottom: 10px;
+                            border: none;
+                            width: 100%;
+                            font-family: $font_body;
+                            background-color: white;
+                            border: none !important;
+    
+                            &[type="submit"] {
+                                margin-bottom: 0;
+                                color: white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // RESPONSIVE
+    
+    @include respond-to(large, max) {
+        .subscribe-section-wrapper {
+            .subscribe-section-content {
+                padding: 30px;
+            }
+        }
+    }
+    @include respond-to(medium, max) {
+        .subscribe-section-wrapper{
+            flex-direction: column;
+
+            .subscribe-section-image{
+                width: 100%;
+                height: 250px;
+            }
+
+            .subscribe-section-content{
+                width: 100%;
+
+                .subscribe-section-content-inner {
+                    .subscribe-section-text {
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                    }
+
+                    .subscribe-section-title {
+                        font-size: 55px;
+                    }
+                }
+                
+                .subscribe-section-form {
+                
+                    #mc_embed_signup input#mce-EMAIL {
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

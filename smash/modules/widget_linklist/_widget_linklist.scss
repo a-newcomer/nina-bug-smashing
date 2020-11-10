@@ -1,0 +1,26 @@
+.linklist-widget {
+    position: relative;
+    text-align: center;
+
+    .linklist-widget-title {
+        position: relative;
+        display: inline-block;
+        font-size: 24px;
+        background: white;
+        padding: 0 10px;
+        top: -45px;
+
+        span {
+            font-style: italic;
+            text-transform: lowercase;
+        }
+    }
+
+    .linklist-widget-links {
+        margin-top: -30px;
+
+        a {
+            @extend %alt_link;
+        }
+    }
+}

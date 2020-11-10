@@ -1,0 +1,85 @@
+#faq-module {
+    padding-bottom: 50px;
+
+    .page-faq-header {
+        padding: 50px;
+        margin: 50px auto !important;
+        border-top: 1px solid $line_color;
+        border-bottom: 1px solid $line_color;
+
+        .page-faq-title {
+            margin: 0;
+        }
+        
+        .page-faq-header-inner {
+            @include flex(row, center, between);
+        }
+    }
+    
+    .page-faq-wrapper {
+        @include flex(row, start, between);
+        position: relative;
+        
+        .faq-col {
+            width: 48%;
+    
+            .faq-item {
+    
+                .faq-title {
+                    text-align: left;
+                    font-weight: 400;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 23px;
+                    font-size: 16px;
+                    font-family: $font_body;
+                    border: 2px solid $line_color;
+                    padding: 10px;
+
+                    span {
+                        width: 90%;
+                    }
+
+                    .icon {
+                        width: 25px;
+                        height: 25px;
+                        padding: 5px;
+                        cursor: pointer;
+                    }
+                }
+                
+                .faq-text {
+                    display: none;
+                    text-align: left;
+                    font-weight: 100;
+                    letter-spacing: 1.2px;
+                    color: #7d7d7d;
+                }
+            }
+        }
+    }
+
+    @include respond-to(large, max) {
+        .page-faq-wrapper {
+            @include flex(col, center, start);
+
+            .faq-col {
+                width: 100%;
+                margin-bottom: -12px;
+
+                .faq-item {
+            
+                    .faq-title {
+                        margin-bottom: 21px;
+                        font-size: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

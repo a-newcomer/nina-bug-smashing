@@ -1,0 +1,48 @@
+{
+    "key": "group_5f951e0c4192b",
+    "title": "Various Banner Images",
+    "fields": [
+        {
+            "key": "field_5f951e230e99f",
+            "label": "All Press Image",
+            "name": "all_press_image",
+            "type": "image",
+            "instructions": "This is the big banner or hero image for the press page. \r\nIf you want to add images for each year, look on the menu under press -> year published -> then the year you want.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-banner-images"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1603608555
+}

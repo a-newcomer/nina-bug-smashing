@@ -1,0 +1,47 @@
+#featured_products {
+    position: relative;
+    padding: 50px;
+
+    .featured-products-inner {
+        .featured-products-header {
+            @include flex(col, center, center);
+        }
+
+        .featured-products-slider {
+            .product {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+.product {
+    .product-wrap {
+        @include flex(col, center, center);
+
+        .product-image-wrap {
+            @extend %fade;
+            @include flex(col, center, center);
+            position: relative;
+            width: 100%;
+            text-align: center;
+
+            .product-image {
+                max-height: 200px;
+                width: auto;
+            }
+
+            .shop-btn {
+                position: absolute;
+            }
+        }
+
+        .product-link-wrap {
+            @include flex(row, center, center);
+
+            .product-link {
+                text-transform: uppercase;
+            }
+        }
+    }
+}

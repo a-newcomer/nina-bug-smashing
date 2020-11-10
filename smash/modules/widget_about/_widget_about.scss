@@ -1,0 +1,30 @@
+.about-widget {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    position: relative;
+
+    .about-widget-image {
+        position: relative;
+        margin-top: -75px;
+        width: 100%;
+    }
+
+    .about-widget-title {
+        font-size: 18px;
+    }
+
+    .about-widget-sub-title {
+        font-size: 28px;
+    }
+
+    .about-widget-text {
+        margin: 20px 0 -10px;
+    }
+
+    .about-widget-cta {
+        position: relative;
+        bottom: -50px;
+        margin-top: -50px;
+    }
+}

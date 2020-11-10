@@ -1,0 +1,136 @@
+.trend_report {
+
+    .trend-report-container {
+        max-width: 1060px;
+        width: 100%;
+        margin: 50px auto;
+        padding: 30px 50px;
+        background: #f5f4ef;
+
+        .trend-post-body {
+            text-align: center;
+            width: $half - 4;
+            padding: 30px;
+            background: white;
+        }
+
+        .trend-post-products {
+            width: $half - 4;
+            background: white;
+
+            .slick-arrow {
+                position: absolute;
+                border-radius: unset;
+                font-size: 0;
+                top: 50%;
+                width: 60px;
+                height: 43px;
+                background: black;
+                border: 1px solid black;
+                z-index: 1;
+                
+                &:focus {
+                    outline: none;
+                }
+
+                span {
+                    position: relative;
+                    display: block;
+                    margin: 0 auto;
+                    width: 30px;
+                    height: 1px;
+                    background: white;
+                }
+
+
+                &.slick-prev {
+                    left: -25px;
+
+                    span {
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            bottom: 6px;
+                            left: -3px;
+                            width: 16px;
+                            height: 1px;
+                            background: white;
+                            transform: rotate(-45deg);
+                        }
+                        
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            top: 5px;
+                            left: -3px;
+                            width: 16px;
+                            height: 1px;
+                            background: white;
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+                
+                &.slick-next {
+                    right: -25px;
+
+                    span {
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 5px;
+                            right: -3px;
+                            width: 16px;
+                            height: 1px;
+                            background: white;
+                            transform: rotate(45deg);
+                        }
+                        
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 6px;
+                            right: -3px;
+                            width: 16px;
+                            height: 1px;
+                            background: white;
+                            transform: rotate(-45deg);
+                        }
+                    }
+                }
+
+                &:hover {
+                    background: white;
+                    cursor: pointer;
+                    
+                    span {
+                        background: black;
+
+                        &::before {
+                            background: black;
+                        }
+                        &::after {
+                            background: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .trend-post-product {
+
+            .product-thumb-wrap {
+                position: relative;
+                
+                img {
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+
+                .btn {
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

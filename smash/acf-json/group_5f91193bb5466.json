@@ -1,0 +1,43 @@
+{
+    "key": "group_5f91193bb5466",
+    "title": "Video Press Page",
+    "fields": [
+        {
+            "key": "field_5f91d57b04eb7",
+            "label": "Video Link",
+            "name": "video_link",
+            "type": "url",
+            "instructions": "Add the URL from an external video here. It should look like https:\/\/nameofhostingservice.com\/13206854.\r\nAdd a poster or screenshot to the featured image box.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "video_press"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "comments"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1603919422
+}

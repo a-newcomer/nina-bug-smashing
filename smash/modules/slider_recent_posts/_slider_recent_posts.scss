@@ -1,0 +1,122 @@
+#recent_posts_slider {
+    padding: $pad;
+    background: white;
+
+    .recent-posts-header {
+        @extend %container;
+        max-width: 1000px;
+
+        .recent-posts-title{
+            font-family: $font_title;
+            text-transform: uppercase;
+            font-size: 24px;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        a.view-more-link{
+            font-family: $font_title;
+            text-transform: lowercase;
+            font-style: italic;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+    }
+    
+    .recent-posts {
+        @extend %container;
+        max-width: 1020px;
+    }
+
+    .recent-post-slide {
+        width: $third;
+        padding: 10px;
+        position: relative;
+
+        .recent-post-thumb {
+            display: block;
+        }
+
+        .recent-post-body {
+            position: relative;
+            padding: 6%;
+            text-align: left;
+            border-bottom: 1px solid #B0B0B0;
+            border-left: 1px solid #B0B0B0;
+            border-right: 1px solid #B0B0B0;
+            height: 145px;
+
+            .recent-post-title {
+                width: 80%;
+                text-align: left;
+                font-family: $font_title;
+                font-style: italic;
+                font-size: 20px;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+            }
+            
+            .recent-post-actions {
+                position: relative;
+                font-family: $font_title;
+                font-style: italic;
+                font-size: 15px;
+                padding-right: 10px;
+                overflow: hidden;
+
+                .recent-post-link {
+
+                    &:hover {
+                        .icon {
+                            fill: $accent_color;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                .icon{
+                    @extend %ease;
+                    width: 10px;
+                    height: 10px;
+                }
+    
+                .archive-item-share {
+                    text-align: right;
+                    position: relative;
+
+                    .icon{
+                        width: 18px;
+                        height: 18px;
+                    }
+        
+                    .social-share {
+                        @extend %ease;
+                        position: absolute;
+                        top: 50px;
+                        right: 0;
+                        background: white;
+                        padding: 5px;
+        
+                        .share {
+                            margin: 0 5px;
+                        }
+                    }
+        
+                    &:hover {
+                        .social-share {
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(large, max) {
+        padding: 0px;
+    }
+
+    @include respond-to(medium, max) {
+        padding: 0px;
+    }
+}

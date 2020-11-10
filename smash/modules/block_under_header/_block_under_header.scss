@@ -1,0 +1,25 @@
+//this is the block of text that appears under the big hero image
+.header-block-content {
+	padding: 10vh 25vw;
+	background-color: $color__text-main;
+	color: $color__background-body;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	// h2 {
+		
+	// }
+	.short {
+		margin: 20px auto;
+		width: 10vw;
+		color: #fff;
+	}
+
+	h6 {
+		margin: 1em 0;
+		letter-spacing: 1px;
+	}
+}

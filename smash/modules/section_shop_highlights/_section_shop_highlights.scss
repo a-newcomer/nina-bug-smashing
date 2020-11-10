@@ -1,0 +1,36 @@
+#shop_highlights {
+    position: relative;
+    padding: 50px;
+
+    .shop-highlights-inner {
+
+        .shop-highlights-wrapper {
+            @include flex(row, center, between);
+            
+            .shop-highlights-image {
+                width: 42%;
+            }
+    
+            .shop-highlights-body {
+                @include flex(col, center, center);
+                width: 65%;
+
+                .shop-highlights-title {
+                    text-align: center;
+                }
+    
+                .shop-highlights-products {
+                    @include flex(wrap, start, between);
+                    padding-left: 65px;
+                    margin-right: -20px;
+
+                    .product {
+                        width: 33%;
+                        padding: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

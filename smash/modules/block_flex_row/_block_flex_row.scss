@@ -1,0 +1,51 @@
+.flex_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .flex_row_block,
+    & > * {
+        width: $half;
+    }
+    
+    img {
+        display: block;
+        max-width: $half;
+        margin: 2% 0;
+        
+        &:nth-of-type(2n) {
+            margin-left: 1%;
+        }
+        
+        &:nth-of-type(2n+1) {
+            margin-right: 1%;
+        }
+    }
+
+    @include respond-to(xxlarge, max) {
+
+    }
+    @include respond-to(xlarge, max) {
+        
+    }
+    @include respond-to(large, max) {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        & > * {
+            width: $full;
+        }
+
+        img {
+            max-width: $full;
+            margin: 20px 0;
+        }
+    }
+    @include respond-to(medium, max) {
+        
+    }
+    @include respond-to(small, max) {
+        
+    }
+}
+

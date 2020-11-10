@@ -1,0 +1,52 @@
+.home #page {
+    margin-bottom: 0;
+
+    .front-page {
+        #mobile_nav_wrap {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+        }
+
+        .logo-holder {
+            width: 57vw;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-bottom: 2.3rem;
+        }
+        a {
+            color: $secondary_color;
+            h1 {
+                font-size: 24px;
+                letter-spacing: 2.5px;
+            }
+            
+        }
+        a:hover{
+            color: shade($secondary_color, 30% );
+        }
+    }
+    @include respond-to(large, max) {
+        .front-page {
+            .logo-holder {
+                width: 75vw;
+            }
+            a {
+
+            }
+        }
+    }
+    @include respond-to(medium, max) {
+        .front-page {
+            .logo-holder {
+                width: 85vw;
+                margin-bottom: 1.3rem;
+            }
+           a {
+                h1 {
+                font-size: 16px;
+                }
+            }
+        }
+    }
+}

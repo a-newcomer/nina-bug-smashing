@@ -1,0 +1,17 @@
+#all-press-page {
+
+    .cat-nav {
+        @include flex(wrap, center, center);
+        position: unset;
+        top: unset;
+        margin: 0;
+        padding: 6vw 0;
+
+        a {
+            color: $primary_color;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    
+}

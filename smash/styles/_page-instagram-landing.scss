@@ -1,0 +1,106 @@
+.insta-landing {
+
+    .header-block-content {
+        color: $primary_color;
+        background-color: $secondary_color;
+    }
+    .box-container {
+        padding-bottom: 4vh;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,(minmax(520px, 1fr)));
+        grid-gap: 3vw;
+        margin: 0 auto;
+        width: 92vw;
+        max-width: 1200px;
+
+        .image-card {
+            height: 57vh;
+            width: 100%;
+            justify-content: space-around;
+            margin-bottom: 8vw;
+        }
+        a {
+            width: 100%;
+
+        }
+        .img-box {
+            height: 40vh;
+            width: 100%;
+            height:  100%;
+            margin-bottom: 1.5vw;
+            .shade {
+
+            }
+        }
+        .text-box {
+            padding-top: 3vh;
+            h3 {
+                font-size: 26px;
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 1180px ){
+
+    .insta-landing .box-container {
+        grid-template-columns: repeat(auto-fit,(minmax(380px, 1fr)));
+        
+        .image-card {
+            height: 45vh;
+            padding-bottom: 3vh;
+
+            .img-box {
+                height: 30vh;
+                width: 100%;
+                height:  100%
+            }
+        }
+    }
+}
+@media only screen and (max-width: 960px ) {
+    .insta-landing .box-container {
+        grid-template-columns: repeat(auto-fit,(minmax(280px, 1fr)));   
+        .image-card {
+            height: 45vh;
+        }
+    }
+    
+}
+@media only screen and (max-width: 620px ) {
+    
+    .header-block-content {
+        padding: 6vh 7vw !important;
+    }
+    .insta-landing .box-container {
+
+        .image-card {
+           padding: 3vw;
+           height: 45vh;
+
+           .img-box {
+               height: 30vh !important;
+               width: 85vw;
+           }
+           .text-box {
+            width: 85vw;
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 380px ) {
+    .box-container {
+
+        .image-card {
+           //width: 90%;
+           .img-box{
+            height: 30vh !important;
+           }
+        }
+
+    }
+}

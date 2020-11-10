@@ -1,0 +1,167 @@
+#contact_page {
+    //padding: 50px;
+
+    .contact-wrapper {
+        position: relative;
+        @include flex(col, center, center);
+        width: 100%;
+        padding: 3vh 0;
+
+
+        .contact-body {
+            width: 100%;
+            background: $secondary_color;
+            padding: 30px;
+            //hack for mysterious right-leaning of this div
+            margin-right: 3%;
+
+            p {
+                margin: 0;
+            }
+            .contact-tabs {
+                list-style-type: none;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+
+                .contact-tab-link {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    padding: 10px 0;
+                    margin: 0 3vw;
+                    cursor: pointer;
+                }
+                .contact-tab-link.active {
+                    border-bottom: 2px solid #141414;
+                }
+            }
+            .contact-tab-content {
+                display: none !important;
+                display: flex;
+                flex-direction: column;
+                background-color: $secondary_color;
+
+                .contact-box {
+                    @include flex(row, start, between); 
+                    flex-wrap: wrap;
+                    padding: 6vh 0;
+
+                    .contact-text {
+                        padding-right: 3vw;
+                        //this keeps the contact info large-enough
+                        flex: 4;
+                        h4 {
+                            margin-bottom: 2rem;
+                        }
+
+                        p {
+                            line-height: 1.7;
+                        }
+                    }
+                    .contact-info {
+                        padding-left: 3vw;
+                        border-left: 1px solid rgba(0,0,0,.12);
+
+                        div {
+                            margin-bottom: 25px;
+                            h6 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    @include respond-to(medium, max) {
+                        @include flex(col, start, start);
+                        .contact-text {
+                            flex: unset;
+                        }
+                        .contact-info {
+                            padding: 2rem 0 0 0;
+                            border-left: none;
+                        }
+                    }
+                }
+
+            } 
+            .contact-tab-content.active {
+                display: flex !important;
+            }
+            // #tab-1 {
+            //     display: none !important;
+            // }
+
+            .map-box {
+                height: 28vh;
+                width: 100%;
+            }
+        }
+    }
+    .careers-wrapper {
+        position: relative;
+        @include flex(col, center, around);
+        
+        .careers-image {
+           
+            width: 99.5vw;
+            height: 22vh;
+            position: relative;
+            left: 0;
+            color: $secondary_color;
+
+            .shade { 
+                @include flex(col, center, center);
+                width: 100%;
+                height: 100%;
+                position: relative;
+                background-color: rgba(0,0,0,.4);
+            }
+
+            .x-short {
+                background-color: #fff;
+                width: 70px;
+            }
+        }
+        .careers-content {
+            @include flex(col, center, around);
+            padding: 25px 0 50px 0;
+        }
+    }
+        
+    @include respond-to( 921, max ) {
+        
+    }
+    
+    @include respond-to( 759, max ) {
+
+            .careers-image {
+                max-height: none;
+                min-height: 20vh; 
+            }
+            .x-short {
+                display: none;
+            }
+    
+    }
+
+    @include respond-to(medium, max) {
+                 
+        .contact-body {
+            min-height: 116vh;
+
+            .contact-box {
+                @include flex(col, center, around);
+
+                .contact-info {
+                    padding: 2rem 0 0 0;
+                    border-left: none;
+                }
+
+            }
+        }    
+    }
+
+}
+
+
+
+

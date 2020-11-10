@@ -1,0 +1,219 @@
+.menu-has-drop-posts {
+
+    .posts-drop {
+        opacity: 0;
+        visibility: hidden;
+        padding: 50px;
+        position: fixed;
+        top: 57px;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: white;
+        box-shadow: 2px 2px 5px #444;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease; 
+
+        .dropdown-banner-wrapper {
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            -webkit-justify-content: center;
+            max-width: 1440px;
+            margin: 0 auto;
+            width: 100%;
+
+            p {
+                display: inline-block;
+                margin: 0 10px;
+                font-size: 13px;
+            }
+
+            input {
+
+                &.search-field{
+                    border: 0px;
+                    border-bottom: 1px solid #eee;
+                    text-transform: lowercase;
+                }
+            }
+
+            .dropdown-block-left {
+                border-right: 2px solid #dedede;
+                margin-right: 4%;
+                width: 30%;
+                position: relative;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: column;
+                -webkit-flex-direction: column;
+                align-items: center;
+                -webkit-align-items: center;
+                justify-content: center;
+                -webkit-justify-content: center;
+
+                .drop-sub-cats {
+                    font-size: 14px;
+                    width: 50%;
+                    text-align: left;
+
+                    .drop-nav-header {
+                        font-size: 25px;
+                        font-family: $font_title;
+                        display: block;
+                        margin: 20px 0;
+                        letter-spacing: 2px;
+                    }
+                    
+                    a.cat-item {
+                        list-style: none;
+                        font-family: $font_nav;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        padding: 5px 0px;
+                    }
+
+                    .dropdown-search {
+                        margin-top: 30px;
+
+                        form.search-form {
+                            border-bottom: 1px solid #888888;
+                        }
+
+                        .search-with-icon {
+                            position: relative;
+                            display: -webkit-flex;
+                            display: flex;
+                            align-items: center;
+                            -webkit-align-items: center;
+                            justify-content: center;
+                            -webkit-justify-content: center;
+                            margin: 0 auto;
+                            width: 52%;
+                            
+                            &.seach-icon-left {
+                        
+                                i.fa-search {
+                                    position: relative;
+                                    z-index: 1;
+                                    font-size: 11px;
+                                    margin-left: -20px;
+                                }
+                            }
+                            
+                            .search-field {
+                                min-width: 165px;
+                                padding-left: 4px;
+                                margin-left: -15px;
+                                font-style: italic;
+                                text-align: left;
+                                border: none;
+                                text-transform: lowercase;
+                                font-size: 14px;
+                                font-family: $font_title;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .vertical-sep {
+                width: 3px;
+                background: #EADCDC;
+                margin: 0 10%;
+                display: block;
+            }
+
+            .dropdown-block-right {
+                width: 70%;
+
+                .drop-post {
+                    display: block;
+                    position: relative;
+                    width: 34%;
+                    
+                    img {
+                        display: block;
+                        padding: 0px 8px;
+                    }
+                    
+                    .drop-post-title-outer {
+                        align-items: center;
+                        
+                        .drop-post-title-inner {
+                            background: white;
+                            padding: 25px;
+                            width: 100%;
+                            font-family: $font_title;
+                            white-space: normal;
+                        }
+                    
+                        .drop-post-title{
+                            font-size: 14px;
+                            font-family: $font_title;
+                            letter-spacing: 2px;
+                    
+                            &:hover {
+                                color: #c8c8c8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .posts-drop {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    @include respond-to(xxlarge, max) {
+
+    }
+    @include respond-to(xlarge, max) {
+        
+    }
+    @include respond-to(large, max) {
+        
+    }
+    @include respond-to(medium, max) {
+        
+    }
+    @include respond-to(small, max) {
+        
+    }
+}
+
+body.customize-support {
+    .posts-drop {
+        top: 179px;
+    }
+
+    &.lock_nav {
+        .posts-drop {
+            top: 57px;
+        }   
+    }
+
+    @include respond-to(xxlarge, max) {
+
+    }
+    @include respond-to(xlarge, max) {
+        
+    }
+    @include respond-to(large, max) {
+        
+    }
+    @include respond-to(medium, max) {
+        
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

@@ -1,0 +1,103 @@
+#featured_products_wrap {
+    border-top: 1px solid #787878;
+    border-bottom: 1px solid #787878;
+    padding: 50px 0px 30px;
+
+    #featured_products{
+
+        .products-container{
+
+            .products-header{
+                margin-bottom: 20px;
+                
+                a.products-link{
+                    font-family:$font_nav2;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+
+                h2.products-title{
+                    margin-bottom: 0px;
+                }
+
+            }
+
+            .products-items{
+                a.featured-product{
+                    width: 33%;
+
+                    img{
+                        width: 100px;
+                        margin-right: 20px;
+                    }
+                }
+
+                .product-body{
+
+                    .product-brand{
+                        font-family: $font_nav;
+                    }
+
+                    .product-title{
+                        margin: 15px 0px 0px;
+                        font-family:$font_title;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        max-width: 80%;
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(xlarge, max) {
+        #featured_products{
+
+            .products-container{
+
+                .products-header{    
+                    a.products-link{
+                        position: relative;
+                        top: -20px;
+                    }
+                    h2.products-title{
+                        position: relative;
+                        top: 20px;
+                    }
+                }
+
+                .products-items{
+                    a.featured-product{
+                        width: 50%;
+                        margin: 20px 0px;
+                    }
+                }
+            }
+        }
+    }   
+
+    @include respond-to(medium, max) {
+        #featured_products{
+
+            .products-container{
+
+                .products-items{
+                    a.featured-product{
+                        width: 100%;
+                        justify-content: center;
+                        -webkit-justify-content: center;
+                        margin: 20px auto;
+
+                        .product-body {
+                            .product-title {
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+
+}

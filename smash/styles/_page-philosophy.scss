@@ -1,0 +1,117 @@
+.philosophy {
+    
+    .header-block-content {
+        color: $primary_color;
+        background-color: $secondary_color;
+    }
+    .phil-container {
+
+        .precepts-block {
+            .img-box {
+                height: 100vh;
+                color: $secondary_color;
+                .shade::before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+         // * * * match padding with bg-ratio from php * */
+                    padding: 75%;
+                    background-color: rgba(0, 0, 0, 0.23);
+                    
+                }
+            }
+            .text-box {
+                position: relative;
+                z-index: 20;
+                text-align: left;
+                padding-left: 10vw;
+                padding-top: 30vh;
+                padding-right: 34vw;
+                h3 {
+                    padding-bottom: 20px;
+                }
+            }
+            
+        }
+        .precepts-block:nth-child(2n + 0) .text-box {
+            text-align: right;
+            padding-right: 10vw;
+            padding-left: 34vw;
+        }
+
+    }
+    @include respond-to(1600, min) {
+        .phil-container .precepts-block {
+            
+            .text-box {
+                padding-top: 45vh;
+                padding-right: 40vw;
+                padding-left: 14vw;
+                h3 {
+                    font-size: 45px;
+                }
+            }
+        }
+        .phil-container .precepts-block:nth-child(2n + 0) .text-box {
+            padding-left: 40vw;
+            padding-right: 14vw;
+        }
+    }
+    @include respond-to(xlarge, max) {
+
+        .phil-container .precepts-block {
+            .text-box {
+                padding-top: 14vh;
+            }
+        }
+    }
+
+    @include respond-to(large, max) {
+      
+        .header-block-content {
+            padding: 8vh 7vw;
+        }
+        .phil-container .precepts-block {
+            .text-box {
+                padding-top: 12vh;
+                padding-right: 24vw;
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+        .phil-container .precepts-block:nth-child(2n + 0) .text-box {
+            padding-left: 24vw;
+        }
+    }
+    @include respond-to(medium, max) {
+        
+        .phil-container .precepts-block {
+            .img-box {
+                height: 90vh !important;
+                .shade::before {
+                    height: 100%;
+                    
+                }
+            }
+            
+            .text-box {
+                padding-right: 7vw;
+                padding-top: 15vh;
+                padding-left: 5vw;
+                h3 {
+                    font-size: 24px;
+                }
+                h6{
+                    font-size: 15px;
+                    line-height: 1.4;
+                }
+            }
+        }
+        .phil-container .precepts-block:nth-child(2n + 0) .text-box {
+            padding-left: 7vw;
+            padding-right: 5vw;
+        }
+    }
+
+}

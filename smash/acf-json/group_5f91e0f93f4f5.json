@@ -1,0 +1,43 @@
+{
+    "key": "group_5f91e0f93f4f5",
+    "title": "Press Page",
+    "fields": [
+        {
+            "key": "field_5f91e160522b8",
+            "label": "Link Url",
+            "name": "link_url",
+            "type": "url",
+            "instructions": "Add link URL plus screenshot in featured image box",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "press"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1603919400
+}

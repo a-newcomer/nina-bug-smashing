@@ -1,0 +1,50 @@
+.bar-outer {
+    //can't use the mixins or classes, as !important is added
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 3px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,244,255, 0.3);
+    transition: opacity .7s ease-in-out;
+    #bar {
+        height: 21vh;
+        width: 10px;
+        opacity: 1;
+        border: 1px solid rgba(255,255,255, .5);
+        background: rgba(255,255,255, .3);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,246,246,.2) 33%, rgba(245,249,250,1) 66%,rgba(245,249,250,.2) 100%);
+        transition: opacity .7s ease-in-out;
+        animation: nina-bar 2.2s infinite reverse ease-in-out;
+        animation-fill-mode: backwards;
+    }
+    
+    #bar.is-hidden {
+        opacity: 0;
+    }
+}
+.bar-outer.is-hidden {
+    opacity: 0
+}
+
+@keyframes nina-bar {
+    from   { transform: translateY(0); } 
+    to  { transform: translateY(-100%); }
+    
+  }
+  
+@keyframes nina-bar2 {
+    from   { transform: translateY(0); } 
+    to  { transform: translateY(-100%); }
+    // 40%  {  background: linear-gradient(180deg, rgba(255,255,255,0.3393732492997199) 0%, rgba(240,242,242,0.958420868347339) 51%, rgba(245,249,250,0.07046568627450978) 100%); }
+    // 60%  { background:  rgba(255, 255, 255, 1); }
+    // 80%  {  background: linear-gradient(180deg, rgba(255,255,255,0.3393732492997199) 0%, rgba(240,242,242,0.958420868347339) 51%, rgba(245,249,250,0.07046568627450978) 100%); }
+    // 100% { background:  rgba(255, 255, 255, 1); }
+  }

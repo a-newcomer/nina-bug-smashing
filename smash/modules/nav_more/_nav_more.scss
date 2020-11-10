@@ -1,0 +1,52 @@
+#more_nav {
+    position: relative;
+    padding: 20px;
+    background: $bg_color;
+
+    #category_menu {
+        @extend %nav;
+
+        li {
+            font-family: $font_nav; 
+           
+            a {
+                color: black !important;
+
+                &:hover {
+                    color: $link_color !important;
+                }
+            }
+            
+        }
+    }
+
+    .more-nav-header {
+        font-family: $font_title;
+        margin: 0 0px 5px 0;
+    }
+
+    @include respond-to(large, max) {
+        flex-direction: column;
+
+        .more-nav-header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    @include respond-to(medium, max) {
+        flex-direction: column;
+
+        #category_menu {
+            flex-direction: column;
+            margin-left: 0px;
+        }
+
+        .more-nav-header {
+            width: 100%;
+            margin-right: 0px;
+            font-size: 20px;
+        }
+    }
+}

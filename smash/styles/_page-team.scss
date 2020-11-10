@@ -1,0 +1,46 @@
+.team {
+    //padding-bottom: 30vh;
+    .container-lg {
+        width: 90vw;
+        max-width: 1400px;
+    }
+
+    .team-container {
+        padding: 10vw 0 5vw 0;
+        //border: 1px solid rebeccapurple;
+        display: grid;
+        grid-template-columns: repeat(3, minmax( 28%, 1fr));
+        grid-gap: 3vw;
+
+        .team-block {
+            //border: 1px solid rebeccapurple;
+            margin-bottom: calc(30px + 1vw);
+            .img-box {
+                margin: 2vw auto;
+                height: 35vh;
+                width: 80%;
+            }
+            .text-box {
+                text-align: center;
+                h5 {
+                    color: tint($primary_color, 30%);
+                    font-size: 96%;
+                    padding-bottom: 12px;
+                }
+                h4 {
+                    color: black;
+                    padding-bottom: 15px;
+                }
+            }
+
+        }
+
+    }
+    @include respond-to(large, max) {
+
+        .team-container {
+            grid-template-columns: repeat(auto-fit, minmax( 280px, 1fr));
+            grid-gap: 5px;
+        }
+    }
+}

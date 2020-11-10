@@ -1,0 +1,190 @@
+#more_posts, #load_more_posts {
+    background: $bg_color;
+    margin-top: 50px;
+    padding: 50px;
+
+    .next-up-header {
+        @include flex(row, center, between);
+    }
+
+    .post-grid-title-wrap {
+        @include flex(col, start, center);
+
+        .post-grid-title {
+            letter-spacing: 2px;
+            font-size: 30px;
+            font-family: $font_title;
+            text-transform: uppercase;
+        }
+    }
+
+    .next-up-posts {
+        
+        .next-up-post {
+            position: relative;
+            width: $third;
+            max-width: 370px;
+            margin: 0 1% 30px;
+
+            // &:hover {
+            //     .next-up-post-image {
+            //         .btn {
+            //             visibility: visible;
+            //             opacity: 1;
+            //         }
+            //     }
+            // }
+
+            .next-up-post-image {
+                position: relative;
+                width: 100%;
+                height: 230px;
+
+                .btn {
+                    @extend %ease;
+                    display: inline-block;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+            }
+
+            &:nth-child(3n+1) {
+                margin-left: 0;
+            }
+            
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+            
+            img {
+                display: block;
+                width: 100%;    
+            }
+            
+            &:hover {
+
+                .next-up-post-image {
+
+                    .btn {
+                        visibility: visible;
+                        opacity: 1;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+                }
+
+                img {
+                    opacity: 0.8;
+                }
+            }
+
+            .next-up-post-body {
+                
+                a {
+                    display: block;
+                    padding: 0px 10px;
+                    text-align: center;
+    
+                    &.btn {
+                        display: inline-block;
+                    }
+                }
+
+                .next-up-post-meta{
+                    letter-spacing: 1px;
+                    font-family:$font_nav;
+                    justify-content: center;
+                    margin: 30px 0px 20px;
+
+                    .category-name{
+                        text-transform: uppercase;
+                        padding-right: 20px;
+
+                        &:hover{
+                            color: #999999;
+                        }
+                    }
+
+                    .post-date{
+                        font-family:$font_title;
+                        font-style: italic;
+                        letter-spacing: 2px;
+                    }
+                }
+    
+                .btn-wrap {
+                    text-align: center;
+
+                    a{
+                        padding: 5px 12px;
+                    }
+                }
+
+                .next-up-post-title {
+                    font-family: $font_title;
+                    letter-spacing: 1px;
+                    font-size: 27px;
+                    margin: 0px 0;
+
+                    a {
+                        &:hover {
+                            color:#999999;
+                        }
+                    }
+                }
+                
+                .post-line {
+                    width: 140px;
+                    height: 1px;
+                    background-color: #d5cce4;
+                    margin: 0 auto;
+                    margin-bottom: 11px;
+                    margin-top: 10px;
+                }
+                
+                .post-next-excerpt {
+                    font-size: 14px;
+                    text-align: left;
+                    line-height: 28px;
+                    padding: 0px 10px;
+                    margin-bottom: 20px;
+                    font-family: $font_body;
+                }
+            }
+
+            &:hover .next-up-post-body {
+                bottom: 0;
+            }
+        }
+    }
+
+    @include respond-to(xxlarge, max) {
+
+    }
+    @include respond-to(xlarge, max) {
+        
+    }
+    @include respond-to(large, max) {
+        .next-up-posts {
+            .next-up-post {
+                padding: 0px 0;
+
+                .next-up-post-body {
+                    padding: 15px 10px;
+                }
+            }
+        }
+    }
+    @include respond-to(medium, max) {
+       .next-up-posts {
+            .next-up-post{
+                width: 100%;
+            }
+        }
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

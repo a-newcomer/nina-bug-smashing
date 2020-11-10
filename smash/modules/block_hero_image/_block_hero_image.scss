@@ -1,0 +1,26 @@
+.hero-img {
+    @include flex(column, center, center);
+    position: relative;
+    height: 100vh;
+    color: $secondary_color;
+    flex-direction: column;
+
+    #fade_title {
+        position: absolute;
+        top: 10vh;
+    }
+
+    & > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    .hero-img-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}

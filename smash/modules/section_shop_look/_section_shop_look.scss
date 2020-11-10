@@ -1,0 +1,40 @@
+.shop-look {
+    padding: 50px;
+
+    .shop-look-container {
+        @include flex(row, center, between);
+
+        .shop-look-body {
+            @include flex(col, start, center);
+            width: 30%;
+        }
+
+        .shop-look-products-wrap {
+            @include flex(row, center, end);
+            width: 66%;
+
+            .shop-look-image {
+                width: 57%;
+            }
+
+            .shop-look-products {
+                position: relative;
+                width: 57%;
+                margin-left: -14%;
+                background: $secondary_color;
+                padding: 50px 20px;
+
+                &.slick-slider {
+                    .slick-arrow {
+                        &.slick-prev {
+                            left: 2%;
+                        }
+                        &.slick-next {
+                            right: 2%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

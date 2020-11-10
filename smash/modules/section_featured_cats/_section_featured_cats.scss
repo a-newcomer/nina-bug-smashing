@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+## Featured Categories
+--------------------------------------------------------------*/
+#featured_cats {
+
+    .featured-cats-container {
+
+        .featured-cat {
+            width: $fourth;
+            max-width: 350px;
+            padding: 200px 0;
+            margin: 1%;
+            position: relative;
+
+            .featured-cat-overlay {
+                @extend %ease;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.5);
+            }
+            
+            &:hover .featured-cat-overlay {
+                background: rgba(0,0,0,0.3);
+            }
+            
+            .featured-cat-inner {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                right: 20px;
+                bottom: 20px;
+                border: 2px solid white;
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-family: $font_nav;
+
+                .featured-cat-title {
+                    font-size: 22px;
+                }
+
+                a.btn.btn-primary{
+                    display: block;
+                    width: 150px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    @include respond-to(xxlarge, max) {
+        .featured-cats-container {
+            .featured-cat{
+                padding: 150px 0;
+            }
+        }
+    }
+
+    @include respond-to(xlarge, max) {
+        .featured-cats-container{
+            .featured-cat{
+                padding: 145px 0;
+            }
+        }
+    }
+    @include respond-to(large, max) {
+        .featured-cats-container{
+            .featured-cat{
+                padding: 110px 0;
+
+                .featured-cat-inner{
+                    top: 15px;
+                    left: 15px;
+                    right: 15px;
+                    bottom: 15px;
+                }
+            }
+        }
+    }
+    @include respond-to(medium, max) {
+        .featured-cats-container{
+            flex-direction: column !important;
+            
+            .featured-cat{
+                width: 85%;
+            } 
+        }
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

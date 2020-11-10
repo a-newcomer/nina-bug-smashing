@@ -1,0 +1,118 @@
+/*--------------------------------------------------------------
+## RECENT POST
+--------------------------------------------------------------*/
+#featured_post {
+    margin-bottom: 150px;
+
+    .slick-list {
+        overflow: visible;
+
+        @at-root html {
+            overflow-x: hidden;
+        }
+    }
+
+    .featured-posts-header {
+        position: relative;
+        max-width: 1080px;
+        margin: 0 auto;
+        
+        span {
+            position: relative;
+            background: white;
+            padding: 20px;
+            z-index: 1;
+        }
+
+        .bar {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: $full;
+            height: 2px;
+            background: #999999;
+            z-index: 0;
+        }
+    }
+
+    .featured-post-wrap {
+        padding: 5px;
+        position: relative;
+    }
+    
+    .featured-post {
+        max-width: 345px;
+        height: 550px;
+        padding: 20px;
+
+        .featured-post-content {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            max-width: 450px;
+            width: 80%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -100px;
+            margin: 0 auto;
+        }
+
+        .featured-post-title {
+            text-transform: uppercase;
+            font-family: $font_title;
+            margin-bottom: 14px;
+            font-size: 19px;
+            letter-spacing: 1px;
+        }
+        .featured-post-excerpt{
+            font-family: $font_body;
+            margin-bottom: 26px;
+            letter-spacing: 0.3px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+
+    .slider-arrow {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        z-index: 1000;
+        width: 15%;
+
+        &::before {
+            content: '';
+        }
+
+        &.slick-prev {
+            left: -15%;
+        }
+        
+        &.slick-next {
+            right: -15%;
+        }
+    }
+
+    @include respond-to(xxlarge, max) {
+
+    }
+    @include respond-to(xlarge, max) {
+
+    }
+    @include respond-to(large, max) {
+        .featured-post {
+            height: 400px;
+        }
+    }
+    @include respond-to(medium, max) {
+        
+    }
+    @include respond-to(small, max) {
+        
+    }
+}

@@ -1,0 +1,137 @@
+#about_page {
+   
+    .video-block-outer  {
+        padding: 12vw 50px;
+    }
+
+    .about-inner {
+        
+        .about-images {
+            @include flex(row, end, center);
+
+            .about-image-main {
+                width: 89%;
+            }
+
+            .about-image-side {
+                position: relative;
+                width: 48%;
+                margin-left: -37%;
+                margin-bottom: -30px;
+                border-top: 10px solid white;
+                border-left: 10px solid white;
+            }
+        }
+
+        .about-body {
+            .page-title {
+                text-align: left;
+            }
+        }
+    }
+
+    #about_main {
+
+        .stacked-images {
+            width: $half;
+            height: 665px;
+
+            .stacked-half {
+                max-width: 325px;
+                margin-right: -15%;
+            }
+        }
+
+        .loop-main-content {
+            width: 42%;
+            padding: $pad;
+        }
+    }
+    //Video Test stuff
+    .video-block-outer .about-inner {
+
+        .nm-video-outer {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+
+            // &:hover {
+            //     cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), pointer;
+            
+            // }
+                
+        }
+        #nm-about-video {
+            opacity: 1;
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: auto;
+            transition: opacity .9s ease-in-out;
+
+            &:hover {
+                cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), pointer;
+            
+            }
+            
+        }
+        .iframe-container {
+            opacity: 0;
+            z-index: -1;
+            position: absolute;
+            overflow: hidden;
+            width: 90vw;
+            height: 100%;
+            margin: 0;
+            top: 0;
+            transition: opacity .9s ease-in-out;
+
+            &:hover {
+                cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), auto;
+            }
+
+            #nm-about-frame {
+                height: 100%;
+                
+                &:hover {
+                    cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), auto;
+                }
+            }
+        }  
+    }         
+}
+
+.page-id-39 {
+
+    .nav-dots {
+        display: none !important;
+    }
+}   
+
+@include respond-to(large, max) {
+
+    #about_page {
+        .video-block-outer {
+            padding: 5vw;
+        }
+    }
+    #about_main {
+        flex-direction: column;
+
+        .stacked-images{
+            width: 75%;
+            height: 565px;
+
+            .stacked-half{
+                // max-width: 275px;
+                // margin-right: -9%;
+                display: none;
+            }
+        }
+
+        .loop-main-content{
+            width: 80%;
+            padding: 30px;
+        }
+    }
+}

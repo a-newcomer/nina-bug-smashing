@@ -1,0 +1,38 @@
+.nav-dots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 100vh;
+    justify-content: center;
+    margin-left: -1vw;
+    list-style-type: none;
+}
+.dot-item {
+    margin-bottom: 1.5vh;
+}
+.dot-item::marker {
+    display: none;
+}
+.smash-dot {
+    color: #999;
+    font-size: 7px;
+    padding: 8px;
+}
+a.smash-dot.active {
+    border: 1.5px solid #f1f1f1;
+    padding: 8px;
+    border-radius: 50%;
+}
+a.focus {
+    border: 1.5px solid #bbb;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+// .smash-dot.active {
+//     border: 1.5px solid #f1f1f1;
+//     padding: 8px;
+//     border-radius: 50%;
+//     //font-size: 7px;
+// }

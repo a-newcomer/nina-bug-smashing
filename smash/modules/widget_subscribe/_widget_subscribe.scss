@@ -1,0 +1,14 @@
+.subscribe-widget {
+    position: relative;
+    background: $accent_color_2;
+    padding: 20px;
+    text-align: center;
+
+    .subscribe-widget-title {
+        font-size: 24px;
+    }
+
+    .subscribe-widget-text {
+        margin-top: 20px;
+    }
+}
