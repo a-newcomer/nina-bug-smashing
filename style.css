@@ -4809,9 +4809,19 @@ article.snapshot {
   /* line 162, smash/styles/_tax_year_published.scss */
   #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic {
     border-radius: 3px; }
-    /* line 165, smash/styles/_tax_year_published.scss */
+    /* line 166, smash/styles/_tax_year_published.scss */
     #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic:hover {
-      cursor: url("/wp-content/uploads/2020/10/cirecle-triangle.png"), auto; }
+      cursor: url("/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png"), auto; }
+    /* line 169, smash/styles/_tax_year_published.scss */
+    #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic .blog-card-shade {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      /* line 176, smash/styles/_tax_year_published.scss */
+      #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic .blog-card-shade:hover img {
+        display: none; }
 
 /* line 1, smash/modules/block_custom_search/_block_custom_search.scss */
 .custom-search-form {

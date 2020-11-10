@@ -161,10 +161,24 @@
         
         .blog-card-bgr-pic {
             border-radius: 3px;
+            
        
         &:hover {
-            cursor: url('/wp-content/uploads/2020/10/cirecle-triangle.png'), auto;
+            cursor: url('/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png'), auto;
             }
+            .blog-card-shade {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            &:hover img {
+                display: none;
+                }
+            }
+            
         }
+        
     }
 }
