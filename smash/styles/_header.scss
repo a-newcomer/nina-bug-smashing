@@ -73,10 +73,12 @@ body.home #masthead{
                 .page-nav {
                     @extend %nav;
                     @include flex(wrap, center, end);
+                    padding-top: 1vh;
 
                     a {
                         @extend %white_link;
                         margin-right: 0;
+                        font-size: 14px;
                     }
                 }
                 

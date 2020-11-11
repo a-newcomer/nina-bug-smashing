@@ -18,7 +18,7 @@ function featured_first_loop( $feat_cat, $cat_alone, $cats_in, $posts_per_page) 
     <div class="blog-card">
         <a href="<?php the_permalink(); ?>">
             <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($feat_cat->ID), 'full' ); ?>
-        <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
+        <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
             <div class="blog-card-shade">
             </div>
         </div>
@@ -47,7 +47,7 @@ function featured_first_loop( $feat_cat, $cat_alone, $cats_in, $posts_per_page) 
     <div class="blog-card">
         <a href="<?php the_permalink(); ?>">
             <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($feat_cat->ID), 'full' ); ?>
-            <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
+            <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
                 <div class="blog-card-shade">
                 </div>
             </div> 

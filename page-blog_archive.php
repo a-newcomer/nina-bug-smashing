@@ -23,10 +23,9 @@ get_header();
             <section id="archive_page">
 
                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
-                    <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
+                    <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
                         <h1 class="page-title cat-title"><?php the_title() ?></h1>
                         <?php smash_scroll_down_bar() ?>
-                        <?php smash_dot_nav(); ?>
                     </header><!-- .page-header -->
                 
                     <?php smash_under_header_block(['header' => get_field('headline_under_top_image'), 'text' => get_field('text_under_header_image')]) ?>
@@ -66,7 +65,7 @@ get_header();
                                 <div class="blog-card cat-card"> 
                                         <a href="<?php the_permalink(); ?>">
                                             <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' ); ?>
-                                            <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
+                                            <div class="blog-card-bgr-pic" style="background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.0)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
                                                 <div class="blog-card-shade">
                                                 </div>
                                             </div> 

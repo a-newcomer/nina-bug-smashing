@@ -378,7 +378,7 @@ jQuery(document).ready(function($){
     }
 
     function raiseCards(el) {
-        var base_duration = 150;
+        var base_duration = 50;
         let cards = $(el);
         cards.each(function(i) {
             $(this).addClass('used');

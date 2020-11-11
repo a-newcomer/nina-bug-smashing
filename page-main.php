@@ -53,6 +53,7 @@ get_header();
                                 </div>
                             <?php } ?>
                         </div><!-- blog-card-inner ends here -->
+                    </a>      
                         
                         <?php $lServiceHead = (get_field('left_services_header')) ? get_field('left_services_header') : null; ?>
                         <?php if($lServiceHead){ ?>
@@ -63,7 +64,6 @@ get_header();
                         <?php if($lServiceText){ ?>
                             <h6><?php echo $lServiceText; ?></h6>
                         <?php } ?>
-                    </a>      
                 </div><!-- blog-card ends here -->
                     
                 <!-- * * *  MIDDLE SERVICES BOX * * * -->
@@ -77,6 +77,7 @@ get_header();
                                 </div>
                             <?php } ?>
                         </div><!-- blog-card-inner ends here -->
+                    </a>      
                         
                         <?php $lServiceHead = (get_field('center_services_header')) ? get_field('center_services_header') : null; ?>
                         <?php if($lServiceHead){ ?>
@@ -87,7 +88,6 @@ get_header();
                         <?php if($lServiceText){ ?>
                             <h6><?php echo $lServiceText; ?></h6>
                         <?php } ?>
-                    </a>      
                 </div><!-- blog-card ends here -->
 
                 <!-- * * *  RIGHT SERVICES BOX * * * -->
@@ -101,6 +101,7 @@ get_header();
                                 </div>
                             <?php } ?>
                         </div><!-- blog-card-inner ends here -->
+                    </a>      
                         
                         <?php $lServiceHead = (get_field('right_services_header')) ? get_field('right_services_header') : null; ?>
                         <?php if($lServiceHead){ ?>
@@ -111,7 +112,6 @@ get_header();
                         <?php if($lServiceText){ ?>
                             <h6><?php echo $lServiceText; ?></h6>
                         <?php } ?>
-                    </a>      
                 </div><!-- blog-card ends here -->
                 
             </section> <!--End Featured-blog-block-->

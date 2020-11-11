@@ -2018,15 +2018,17 @@ body.home #masthead {
       align-items: center !important;
       -webkit-align-items: center !important;
       justify-content: flex-end !important;
-      -webkit-justify-content: flex-end !important; }
-      /* line 77, smash/styles/_header.scss */
+      -webkit-justify-content: flex-end !important;
+      padding-top: 1vh; }
+      /* line 78, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a {
-        margin-right: 0; }
+        margin-right: 0;
+        font-size: 14px; }
     @media screen and (max-width: 768px) {
       /* line 71, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner {
         display: none; }
-        /* line 86, smash/styles/_header.scss */
+        /* line 88, smash/styles/_header.scss */
         #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav {
           display: -webkit-flex !important;
           display: flex !important;
@@ -2037,7 +2039,7 @@ body.home #masthead {
           justify-content: flex-start !important;
           -webkit-justify-content: flex-start !important;
           padding: 0; }
-          /* line 90, smash/styles/_header.scss */
+          /* line 92, smash/styles/_header.scss */
           #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a {
             margin: 3px 0; } }
     @media screen and (max-width: 768px) {
@@ -2052,13 +2054,13 @@ body.home #masthead {
         justify-content: flex-start !important;
         -webkit-justify-content: flex-start !important;
         padding: 10px 20px; } }
-  /* line 112, smash/styles/_header.scss */
+  /* line 114, smash/styles/_header.scss */
   #masthead.landing .site-header-container .site-navigation-wrap {
     border-bottom: none !important; }
-    /* line 117, smash/styles/_header.scss */
+    /* line 119, smash/styles/_header.scss */
     #masthead.landing .site-header-container .site-navigation-wrap .header-block.header-left .header-block-inner {
       padding: 64px 0; }
-  /* line 126, smash/styles/_header.scss */
+  /* line 128, smash/styles/_header.scss */
   #masthead.lock_nav {
     position: fixed;
     top: 0;
@@ -2066,33 +2068,33 @@ body.home #masthead {
     right: 0;
     z-index: 100000;
     background-color: rgba(0, 0, 0, 0.5); }
-    /* line 153, smash/styles/_header.scss */
+    /* line 155, smash/styles/_header.scss */
     #masthead.lock_nav #logo_wrap.fixed {
       opacity: 0;
       visibility: hidden;
       padding: 0; }
-      /* line 158, smash/styles/_header.scss */
+      /* line 160, smash/styles/_header.scss */
       #masthead.lock_nav #logo_wrap.fixed img {
         display: none; }
-    /* line 163, smash/styles/_header.scss */
+    /* line 165, smash/styles/_header.scss */
     #masthead.lock_nav #logo_wrap.scrolled {
       opacity: 1;
       visibility: visible;
       padding: 30px 0; }
-      /* line 168, smash/styles/_header.scss */
+      /* line 170, smash/styles/_header.scss */
       #masthead.lock_nav #logo_wrap.scrolled img {
         display: block; }
       @media screen and (max-width: 768px) {
-        /* line 163, smash/styles/_header.scss */
+        /* line 165, smash/styles/_header.scss */
         #masthead.lock_nav #logo_wrap.scrolled {
           padding: 10px; } }
-    /* line 178, smash/styles/_header.scss */
+    /* line 180, smash/styles/_header.scss */
     #masthead.lock_nav #header-social {
       top: 100%; }
-  /* line 187, smash/styles/_header.scss */
+  /* line 189, smash/styles/_header.scss */
   #masthead .site-navigation-wrap {
     position: relative; }
-    /* line 190, smash/styles/_header.scss */
+    /* line 192, smash/styles/_header.scss */
     #masthead .site-navigation-wrap #primary_menu {
       display: -webkit-flex !important;
       display: flex !important;
@@ -2102,10 +2104,10 @@ body.home #masthead {
       -webkit-align-items: center !important;
       justify-content: center !important;
       -webkit-justify-content: center !important; }
-    /* line 195, smash/styles/_header.scss */
+    /* line 197, smash/styles/_header.scss */
     #masthead .site-navigation-wrap .main-navigation {
       width: unset; }
-    /* line 199, smash/styles/_header.scss */
+    /* line 201, smash/styles/_header.scss */
     #masthead .site-navigation-wrap .side-menu {
       position: absolute;
       top: 0;
@@ -2115,10 +2117,10 @@ body.home #masthead {
       text-transform: uppercase;
       font-family: "futura-pt", serif;
       font-size: 11px; }
-      /* line 209, smash/styles/_header.scss */
+      /* line 211, smash/styles/_header.scss */
       #masthead .site-navigation-wrap .side-menu .menu-suscribe {
         margin-left: 10px; }
-  /* line 220, smash/styles/_header.scss */
+  /* line 222, smash/styles/_header.scss */
   #masthead .header-block {
     display: -webkit-flex !important;
     display: flex !important;
@@ -2126,50 +2128,50 @@ body.home #masthead {
     -webkit-flex-direction: row !important;
     float: none;
     flex: 1; }
-    /* line 225, smash/styles/_header.scss */
+    /* line 227, smash/styles/_header.scss */
     #masthead .header-block .menu-container {
       width: 100%; }
-    /* line 230, smash/styles/_header.scss */
+    /* line 232, smash/styles/_header.scss */
     #masthead .header-block.header-left .header-block-inner {
       margin-right: auto; }
-    /* line 234, smash/styles/_header.scss */
+    /* line 236, smash/styles/_header.scss */
     #masthead .header-block.header-middle {
       flex: 2; }
-    /* line 238, smash/styles/_header.scss */
+    /* line 240, smash/styles/_header.scss */
     #masthead .header-block.header-right .header-block-inner {
       margin-left: auto; }
-      /* line 241, smash/styles/_header.scss */
+      /* line 243, smash/styles/_header.scss */
       #masthead .header-block.header-right .header-block-inner .enquire-btn {
         position: relative;
         z-index: 1; }
         @media screen and (max-width: 600px) {
-          /* line 241, smash/styles/_header.scss */
+          /* line 243, smash/styles/_header.scss */
           #masthead .header-block.header-right .header-block-inner .enquire-btn {
             padding: 0 !important;
             background: unset !important; } }
-  /* line 254, smash/styles/_header.scss */
+  /* line 256, smash/styles/_header.scss */
   #masthead .subscribe-link {
     position: absolute;
     top: 0;
     left: 20px;
     bottom: 0;
     text-transform: uppercase; }
-  /* line 262, smash/styles/_header.scss */
+  /* line 264, smash/styles/_header.scss */
   #masthead .fab {
     font-size: 13px;
     padding: 0; }
-  /* line 267, smash/styles/_header.scss */
+  /* line 269, smash/styles/_header.scss */
   #masthead #primary-menu {
     justify-content: center;
     -webkit-justify-content: center; }
-    /* line 272, smash/styles/_header.scss */
+    /* line 274, smash/styles/_header.scss */
     #masthead #primary-menu li {
       padding: 65px 0; }
-  /* line 278, smash/styles/_header.scss */
+  /* line 280, smash/styles/_header.scss */
   #masthead .menu-mobile-container {
     display: none; }
     @media screen and (max-width: 600px) {
-      /* line 278, smash/styles/_header.scss */
+      /* line 280, smash/styles/_header.scss */
       #masthead .menu-mobile-container {
         display: block;
         position: absolute;
@@ -2178,19 +2180,19 @@ body.home #masthead {
         right: 0;
         z-index: 100000;
         background: white; }
-        /* line 292, smash/styles/_header.scss */
+        /* line 294, smash/styles/_header.scss */
         #masthead .menu-mobile-container .menu li {
           display: block;
           float: none;
           text-align: center;
           padding: 10px 0; } }
-  /* line 302, smash/styles/_header.scss */
+  /* line 304, smash/styles/_header.scss */
   #masthead .header-social-inner {
     position: relative; }
-    /* line 305, smash/styles/_header.scss */
+    /* line 307, smash/styles/_header.scss */
     #masthead .header-social-inner > * {
       margin-left: 7px; }
-    /* line 309, smash/styles/_header.scss */
+    /* line 311, smash/styles/_header.scss */
     #masthead .header-social-inner .icon {
       position: relative;
       width: 13px;
@@ -2200,11 +2202,11 @@ body.home #masthead {
     /* line 29, smash/styles/_header.scss */
     #masthead {
       padding: 0 2%; }
-      /* line 322, smash/styles/_header.scss */
+      /* line 324, smash/styles/_header.scss */
       #masthead .fab {
         padding: 0px; } }
 
-/* line 328, smash/styles/_header.scss */
+/* line 330, smash/styles/_header.scss */
 #logo_wrap {
   display: -webkit-flex !important;
   display: flex !important;
@@ -2216,53 +2218,53 @@ body.home #masthead {
   -webkit-justify-content: center !important;
   position: relative;
   z-index: 1; }
-  /* line 333, smash/styles/_header.scss */
+  /* line 335, smash/styles/_header.scss */
   #logo_wrap.fixed {
     padding: 45px 20px;
     opacity: 1;
     visibility: visible; }
-    /* line 339, smash/styles/_header.scss */
+    /* line 341, smash/styles/_header.scss */
     #logo_wrap.fixed img {
       display: block;
       max-height: 55px;
       width: auto; }
     @media screen and (max-width: 768px) {
-      /* line 333, smash/styles/_header.scss */
+      /* line 335, smash/styles/_header.scss */
       #logo_wrap.fixed {
         padding: 15px; } }
-  /* line 350, smash/styles/_header.scss */
+  /* line 352, smash/styles/_header.scss */
   #logo_wrap.scrolled {
     padding: 0;
     opacity: 0;
     visibility: hidden; }
-    /* line 356, smash/styles/_header.scss */
+    /* line 358, smash/styles/_header.scss */
     #logo_wrap.scrolled img {
       display: none;
       max-height: 55px;
       width: auto; }
 
 @media screen and (max-width: 768px) {
-  /* line 368, smash/styles/_header.scss */
+  /* line 370, smash/styles/_header.scss */
   body.customize-support #site-navigation.toggled .menu-container {
     top: 90px !important; }
-  /* line 377, smash/styles/_header.scss */
+  /* line 379, smash/styles/_header.scss */
   body.customize-support.lock_nav #site-navigation.toggled .menu-container {
     top: 45px !important; } }
-/* line 387, smash/styles/_header.scss */
+/* line 389, smash/styles/_header.scss */
 .test-container {
   display: flex; }
 
-/* line 390, smash/styles/_header.scss */
+/* line 392, smash/styles/_header.scss */
 .box {
   flex: 1;
   display: flex;
   justify-content: center; }
 
-/* line 396, smash/styles/_header.scss */
+/* line 398, smash/styles/_header.scss */
 .box:first-child > span {
   margin-right: auto; }
 
-/* line 398, smash/styles/_header.scss */
+/* line 400, smash/styles/_header.scss */
 .box:last-child > span {
   margin-left: auto; }
 
@@ -3169,55 +3171,52 @@ article.snapshot {
           font-size: 1.8rem;
           letter-spacing: 5px;
           color: #ffffff; }
-      /* line 54, smash/styles/_page-blog-archive.scss */
-      .blog-archive .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade:hover {
-        background-color: rgba(255, 250, 253, 0.212); }
-    /* line 58, smash/styles/_page-blog-archive.scss */
+    /* line 55, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card h5, .blog-archive .blog-card-holder .blog-card p {
       padding: .5rem 1rem 0 1rem; }
-    /* line 61, smash/styles/_page-blog-archive.scss */
+    /* line 58, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card a {
       text-transform: uppercase; }
-    /* line 64, smash/styles/_page-blog-archive.scss */
+    /* line 61, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card a, .blog-archive .blog-card-holder .blog-card p {
       color: #141414;
       font-weight: 300; }
-    /* line 68, smash/styles/_page-blog-archive.scss */
+    /* line 65, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card h5 {
       color: black;
       font-weight: 500; }
-    /* line 72, smash/styles/_page-blog-archive.scss */
+    /* line 69, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card a:hover {
       color: #ffffff; }
-  /* line 77, smash/styles/_page-blog-archive.scss */
+  /* line 74, smash/styles/_page-blog-archive.scss */
   .blog-archive .blog-card-holder .blog-card:nth-child(1) {
     grid-column: 1/-1;
     border-left: none; }
-    /* line 81, smash/styles/_page-blog-archive.scss */
+    /* line 78, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card:nth-child(1) .blog-card-bgr-pic:hover {
       transform: none; }
-  /* line 85, smash/styles/_page-blog-archive.scss */
+  /* line 82, smash/styles/_page-blog-archive.scss */
   .blog-archive .blog-card-holder .blog-card:nth-child(2) {
     grid-column: 1/ 3; }
 
-/* line 89, smash/styles/_page-blog-archive.scss */
+/* line 86, smash/styles/_page-blog-archive.scss */
 .blog-archive .archive-bg {
   display: flex;
   flex-flow: column wrap;
   min-height: 220vh; }
 
 @media only screen and (max-width: 993px) {
-  /* line 98, smash/styles/_page-blog-archive.scss */
+  /* line 95, smash/styles/_page-blog-archive.scss */
   .blog-archive .blog-card-holder {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto)); } }
 @media only screen and (max-width: 768px) {
-  /* line 108, smash/styles/_page-blog-archive.scss */
+  /* line 105, smash/styles/_page-blog-archive.scss */
   .blog-archive .blog-card-holder {
     grid-template-columns: repeat(1, minmax(280px, auto)); }
-    /* line 111, smash/styles/_page-blog-archive.scss */
+    /* line 108, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card:nth-child(1) {
       grid-column: 1/ 2; }
-    /* line 114, smash/styles/_page-blog-archive.scss */
+    /* line 111, smash/styles/_page-blog-archive.scss */
     .blog-archive .blog-card-holder .blog-card:nth-child(2) {
       grid-column: 1/ 2; } }
 /* line 3, smash/styles/_page-collections.scss */
@@ -3564,67 +3563,71 @@ article.snapshot {
   padding: 8vw 50px; }
 /* line 14, smash/styles/_page-main.scss */
 .main .second-header-block .header-block-content {
-  padding: 0 25vw 8vh 25vw;
+  padding: 0 25vw 5vh 25vw;
+  margin-top: -10vh;
   color: #141414;
   background-color: #fff;
   justify-content: center;
   align-items: center; }
-/* line 24, smash/styles/_page-main.scss */
+  /* line 20, smash/styles/_page-main.scss */
+  .main .second-header-block .header-block-content h2 {
+    font-size: 36px; }
+  /* line 23, smash/styles/_page-main.scss */
+  .main .second-header-block .header-block-content .short {
+    display: none; }
+/* line 31, smash/styles/_page-main.scss */
 .main .blog-card-holder .blog-card {
   border-left: 0; }
-  /* line 26, smash/styles/_page-main.scss */
+  /* line 33, smash/styles/_page-main.scss */
   .main .blog-card-holder .blog-card h6, .main .blog-card-holder .blog-card h5 {
     font-size: 16px;
     padding: .5rem .5rem 0 .5rem; }
-  /* line 30, smash/styles/_page-main.scss */
-  .main .blog-card-holder .blog-card a:hover, .main .blog-card-holder .blog-card h6:hover, .main .blog-card-holder .blog-card h5:hover {
-    color: #a1a1a1; }
-  /* line 33, smash/styles/_page-main.scss */
+  /* line 37, smash/styles/_page-main.scss */
   .main .blog-card-holder .blog-card h5 {
     padding-top: 1rem; }
-  /* line 36, smash/styles/_page-main.scss */
+  /* line 40, smash/styles/_page-main.scss */
   .main .blog-card-holder .blog-card h6 {
     color: #727272; }
-/* line 41, smash/styles/_page-main.scss */
+/* line 45, smash/styles/_page-main.scss */
 .main .blog-card-holder .blog-card:nth-child(1) {
   grid-column: unset; }
 
-/* line 49, smash/styles/_page-main.scss */
+/* line 53, smash/styles/_page-main.scss */
 .nina-cta {
   align-items: center;
   padding: 7vh 0; }
-  /* line 52, smash/styles/_page-main.scss */
+  /* line 56, smash/styles/_page-main.scss */
   .nina-cta a {
     align-items: center;
     color: black; }
-    /* line 56, smash/styles/_page-main.scss */
+    /* line 60, smash/styles/_page-main.scss */
     .nina-cta a h5 {
       position: relative;
       transition: .2s;
       left: 0; }
-    /* line 62, smash/styles/_page-main.scss */
+    /* line 66, smash/styles/_page-main.scss */
     .nina-cta a .icon {
       position: relative;
       right: -5px;
       bottom: 2px;
       transition: right .3s, opacity .2s; }
-  /* line 72, smash/styles/_page-main.scss */
+  /* line 76, smash/styles/_page-main.scss */
   .nina-cta a:hover h5 {
     left: -5px;
     transform: scale(1); }
-  /* line 77, smash/styles/_page-main.scss */
+  /* line 81, smash/styles/_page-main.scss */
   .nina-cta a:hover .icon {
     right: -15px;
     transform: scale(1.2); }
 
-/* line 85, smash/styles/_page-main.scss */
+/* line 89, smash/styles/_page-main.scss */
 .blog-card-holder {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
   min-height: 50vh; }
-  /* line 92, smash/styles/_page-main.scss */
+  /* line 96, smash/styles/_page-main.scss */
   .blog-card-holder .blog-card {
     display: flex;
     flex-direction: column;
@@ -3633,17 +3636,17 @@ article.snapshot {
     position: relative;
     z-index: 1;
     overflow: hidden; }
-    /* line 101, smash/styles/_page-main.scss */
+    /* line 105, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card .blog-card-inner {
       overflow: hidden; }
-    /* line 105, smash/styles/_page-main.scss */
+    /* line 109, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card .blog-card-bgr-pic {
       height: 320px;
       transition: transform .5s; }
-      /* line 109, smash/styles/_page-main.scss */
+      /* line 113, smash/styles/_page-main.scss */
       .blog-card-holder .blog-card .blog-card-bgr-pic:hover {
         transform: scale(1.05); }
-      /* line 113, smash/styles/_page-main.scss */
+      /* line 117, smash/styles/_page-main.scss */
       .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade {
         width: 100%;
         height: 100%;
@@ -3651,51 +3654,62 @@ article.snapshot {
         justify-content: flex-start;
         align-items: center;
         transition: all .7s; }
-        /* line 121, smash/styles/_page-main.scss */
+        /* line 125, smash/styles/_page-main.scss */
         .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade h3 {
           margin-left: 10vw;
           font-size: 1.8rem;
           letter-spacing: 5px;
           color: #ffffff; }
-      /* line 128, smash/styles/_page-main.scss */
+      /* line 132, smash/styles/_page-main.scss */
       .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade:hover {
         background-color: rgba(255, 250, 253, 0.212); }
-    /* line 133, smash/styles/_page-main.scss */
+    /* line 137, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card h6, .blog-card-holder .blog-card h5, .blog-card-holder .blog-card p {
       padding: .5rem 0 0 1rem; }
-    /* line 136, smash/styles/_page-main.scss */
+    /* line 140, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card a {
       text-transform: uppercase; }
-    /* line 139, smash/styles/_page-main.scss */
+    /* line 143, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card a, .blog-card-holder .blog-card p {
       color: #141414;
       font-weight: 300;
       font-size: 16px !important; }
-    /* line 144, smash/styles/_page-main.scss */
+    /* line 148, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card h6, .blog-card-holder .blog-card h5 {
       color: black;
       font-weight: 500; }
-    /* line 148, smash/styles/_page-main.scss */
+    /* line 152, smash/styles/_page-main.scss */
     .blog-card-holder .blog-card a:hover {
       color: #ffffff; }
 
+@media only screen and (max-width: 1300px) {
+  /* line 163, smash/styles/_page-main.scss */
+  .main .second-header-block .header-block-content {
+    margin-top: -5vh; } }
 @media only screen and (max-width: 993px) {
-  /* line 157, smash/styles/_page-main.scss */
+  /* line 172, smash/styles/_page-main.scss */
   .blog-card-holder {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto)); } }
 @media only screen and (max-width: 768px) {
-  /* line 166, smash/styles/_page-main.scss */
+  /* line 181, smash/styles/_page-main.scss */
   .main .blog-card-holder {
     grid-template-columns: repeat(1, minmax(280px, auto)); }
 
-  /* line 170, smash/styles/_page-main.scss */
+  /* line 185, smash/styles/_page-main.scss */
   .header-block-content {
     padding: 10vh 10vw; }
-    /* line 172, smash/styles/_page-main.scss */
+    /* line 187, smash/styles/_page-main.scss */
     .header-block-content h2, .header-block-content h3 {
       font-size: 24px; }
 
-  /* line 177, smash/styles/_page-main.scss */
+  /* line 195, smash/styles/_page-main.scss */
+  .main .second-header-block .header-block-content {
+    margin-top: unset; }
+    /* line 197, smash/styles/_page-main.scss */
+    .main .second-header-block .header-block-content h2 {
+      font-size: 24px; }
+
+  /* line 204, smash/styles/_page-main.scss */
   .nina-cta {
     padding: 3vh 0; } }
 /* line 3, smash/styles/_page-philosophy.scss */
@@ -4313,36 +4327,35 @@ article.snapshot {
   /* Firefox */ }
   /* line 49, smash/styles/_page-social.scss */
   #pinterest_page.social-page .msnry-container-outer .msnry-container-inner {
-    border: 1px solid gray;
     flex-wrap: wrap; }
-    /* line 55, smash/styles/_page-social.scss */
+    /* line 53, smash/styles/_page-social.scss */
     #pinterest_page.social-page .msnry-container-outer .msnry-container-inner .msnry-item-outer {
       width: 33%;
-      border-radius: 20px;
+      border-radius: 11px;
       overflow: hidden;
       padding: .7rem .5rem; }
-      /* line 61, smash/styles/_page-social.scss */
+      /* line 59, smash/styles/_page-social.scss */
       #pinterest_page.social-page .msnry-container-outer .msnry-container-inner .msnry-item-outer img {
         width: 100%;
         height: auto;
         opacity: 1;
         transition: all .3s;
-        border-radius: 20px; }
-      /* line 68, smash/styles/_page-social.scss */
+        border-radius: 11px; }
+      /* line 66, smash/styles/_page-social.scss */
       #pinterest_page.social-page .msnry-container-outer .msnry-container-inner .msnry-item-outer img:hover {
         opacity: .7;
         transform: scale(1.05); }
-/* line 77, smash/styles/_page-social.scss */
+/* line 75, smash/styles/_page-social.scss */
 #pinterest_page.social-page .msnry-container-outer::-webkit-scrollbar {
   display: none; }
 
 @media screen and (max-width: 1120px) {
-  /* line 91, smash/styles/_page-social.scss */
+  /* line 89, smash/styles/_page-social.scss */
   #pinterest_page.social-page .msnry-container-outer .msnry-item-outer {
     width: 50% !important;
     padding: 9px 5px !important; } }
 @media screen and (max-width: 600px) {
-  /* line 101, smash/styles/_page-social.scss */
+  /* line 99, smash/styles/_page-social.scss */
   .social-page {
     display: -webkit-flex !important;
     display: flex !important;
@@ -4352,21 +4365,21 @@ article.snapshot {
     -webkit-align-items: center !important;
     justify-content: center !important;
     -webkit-justify-content: center !important; }
-    /* line 104, smash/styles/_page-social.scss */
+    /* line 102, smash/styles/_page-social.scss */
     .social-page .title-block {
       flex: 1; }
-      /* line 106, smash/styles/_page-social.scss */
+      /* line 104, smash/styles/_page-social.scss */
       .social-page .title-block h2 {
         padding: 0;
         margin: 0; }
-      /* line 110, smash/styles/_page-social.scss */
+      /* line 108, smash/styles/_page-social.scss */
       .social-page .title-block a {
         margin-bottom: 3vh; }
-    /* line 114, smash/styles/_page-social.scss */
+    /* line 112, smash/styles/_page-social.scss */
     .social-page .msnry-container-outer {
       flex: 1;
       width: 100%; }
-      /* line 118, smash/styles/_page-social.scss */
+      /* line 116, smash/styles/_page-social.scss */
       .social-page .msnry-container-outer .msnry-container-inner {
         border: none !important; } }
 /* line 3, smash/styles/_page-team.scss */
@@ -4467,7 +4480,7 @@ article.snapshot {
 .project-page .nina-cta {
   padding: 10vh 0; }
 
-/* line 13, smash/styles/_footer.scss */
+/* line 2, smash/styles/_footer.scss */
 #colophon {
   position: fixed;
   padding: 30px 20px;
@@ -4476,12 +4489,12 @@ article.snapshot {
   z-index: 0;
   bottom: 0;
   width: 100%; }
-  /* line 23, smash/styles/_footer.scss */
+  /* line 12, smash/styles/_footer.scss */
   #colophon #footer_menu_container {
     margin: 0 10px;
     grid-column: 1/3;
     padding-left: 0; }
-  /* line 29, smash/styles/_footer.scss */
+  /* line 18, smash/styles/_footer.scss */
   #colophon #footer_menu {
     list-style: none;
     display: grid;
@@ -4491,11 +4504,11 @@ article.snapshot {
     width: 70vw;
     text-transform: uppercase;
     grid-template-rows: auto auto auto; }
-    /* line 40, smash/styles/_footer.scss */
+    /* line 29, smash/styles/_footer.scss */
     #colophon #footer_menu li {
       padding: 7px 0;
       font-size: 1rem; }
-  /* line 50, smash/styles/_footer.scss */
+  /* line 39, smash/styles/_footer.scss */
   #colophon .site-info {
     margin-left: 10px;
     font-family: "futura-pt", serif;
@@ -4503,15 +4516,17 @@ article.snapshot {
     letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(2, auto); }
-    /* line 61, smash/styles/_footer.scss */
+    /* line 50, smash/styles/_footer.scss */
     #colophon .site-info .grid-box {
       padding: 1rem 0; }
-    /* line 65, smash/styles/_footer.scss */
+    /* line 54, smash/styles/_footer.scss */
     #colophon .site-info .grid-box1 {
       margin: 0;
       padding: 0;
       display: flex;
       grid-column: 1/2;
+      width: 31vw;
+      max-width: 198px;
       display: -webkit-flex !important;
       display: flex !important;
       flex-direction: row !important;
@@ -4520,57 +4535,60 @@ article.snapshot {
       -webkit-align-items: center !important;
       justify-content: flex-start !important;
       -webkit-justify-content: flex-start !important; }
-      /* line 71, smash/styles/_footer.scss */
+      /* line 62, smash/styles/_footer.scss */
       #colophon .site-info .grid-box1 img {
-        opacity: .7; }
-    /* line 76, smash/styles/_footer.scss */
+        opacity: .55; }
+    /* line 67, smash/styles/_footer.scss */
     #colophon .site-info .grid-box2, #colophon .site-info .grid-box5 {
       grid-column: 1/-1;
       border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
-    /* line 81, smash/styles/_footer.scss */
+    /* line 72, smash/styles/_footer.scss */
     #colophon .site-info .grid-box3 {
       max-height: 150px; }
-      /* line 84, smash/styles/_footer.scss */
+      /* line 75, smash/styles/_footer.scss */
       #colophon .site-info .grid-box3 .nf-form-title h3 {
         font-size: 1rem;
         padding: 1rem 0;
         letter-spacing: 3px; }
-      /* line 89, smash/styles/_footer.scss */
+      /* line 80, smash/styles/_footer.scss */
       #colophon .site-info .grid-box3 nf-fields-wrap {
         display: flex; }
-      /* line 92, smash/styles/_footer.scss */
+      /* line 83, smash/styles/_footer.scss */
       #colophon .site-info .grid-box3 #nf-field-11-container input {
         max-width: 250px;
         background-color: #fff;
         padding: none; }
-      /* line 98, smash/styles/_footer.scss */
+      /* line 89, smash/styles/_footer.scss */
       #colophon .site-info .grid-box3 #nf-field-12-container input {
         border: 1px solid rgba(255, 255, 255, 0.6);
         color: rgba(255, 255, 255, 0.6);
         padding: 10px 15px;
         margin-left: 10px; }
-    /* line 106, smash/styles/_footer.scss */
+    /* line 97, smash/styles/_footer.scss */
     #colophon .site-info .footer-contact-info {
       display: -webkit-flex !important;
       display: flex !important;
       flex-direction: row !important;
       -webkit-flex-direction: row !important;
       grid-column: 1/3; }
-      /* line 110, smash/styles/_footer.scss */
+      /* line 101, smash/styles/_footer.scss */
       #colophon .site-info .footer-contact-info p {
         line-height: 1;
         padding: 0 7px; }
-      /* line 114, smash/styles/_footer.scss */
+      /* line 105, smash/styles/_footer.scss */
       #colophon .site-info .footer-contact-info .contact-left {
         padding-right: 1rem; }
-    /* line 119, smash/styles/_footer.scss */
+    /* line 110, smash/styles/_footer.scss */
     #colophon .site-info .footer-social {
       grid-column: 1/2; }
-      /* line 121, smash/styles/_footer.scss */
+      /* line 112, smash/styles/_footer.scss */
       #colophon .site-info .footer-social .social-icons {
         justify-content: flex-start !important;
-        opacity: 0.7; }
-    /* line 127, smash/styles/_footer.scss */
+        opacity: 0.55; }
+      /* line 116, smash/styles/_footer.scss */
+      #colophon .site-info .footer-social a.social-icon {
+        font-size: 22px; }
+    /* line 121, smash/styles/_footer.scss */
     #colophon .site-info .site-built {
       font-family: "futura-pt", sans-serif;
       font-size: 12px;
@@ -4579,30 +4597,30 @@ article.snapshot {
       min-width: 50vw;
       text-align: left;
       opacity: .7; }
-      /* line 136, smash/styles/_footer.scss */
+      /* line 130, smash/styles/_footer.scss */
       #colophon .site-info .site-built span {
         display: -webkit-flex !important;
         display: flex !important;
         flex-direction: row !important;
         -webkit-flex-direction: row !important; }
-      /* line 140, smash/styles/_footer.scss */
+      /* line 134, smash/styles/_footer.scss */
       #colophon .site-info .site-built img {
         max-height: 25px;
         margin-top: 1px;
         margin-left: 4px; }
   @media screen and (min-width: 400px) {
-    /* line 13, smash/styles/_footer.scss */
+    /* line 2, smash/styles/_footer.scss */
     #colophon {
       min-height: 30vh;
       grid-template-columns: repeat(3, auto); }
-      /* line 152, smash/styles/_footer.scss */
+      /* line 146, smash/styles/_footer.scss */
       #colophon .site-info {
         flex-direction: column;
         -webkit-flex-direction: column; }
-        /* line 158, smash/styles/_footer.scss */
+        /* line 152, smash/styles/_footer.scss */
         #colophon .site-info .site-built {
           grid-column: 2/3; }
-          /* line 160, smash/styles/_footer.scss */
+          /* line 154, smash/styles/_footer.scss */
           #colophon .site-info .site-built span {
             display: -webkit-flex !important;
             display: flex !important;
@@ -4611,111 +4629,124 @@ article.snapshot {
             justify-content: center !important;
             -webkit-justify-content: center !important; } }
   @media screen and (min-width: 600px) {
-    /* line 13, smash/styles/_footer.scss */
+    /* line 2, smash/styles/_footer.scss */
     #colophon {
       grid-template-columns: repeat(3, auto); }
-      /* line 175, smash/styles/_footer.scss */
+      /* line 170, smash/styles/_footer.scss */
       #colophon .site-info {
         flex-direction: column;
         -webkit-flex-direction: column; }
-        /* line 179, smash/styles/_footer.scss */
+        /* line 174, smash/styles/_footer.scss */
         #colophon .site-info #logo_wrap {
           padding-left: 4vw; }
-        /* line 182, smash/styles/_footer.scss */
+        /* line 177, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
-          grid-column: 1/-1; } }
+          grid-column: 1/-1; }
+        /* line 188, smash/styles/_footer.scss */
+        #colophon .site-info .footer-social a.social-icon {
+          font-size: 32px; } }
   @media screen and (min-width: 768px) {
-    /* line 13, smash/styles/_footer.scss */
+    /* line 2, smash/styles/_footer.scss */
     #colophon {
       height: 48vh;
       grid-template-columns: repeat(3, auto);
-      padding-top: 4rem; }
-      /* line 200, smash/styles/_footer.scss */
+      padding-top: 3rem; }
+      /* line 202, smash/styles/_footer.scss */
       #colophon .site-info {
         grid-template-columns: repeat(4, auto); }
-        /* line 203, smash/styles/_footer.scss */
+        /* line 205, smash/styles/_footer.scss */
         #colophon .site-info #logo_wrap.grid-box1 {
           grid-column: 2/3;
           padding-left: 0; }
-        /* line 207, smash/styles/_footer.scss */
+        /* line 210, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
           grid-column: 1/-1; }
-        /* line 210, smash/styles/_footer.scss */
+        /* line 213, smash/styles/_footer.scss */
         #colophon .site-info .form.grid-box3 {
           display: none; }
-        /* line 213, smash/styles/_footer.scss */
+        /* line 216, smash/styles/_footer.scss */
         #colophon .site-info .footer-menu-container {
           margin: 0 auto;
           grid-column: 1/-1; }
-          /* line 218, smash/styles/_footer.scss */
+          /* line 221, smash/styles/_footer.scss */
           #colophon .site-info .footer-menu-container #footer_menu {
             grid-template-columns: repeat(4, minmax(180px, 1fr));
             margin: 0 auto; }
-        /* line 228, smash/styles/_footer.scss */
+        /* line 231, smash/styles/_footer.scss */
         #colophon .site-info .footer-contact-info.grid-box4 {
           display: none !important; }
-        /* line 231, smash/styles/_footer.scss */
+        /* line 234, smash/styles/_footer.scss */
         #colophon .site-info .site-built {
           grid-column: 2/-1;
           display: flex;
           justify-content: flex-end; } }
   @media screen and (min-width: 960px) {
-    /* line 13, smash/styles/_footer.scss */
+    /* line 2, smash/styles/_footer.scss */
     #colophon {
       height: 35vh;
       padding: 7vh 4vw;
       grid-template-columns: 1.2fr 1fr 1fr 1fr; }
-      /* line 247, smash/styles/_footer.scss */
+      /* line 251, smash/styles/_footer.scss */
       #colophon .container-lg {
         max-width: unset; }
-      /* line 252, smash/styles/_footer.scss */
+      /* line 256, smash/styles/_footer.scss */
       #colophon .site-info #logo_wrap.grid-box1 {
         grid-column: 1/3;
-        grid-row: 2/3; }
-      /* line 256, smash/styles/_footer.scss */
+        grid-row: 2/3;
+        margin-left: -2vw; }
+      /* line 261, smash/styles/_footer.scss */
       #colophon .site-info .break {
         grid-column: 1/-1; }
-      /* line 259, smash/styles/_footer.scss */
+      /* line 264, smash/styles/_footer.scss */
       #colophon .site-info #footer_menu_container {
         grid-column: 3/4;
         grid-row: 2/3;
         margin-left: -3vw; }
-        /* line 264, smash/styles/_footer.scss */
+        /* line 269, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container #footer_menu {
           width: unset;
           grid-template-columns: repeat(3, minmax(150px, 1fr));
           margin: 0 auto; }
-          /* line 269, smash/styles/_footer.scss */
+          /* line 274, smash/styles/_footer.scss */
           #colophon .site-info #footer_menu_container #footer_menu li {
             padding-left: 2rem; }
-      /* line 274, smash/styles/_footer.scss */
+      /* line 279, smash/styles/_footer.scss */
       #colophon .site-info .footer-social {
         grid-column: 4/5;
         grid-row: 2/3;
         display: flex; }
-      /* line 279, smash/styles/_footer.scss */
+      /* line 284, smash/styles/_footer.scss */
       #colophon .site-info .site-built {
         grid-column: 1/5;
         justify-content: center; } }
   @media screen and (min-width: 1024px) {
-    /* line 13, smash/styles/_footer.scss */
+    /* line 2, smash/styles/_footer.scss */
     #colophon {
       grid-template-columns: repeat(5, auto);
       height: 35vh; }
-      /* line 290, smash/styles/_footer.scss */
+      /* line 296, smash/styles/_footer.scss */
       #colophon .site-info {
-        padding-top: 3vh; }
-        /* line 292, smash/styles/_footer.scss */
+        padding-top: 1vh; }
+        /* line 299, smash/styles/_footer.scss */
+        #colophon .site-info #logo_wrap.grid-box1 {
+          margin-left: -1vw; }
+        /* line 302, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
           margin-bottom: 1rem; }
-        /* line 295, smash/styles/_footer.scss */
+        /* line 305, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container {
           grid-column: 2/4;
-          margin-left: 9vw; }
-          /* line 298, smash/styles/_footer.scss */
+          margin-left: 4vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          /* line 312, smash/styles/_footer.scss */
           #colophon .site-info #footer_menu_container #footer_menu {
-            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
-        /* line 302, smash/styles/_footer.scss */
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center; }
+        /* line 319, smash/styles/_footer.scss */
         #colophon .site-info .footer-social {
           justify-content: flex-end; } }
 
@@ -5594,16 +5625,21 @@ input#postURL {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; }
-  /* line 15, smash/modules/block_under_header/_block_under_header.scss */
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -6px; }
+  /* line 18, smash/modules/block_under_header/_block_under_header.scss */
   .header-block-content .short {
     margin: 20px auto;
     width: 10vw;
+    max-width: 3rem;
     color: #fff; }
-  /* line 21, smash/modules/block_under_header/_block_under_header.scss */
+  /* line 25, smash/modules/block_under_header/_block_under_header.scss */
   .header-block-content h6 {
     margin: 1em 0;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    max-width: 695px; }
 
 /* line 1, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_wrap {
@@ -5657,13 +5693,17 @@ input#postURL {
   top: 0;
   left: -500px;
   bottom: 0;
-  overflow-y: scroll;
-  z-index: 1000000; }
+  overflow-y: auto;
+  z-index: 1000000;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
   @media screen and (max-width: 600px) {
     /* line 56, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer {
       max-width: 355px; } }
-  /* line 72, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 76, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-outer-inner {
     position: absolute;
     width: 100%;
@@ -5672,11 +5712,11 @@ input#postURL {
     left: 0;
     bottom: 0;
     z-index: 2;
-    background: radial-gradient(127.7% 62.56% at 98% 50.72%, rgba(0, 0, 0, 0.7) 0%, rgba(80, 80, 80, 0.51015) 0.01%, rgba(255, 255, 255, 0) 100%), rgba(90, 90, 90, 0.7); }
-  /* line 84, smash/modules/nav_mobile/_nav_mobile.scss */
+    background-color: #5A5A5AFA; }
+  /* line 89, smash/modules/nav_mobile/_nav_mobile.scss */
   #colophon .mobile-nav-outer {
     color: #141414; }
-  /* line 97, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 102, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-trigger-close {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5693,43 +5733,46 @@ input#postURL {
     text-transform: uppercase;
     color: #ffffff;
     cursor: url("/wp-content/themes/nina_magon/smash/images/circle-lg.png"), pointer; }
-    /* line 107, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 112, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close .icon {
       width: 10px;
       height: 10px;
       margin-right: 6px; }
-    /* line 113, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 118, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close span {
       margin-top: 2px; }
-    /* line 119, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 123, smash/modules/nav_mobile/_nav_mobile.scss */
+    #masthead.lock_nav .site-header-container .site-navigation-wrap {
+      border-bottom: unset !important; }
+    /* line 127, smash/modules/nav_mobile/_nav_mobile.scss */
     #masthead.lock_nav #mobile_nav_wrap .mobile-nav-trigger-close {
       top: 13px; }
     @media screen and (max-width: 768px) {
-      /* line 97, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 102, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-trigger-close {
         top: 13px; } }
-  /* line 130, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 138, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar {
     width: 1px; }
-  /* line 134, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 142, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-track {
     background: #ffffff;
     width: 1px; }
-  /* line 139, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 147, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-thumb {
     background-color: #141414;
     width: 1px; }
-  /* line 147, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 155, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #mobile_nav_wrap .mobile-nav-outer {
     top: 32px; }
     @media screen and (max-width: 782px) {
-      /* line 147, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 155, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support #mobile_nav_wrap .mobile-nav-outer {
         top: 46px; } }
-  /* line 158, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 166, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #masthead.lock_nav #mobile_nav_wrap .mobile-nav-outer {
     top: 0; }
-  /* line 166, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 174, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-inner {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5741,16 +5784,16 @@ input#postURL {
     -webkit-justify-content: flex-start !important;
     position: relative;
     width: 100%; }
-    /* line 171, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 179, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-inner .mobile-nav-body {
       padding: 50px 0; }
-      /* line 174, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 182, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body > * {
         width: 100%; }
-      /* line 178, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 186, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container {
         width: auto; }
-        /* line 181, smash/modules/nav_mobile/_nav_mobile.scss */
+        /* line 189, smash/modules/nav_mobile/_nav_mobile.scss */
         .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu {
           display: -webkit-flex !important;
           display: flex !important;
@@ -5772,10 +5815,10 @@ input#postURL {
           margin: 0;
           list-style: none;
           transform: translate(-100%, 0); }
-          /* line 197, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 205, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu.selected {
             transform: translate(0, 0); }
-          /* line 201, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 209, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5791,21 +5834,21 @@ input#postURL {
             width: 100%;
             z-index: 1;
             transform: translate(-100%, 0); }
-            /* line 211, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 219, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links.selected {
               transform: translate(100%, 0); }
-          /* line 216, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 224, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu li {
             position: unset !important;
             margin: 0;
             padding: 0; }
-          /* line 222, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 230, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label {
             margin-bottom: 20px; }
-            /* line 226, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 234, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label .icon {
               margin: 0 10px; }
-          /* line 231, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 239, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .nav-back {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5818,21 +5861,26 @@ input#postURL {
             display: block;
             padding: 0 50px;
             margin-bottom: 70px; }
-          /* line 238, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 246, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item {
             position: relative;
             left: -500px;
-            font-weight: bold;
+            font-weight: 400;
             display: block;
             padding: 0 50px;
-            margin-bottom: 70px; }
-            /* line 246, smash/modules/nav_mobile/_nav_mobile.scss */
+            margin-bottom: 70px;
+            letter-spacing: 2px; }
+            /* line 254, smash/modules/nav_mobile/_nav_mobile.scss */
+            .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:hover {
+              text-decoration: none;
+              color: #b3b3b3; }
+            /* line 259, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a {
               margin-bottom: 20px; }
-            /* line 251, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 265, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item.light-menu-item {
               font-weight: 100; }
-          /* line 256, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 270, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5845,7 +5893,7 @@ input#postURL {
             padding: 0;
             margin: 0;
             list-style: none; }
-  /* line 268, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 282, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .menu-images-wrapper .menu-image {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5861,10 +5909,10 @@ input#postURL {
     transform: translate(-100%, 0);
     transition: transform 1s ease;
     z-index: 1; }
-    /* line 280, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 294, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
       transform: translate(0, 0); }
-    /* line 284, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 298, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner {
       display: -webkit-flex !important;
       display: flex !important;
@@ -5877,10 +5925,17 @@ input#postURL {
       width: calc(100% - 355px);
       height: 100vh;
       padding-bottom: 100px; }
-      /* line 290, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 304, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn {
-        min-width: 250px !important; }
-    /* line 296, smash/modules/nav_mobile/_nav_mobile.scss */
+        min-width: 250px !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        padding: 10px 20px !important;
+        background-color: #ffffff !important; }
+        /* line 310, smash/modules/nav_mobile/_nav_mobile.scss */
+        .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn:hover {
+          opacity: .7 !important; }
+    /* line 317, smash/modules/nav_mobile/_nav_mobile.scss */
     body.customize-support .mobile-nav-outer .menu-images-wrapper .menu-image {
       top: 32px; }
   @media screen and (max-width: 768px) {
@@ -5888,7 +5943,7 @@ input#postURL {
     .mobile-nav-outer {
       padding-top: 45px; } }
 
-/* line 310, smash/modules/nav_mobile/_nav_mobile.scss */
+/* line 331, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_bg {
   display: none;
   background: rgba(0, 0, 0, 0.4);
@@ -6832,7 +6887,8 @@ a.focus {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        transition: all .7s; }
+        transition: all .7s;
+        background-color: rgba(0, 0, 0, 0.4); }
         /* line 51, smash/modules/section_sticky_categories/_section_sticky_categories.scss */
         .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade h3,
         .archive-items .alm-reveal .blog-card .blog-card-bgr-pic .blog-card-shade h3 {
@@ -6843,7 +6899,7 @@ a.focus {
       /* line 58, smash/modules/section_sticky_categories/_section_sticky_categories.scss */
       .blog-card-holder .blog-card .blog-card-bgr-pic .blog-card-shade:hover,
       .archive-items .alm-reveal .blog-card .blog-card-bgr-pic .blog-card-shade:hover {
-        background-color: rgba(255, 250, 253, 0.212); }
+        background-color: unset; }
     /* line 62, smash/modules/section_sticky_categories/_section_sticky_categories.scss */
     .blog-card-holder .blog-card .post-cats,
     .archive-items .alm-reveal .blog-card .post-cats {

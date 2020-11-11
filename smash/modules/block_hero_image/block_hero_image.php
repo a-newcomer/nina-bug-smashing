@@ -23,7 +23,6 @@ function smash_block_hero($args = null)
         <?php the_title( '<h1 class="hero-content entry-title">', '</h1>' ); ?>
         <div id="fade_title"></div>
             <?php smash_scroll_down_bar() ?>
-            <?php smash_dot_nav(); ?>
     </header><!-- .entry-header -->
     
     <?php

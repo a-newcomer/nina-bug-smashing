@@ -8,6 +8,9 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	position: relative;
+	z-index: 1;
+	margin-top: -6px;
 
 	// h2 {
 		
@@ -15,11 +18,13 @@
 	.short {
 		margin: 20px auto;
 		width: 10vw;
+		max-width: 3rem;
 		color: #fff;
 	}
 
 	h6 {
 		margin: 1em 0;
 		letter-spacing: 1px;
+		max-width: 695px;
 	}
 }

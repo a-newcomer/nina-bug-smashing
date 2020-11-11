@@ -47,14 +47,12 @@
         scrollbar-width: none;  /* Firefox */
 
         .msnry-container-inner {
-            border: 1px solid gray;
-            // display: flex;
-            // flex-flow: column;
+            //border: 1px solid gray;
             flex-wrap: wrap;
 
             .msnry-item-outer {
                 width: 33%;
-                border-radius: 20px;
+                border-radius: 11px;
                 overflow: hidden;
                 padding: .7rem .5rem;
 
@@ -63,7 +61,7 @@
                     height: auto;
                     opacity: 1;
                     transition: all .3s;
-                    border-radius: 20px;
+                    border-radius: 11px;
                 }
                 img:hover {
                     opacity: .7;
