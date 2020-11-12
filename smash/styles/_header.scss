@@ -31,7 +31,8 @@ body.home #masthead{
     position: fixed;
     right: 0;
     width: 100%;
-    padding: 0 20px;
+    //to match menu
+    padding: 0 4vw;
     font-family: $font-nav;
     font-size: 11px;
     letter-spacing: 1px;
@@ -73,7 +74,7 @@ body.home #masthead{
                 .page-nav {
                     @extend %nav;
                     @include flex(wrap, center, end);
-                    padding-top: 1vh;
+                    
 
                     a {
                         @extend %white_link;
@@ -165,7 +166,7 @@ body.home #masthead{
             &.scrolled {
                 opacity: 1;
                 visibility: visible;
-                padding: 30px 0;
+                padding: 12px 0;
 
                 img {
                     display: block;
@@ -179,6 +180,9 @@ body.home #masthead{
 
         #header-social {
             top: 100%;
+        }
+        .page-nav-wrap {
+            border-top: 1px solid #bbb;
         }
     }
 
@@ -243,6 +247,7 @@ body.home #masthead{
                 .enquire-btn {
                     position: relative;
                     z-index: 1;
+                    padding: 10px 20px !important;
 
                     @include respond-to(medium, max){
                         padding: 0 !important;
@@ -334,7 +339,7 @@ body.home #masthead{
 
     &.fixed {
         @extend %ease;
-        padding: 45px 20px;
+        padding: 44px 20px;
         opacity: 1;
         visibility: visible;
         

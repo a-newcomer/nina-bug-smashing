@@ -10,7 +10,7 @@ jQuery(function($){
         var triggerClose = $('.mobile-nav-trigger-close, #mobile_nav_bg');
         triggerOpen.click(function(){
             $('#mobile_nav_bg').stop().fadeIn(300, function(){
-                $('#mobile_nav_wrap').addClass('toggled');
+                $('#mobile_nav_wrap, .mobile-nav-outer').addClass('toggled');
                 $('.mobile-nav-outer').stop().animate({
                     left: 0
                 }, 300, function(){
@@ -21,10 +21,11 @@ jQuery(function($){
         });
         triggerClose.click(function(){
             animateNav('#mobile_menu', true);
+            closeMenu();
             $('.mobile-nav-outer').stop().animate({
                 left: '-500px'
             }, 300, function(){
-                $('#mobile_nav_wrap').removeClass('toggled');
+                $('#mobile_nav_wrap, .mobile-nav-outer').removeClass('toggled');
                 $('#mobile_nav_bg').fadeOut(300);
             });
         });
@@ -69,8 +70,14 @@ jQuery(function($){
         });
     }
 
+    function closeMenu(){
+        $('.image-selected').removeClass('image-selected');
+        $('#mobile_menu').addClass('selected');
+    }
+
     function runMenu(){
         let triggers = $('.nav-block-trigger');
+        $('.image-selected').removeClass('image-selected');
         triggers.each(function(){
             let _ = $(this);
             _.click(function(){

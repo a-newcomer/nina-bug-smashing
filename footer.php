@@ -62,7 +62,7 @@
 
 			<div class="site-built grid-box grid-box6">
                 <!-- <span>Site by <a href="https://smashcreative.com/" target="_blank"><img src="<?php //echo bloginfo('stylesheet_directory').'/smash/images/smash.png'; ?>"></a></span> --> &COPY; <?php bloginfo( 'name' ); ?>. All Rights Reserved. 
-				<span>Site by <a href="https://smashcreative.com/" target="_blank">Smash</a></span>
+				<span> Site by <a href="https://smashcreative.com/" target="_blank"><img src="<?php echo bloginfo('stylesheet_directory').'/smash/images/smash-white.png'; ?>"></a></span>
 			</div>
         </div><!-- .site-info -->
     

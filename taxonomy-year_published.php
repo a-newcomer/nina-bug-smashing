@@ -129,7 +129,7 @@ get_header();
                                                     <div class="blog-card-bgr-pic" data-bgratio="<?php echo $aspect_ratio;?>" style="background: url(<?php echo get_the_post_thumbnail_url($p->ID, 'large'); ?>) no-repeat center; background-size: cover;">
                                                         <div class="blog-card-shade">
                                                             <?php  if( $press_type == 'video_press') {
-                                                                echo '<img src="/wp-content/themes/nina_magon/smash/images/circle-triangle-50x50.png" alt="video play symbol">';
+                                                                echo '<img src="/app/themes/nina_magon/smash/images/circle-triangle-50x50.png" alt="video play symbol">';
                                                             }
                                                             
                                                             ?>

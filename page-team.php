@@ -36,14 +36,17 @@ get_header();
                     <div class="team-block flex-col justify-center align-center">
                         <?php if(get_sub_field('image')) : $image = get_sub_field('image'); endif; ?>
                             <div class="img-box" data-bgratio="1.5" style="background: url(<?php echo $image['sizes']['large']; ?>) no-repeat center/cover;">
+                            <div class="team-shade flex-col"><p><?php if(get_sub_field('full_description')) : $full_description = get_sub_field('full_description'); endif; ?>
+                                <p><?php echo $full_description; ?></p></p></div>
                             </div>
                             <div class="text-box flex-col justify-center align-center">
                                 <?php if(get_sub_field('position')) : $position = get_sub_field('position'); endif; ?>
                                     <h5><?php echo $position; ?></h5>
                                 <?php if(get_sub_field('name')) : $name = get_sub_field('name'); endif; ?>
                                 <h4><?php echo $name; ?></h4>
-                                <?php if(get_sub_field('cv')) : $cv = get_sub_field('cv'); endif; ?>
-                                <p><?php echo $cv; ?></p>
+                                <?php if(get_sub_field('teaser_description')) : $teaser_description = get_sub_field('teaser_description'); endif; ?>
+                                <p><?php echo $teaser_description; ?></p>
+                                <div class="plus">+</div>
                             </div>
                     </div>
                     <?php 
@@ -62,5 +65,25 @@ get_header();
         <span id="nmsc-section-3"></span>
     </main>
 </article><!-- #post-<?php the_ID(); ?> -->
+<script type="text/javascript">
+    console.log('team page script loaded')
+    const pics = document.querySelectorAll('.team-block');
+    const pluses = document.querySelectorAll('.plus');
+    const overlays =  document.querySelectorAll('.team-shade');
+        Array.from(overlays).forEach(ol => {
+            //const plus = document.querySelector('.plus');
+            //var overlay =  document.querySelector('.team-shade');
+            ol.addEventListener('click', function(e) {
+            // this.classList.add('overlay');
+                if(this.style.opacity == 1) {
+                    this.style.opacity = 0;
+                } else if (this.style.opacity == 0){
+                    this.style.opacity = 1;
+                }
+
+            })
+
+        })
+</script>
 <?php
 get_footer();

@@ -38,9 +38,9 @@ get_header();
                                 <div class="shade">
                                     <div class="text-box flex-col justify-around">
                                         <?php if(get_sub_field('header')) : $header = get_sub_field('header'); endif; ?>
-                                        <h3><?php echo $header; ?></h3>
+                                        <h3 class="show-on-scroll"><?php echo $header; ?></h3>
                                         <?php if(get_sub_field('text')) : $text = get_sub_field('text'); endif; ?>
-                                        <h6><?php echo $text; ?></h6>
+                                        <h6 class="show-on-scroll"><?php echo $text; ?></h6>
                                     </div><!-- end .text-box -->
                                 </div><!-- end .shade -->
                             </div>
@@ -61,5 +61,48 @@ get_header();
         <span id="nmsc-section-3"></span>
     </main>
 </article><!-- #post-<?php the_ID(); ?> -->
+<script type="text/javascript">
+    console.log('philosophy scrolling script is loaded')
+    // Detect request animation frame
+    var scroll = window.requestAnimationFrame ||
+                // IE Fallback
+                function(callback){ window.setTimeout(callback, 1000/60)};
+    var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+    function loop() {
+
+        Array.prototype.forEach.call(elementsToShow, function(element){
+        if (isElementInViewport(element)) {
+            element.classList.add('can-see');
+        } else {
+            element.classList.remove('can-see');
+        }
+        });
+
+        scroll(loop);
+    }
+
+    // Call the loop for the first time
+    loop();
+
+    // Helper function from: http://stackoverflow.com/a/7557433/274826
+    function isElementInViewport(el) {
+    // special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+    var rect = el.getBoundingClientRect();
+    return (
+        (rect.top <= 0
+        && rect.bottom >= 0)
+        ||
+        (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+        ||
+        (rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+    );
+    }
+</script>
 <?php
 get_footer();

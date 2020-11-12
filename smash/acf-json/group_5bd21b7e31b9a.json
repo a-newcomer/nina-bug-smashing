@@ -1,11 +1,30 @@
 {
-    "key": "group_5fa1ce106b37c",
-    "title": "Team Page",
+    "key": "group_5bd21b7e31b9a",
+    "title": "Post Guides",
     "fields": [
         {
-            "key": "field_5fa1ce2bc4259",
-            "label": "Team Members",
-            "name": "team_members",
+            "key": "field_5f2023ecb01cb",
+            "label": "Guides Title",
+            "name": "guides_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bd21b8a94b66",
+            "label": "Guides",
+            "name": "guides",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -18,12 +37,12 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "table",
+            "layout": "row",
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_5fa1ce6fc425a",
-                    "label": "image",
+                    "key": "field_5bd21bde94b67",
+                    "label": "Image",
                     "name": "image",
                     "type": "image",
                     "instructions": "",
@@ -34,8 +53,8 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "array",
-                    "preview_size": "medium",
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
                     "library": "all",
                     "min_width": "",
                     "min_height": "",
@@ -46,10 +65,10 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5fa1ce91c425b",
-                    "label": "Position",
-                    "name": "position",
-                    "type": "text",
+                    "key": "field_5bd21c2294b68",
+                    "label": "Use Separator",
+                    "name": "separator",
+                    "type": "true_false",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -58,16 +77,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": 35
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
                 },
                 {
-                    "key": "field_5fa1ced3c425c",
-                    "label": "Name",
-                    "name": "name",
+                    "key": "field_5bd21c3494b69",
+                    "label": "Title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -84,9 +103,28 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_5fa1cee8c425d",
-                    "label": "Teaser Description",
-                    "name": "teaser_description",
+                    "key": "field_5bd21c3c94b6a",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5bd21c4694b6b",
+                    "label": "CTA",
+                    "name": "cta",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -100,12 +138,12 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": 250
+                    "maxlength": ""
                 },
                 {
-                    "key": "field_5fac82a0eaa66",
-                    "label": "Full Description",
-                    "name": "full_description",
+                    "key": "field_5bd21c4b94b6c",
+                    "label": "CTA Link",
+                    "name": "cta_link",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -127,19 +165,24 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "post_type",
                 "operator": "==",
-                "value": "page-team.php"
+                "value": "post"
+            },
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "smash-guide-single.php"
             }
         ]
     ],
     "menu_order": 0,
-    "position": "acf_after_title",
-    "style": "default",
+    "position": "normal",
+    "style": "seamless",
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1605143125
+    "modified": 1595889271
 }

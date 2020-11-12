@@ -14,7 +14,7 @@
 	<?php smash_block_hero(['post' => $post]) ?>
 	<?php smash_under_header_block(['header' => get_field('headline_under_top_image'), 'text' => get_field('text_under_header_image')]) ?>
 
-	<div class="entry-content">
+	<div class="entry-content container-lg">
 		<?php
 		the_content();
 

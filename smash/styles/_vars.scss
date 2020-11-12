@@ -193,7 +193,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         color: $primary_color;
     }
 }
@@ -216,7 +216,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         color: $link_color;
     }
 }
@@ -239,7 +239,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         text-decoration: underline;
     }
 }
@@ -296,7 +296,7 @@ $body: 14px;
     }
 
     &:hover {
-            cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         color: $header_hover;
     }
 }
@@ -319,7 +319,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         color: $link_color;
     }
 }
@@ -440,7 +440,7 @@ $body: 14px;
             .sub-menu {
                 opacity: 1;
                 visibility: visible;
-                cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+                cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
             }
         }
 
@@ -514,6 +514,14 @@ $body: 14px;
     font-size: 10px !important;
     font-weight: 200 !important;
     text-align: center !important;
+
+    &:hover {
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+
+        a {
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        }
+    }
 }
 
 %btn-primary {
@@ -536,10 +544,11 @@ $body: 14px;
         background: $btn_hover_primary !important;
         border: 2px solid $btn_hover_border_primary !important;
         color: $btn_hover_text_primary !important;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         
         a {
             color: $btn_hover_text_primary !important;
-            cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         }
         
         .icon {
@@ -568,10 +577,11 @@ $body: 14px;
         background: $btn_hover_secondary !important;
         border: 2px solid $btn_hover_border_secondary !important;
         color: $btn_hover_text_secondary !important;
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         
         a {
             color: $btn_hover_text_secondary !important;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         }
         
         .icon {
@@ -600,10 +610,11 @@ $body: 14px;
         background: $btn_hover_tertiary !important;
         border: 2px solid $btn_hover_border_tertiary !important;
         color: $btn_hover_text_tertiary !important;
-        cursor: url('/wp-content/themes/nina_magon/smash/images/circle-lg.png'), pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         
         a {
             color: $btn_hover_text_tertiary !important;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
         }
         
         .icon {

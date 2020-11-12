@@ -10,7 +10,7 @@
             "request": "launch",
             "port": 9000,
             "pathMappings": {
-                "/srv/www/nina-magon/public_html/wp-content/themes/nina_magon": "${workspaceFolder}"
+                "/srv/www/nina-magon/public_html/app/themes/nina_magon": "${workspaceFolder}"
             },
         }
     ]
