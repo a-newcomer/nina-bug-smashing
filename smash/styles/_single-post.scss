@@ -207,6 +207,7 @@ article.snapshot {
         width: 70px;
         text-align: center;
         overflow: hidden;
+        z-index: 0;
 
         &.article-sidebar-left {
             left: 17px;
@@ -295,6 +296,8 @@ article.snapshot {
 
 
 .entry-header{
+    position: relative;
+    z-index: 1;
 
     .entry-title{
         text-align: center;

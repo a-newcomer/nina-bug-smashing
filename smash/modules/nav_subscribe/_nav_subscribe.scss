@@ -6,7 +6,7 @@
 
     .subscribe-nav-trigger-open {
         display: block;
-        margin: 0px 20px;
+        margin: 0;
         font-size: 18px;
 
         @include respond-to(large, max){
@@ -60,7 +60,7 @@
     top: 0;
     right: -500px;
     bottom: 0;
-    overflow-y: scroll;
+    overflow: hidden;
     z-index: 1000000;
     color: $secondary_color;
 
@@ -71,7 +71,7 @@
     .subscribe-nav-outer-inner {
         position: absolute;
         width: 100%;
-        padding: 100px 0;
+        padding: 55px 0;
         top: 0;
         right: 0;
         bottom: 0;

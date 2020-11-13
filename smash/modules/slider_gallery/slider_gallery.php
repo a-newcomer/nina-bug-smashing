@@ -12,7 +12,8 @@ function smash_slider_gallery($args = null) {
                 <?php foreach($images as $image) { ?>
                     <div class="gallery-slide">
                         <div class="gallery-slide-inner" data-bgratio="0.53">
-                            <div class="gallery-image" data-bgratio="0.53" style="background: url(<?php echo $image['url']; ?>) no-repeat center/cover;"></div>
+                            <img class="gallery-image" src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                            <!-- <div class="gallery-image" data-bgratio="0.53" style="background: url(<?php //echo $image['url']; ?>) no-repeat center/cover;"></div> -->
                         </div>
                     </div>
                 <?php } ?>

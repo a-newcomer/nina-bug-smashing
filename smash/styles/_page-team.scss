@@ -23,16 +23,18 @@
             }
             
             .team-shade {
-                opacity: 0;
-                //opacity: 1;
+                display: none;
                 position: absolute;
                 width: 100%;
                 height: 100%;
                 background-color: rgba(0,0,0,.6);
                 padding: 22px;
-                justify-content: center;
-                align-items: center;
-                transition: opacity .3s ease-out;
+
+                .team-shade-inner {
+                    @include flex(col, center, center);
+                    height: 100%;
+                }
+
                 p {
                     color: $secondary_color;
                 }

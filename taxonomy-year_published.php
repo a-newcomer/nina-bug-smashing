@@ -56,7 +56,7 @@ get_header();
                             press_list('video_press', .65, 8, true);
                             
                         }elseif($press_type == 'press'){ 
-                            press_list('press', 1.25, 12, true);
+                            press_list('press', 1.25, 16, true);
                         } else {
                             echo "<h5>something went wrong</h5>";
                         }
@@ -84,7 +84,7 @@ get_header();
                         <?php }
                         
                         echo '<h3>'. $thisTerm->slug .' Press</h3>';
-                        press_list('press', 1.25, 8);
+                        press_list('press', 1.25, 16);
 
                         echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
                         echo '<h3>'. $thisTerm->slug .' Videos</h3>';
@@ -126,7 +126,7 @@ get_header();
                                                     ?>
                                                 <a href="<?php echo $link ?>">
                                                     
-                                                    <div class="blog-card-bgr-pic" data-bgratio="<?php echo $aspect_ratio;?>" style="background: url(<?php echo get_the_post_thumbnail_url($p->ID, 'large'); ?>) no-repeat center; background-size: cover;">
+                                                    <div class="blog-card-bgr-pic" data-bgratio="<?php echo $aspect_ratio;?>" style="background: url(<?php echo get_the_post_thumbnail_url($p->ID, 'large'); ?>) no-repeat center/contain;">
                                                         <div class="blog-card-shade">
                                                             <?php  if( $press_type == 'video_press') {
                                                                 echo '<img src="/app/themes/nina_magon/smash/images/circle-triangle-50x50.png" alt="video play symbol">';

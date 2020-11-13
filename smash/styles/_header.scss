@@ -38,6 +38,10 @@ body.home #masthead{
     letter-spacing: 1px;
     color: $secondary_color;
     z-index: 1000000;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease; 
     
     .site-header-container {
         .site-navigation-wrap {
@@ -75,6 +79,11 @@ body.home #masthead{
                     @extend %nav;
                     @include flex(wrap, center, end);
                     
+                    & > li {
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                    }
 
                     a {
                         @extend %white_link;
@@ -133,6 +142,11 @@ body.home #masthead{
         right: 0;
         z-index: 100000;
         background-color: $header_shade;
+
+        .subscribe-nav-trigger-open {
+            @extend %btn-tertiary;
+            border-radius: 0 !important;
+        }
 
         // .site-navigation-wrap {
 
@@ -252,6 +266,7 @@ body.home #masthead{
                     @include respond-to(medium, max){
                         padding: 0 !important;
                         background: unset !important;
+                        color: $secondary_color !important;
                     }
                 }
             }
@@ -339,13 +354,13 @@ body.home #masthead{
 
     &.fixed {
         @extend %ease;
-        padding: 44px 20px;
+        padding: 25px 20px;
         opacity: 1;
         visibility: visible;
         
         img {
             display: block;
-            max-height: 55px;
+            max-height: 44px;
             width: auto;
         }
 
@@ -362,7 +377,7 @@ body.home #masthead{
         
         img {
             display: none;
-            max-height: 55px;
+            max-height: 44px;
             width: auto;
         }
     }

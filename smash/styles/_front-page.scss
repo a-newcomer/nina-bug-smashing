@@ -8,22 +8,31 @@
             left: 20px;
         }
 
-        .logo-holder {
-            width: 57vw;
-            max-width: 700px;
-            margin: 0 auto;
-            margin-bottom: 2.3rem;
-        }
         a {
+            text-align: center;
             color: $secondary_color;
+            
+            .logo-holder {
+                width: 45vw;
+                max-width: 700px;
+                margin: 0 auto;
+                margin-bottom: 2.3rem;
+            }
+
             h1 {
-                font-size: 24px;
+                display: inline-block;
+                font-size: 20px;
                 letter-spacing: 2.5px;
+                animation: 'text-decoration' 500ms ease;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
             
-        }
-        a:hover{
-            color: shade($secondary_color, 30% );
+            &:hover{
+                color: shade($secondary_color, 30% );
+            }
         }
     }
     @include respond-to(large, max) {

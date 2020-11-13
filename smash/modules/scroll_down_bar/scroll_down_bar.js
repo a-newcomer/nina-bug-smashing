@@ -9,9 +9,9 @@ const barFront =  document.querySelector('.bar-outer');
 function checkPosition() {
   let windowY = window.scrollY;
 
-    bar.classList.add('is-hidden');
+    // bar.classList.add('is-hidden');
     //bar.classList.remove('is-visible'); 
-    barFront.classList.add('is-hidden');
+    // barFront.classList.add('is-hidden');
     //barFront.classList.remove('is-visible');
 
   scrollPos = windowY;

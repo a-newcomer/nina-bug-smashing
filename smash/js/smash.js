@@ -368,7 +368,7 @@ jQuery(document).ready(function($){
                     // the element is visible, do something
                     if(!_.hasClass('risin')){
                         _.addClass('risin');
-                        setTimeout(function(){ raiseCards($('.risin:not(.used)')); }, 250);
+                        setTimeout(function(){ raiseCards($('.risin:not(.used)')); }, 500);
                     }
                 } else {
                     // the element is not visible, do something else
@@ -389,7 +389,7 @@ jQuery(document).ready(function($){
                     show_timeout = (i * li_count * base_duration) + (ii * base_duration);
                 
                 window.setTimeout(function() {
-                    card.animate({'margin-top':0})
+                    card.animate({'margin-top':0, 'opacity': 1}, 500)
                 }, show_timeout);
             });
         });

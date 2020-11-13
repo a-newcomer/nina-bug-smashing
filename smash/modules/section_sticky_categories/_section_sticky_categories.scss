@@ -34,9 +34,12 @@
         .blog-card-bgr-pic {
             height: 320px;
             transition: transform .5s;
+            filter: saturate(10%);
             
         &:hover {
             transform: scale(1.05);
+            filter: saturate(110%);
+
         }
 
             .blog-card-shade {
@@ -45,8 +48,8 @@
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                transition: all .7s;
-                background-color: rgba(0,0,0,.4);
+                transition: all .4s;
+                background-color: rgba(0,0,0,.2);
 
                 h3 {
                     margin-left: 10vw;

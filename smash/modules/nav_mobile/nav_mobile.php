@@ -49,11 +49,15 @@ function smash_nav_mobile() {
                                                                 <span><?php echo $label; ?></span>
                                                             </label>
                                                         </li>
-                                                        <?php while( have_rows('sub_links','option') ) : the_row(); $sublinkIndex = get_row_index(); ?>
+                                                        <?php while( have_rows('sub_links','option') ) : the_row(); 
+                                                            $sublinkIndex = get_row_index(); 
+                                                            $otype = (get_sub_field('image','option')) ? 'div' : 'a href="'.get_sub_field('link','option').'"';
+                                                            $ctype = (get_sub_field('image','option')) ? 'div' : 'a';
+                                                        ?>
                                                             <li>
-                                                                <a class="menu-item nav-image-trigger" href="<?php echo get_sub_field('link','option'); ?>" data-menu-image="menu_image_<?php echo $linkIndex . '_' . $sublinkIndex; ?>">
+                                                                <<?php echo $otype; ?> class="menu-item nav-image-trigger" data-menu-image="menu_image_<?php echo $linkIndex . '_' . $sublinkIndex; ?>">
                                                                     <?php echo get_sub_field('label','option'); ?>
-                                                                </a>
+                                                                </<?php echo $ctype; ?>>
                                                             </li>
                                                         <?php endwhile; ?>
                                                     </ul>
@@ -77,14 +81,18 @@ function smash_nav_mobile() {
                                     $cta = (get_sub_field('cta','option')) ? get_sub_field('cta','option') : null;
                                     $link = (get_sub_field('link','option')) ? get_sub_field('link','option') : null;
                                     $image = (get_sub_field('image','option')) ? get_sub_field('image','option') : null;
-                                ?>
-                                    <div id="menu_image_<?php echo $imageIndex . '_' . $subImageIndex; ?>" class="menu-image" style="background: url(<?php echo $image['url']; ?>) no-repeat center/cover;">
-                                        <div class="menu-image-inner">
-                                            <?php if($cta && $link){ ?>
-                                                <a href="<?php echo $link; ?>" class="btn btn-tertiary"><?php echo $cta; ?></a>
-                                            <?php } ?>
+                                    if($image && $link && $cta){ ?>
+                                        <div id="menu_image_<?php echo $imageIndex . '_' . $subImageIndex; ?>" class="menu-image" style="background: url(<?php echo $image['url']; ?>) no-repeat center/cover;">
+                                            <div class="menu-image-inner">
+                                                <?php if($cta && $link){ ?>
+                                                    <a href="<?php echo $link; ?>" class="btn-tertiary btn-nina">
+                                                        <span><?php echo $cta; ?></span>
+                                                        <svg class="icon"><use xlink:href="#right-arrow" /></svg>
+                                                    </a>
+                                                <?php } ?>
+                                            </div>
                                         </div>
-                                    </div>
+                                    <?php } ?>
                                 <?php endwhile; ?>
                             <?php endif; ?>
                         <?php endwhile; ?>

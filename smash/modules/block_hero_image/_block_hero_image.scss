@@ -1,7 +1,7 @@
 .hero-img {
     @include flex(column, center, center);
     position: relative;
-    height: 100vh;
+    height: 101vh;
     color: $secondary_color;
     flex-direction: column;
 

@@ -36,8 +36,11 @@ get_header();
                     <div class="team-block flex-col justify-center align-center">
                         <?php if(get_sub_field('image')) : $image = get_sub_field('image'); endif; ?>
                             <div class="img-box" data-bgratio="1.5" style="background: url(<?php echo $image['sizes']['large']; ?>) no-repeat center/cover;">
-                            <div class="team-shade flex-col"><p><?php if(get_sub_field('full_description')) : $full_description = get_sub_field('full_description'); endif; ?>
-                                <p><?php echo $full_description; ?></p></p></div>
+                            <div class="team-shade">
+                                <div class="team-shade-inner">
+                                    <p><?php if(get_sub_field('full_description')) : $full_description = get_sub_field('full_description'); endif; ?>
+                                    <p><?php echo $full_description; ?></p></p></div>
+                                </div>
                             </div>
                             <div class="text-box flex-col justify-center align-center">
                                 <?php if(get_sub_field('position')) : $position = get_sub_field('position'); endif; ?>
@@ -49,9 +52,7 @@ get_header();
                                 <div class="plus">+</div>
                             </div>
                     </div>
-                    <?php 
-                    
-                endwhile;
+                <?php endwhile;
 
             else :
 
@@ -66,24 +67,35 @@ get_header();
     </main>
 </article><!-- #post-<?php the_ID(); ?> -->
 <script type="text/javascript">
-    console.log('team page script loaded')
-    const pics = document.querySelectorAll('.team-block');
-    const pluses = document.querySelectorAll('.plus');
-    const overlays =  document.querySelectorAll('.team-shade');
-        Array.from(overlays).forEach(ol => {
-            //const plus = document.querySelector('.plus');
-            //var overlay =  document.querySelector('.team-shade');
-            ol.addEventListener('click', function(e) {
-            // this.classList.add('overlay');
-                if(this.style.opacity == 1) {
-                    this.style.opacity = 0;
-                } else if (this.style.opacity == 0){
-                    this.style.opacity = 1;
-                }
-
+    jQuery(function($){
+        let blocks = $('.team-block');
+        blocks.each(function(){
+            let _ = $(this);
+            let shade = _.find('.team-shade');
+            let plus = _.find('.plus');
+            plus.click(function(){
+                shade.fadeToggle();
             })
-
         })
+    })
+    // console.log('team page script loaded')
+    // const pics = document.querySelectorAll('.team-block');
+    // const pluses = document.querySelectorAll('.plus');
+    // const overlays =  document.querySelectorAll('.team-shade');
+    //     Array.from(overlays).forEach(ol => {
+    //         //const plus = document.querySelector('.plus');
+    //         //var overlay =  document.querySelector('.team-shade');
+    //         ol.addEventListener('click', function(e) {
+    //         // this.classList.add('overlay');
+    //             if(this.style.opacity == 1) {
+    //                 this.style.opacity = 0;
+    //             } else if (this.style.opacity == 0){
+    //                 this.style.opacity = 1;
+    //             }
+
+    //         })
+
+    //     })
 </script>
 <?php
 get_footer();

@@ -39,7 +39,7 @@
                 <div class="header-block header-left">
                     <div class="header-block-inner flex align-center justify-start">
                         <?php if(function_exists('smash_nav_mobile')){
-                            smash_nav_mobile();
+                            //smash_nav_mobile();
                         } ?> 
                     </div>
                 </div>

@@ -39,36 +39,16 @@ get_header();
                     <?php } ?>
                 </section>
 
-                    <section class="msnry-container-outer">
-                        <div class="msnry-container-inner">
-
-                        <div class="msnry-container-outer feed-shortcode-outer">
-                            <div class="msnry-container-inner">
-                                <?php 
-                                $feed = get_field('feed');
-                                    if($feed) {
-                                     the_field('feed'); 
-                                    }
-                                ?>
-                            </div>
-                        </div>
-
-                        </div>
-                    </section>
-                    
-             
-                
-                
-      
-                   
-                        <!-- <div class="msnry-item-outer">
-                            
-                                   <img src="http://magon.test/wp-content/uploads/2020/10/pinterest3.jpg" alt="">
-                            
-
-                        </div>--><!--msnry-item-outer   -->
-                           
-
+                <section class="msnry-container-outer feed-shortcode-outer">
+                    <div class="msnry-container-inner">
+                        <?php 
+                        $feed = get_field('feed');
+                            if($feed) {
+                            the_field('feed'); 
+                            }
+                        ?>
+                    </div>
+                </section>
 
             </div><!-- #pinterest_page.social-page -->
 

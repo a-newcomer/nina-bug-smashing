@@ -179,4 +179,4 @@ function nmsc_which_template_is_loaded() {
 	}
 }
  
-add_action( 'wp_footer', 'nmsc_which_template_is_loaded' );
+// add_action( 'wp_footer', 'nmsc_which_template_is_loaded' );

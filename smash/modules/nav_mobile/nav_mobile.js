@@ -9,11 +9,11 @@ jQuery(function($){
         var triggerOpen = $('.mobile-nav-trigger-open');
         var triggerClose = $('.mobile-nav-trigger-close, #mobile_nav_bg');
         triggerOpen.click(function(){
-            $('#mobile_nav_bg').stop().fadeIn(300, function(){
+            $('#mobile_nav_bg').stop().fadeIn(500, function(){
                 $('#mobile_nav_wrap, .mobile-nav-outer').addClass('toggled');
-                $('.mobile-nav-outer').stop().animate({
+                $('.mobile-nav-outer, .mobile-nav-outer-inner').stop().animate({
                     left: 0
-                }, 300, function(){
+                }, 350, function(){
                     animateNav('#mobile_menu', false);
                 });
                 scaleBgImages();
@@ -22,11 +22,11 @@ jQuery(function($){
         triggerClose.click(function(){
             animateNav('#mobile_menu', true);
             closeMenu();
-            $('.mobile-nav-outer').stop().animate({
+            $('.mobile-nav-outer, .mobile-nav-outer-inner').stop().animate({
                 left: '-500px'
-            }, 300, function(){
+            }, 350, function(){
                 $('#mobile_nav_wrap, .mobile-nav-outer').removeClass('toggled');
-                $('#mobile_nav_bg').fadeOut(300);
+                $('#mobile_nav_bg').fadeOut(500);
             });
         });
 
@@ -94,11 +94,14 @@ jQuery(function($){
     }
     
     function runMenuImages(){
+        let ww = $(window).outerWidth();
         let triggers = $('.nav-image-trigger');
         triggers.each(function(){
             let _ = $(this);
             _.click(function(e){
-                e.preventDefault();
+                // if(ww > 600){
+                //     e.preventDefault();
+                // }
                 let c = $(this).data('menu-image');
                 $('.image-selected').removeClass('image-selected');
                 $('#'+c).toggleClass('image-selected');
@@ -107,7 +110,7 @@ jQuery(function($){
     }
 
     function animateNav(el, hide) {
-        var base_duration = 150;
+        var base_duration = 50;
         $(el).each(function(i) {
             $('.animated').removeClass('animated');
             $(this).toggleClass('animated');
@@ -119,11 +122,11 @@ jQuery(function($){
                 var li = $(this),
                     show_timeout = (i * li_count * base_duration) + (ii * base_duration);
                 window.setTimeout(function() {
-                    li.animate({left:0})
+                    li.animate({left:0}, 250)
                 }, show_timeout);
                 if(hide){
                     window.setTimeout(function() {
-                        li.animate({left:'-500px'})
+                        li.animate({left:'-500px'}, 250)
                     }, hide_timeout);
                 }
             });

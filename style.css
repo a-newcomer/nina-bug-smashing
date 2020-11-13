@@ -829,29 +829,28 @@ a {
 
 /* line 25, sass/site/primary/_posts-and-pages.scss */
 article .entry-header {
-  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
   color: #fff; }
-  /* line 34, sass/site/primary/_posts-and-pages.scss */
+  /* line 33, sass/site/primary/_posts-and-pages.scss */
   article .entry-header .dot-sep::before {
     font-size: 30px;
     color: white; }
 
-/* line 41, sass/site/primary/_posts-and-pages.scss */
+/* line 40, sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 3.5em 0 0; }
 
-/* line 47, sass/site/primary/_posts-and-pages.scss */
+/* line 46, sass/site/primary/_posts-and-pages.scss */
 .entry-content.container-lg {
   margin: 1.5em auto 0 auto !important;
   color: #141414; }
 
-/* line 56, sass/site/primary/_posts-and-pages.scss */
+/* line 55, sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
@@ -1021,7 +1020,7 @@ object {
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0.25em;
@@ -1029,7 +1028,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 171, smash/styles/_vars.scss */
 p a, article.post .quick-links a,
-article.snapshot .quick-links a, .quick-links a, a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, .mobile-nav-outer a, #colophon .mobile-nav-outer a, #colophon .subscribe-nav-outer a, a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"], a.nav-link, #masthead a, #colophon a, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .sub-menu, #masthead #primary_left_menu li .sub-menu, #masthead .site-navigation-wrap #primary_menu li .sub-menu, #masthead #primary-menu li .sub-menu, #shop_page .shop-nav #shop_menu li .sub-menu, #more_nav #category_menu li .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .sub-menu, .product .product-wrap .product-image-wrap > .fade, .post-block .post-block-image > .fade, .share-icons .social-share .social-share-inner.fade-share > .fade, .animate-right > *, .animate-right > .icon, .alm-btn-wrap .alm-load-more-btn span, #masthead, #masthead #primary-menu li, #logo_wrap.fixed, #logo_wrap.scrolled, #cta_blocks .cta-block .cta-wrap, .post-products-wrap .post-products, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links, .mobile-nav-outer .menu-images-wrapper .menu-image, .home-post .home-post-inner .home-post-image .social-share .share-actions, #more_posts .next-up-posts .next-up-post .next-up-post-image .btn, #load_more_posts .next-up-posts .next-up-post .next-up-post-image .btn {
+article.snapshot .quick-links a, .quick-links a, a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, #colophon .subscribe-nav-outer a, a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, #colophon .mobile-nav-outer a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"], a.nav-link, #masthead a, #colophon a, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .sub-menu, #masthead #primary_left_menu li .sub-menu, #masthead .site-navigation-wrap #primary_menu li .sub-menu, #masthead #primary-menu li .sub-menu, #shop_page .shop-nav #shop_menu li .sub-menu, #more_nav #category_menu li .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .sub-menu, .product .product-wrap .product-image-wrap > .fade, .post-block .post-block-image > .fade, .share-icons .social-share .social-share-inner.fade-share > .fade, .btn-nina .icon, .animate-right > *, .animate-right > .icon, .alm-btn-wrap .alm-load-more-btn span, #masthead, #masthead #primary-menu li, #logo_wrap.fixed, #logo_wrap.scrolled, #cta_blocks .cta-block .cta-wrap, .post-products-wrap .post-products, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links, .mobile-nav-outer .menu-images-wrapper .menu-image, .home-post .home-post-inner .home-post-image .social-share .share-actions, #more_posts .next-up-posts .next-up-post .next-up-post-image .btn, #load_more_posts .next-up-posts .next-up-post .next-up-post-image .btn {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -1057,46 +1056,46 @@ article.snapshot .quick-links a, .quick-links a {
   /* line 195, smash/styles/_vars.scss */
   p a:hover, article.post .quick-links a:hover,
   article.snapshot .quick-links a:hover, .quick-links a:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
     color: #141414; }
 
 /* line 201, smash/styles/_vars.scss */
-a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, .mobile-nav-outer a, #colophon .mobile-nav-outer a, #colophon .subscribe-nav-outer a {
+a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, #colophon .subscribe-nav-outer a {
   color: #979797;
   outline: none;
   text-decoration: none; }
   /* line 207, smash/styles/_vars.scss */
-  a .icon, #shop_page .shop-nav #shop_menu li a .icon, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand .icon, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title .icon, .share-icons .social-share .share .icon, #colophon .mobile-nav-outer a .icon, #colophon .subscribe-nav-outer a .icon {
+  a .icon, #shop_page .shop-nav #shop_menu li a .icon, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand .icon, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title .icon, .share-icons .social-share .share .icon, #colophon .subscribe-nav-outer a .icon {
     -webkit-transition: unset;
     -moz-transition: unset;
     -o-transition: unset;
     transition: unset; }
   /* line 214, smash/styles/_vars.scss */
-  a:focus, #shop_page .shop-nav #shop_menu li a:focus, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:focus, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:focus, .share-icons .social-share .share:focus, .share-icons .social-share .share a:focus, #colophon .mobile-nav-outer a:focus, #colophon .subscribe-nav-outer a:focus, a:active, #shop_page .shop-nav #shop_menu li a:active, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:active, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:active, .share-icons .social-share .share:active, .share-icons .social-share .share a:active, #colophon .mobile-nav-outer a:active, #colophon .subscribe-nav-outer a:active, a:visited, #shop_page .shop-nav #shop_menu li a:visited, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:visited, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:visited, .share-icons .social-share .share:visited, .share-icons .social-share .share a:visited, #colophon .mobile-nav-outer a:visited, #colophon .subscribe-nav-outer a:visited {
+  a:focus, #shop_page .shop-nav #shop_menu li a:focus, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:focus, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:focus, .share-icons .social-share .share:focus, .share-icons .social-share .share a:focus, #colophon .subscribe-nav-outer a:focus, a:active, #shop_page .shop-nav #shop_menu li a:active, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:active, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:active, .share-icons .social-share .share:active, .share-icons .social-share .share a:active, #colophon .subscribe-nav-outer a:active, a:visited, #shop_page .shop-nav #shop_menu li a:visited, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:visited, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:visited, .share-icons .social-share .share:visited, .share-icons .social-share .share a:visited, #colophon .subscribe-nav-outer a:visited {
     color: #141414; }
   /* line 218, smash/styles/_vars.scss */
-  a:hover, #shop_page .shop-nav #shop_menu li a:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:hover, .share-icons .social-share .share:hover, .share-icons .social-share .share a:hover, #colophon .mobile-nav-outer a:hover, #colophon .subscribe-nav-outer a:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
+  a:hover, #shop_page .shop-nav #shop_menu li a:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand:hover, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title:hover, .share-icons .social-share .share:hover, .share-icons .social-share .share a:hover, #colophon .subscribe-nav-outer a:hover {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
     color: #BFCECE; }
 
 /* line 224, smash/styles/_vars.scss */
-a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"] {
-  color: #ffffff;
+a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, #colophon .mobile-nav-outer a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"] {
+  color: #b3b3b3;
   outline: none;
   text-decoration: none; }
   /* line 230, smash/styles/_vars.scss */
-  a.white-link .icon, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label .icon, .subscribe-nav-outer a .icon, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"] .icon, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"] .icon {
+  a.white-link .icon, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item .icon, #colophon .mobile-nav-outer a .icon, .subscribe-nav-outer a .icon, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"] .icon, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"] .icon {
     -webkit-transition: unset;
     -moz-transition: unset;
     -o-transition: unset;
     transition: unset; }
   /* line 237, smash/styles/_vars.scss */
-  a.white-link:focus, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:focus, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:focus, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:focus, .subscribe-nav-outer a:focus, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:focus, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:focus, a.white-link:active, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:active, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:active, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:active, .subscribe-nav-outer a:active, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:active, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:active, a.white-link:visited, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:visited, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:visited, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:visited, .subscribe-nav-outer a:visited, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:visited, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:visited {
-    color: #ffffff; }
+  a.white-link:focus, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:focus, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:focus, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:focus, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:focus, #colophon .mobile-nav-outer a:focus, .subscribe-nav-outer a:focus, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:focus, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:focus, a.white-link:active, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:active, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:active, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:active, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:active, #colophon .mobile-nav-outer a:active, .subscribe-nav-outer a:active, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:active, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:active, a.white-link:visited, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:visited, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:visited, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:visited, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:visited, #colophon .mobile-nav-outer a:visited, .subscribe-nav-outer a:visited, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:visited, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:visited {
+    color: #b3b3b3; }
   /* line 241, smash/styles/_vars.scss */
-  a.white-link:hover, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:hover, .subscribe-nav-outer a:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
-    text-decoration: underline; }
+  a.white-link:hover, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label:hover, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:hover, #colophon .mobile-nav-outer a:hover, .subscribe-nav-outer a:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"]:hover, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"]:hover {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
+    color: #ffffff; }
 
 /* line 281, smash/styles/_vars.scss */
 a.nav-link, #masthead a {
@@ -1114,7 +1113,7 @@ a.nav-link, #masthead a {
     color: #444444; }
   /* line 298, smash/styles/_vars.scss */
   a.nav-link:hover, #masthead a:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
     color: #BFCECE; }
 
 /* line 304, smash/styles/_vars.scss */
@@ -1133,7 +1132,7 @@ a.nav-link, #masthead a {
     color: #ffffff; }
   /* line 321, smash/styles/_vars.scss */
   #colophon a:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
     color: #BFCECE; }
 
 /* line 398, smash/styles/_vars.scss */
@@ -1177,7 +1176,7 @@ a.nav-link, #masthead a {
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li:hover .sub-menu, #masthead #primary_left_menu li:hover .sub-menu, #masthead .site-navigation-wrap #primary_menu li:hover .sub-menu, #masthead #primary-menu li:hover .sub-menu, #shop_page .shop-nav #shop_menu li:hover .sub-menu, #more_nav #category_menu li:hover .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li:hover .sub-menu {
       opacity: 1;
       visibility: visible;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 447, smash/styles/_vars.scss */
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .icon, #masthead #primary_left_menu li .icon, #masthead .site-navigation-wrap #primary_menu li .icon, #masthead #primary-menu li .icon, #shop_page .shop-nav #shop_menu li .icon, #more_nav #category_menu li .icon, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .icon {
       position: relative;
@@ -1229,7 +1228,7 @@ a.nav-link, #masthead a {
   visibility: visible; }
 
 /* line 507, smash/styles/_vars.scss */
-a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"], a.btn-secondary, .btn-secondary, a.btn-tertiary, .btn-tertiary, a.btn, .btn, .nina-btn {
+a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"], a.btn-secondary, .btn-secondary, a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open, a.btn, .btn {
   display: inline-block !important;
   padding: 15px 25px !important;
   font-family: "futura-pt", sans-serif !important;
@@ -1240,11 +1239,11 @@ a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"]
   font-weight: 200 !important;
   text-align: center !important; }
   /* line 518, smash/styles/_vars.scss */
-  .btn-primary:hover, .modal .modal-box .modal-inner input[type="button"]:hover, .modal #mc-embedded-subscribe-form input[type="submit"]:hover, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover, #search-modal .modal-box .modal-inner input[type="submit"]:hover, .btn-secondary:hover, .btn-tertiary:hover, .btn:hover, .nina-btn:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+  .btn-primary:hover, .modal .modal-box .modal-inner input[type="button"]:hover, .modal #mc-embedded-subscribe-form input[type="submit"]:hover, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover, #search-modal .modal-box .modal-inner input[type="submit"]:hover, .btn-secondary:hover, .btn-tertiary:hover, #masthead.lock_nav .subscribe-nav-trigger-open:hover, .btn:hover {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 521, smash/styles/_vars.scss */
-    .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a, .btn-secondary:hover a, .btn-tertiary:hover a, .btn:hover a, .nina-btn:hover a {
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a, .btn-secondary:hover a, .btn-tertiary:hover a, #masthead.lock_nav .subscribe-nav-trigger-open:hover a, .btn:hover a {
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
 
 /* line 527, smash/styles/_vars.scss */
 a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"] {
@@ -1263,11 +1262,11 @@ a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"]
     background: #444444 !important;
     border: 2px solid #141414 !important;
     color: #ffffff !important;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 549, smash/styles/_vars.scss */
     .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a {
       color: #ffffff !important;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 554, smash/styles/_vars.scss */
     .btn-primary:hover .icon, .modal .modal-box .modal-inner input[type="button"]:hover .icon, .modal #mc-embedded-subscribe-form input[type="submit"]:hover .icon, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover .icon, #search-modal .modal-box .modal-inner input[type="submit"]:hover .icon {
       fill: #ffffff !important; }
@@ -1288,42 +1287,82 @@ a.btn-secondary, .btn-secondary {
     background: #141414 !important;
     border: 2px solid #141414 !important;
     color: #ffffff !important;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 582, smash/styles/_vars.scss */
     .btn-secondary:hover a {
       color: #ffffff !important;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 587, smash/styles/_vars.scss */
     .btn-secondary:hover .icon {
       fill: #ffffff !important; }
 
 /* line 593, smash/styles/_vars.scss */
-a.btn-tertiary, .btn-tertiary {
+a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
   background: rgba(255, 255, 255, 0.7) !important;
   border: 2px solid rgba(255, 255, 255, 0) !important;
   border-radius: 30px;
   color: #141414 !important; }
   /* line 600, smash/styles/_vars.scss */
-  .btn-tertiary a {
+  .btn-tertiary a, #masthead.lock_nav .subscribe-nav-trigger-open a {
     color: #141414 !important; }
   /* line 604, smash/styles/_vars.scss */
-  .btn-tertiary .icon, .icon.btn-tertiary {
+  .btn-tertiary .icon, #masthead.lock_nav .subscribe-nav-trigger-open .icon, .icon.btn-tertiary, #masthead.lock_nav .icon.subscribe-nav-trigger-open {
     fill: #141414 !important; }
   /* line 609, smash/styles/_vars.scss */
-  .btn-tertiary:hover {
+  .btn-tertiary:hover, #masthead.lock_nav .subscribe-nav-trigger-open:hover {
     background: #ffffff !important;
     border: 2px solid rgba(255, 255, 255, 0) !important;
     color: #141414 !important;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 615, smash/styles/_vars.scss */
-    .btn-tertiary:hover a {
+    .btn-tertiary:hover a, #masthead.lock_nav .subscribe-nav-trigger-open:hover a {
       color: #141414 !important;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 620, smash/styles/_vars.scss */
-    .btn-tertiary:hover .icon {
+    .btn-tertiary:hover .icon, #masthead.lock_nav .subscribe-nav-trigger-open:hover .icon {
       fill: #141414 !important; }
 
 /* line 626, smash/styles/_vars.scss */
+a.btn-nina, .btn-nina {
+  display: -webkit-flex !important;
+  display: flex !important;
+  flex-direction: row !important;
+  -webkit-flex-direction: row !important;
+  align-items: center !important;
+  -webkit-align-items: center !important;
+  justify-content: center !important;
+  -webkit-justify-content: center !important;
+  position: relative;
+  padding: 12px 50px !important;
+  font-family: "futura-pt", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border-radius: 30px !important; }
+  /* line 635, smash/styles/_vars.scss */
+  .btn-nina .icon {
+    animation: hide-arrow .4s 1 both ease-in-out; }
+  /* line 641, smash/styles/_vars.scss */
+  .btn-nina:hover span {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+  /* line 644, smash/styles/_vars.scss */
+  .btn-nina:hover .icon {
+    animation: show-arrow .4s 1 both ease-in-out;
+    opacity: 1; }
+@keyframes hide-arrow {
+  from {
+    margin-left: 10px;
+    opacity: 1; }
+  to {
+    margin-left: -15px;
+    opacity: 0; } }
+@keyframes show-arrow {
+  from {
+    margin-left: -15px;
+    opacity: 0; }
+  to {
+    margin-left: 10px;
+    opacity: 1; } }
+/* line 672, smash/styles/_vars.scss */
 .animate-right {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1338,14 +1377,14 @@ a.btn-tertiary, .btn-tertiary {
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
-  /* line 638, smash/styles/_vars.scss */
+  /* line 684, smash/styles/_vars.scss */
   .animate-right > .icon {
     margin-left: 5px; }
-  /* line 645, smash/styles/_vars.scss */
+  /* line 691, smash/styles/_vars.scss */
   .animate-right:hover > .icon {
     transform: translate(10px, 0); }
 
-/* line 651, smash/styles/_vars.scss */
+/* line 697, smash/styles/_vars.scss */
 .adjust-center {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1355,10 +1394,10 @@ a.btn-tertiary, .btn-tertiary {
   -webkit-align-items: center !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
-  /* line 654, smash/styles/_vars.scss */
+  /* line 700, smash/styles/_vars.scss */
   .adjust-center > * {
     flex: 1; }
-    /* line 657, smash/styles/_vars.scss */
+    /* line 703, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(1) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1369,7 +1408,7 @@ a.btn-tertiary, .btn-tertiary {
       justify-content: flex-start !important;
       -webkit-justify-content: flex-start !important;
       margin-right: auto; }
-    /* line 662, smash/styles/_vars.scss */
+    /* line 708, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(2) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1380,7 +1419,7 @@ a.btn-tertiary, .btn-tertiary {
       justify-content: center !important;
       -webkit-justify-content: center !important;
       flex: 2; }
-    /* line 667, smash/styles/_vars.scss */
+    /* line 713, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(3) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1395,13 +1434,16 @@ a.btn-tertiary, .btn-tertiary {
 /* line 3, smash/styles/_general.scss */
 body {
   color: #141414;
-  cursor: url("/app/themes/nina_magon/smash/images/circle-sm.png") 8 9, pointer; }
+  cursor: url("/app/themes/nina_magon/smash/images/circle-sm.svg") 8 9, pointer; }
+  /* line 7, smash/styles/_general.scss */
+  body.home {
+    overflow: hidden; }
 
-/* line 9, smash/styles/_general.scss */
+/* line 13, smash/styles/_general.scss */
 .post, .page {
   margin: 0; }
 
-/* line 13, smash/styles/_general.scss */
+/* line 17, smash/styles/_general.scss */
 #page {
   position: relative;
   overflow: hidden;
@@ -1409,54 +1451,54 @@ body {
   margin-bottom: 87vh;
   z-index: 20; }
 
-/* line 23, smash/styles/_general.scss */
+/* line 27, smash/styles/_general.scss */
 .no-results .page-content {
   text-align: center; }
 
-/* line 28, smash/styles/_general.scss */
+/* line 32, smash/styles/_general.scss */
 body {
   font-family: "futura-pt", serif;
   font-size: 14px; }
 
-/* line 37, smash/styles/_general.scss */
+/* line 41, smash/styles/_general.scss */
 h1 {
   font-size: 50px;
   font-weight: 300; }
 
-/* line 42, smash/styles/_general.scss */
+/* line 46, smash/styles/_general.scss */
 h2 {
   font-size: 40px; }
 
-/* line 46, smash/styles/_general.scss */
+/* line 50, smash/styles/_general.scss */
 h3 {
   font-size: 36px; }
 
-/* line 50, smash/styles/_general.scss */
+/* line 54, smash/styles/_general.scss */
 h4 {
   font-size: 18px; }
 
-/* line 54, smash/styles/_general.scss */
+/* line 58, smash/styles/_general.scss */
 h5 {
   font-size: 16px; }
 
-/* line 58, smash/styles/_general.scss */
+/* line 62, smash/styles/_general.scss */
 h6 {
   font-size: 16px;
   text-transform: initial; }
 
-/* line 78, smash/styles/_general.scss */
+/* line 82, smash/styles/_general.scss */
 a:focus {
   outline: none; }
 
-/* line 83, smash/styles/_general.scss */
+/* line 87, smash/styles/_general.scss */
 .edit-link a {
   color: #141414; }
-  /* line 86, smash/styles/_general.scss */
+  /* line 90, smash/styles/_general.scss */
   .edit-link a:hover {
     color: #BFCECE;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
 
-/* line 92, smash/styles/_general.scss */
+/* line 96, smash/styles/_general.scss */
 p {
   margin-top: 0;
   margin-bottom: 20px;
@@ -1464,12 +1506,12 @@ p {
   font-family: "futura-pt", serif;
   line-height: 19px;
   letter-spacing: 0.5px; }
-  /* line 100, smash/styles/_general.scss */
+  /* line 104, smash/styles/_general.scss */
   p a {
     font-weight: bold;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-sm.png") 8 9, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-sm.svg") 8 9, pointer; }
 
-/* line 107, smash/styles/_general.scss */
+/* line 111, smash/styles/_general.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -1491,7 +1533,7 @@ textarea {
   padding: 5px 10px;
   background: unset; }
 
-/* line 129, smash/styles/_general.scss */
+/* line 133, smash/styles/_general.scss */
 button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   box-shadow: unset;
   background: unset;
@@ -1499,15 +1541,15 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   border-radius: 0 !important;
   padding: unset;
   font-size: .90rem; }
-  /* line 137, smash/styles/_general.scss */
+  /* line 141, smash/styles/_general.scss */
   button:focus, input:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
     outline: none !important; }
 
-/* line 160, smash/styles/_general.scss */
+/* line 164, smash/styles/_general.scss */
 .anchor {
   scroll-margin-top: 200px; }
 
-/* line 164, smash/styles/_general.scss */
+/* line 168, smash/styles/_general.scss */
 .site-search {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1518,12 +1560,12 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   justify-content: center !important;
   -webkit-justify-content: center !important;
   padding: 50px 50px 20px; }
-  /* line 168, smash/styles/_general.scss */
+  /* line 172, smash/styles/_general.scss */
   .site-search .basic-search-form {
     width: 100%;
     max-width: 600px;
     margin: 0 auto; }
-    /* line 173, smash/styles/_general.scss */
+    /* line 177, smash/styles/_general.scss */
     .site-search .basic-search-form .search-fields {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1531,37 +1573,37 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
       -webkit-flex-direction: row !important;
       justify-content: center !important;
       -webkit-justify-content: center !important; }
-      /* line 176, smash/styles/_general.scss */
+      /* line 180, smash/styles/_general.scss */
       .site-search .basic-search-form .search-fields input {
         flex: 1; }
-        /* line 179, smash/styles/_general.scss */
+        /* line 183, smash/styles/_general.scss */
         .site-search .basic-search-form .search-fields input[type="submit"] {
           flex: 0; }
 
-/* line 191, smash/styles/_general.scss */
+/* line 195, smash/styles/_general.scss */
 .signature {
   text-align: center;
   font-family: "magical", serif;
   font-size: 22px;
   margin: 20px 0; }
 
-/* line 198, smash/styles/_general.scss */
+/* line 202, smash/styles/_general.scss */
 .script-font {
   font-family: "magical", serif; }
 
-/* line 202, smash/styles/_general.scss */
+/* line 206, smash/styles/_general.scss */
 .lazy {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
-/* line 208, smash/styles/_general.scss */
+/* line 212, smash/styles/_general.scss */
 .lazy-contain {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
 
-/* line 214, smash/styles/_general.scss */
+/* line 218, smash/styles/_general.scss */
 .line-sep {
   position: relative;
   width: 1px;
@@ -1569,21 +1611,21 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   background: #979797;
   margin: 0 10px; }
 
-/* line 222, smash/styles/_general.scss */
+/* line 226, smash/styles/_general.scss */
 .dot-sep {
   position: relative; }
-  /* line 225, smash/styles/_general.scss */
+  /* line 229, smash/styles/_general.scss */
   .dot-sep::before {
     content: '\00B7';
     font-size: 25px;
     color: #141414;
     margin: 0 10px; }
 
-/* line 233, smash/styles/_general.scss */
+/* line 237, smash/styles/_general.scss */
 .show {
   display: block !important; }
 
-/* line 237, smash/styles/_general.scss */
+/* line 241, smash/styles/_general.scss */
 .social-icon {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1595,116 +1637,84 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-justify-content: center !important;
   margin: 0; }
 
-/* line 242, smash/styles/_general.scss */
+/* line 246, smash/styles/_general.scss */
 .block-full {
   width: 100%; }
 
-/* line 246, smash/styles/_general.scss */
+/* line 250, smash/styles/_general.scss */
 .block-half {
   width: 49%; }
 
-/* line 250, smash/styles/_general.scss */
+/* line 254, smash/styles/_general.scss */
 .block-fourth {
   width: 23%; }
 
-/* line 254, smash/styles/_general.scss */
+/* line 258, smash/styles/_general.scss */
 .block-third {
   width: 32%; }
 
-/* line 258, smash/styles/_general.scss */
+/* line 262, smash/styles/_general.scss */
 .block-fifth {
   width: 19%; }
 
-/* line 277, smash/styles/_general.scss */
-.nina-btn {
-  background: #141414 !important;
-  padding: 12px 50px !important;
-  color: #ffffff !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  border-radius: 30px !important; }
-  /* line 286, smash/styles/_general.scss */
-  .nina-btn h5 {
-    position: relative;
-    transition: .2s;
-    left: 0; }
-  /* line 292, smash/styles/_general.scss */
-  .nina-btn .icon {
-    opacity: 0;
-    position: relative;
-    right: 10px;
-    bottom: 2px;
-    transition: right .3s, opacity .4s ease-in-out; }
-
-/* line 301, smash/styles/_general.scss */
-.nina-btn:hover h5 {
-  left: -10px;
-  transform: scale(1);
-  cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
-/* line 308, smash/styles/_general.scss */
-.nina-btn:hover .icon {
-  opacity: 1;
-  right: -5px;
-  transform: scale(1.3); }
-
-/* line 314, smash/styles/_general.scss */
+/* line 288, smash/styles/_general.scss */
 .nina-cta {
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px; }
-  /* line 320, smash/styles/_general.scss */
+  /* line 294, smash/styles/_general.scss */
   .nina-cta a {
     align-items: center;
     color: black; }
-    /* line 324, smash/styles/_general.scss */
+    /* line 298, smash/styles/_general.scss */
     .nina-cta a h5 {
       position: relative;
       transition: .2s ease-in-out;
       left: 0; }
-    /* line 330, smash/styles/_general.scss */
+    /* line 304, smash/styles/_general.scss */
     .nina-cta a .icon {
       position: relative;
       right: -5px;
       bottom: 2px;
       transition: right .3s ease-out, opacity .2s; }
-  /* line 339, smash/styles/_general.scss */
+  /* line 313, smash/styles/_general.scss */
   .nina-cta a:hover:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
-  /* line 343, smash/styles/_general.scss */
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+  /* line 317, smash/styles/_general.scss */
   .nina-cta a:hover h5 {
     left: -10px;
     transform: scale(1); }
-  /* line 348, smash/styles/_general.scss */
+  /* line 322, smash/styles/_general.scss */
   .nina-cta a:hover .icon {
     right: -15px;
     transform: scale(1.2); }
 
-/* line 356, smash/styles/_general.scss */
+/* line 330, smash/styles/_general.scss */
 .pad-section {
   padding: 30px 0;
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 382, smash/styles/_general.scss */
+/* line 356, smash/styles/_general.scss */
 #content {
   position: relative;
   padding: 0; }
-  /* line 386, smash/styles/_general.scss */
+  /* line 360, smash/styles/_general.scss */
   #content .site-branding {
     padding: 65px 0; }
-    /* line 389, smash/styles/_general.scss */
+    /* line 363, smash/styles/_general.scss */
     #content .site-branding #logo {
       display: block;
       margin: 0 auto;
       max-width: 380px; }
 
-/* line 397, smash/styles/_general.scss */
+/* line 371, smash/styles/_general.scss */
 .page-title {
   position: relative;
   text-align: center; }
-  /* line 401, smash/styles/_general.scss */
+  /* line 375, smash/styles/_general.scss */
   .page-title.has-bar:after {
     content: '';
     position: absolute;
@@ -1716,98 +1726,98 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
     background: #ffffff;
     margin: 0 auto; }
 
-/* line 414, smash/styles/_general.scss */
+/* line 388, smash/styles/_general.scss */
 .flex-wrap {
   display: -webkit-flex !important;
   display: flex !important;
   flex-wrap: wrap !important;
   -webkit-flex-wrap: wrap !important; }
 
-/* line 418, smash/styles/_general.scss */
+/* line 392, smash/styles/_general.scss */
 .flex-row {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row !important;
   -webkit-flex-direction: row !important; }
 
-/* line 422, smash/styles/_general.scss */
+/* line 396, smash/styles/_general.scss */
 .flex-row-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row-reverse !important;
   -webkit-flex-direction: row-reverse !important; }
 
-/* line 426, smash/styles/_general.scss */
+/* line 400, smash/styles/_general.scss */
 .flex-col {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column !important;
   -webkit-flex-direction: column !important; }
 
-/* line 430, smash/styles/_general.scss */
+/* line 404, smash/styles/_general.scss */
 .flex-col-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column-reverse !important;
   -webkit-flex-direction: column-reverse !important; }
 
-/* line 434, smash/styles/_general.scss */
+/* line 408, smash/styles/_general.scss */
 .align-start {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-start !important;
   -webkit-align-items: flex-start !important; }
 
-/* line 438, smash/styles/_general.scss */
+/* line 412, smash/styles/_general.scss */
 .align-center {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: center !important;
   -webkit-align-items: center !important; }
 
-/* line 442, smash/styles/_general.scss */
+/* line 416, smash/styles/_general.scss */
 .align-end {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-end !important;
   -webkit-align-items: flex-end !important; }
 
-/* line 446, smash/styles/_general.scss */
+/* line 420, smash/styles/_general.scss */
 .justify-start {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-start !important;
   -webkit-justify-content: flex-start !important; }
 
-/* line 450, smash/styles/_general.scss */
+/* line 424, smash/styles/_general.scss */
 .justify-end {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-end !important;
   -webkit-justify-content: flex-end !important; }
 
-/* line 454, smash/styles/_general.scss */
+/* line 428, smash/styles/_general.scss */
 .justify-around {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-around !important;
   -webkit-justify-content: space-around !important; }
 
-/* line 458, smash/styles/_general.scss */
+/* line 432, smash/styles/_general.scss */
 .justify-center {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: center !important;
   -webkit-justify-content: center !important; }
 
-/* line 462, smash/styles/_general.scss */
+/* line 436, smash/styles/_general.scss */
 .justify-between {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
 
-/* line 466, smash/styles/_general.scss */
+/* line 440, smash/styles/_general.scss */
 .icon {
   display: inline-block;
   width: 15px;
@@ -1817,17 +1827,18 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-/* line 476, smash/styles/_general.scss */
+/* line 450, smash/styles/_general.scss */
 a .icon {
   -webkit-transition: unset;
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
 
-/* line 483, smash/styles/_general.scss */
+/* line 457, smash/styles/_general.scss */
 .alm-btn-wrap .alm-load-more-btn {
   height: auto !important;
   background: unset !important;
+  box-shadow: none !important;
   color: black !important;
   font-size: 24px !important;
   text-transform: capitalize !important;
@@ -1836,32 +1847,35 @@ a .icon {
   margin-bottom: 0px !important;
   margin-top: 50px !important;
   font-family: "futura-pt", sans-serif !important; }
-  /* line 501, smash/styles/_general.scss */
-  .alm-btn-wrap .alm-load-more-btn:hover span {
-    margin-left: 10px; }
+  /* line 474, smash/styles/_general.scss */
+  .alm-btn-wrap .alm-load-more-btn:hover {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+    /* line 477, smash/styles/_general.scss */
+    .alm-btn-wrap .alm-load-more-btn:hover span {
+      margin-left: 10px; }
 
-/* line 508, smash/styles/_general.scss */
+/* line 484, smash/styles/_general.scss */
 .slick-slider {
   position: relative; }
-  /* line 511, smash/styles/_general.scss */
+  /* line 487, smash/styles/_general.scss */
   .slick-slider .slick-arrow {
     position: absolute;
     top: 35%;
     font-size: 20px;
     color: #141414; }
-    /* line 517, smash/styles/_general.scss */
+    /* line 493, smash/styles/_general.scss */
     .slick-slider .slick-arrow.slick-prev {
       left: -1%;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-l.png") 16 16, pointer; }
-    /* line 523, smash/styles/_general.scss */
+      cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-l.svg") 16 16, pointer; }
+    /* line 499, smash/styles/_general.scss */
     .slick-slider .slick-arrow.slick-next {
       right: -1%;
-      cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.png") 16 16, pointer; }
-    /* line 529, smash/styles/_general.scss */
+      cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.svg") 16 16, pointer; }
+    /* line 505, smash/styles/_general.scss */
     .slick-slider .slick-arrow:hover {
-      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer;
+      cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
       color: #ffffff; }
-  /* line 535, smash/styles/_general.scss */
+  /* line 511, smash/styles/_general.scss */
   .slick-slider .slick-dots {
     padding: 0;
     margin: 20px 0 40px;
@@ -1872,11 +1886,11 @@ a .icon {
     -webkit-align-items: center;
     justify-content: center;
     -webkit-justify-content: center; }
-    /* line 549, smash/styles/_general.scss */
+    /* line 525, smash/styles/_general.scss */
     .slick-slider .slick-dots li.slick-active button {
       padding: 0;
       background: #E7E7E7 !important; }
-    /* line 555, smash/styles/_general.scss */
+    /* line 531, smash/styles/_general.scss */
     .slick-slider .slick-dots li button {
       position: relative;
       color: transparent !important;
@@ -1887,28 +1901,28 @@ a .icon {
       border-radius: 100% !important;
       margin: 0 10px;
       padding: 0; }
-      /* line 566, smash/styles/_general.scss */
+      /* line 542, smash/styles/_general.scss */
       .slick-slider .slick-dots li button:hover {
         background: #E7E7E7 !important;
-        cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
-        /* line 570, smash/styles/_general.scss */
+        cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+        /* line 546, smash/styles/_general.scss */
         .slick-slider .slick-dots li button:hover::after {
           background: unset !important; }
-      /* line 575, smash/styles/_general.scss */
+      /* line 551, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::after {
         background: unset !important; }
-      /* line 579, smash/styles/_general.scss */
+      /* line 555, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::focus {
         outline: none !important; }
-  /* line 587, smash/styles/_general.scss */
+  /* line 563, smash/styles/_general.scss */
   .slick-slider .slick-slide:focus {
     outline: none !important; }
 
-/* line 598, smash/styles/_general.scss */
+/* line 574, smash/styles/_general.scss */
 .nf-form-wrap .nf-form-fields-required {
   display: none; }
 
-/* line 603, smash/styles/_general.scss */
+/* line 579, smash/styles/_general.scss */
 .numbered-pagination {
   position: relative;
   display: -webkit-flex !important;
@@ -1921,10 +1935,10 @@ a .icon {
   -webkit-justify-content: center !important;
   font-size: 12px;
   padding: 50px 20px; }
-  /* line 609, smash/styles/_general.scss */
+  /* line 585, smash/styles/_general.scss */
   .numbered-pagination > * {
     margin: 0 6px; }
-  /* line 613, smash/styles/_general.scss */
+  /* line 589, smash/styles/_general.scss */
   .numbered-pagination > .page-numbers {
     display: -webkit-flex !important;
     display: flex !important;
@@ -1935,28 +1949,28 @@ a .icon {
     width: 26px;
     height: 26px;
     text-align: center; }
-    /* line 619, smash/styles/_general.scss */
+    /* line 595, smash/styles/_general.scss */
     .numbered-pagination > .page-numbers.current {
       background: #FDFBFA;
       border-radius: 100%; }
 
 @media screen and (min-width: 400px) {
-  /* line 627, smash/styles/_general.scss */
+  /* line 603, smash/styles/_general.scss */
   #page {
     margin-bottom: 77vh; } }
 @media screen and (min-width: 768px) {
-  /* line 637, smash/styles/_general.scss */
+  /* line 613, smash/styles/_general.scss */
   #page {
     margin-bottom: 43vh; } }
 @media screen and (min-width: 960px) {
-  /* line 643, smash/styles/_general.scss */
+  /* line 619, smash/styles/_general.scss */
   #page {
     margin-bottom: 32vh; } }
 @media screen and (min-width: 1024px) {
-  /* line 648, smash/styles/_general.scss */
+  /* line 624, smash/styles/_general.scss */
   #page {
     margin-bottom: 34vh; } }
-/* line 653, smash/styles/_general.scss */
+/* line 629, smash/styles/_general.scss */
 .rising-card {
   margin-top: 100px; }
 
@@ -1979,11 +1993,15 @@ body.home #masthead {
   font-size: 11px;
   letter-spacing: 1px;
   color: #ffffff;
-  z-index: 1000000; }
-  /* line 43, smash/styles/_header.scss */
+  z-index: 1000000;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease; }
+  /* line 47, smash/styles/_header.scss */
   #masthead .site-header-container .site-navigation-wrap {
     border-bottom: 1px solid #ffffff !important; }
-  /* line 47, smash/styles/_header.scss */
+  /* line 51, smash/styles/_header.scss */
   #masthead .site-header-container .page-nav-wrap {
     display: -webkit-flex !important;
     display: flex !important;
@@ -1995,12 +2013,12 @@ body.home #masthead {
     -webkit-justify-content: flex-end !important;
     position: relative;
     padding: 10px 0; }
-    /* line 52, smash/styles/_header.scss */
+    /* line 56, smash/styles/_header.scss */
     #masthead .site-header-container .page-nav-wrap .page-menu-toggle {
       display: none;
       font-size: 16px;
       text-transform: uppercase; }
-      /* line 57, smash/styles/_header.scss */
+      /* line 61, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap .page-menu-toggle .page-menu-toggle-inner {
         display: -webkit-flex !important;
         display: flex !important;
@@ -2010,16 +2028,16 @@ body.home #masthead {
         -webkit-align-items: center !important;
         justify-content: flex-start !important;
         -webkit-justify-content: flex-start !important; }
-        /* line 60, smash/styles/_header.scss */
+        /* line 64, smash/styles/_header.scss */
         #masthead .site-header-container .page-nav-wrap .page-menu-toggle .page-menu-toggle-inner .icon {
           width: 10px;
           height: 10px;
           margin-right: 5px; }
       @media screen and (max-width: 768px) {
-        /* line 52, smash/styles/_header.scss */
+        /* line 56, smash/styles/_header.scss */
         #masthead .site-header-container .page-nav-wrap .page-menu-toggle {
           display: block; } }
-    /* line 74, smash/styles/_header.scss */
+    /* line 78, smash/styles/_header.scss */
     #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav {
       display: -webkit-flex !important;
       display: flex !important;
@@ -2029,15 +2047,18 @@ body.home #masthead {
       -webkit-align-items: center !important;
       justify-content: flex-end !important;
       -webkit-justify-content: flex-end !important; }
-      /* line 79, smash/styles/_header.scss */
+      /* line 83, smash/styles/_header.scss */
+      #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav > li:last-child {
+        padding-right: 0; }
+      /* line 88, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a {
         margin-right: 0;
         font-size: 14px; }
     @media screen and (max-width: 768px) {
-      /* line 72, smash/styles/_header.scss */
+      /* line 76, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner {
         display: none; }
-        /* line 89, smash/styles/_header.scss */
+        /* line 98, smash/styles/_header.scss */
         #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav {
           display: -webkit-flex !important;
           display: flex !important;
@@ -2048,11 +2069,11 @@ body.home #masthead {
           justify-content: flex-start !important;
           -webkit-justify-content: flex-start !important;
           padding: 0; }
-          /* line 93, smash/styles/_header.scss */
+          /* line 102, smash/styles/_header.scss */
           #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a {
             margin: 3px 0; } }
     @media screen and (max-width: 768px) {
-      /* line 47, smash/styles/_header.scss */
+      /* line 51, smash/styles/_header.scss */
       #masthead .site-header-container .page-nav-wrap {
         display: -webkit-flex !important;
         display: flex !important;
@@ -2063,50 +2084,53 @@ body.home #masthead {
         justify-content: flex-start !important;
         -webkit-justify-content: flex-start !important;
         padding: 10px 20px; } }
-  /* line 115, smash/styles/_header.scss */
+  /* line 124, smash/styles/_header.scss */
   #masthead.landing .site-header-container .site-navigation-wrap {
     border-bottom: none !important; }
-    /* line 120, smash/styles/_header.scss */
+    /* line 129, smash/styles/_header.scss */
     #masthead.landing .site-header-container .site-navigation-wrap .header-block.header-left .header-block-inner {
       padding: 64px 0; }
-  /* line 129, smash/styles/_header.scss */
+  /* line 138, smash/styles/_header.scss */
   #masthead.lock_nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100000;
-    background-color: rgba(0, 0, 0, 0.5); }
-    /* line 156, smash/styles/_header.scss */
+    background-color: rgba(0, 0, 0, 0.75); }
+    /* line 146, smash/styles/_header.scss */
+    #masthead.lock_nav .subscribe-nav-trigger-open {
+      border-radius: 0 !important; }
+    /* line 170, smash/styles/_header.scss */
     #masthead.lock_nav #logo_wrap.fixed {
       opacity: 0;
       visibility: hidden;
       padding: 0; }
-      /* line 161, smash/styles/_header.scss */
+      /* line 175, smash/styles/_header.scss */
       #masthead.lock_nav #logo_wrap.fixed img {
         display: none; }
-    /* line 166, smash/styles/_header.scss */
+    /* line 180, smash/styles/_header.scss */
     #masthead.lock_nav #logo_wrap.scrolled {
       opacity: 1;
       visibility: visible;
       padding: 12px 0; }
-      /* line 171, smash/styles/_header.scss */
+      /* line 185, smash/styles/_header.scss */
       #masthead.lock_nav #logo_wrap.scrolled img {
         display: block; }
       @media screen and (max-width: 768px) {
-        /* line 166, smash/styles/_header.scss */
+        /* line 180, smash/styles/_header.scss */
         #masthead.lock_nav #logo_wrap.scrolled {
           padding: 10px; } }
-    /* line 181, smash/styles/_header.scss */
+    /* line 195, smash/styles/_header.scss */
     #masthead.lock_nav #header-social {
       top: 100%; }
-    /* line 184, smash/styles/_header.scss */
+    /* line 198, smash/styles/_header.scss */
     #masthead.lock_nav .page-nav-wrap {
       border-top: 1px solid #bbb; }
-  /* line 193, smash/styles/_header.scss */
+  /* line 207, smash/styles/_header.scss */
   #masthead .site-navigation-wrap {
     position: relative; }
-    /* line 196, smash/styles/_header.scss */
+    /* line 210, smash/styles/_header.scss */
     #masthead .site-navigation-wrap #primary_menu {
       display: -webkit-flex !important;
       display: flex !important;
@@ -2116,10 +2140,10 @@ body.home #masthead {
       -webkit-align-items: center !important;
       justify-content: center !important;
       -webkit-justify-content: center !important; }
-    /* line 201, smash/styles/_header.scss */
+    /* line 215, smash/styles/_header.scss */
     #masthead .site-navigation-wrap .main-navigation {
       width: unset; }
-    /* line 205, smash/styles/_header.scss */
+    /* line 219, smash/styles/_header.scss */
     #masthead .site-navigation-wrap .side-menu {
       position: absolute;
       top: 0;
@@ -2129,10 +2153,10 @@ body.home #masthead {
       text-transform: uppercase;
       font-family: "futura-pt", serif;
       font-size: 11px; }
-      /* line 215, smash/styles/_header.scss */
+      /* line 229, smash/styles/_header.scss */
       #masthead .site-navigation-wrap .side-menu .menu-suscribe {
         margin-left: 10px; }
-  /* line 226, smash/styles/_header.scss */
+  /* line 240, smash/styles/_header.scss */
   #masthead .header-block {
     display: -webkit-flex !important;
     display: flex !important;
@@ -2140,51 +2164,52 @@ body.home #masthead {
     -webkit-flex-direction: row !important;
     float: none;
     flex: 1; }
-    /* line 231, smash/styles/_header.scss */
+    /* line 245, smash/styles/_header.scss */
     #masthead .header-block .menu-container {
       width: 100%; }
-    /* line 236, smash/styles/_header.scss */
+    /* line 250, smash/styles/_header.scss */
     #masthead .header-block.header-left .header-block-inner {
       margin-right: auto; }
-    /* line 240, smash/styles/_header.scss */
+    /* line 254, smash/styles/_header.scss */
     #masthead .header-block.header-middle {
       flex: 2; }
-    /* line 244, smash/styles/_header.scss */
+    /* line 258, smash/styles/_header.scss */
     #masthead .header-block.header-right .header-block-inner {
       margin-left: auto; }
-      /* line 247, smash/styles/_header.scss */
+      /* line 261, smash/styles/_header.scss */
       #masthead .header-block.header-right .header-block-inner .enquire-btn {
         position: relative;
         z-index: 1;
         padding: 10px 20px !important; }
         @media screen and (max-width: 600px) {
-          /* line 247, smash/styles/_header.scss */
+          /* line 261, smash/styles/_header.scss */
           #masthead .header-block.header-right .header-block-inner .enquire-btn {
             padding: 0 !important;
-            background: unset !important; } }
-  /* line 261, smash/styles/_header.scss */
+            background: unset !important;
+            color: #ffffff !important; } }
+  /* line 276, smash/styles/_header.scss */
   #masthead .subscribe-link {
     position: absolute;
     top: 0;
     left: 20px;
     bottom: 0;
     text-transform: uppercase; }
-  /* line 269, smash/styles/_header.scss */
+  /* line 284, smash/styles/_header.scss */
   #masthead .fab {
     font-size: 13px;
     padding: 0; }
-  /* line 274, smash/styles/_header.scss */
+  /* line 289, smash/styles/_header.scss */
   #masthead #primary-menu {
     justify-content: center;
     -webkit-justify-content: center; }
-    /* line 279, smash/styles/_header.scss */
+    /* line 294, smash/styles/_header.scss */
     #masthead #primary-menu li {
       padding: 65px 0; }
-  /* line 285, smash/styles/_header.scss */
+  /* line 300, smash/styles/_header.scss */
   #masthead .menu-mobile-container {
     display: none; }
     @media screen and (max-width: 600px) {
-      /* line 285, smash/styles/_header.scss */
+      /* line 300, smash/styles/_header.scss */
       #masthead .menu-mobile-container {
         display: block;
         position: absolute;
@@ -2193,19 +2218,19 @@ body.home #masthead {
         right: 0;
         z-index: 100000;
         background: white; }
-        /* line 299, smash/styles/_header.scss */
+        /* line 314, smash/styles/_header.scss */
         #masthead .menu-mobile-container .menu li {
           display: block;
           float: none;
           text-align: center;
           padding: 10px 0; } }
-  /* line 309, smash/styles/_header.scss */
+  /* line 324, smash/styles/_header.scss */
   #masthead .header-social-inner {
     position: relative; }
-    /* line 312, smash/styles/_header.scss */
+    /* line 327, smash/styles/_header.scss */
     #masthead .header-social-inner > * {
       margin-left: 7px; }
-    /* line 316, smash/styles/_header.scss */
+    /* line 331, smash/styles/_header.scss */
     #masthead .header-social-inner .icon {
       position: relative;
       width: 13px;
@@ -2215,11 +2240,11 @@ body.home #masthead {
     /* line 29, smash/styles/_header.scss */
     #masthead {
       padding: 0 2%; }
-      /* line 329, smash/styles/_header.scss */
+      /* line 344, smash/styles/_header.scss */
       #masthead .fab {
         padding: 0px; } }
 
-/* line 335, smash/styles/_header.scss */
+/* line 350, smash/styles/_header.scss */
 #logo_wrap {
   display: -webkit-flex !important;
   display: flex !important;
@@ -2231,53 +2256,53 @@ body.home #masthead {
   -webkit-justify-content: center !important;
   position: relative;
   z-index: 1; }
-  /* line 340, smash/styles/_header.scss */
+  /* line 355, smash/styles/_header.scss */
   #logo_wrap.fixed {
-    padding: 44px 20px;
+    padding: 25px 20px;
     opacity: 1;
     visibility: visible; }
-    /* line 346, smash/styles/_header.scss */
+    /* line 361, smash/styles/_header.scss */
     #logo_wrap.fixed img {
       display: block;
-      max-height: 55px;
+      max-height: 44px;
       width: auto; }
     @media screen and (max-width: 768px) {
-      /* line 340, smash/styles/_header.scss */
+      /* line 355, smash/styles/_header.scss */
       #logo_wrap.fixed {
         padding: 15px; } }
-  /* line 357, smash/styles/_header.scss */
+  /* line 372, smash/styles/_header.scss */
   #logo_wrap.scrolled {
     padding: 0;
     opacity: 0;
     visibility: hidden; }
-    /* line 363, smash/styles/_header.scss */
+    /* line 378, smash/styles/_header.scss */
     #logo_wrap.scrolled img {
       display: none;
-      max-height: 55px;
+      max-height: 44px;
       width: auto; }
 
 @media screen and (max-width: 768px) {
-  /* line 375, smash/styles/_header.scss */
+  /* line 390, smash/styles/_header.scss */
   body.customize-support #site-navigation.toggled .menu-container {
     top: 90px !important; }
-  /* line 384, smash/styles/_header.scss */
+  /* line 399, smash/styles/_header.scss */
   body.customize-support.lock_nav #site-navigation.toggled .menu-container {
     top: 45px !important; } }
-/* line 394, smash/styles/_header.scss */
+/* line 409, smash/styles/_header.scss */
 .test-container {
   display: flex; }
 
-/* line 397, smash/styles/_header.scss */
+/* line 412, smash/styles/_header.scss */
 .box {
   flex: 1;
   display: flex;
   justify-content: center; }
 
-/* line 403, smash/styles/_header.scss */
+/* line 418, smash/styles/_header.scss */
 .box:first-child > span {
   margin-right: auto; }
 
-/* line 405, smash/styles/_header.scss */
+/* line 420, smash/styles/_header.scss */
 .box:last-child > span {
   margin-left: auto; }
 
@@ -2290,31 +2315,37 @@ body.home #masthead {
     top: 40px;
     left: 20px; }
   /* line 11, smash/styles/_front-page.scss */
-  .home #page .front-page .logo-holder {
-    width: 57vw;
-    max-width: 700px;
-    margin: 0 auto;
-    margin-bottom: 2.3rem; }
-  /* line 17, smash/styles/_front-page.scss */
   .home #page .front-page a {
+    text-align: center;
     color: #ffffff; }
-    /* line 19, smash/styles/_front-page.scss */
+    /* line 15, smash/styles/_front-page.scss */
+    .home #page .front-page a .logo-holder {
+      width: 45vw;
+      max-width: 700px;
+      margin: 0 auto;
+      margin-bottom: 2.3rem; }
+    /* line 22, smash/styles/_front-page.scss */
     .home #page .front-page a h1 {
-      font-size: 24px;
-      letter-spacing: 2.5px; }
-  /* line 25, smash/styles/_front-page.scss */
-  .home #page .front-page a:hover {
-    color: #b3b3b3; }
+      display: inline-block;
+      font-size: 20px;
+      letter-spacing: 2.5px;
+      animation: 'text-decoration' 500ms ease; }
+      /* line 28, smash/styles/_front-page.scss */
+      .home #page .front-page a h1:hover {
+        text-decoration: underline; }
+    /* line 33, smash/styles/_front-page.scss */
+    .home #page .front-page a:hover {
+      color: #b3b3b3; }
   @media screen and (max-width: 768px) {
-    /* line 31, smash/styles/_front-page.scss */
+    /* line 40, smash/styles/_front-page.scss */
     .home #page .front-page .logo-holder {
       width: 75vw; } }
   @media screen and (max-width: 600px) {
-    /* line 41, smash/styles/_front-page.scss */
+    /* line 50, smash/styles/_front-page.scss */
     .home #page .front-page .logo-holder {
       width: 85vw;
       margin-bottom: 1.3rem; }
-    /* line 46, smash/styles/_front-page.scss */
+    /* line 55, smash/styles/_front-page.scss */
     .home #page .front-page a h1 {
       font-size: 16px; } }
 
@@ -2691,37 +2722,38 @@ article.snapshot {
     padding-top: 35vh;
     width: 70px;
     text-align: center;
-    overflow: hidden; }
-    /* line 211, smash/styles/_single-post.scss */
+    overflow: hidden;
+    z-index: 0; }
+    /* line 212, smash/styles/_single-post.scss */
     article.post .article-sidebar.article-sidebar-left,
     article.snapshot .article-sidebar.article-sidebar-left {
       left: 17px; }
       @media screen and (max-width: 960px) {
-        /* line 211, smash/styles/_single-post.scss */
+        /* line 212, smash/styles/_single-post.scss */
         article.post .article-sidebar.article-sidebar-left,
         article.snapshot .article-sidebar.article-sidebar-left {
           left: 0; } }
-    /* line 218, smash/styles/_single-post.scss */
+    /* line 219, smash/styles/_single-post.scss */
     article.post .article-sidebar.article-sidebar-right,
     article.snapshot .article-sidebar.article-sidebar-right {
       right: 17px; }
       @media screen and (max-width: 960px) {
-        /* line 218, smash/styles/_single-post.scss */
+        /* line 219, smash/styles/_single-post.scss */
         article.post .article-sidebar.article-sidebar-right,
         article.snapshot .article-sidebar.article-sidebar-right {
           right: 0; } }
-    /* line 226, smash/styles/_single-post.scss */
+    /* line 227, smash/styles/_single-post.scss */
     article.post .article-sidebar .post-products-wrap .post-products-trigger,
     article.snapshot .article-sidebar .post-products-wrap .post-products-trigger {
       position: unset; }
-    /* line 230, smash/styles/_single-post.scss */
+    /* line 231, smash/styles/_single-post.scss */
     article.post .article-sidebar .article-sidebar-inner,
     article.snapshot .article-sidebar .article-sidebar-inner {
       position: relative;
       height: 100vh;
       -webkit-transition: all .3s;
       transition: all .3s; }
-      /* line 236, smash/styles/_single-post.scss */
+      /* line 237, smash/styles/_single-post.scss */
       article.post .article-sidebar .article-sidebar-inner #progress,
       article.snapshot .article-sidebar .article-sidebar-inner #progress {
         position: fixed;
@@ -2730,14 +2762,14 @@ article.snapshot {
         height: 0;
         background-color: #000;
         z-index: -1; }
-      /* line 251, smash/styles/_single-post.scss */
+      /* line 252, smash/styles/_single-post.scss */
       article.post .article-sidebar .article-sidebar-inner .social-share .share-wrap,
       article.snapshot .article-sidebar .article-sidebar-inner .social-share .share-wrap {
         width: 100%;
         height: 38px;
         position: relative;
         margin-bottom: 22px; }
-        /* line 257, smash/styles/_single-post.scss */
+        /* line 258, smash/styles/_single-post.scss */
         article.post .article-sidebar .article-sidebar-inner .social-share .share-wrap span,
         article.snapshot .article-sidebar .article-sidebar-inner .social-share .share-wrap span {
           font-weight: 400;
@@ -2752,7 +2784,7 @@ article.snapshot {
           display: block;
           -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
           transform: translateY(-50%) translateX(-50%) rotate(90deg); }
-      /* line 274, smash/styles/_single-post.scss */
+      /* line 275, smash/styles/_single-post.scss */
       article.post .article-sidebar .article-sidebar-inner .social-share .share,
       article.snapshot .article-sidebar .article-sidebar-inner .social-share .share {
         display: block;
@@ -2762,58 +2794,62 @@ article.snapshot {
         line-height: normal;
         position: relative; }
   @media screen and (max-width: 768px) {
-    /* line 287, smash/styles/_single-post.scss */
+    /* line 288, smash/styles/_single-post.scss */
     article.post .article-sidebar,
     article.snapshot .article-sidebar {
       display: none; }
-      /* line 289, smash/styles/_single-post.scss */
+      /* line 290, smash/styles/_single-post.scss */
       article.post .article-sidebar .post-products-wrap .post-products-trigger,
       article.snapshot .article-sidebar .post-products-wrap .post-products-trigger {
         display: none !important; } }
 
-/* line 299, smash/styles/_single-post.scss */
-.entry-header .entry-title {
-  text-align: center;
-  margin-bottom: 15px; }
-/* line 304, smash/styles/_single-post.scss */
-.entry-header .entry-meta {
-  text-align: center;
-  font-family: "futura-pt", sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #c8c8c8;
-  margin-bottom: 30px; }
-  /* line 313, smash/styles/_single-post.scss */
-  .entry-header .entry-meta a {
-    color: #c8c8c8; }
-@media screen and (max-width: 600px) {
-  /* line 318, smash/styles/_single-post.scss */
+/* line 298, smash/styles/_single-post.scss */
+.entry-header {
+  position: relative;
+  z-index: 1; }
+  /* line 302, smash/styles/_single-post.scss */
   .entry-header .entry-title {
-    font-size: 36px;
-    margin-bottom: 40%; } }
+    text-align: center;
+    margin-bottom: 15px; }
+  /* line 307, smash/styles/_single-post.scss */
+  .entry-header .entry-meta {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #c8c8c8;
+    margin-bottom: 30px; }
+    /* line 316, smash/styles/_single-post.scss */
+    .entry-header .entry-meta a {
+      color: #c8c8c8; }
+  @media screen and (max-width: 600px) {
+    /* line 321, smash/styles/_single-post.scss */
+    .entry-header .entry-title {
+      font-size: 36px;
+      margin-bottom: 40%; } }
 
-/* line 327, smash/styles/_single-post.scss */
+/* line 330, smash/styles/_single-post.scss */
 .entry-products-slider {
   width: 100%; }
-  /* line 331, smash/styles/_single-post.scss */
+  /* line 334, smash/styles/_single-post.scss */
   .entry-products-slider .slick-arrow.slick-prev {
     left: unset;
     right: -4%;
     top: 48%; }
-  /* line 336, smash/styles/_single-post.scss */
+  /* line 339, smash/styles/_single-post.scss */
   .entry-products-slider .slick-arrow.slick-next {
     left: unset;
     right: -4%;
     top: 39%; }
-  /* line 343, smash/styles/_single-post.scss */
+  /* line 346, smash/styles/_single-post.scss */
   .entry-products-slider .product-wrap {
     padding: 10px; }
-    /* line 346, smash/styles/_single-post.scss */
+    /* line 349, smash/styles/_single-post.scss */
     .entry-products-slider .product-wrap .product-image {
       max-height: 124px; }
 
-/* line 352, smash/styles/_single-post.scss */
+/* line 355, smash/styles/_single-post.scss */
 .entry-footer {
   padding: 20px;
   margin: 50px 0;
@@ -2821,24 +2857,24 @@ article.snapshot {
   border-bottom: 1px solid #979797;
   font-family: "futura-pt", sans-serif;
   text-transform: uppercase; }
-  /* line 366, smash/styles/_single-post.scss */
+  /* line 369, smash/styles/_single-post.scss */
   .entry-footer .entry-footer-actions > * {
     margin: 0 10px;
     font-family: "futura-pt", sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     color: #141414; }
-  /* line 374, smash/styles/_single-post.scss */
+  /* line 377, smash/styles/_single-post.scss */
   .entry-footer .entry-footer-actions span {
     margin-left: 6px;
     font-size: 10px;
     text-transform: uppercase; }
   @media screen and (max-width: 600px) {
-    /* line 352, smash/styles/_single-post.scss */
+    /* line 355, smash/styles/_single-post.scss */
     .entry-footer {
       padding: 15px 0px;
       margin: 20px 0; }
-      /* line 387, smash/styles/_single-post.scss */
+      /* line 390, smash/styles/_single-post.scss */
       .entry-footer .entry-footer-actions > * {
         margin: 0px; } }
 
@@ -3254,40 +3290,46 @@ article.snapshot {
   justify-content: center !important;
   -webkit-justify-content: center !important;
   width: 100%;
-  padding: 3vh 0; }
+  padding: 3vh 0 0; }
   /* line 11, smash/styles/_page-contact.scss */
   #contact_page .contact-wrapper .contact-body {
     width: 100%;
     background: #ffffff;
-    padding: 30px;
+    padding: 30px 30px 0;
     margin-right: 3%; }
     /* line 18, smash/styles/_page-contact.scss */
     #contact_page .contact-wrapper .contact-body p {
       margin: 0; }
     /* line 21, smash/styles/_page-contact.scss */
     #contact_page .contact-wrapper .contact-body .contact-tabs {
-      list-style-type: none;
-      display: flex;
-      flex-flow: row wrap;
-      align-items: center;
-      justify-content: center; }
-      /* line 28, smash/styles/_page-contact.scss */
+      display: -webkit-flex !important;
+      display: flex !important;
+      flex-wrap: wrap !important;
+      -webkit-flex-wrap: wrap !important;
+      align-items: center !important;
+      -webkit-align-items: center !important;
+      justify-content: center !important;
+      -webkit-justify-content: center !important;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      /* line 27, smash/styles/_page-contact.scss */
       #contact_page .contact-wrapper .contact-body .contact-tabs .contact-tab-link {
         font-size: 18px;
         text-transform: uppercase;
         padding: 10px 0;
         margin: 0 3vw;
         cursor: pointer; }
-      /* line 35, smash/styles/_page-contact.scss */
+      /* line 34, smash/styles/_page-contact.scss */
       #contact_page .contact-wrapper .contact-body .contact-tabs .contact-tab-link.active {
         border-bottom: 2px solid #141414; }
-    /* line 39, smash/styles/_page-contact.scss */
+    /* line 38, smash/styles/_page-contact.scss */
     #contact_page .contact-wrapper .contact-body .contact-tab-content {
       display: none !important;
       display: flex;
       flex-direction: column;
       background-color: #ffffff; }
-      /* line 45, smash/styles/_page-contact.scss */
+      /* line 44, smash/styles/_page-contact.scss */
       #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box {
         display: -webkit-flex !important;
         display: flex !important;
@@ -3299,20 +3341,21 @@ article.snapshot {
         -webkit-justify-content: space-between !important;
         flex-wrap: wrap;
         padding: 6vh 0; }
-        /* line 50, smash/styles/_page-contact.scss */
+        /* line 49, smash/styles/_page-contact.scss */
         #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-text {
           padding-right: 3vw;
           flex: 4; }
-          /* line 54, smash/styles/_page-contact.scss */
+          /* line 53, smash/styles/_page-contact.scss */
           #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-text h4 {
             margin-bottom: 2rem; }
-          /* line 58, smash/styles/_page-contact.scss */
+          /* line 57, smash/styles/_page-contact.scss */
           #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-text p {
             line-height: 1.7; }
-        /* line 62, smash/styles/_page-contact.scss */
+        /* line 61, smash/styles/_page-contact.scss */
         #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-info {
           padding-left: 3vw;
-          border-left: 1px solid rgba(0, 0, 0, 0.12); }
+          border-left: 1px solid rgba(0, 0, 0, 0.12);
+          flex: 1; }
           /* line 66, smash/styles/_page-contact.scss */
           #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-info div {
             margin-bottom: 25px; }
@@ -3320,7 +3363,7 @@ article.snapshot {
             #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box .contact-info div h6 {
               font-size: 14px; }
         @media screen and (max-width: 600px) {
-          /* line 45, smash/styles/_page-contact.scss */
+          /* line 44, smash/styles/_page-contact.scss */
           #contact_page .contact-wrapper .contact-body .contact-tab-content .contact-box {
             display: -webkit-flex !important;
             display: flex !important;
@@ -3354,11 +3397,12 @@ article.snapshot {
   align-items: center !important;
   -webkit-align-items: center !important;
   justify-content: space-around !important;
-  -webkit-justify-content: space-around !important; }
-  /* line 103, smash/styles/_page-contact.scss */
+  -webkit-justify-content: space-around !important;
+  padding: 130px 0; }
+  /* line 104, smash/styles/_page-contact.scss */
   #contact_page .careers-wrapper .careers-image {
     width: 99.5vw;
-    height: 22vh;
+    min-height: 22vh;
     position: relative;
     left: 0;
     color: #ffffff; }
@@ -3372,15 +3416,16 @@ article.snapshot {
       -webkit-align-items: center !important;
       justify-content: center !important;
       -webkit-justify-content: center !important;
+      padding: 18vh 25vw;
       width: 100%;
       height: 100%;
       position: relative;
       background-color: rgba(0, 0, 0, 0.4); }
-    /* line 119, smash/styles/_page-contact.scss */
+    /* line 120, smash/styles/_page-contact.scss */
     #contact_page .careers-wrapper .careers-image .x-short {
       background-color: #fff;
       width: 70px; }
-  /* line 124, smash/styles/_page-contact.scss */
+  /* line 125, smash/styles/_page-contact.scss */
   #contact_page .careers-wrapper .careers-content {
     display: -webkit-flex !important;
     display: flex !important;
@@ -3390,20 +3435,20 @@ article.snapshot {
     -webkit-align-items: center !important;
     justify-content: space-around !important;
     -webkit-justify-content: space-around !important;
-    padding: 25px 0 50px 0; }
+    padding: 130px 50px 0; }
 @media screen and (max-width: 759px) {
-  /* line 136, smash/styles/_page-contact.scss */
+  /* line 137, smash/styles/_page-contact.scss */
   #contact_page .careers-image {
     max-height: none;
     min-height: 20vh; }
-  /* line 140, smash/styles/_page-contact.scss */
+  /* line 141, smash/styles/_page-contact.scss */
   #contact_page .x-short {
     display: none; } }
 @media screen and (max-width: 600px) {
-  /* line 148, smash/styles/_page-contact.scss */
+  /* line 149, smash/styles/_page-contact.scss */
   #contact_page .contact-body {
     min-height: 116vh; }
-    /* line 151, smash/styles/_page-contact.scss */
+    /* line 152, smash/styles/_page-contact.scss */
     #contact_page .contact-body .contact-box {
       display: -webkit-flex !important;
       display: flex !important;
@@ -3413,7 +3458,7 @@ article.snapshot {
       -webkit-align-items: center !important;
       justify-content: space-around !important;
       -webkit-justify-content: space-around !important; }
-      /* line 154, smash/styles/_page-contact.scss */
+      /* line 155, smash/styles/_page-contact.scss */
       #contact_page .contact-body .contact-box .contact-info {
         padding: 2rem 0 0 0;
         border-left: none; } }
@@ -3876,7 +3921,7 @@ body.page-template-page-philosophy {
 
 /* line 45, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-next:hover {
-  cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.png") 16 16, pointer; }
+  cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.svg") 16 16, pointer; }
 
 /* line 48, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-prev {
@@ -3887,7 +3932,7 @@ body.page-template-page-philosophy {
 
 /* line 54, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow.slick-prev:hover {
-  cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-l.png") 16 16, pointer; }
+  cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-l.svg") 16 16, pointer; }
 
 /* line 58, smash/styles/_page-process.scss */
 .slick-slider .slick-arrow {
@@ -4381,17 +4426,22 @@ body.page-template-page-philosophy {
       #pinterest_page.social-page .msnry-container-outer .msnry-container-inner .msnry-item-outer img:hover {
         opacity: .7;
         transform: scale(1.05); }
-/* line 75, smash/styles/_page-social.scss */
+  @media screen and (max-width: 768px) {
+    /* line 41, smash/styles/_page-social.scss */
+    #pinterest_page.social-page .msnry-container-outer {
+      overflow: unset !important;
+      height: auto; } }
+/* line 79, smash/styles/_page-social.scss */
 #pinterest_page.social-page .msnry-container-outer::-webkit-scrollbar {
   display: none; }
 
 @media screen and (max-width: 1120px) {
-  /* line 89, smash/styles/_page-social.scss */
+  /* line 93, smash/styles/_page-social.scss */
   #pinterest_page.social-page .msnry-container-outer .msnry-item-outer {
     width: 50% !important;
     padding: 9px 5px !important; } }
 @media screen and (max-width: 600px) {
-  /* line 99, smash/styles/_page-social.scss */
+  /* line 103, smash/styles/_page-social.scss */
   .social-page {
     display: -webkit-flex !important;
     display: flex !important;
@@ -4401,21 +4451,21 @@ body.page-template-page-philosophy {
     -webkit-align-items: center !important;
     justify-content: center !important;
     -webkit-justify-content: center !important; }
-    /* line 102, smash/styles/_page-social.scss */
+    /* line 106, smash/styles/_page-social.scss */
     .social-page .title-block {
       flex: 1; }
-      /* line 104, smash/styles/_page-social.scss */
+      /* line 108, smash/styles/_page-social.scss */
       .social-page .title-block h2 {
         padding: 0;
         margin: 0; }
-      /* line 108, smash/styles/_page-social.scss */
+      /* line 112, smash/styles/_page-social.scss */
       .social-page .title-block a {
         margin-bottom: 3vh; }
-    /* line 112, smash/styles/_page-social.scss */
+    /* line 116, smash/styles/_page-social.scss */
     .social-page .msnry-container-outer {
       flex: 1;
       width: 100%; }
-      /* line 116, smash/styles/_page-social.scss */
+      /* line 120, smash/styles/_page-social.scss */
       .social-page .msnry-container-outer .msnry-container-inner {
         border: none !important; } }
 /* line 3, smash/styles/_page-team.scss */
@@ -4439,31 +4489,39 @@ body.page-template-page-philosophy {
       width: 80%; }
     /* line 25, smash/styles/_page-team.scss */
     .team .team-container .team-block .team-shade {
-      opacity: 0;
+      display: none;
       position: absolute;
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
-      padding: 22px;
-      justify-content: center;
-      align-items: center;
-      transition: opacity .3s ease-out; }
-      /* line 36, smash/styles/_page-team.scss */
+      padding: 22px; }
+      /* line 33, smash/styles/_page-team.scss */
+      .team .team-container .team-block .team-shade .team-shade-inner {
+        display: -webkit-flex !important;
+        display: flex !important;
+        flex-direction: column !important;
+        -webkit-flex-direction: column !important;
+        align-items: center !important;
+        -webkit-align-items: center !important;
+        justify-content: center !important;
+        -webkit-justify-content: center !important;
+        height: 100%; }
+      /* line 38, smash/styles/_page-team.scss */
       .team .team-container .team-block .team-shade p {
         color: #ffffff; }
-    /* line 41, smash/styles/_page-team.scss */
+    /* line 43, smash/styles/_page-team.scss */
     .team .team-container .team-block .text-box {
       text-align: center; }
-      /* line 43, smash/styles/_page-team.scss */
+      /* line 45, smash/styles/_page-team.scss */
       .team .team-container .team-block .text-box h5 {
         color: #5b5b5b;
         font-size: 96%;
         padding-bottom: 12px; }
-      /* line 48, smash/styles/_page-team.scss */
+      /* line 50, smash/styles/_page-team.scss */
       .team .team-container .team-block .text-box h4 {
         color: black;
         padding-bottom: 15px; }
-      /* line 52, smash/styles/_page-team.scss */
+      /* line 54, smash/styles/_page-team.scss */
       .team .team-container .team-block .text-box .plus {
         font-size: 22px;
         width: 23px;
@@ -4473,11 +4531,11 @@ body.page-template-page-philosophy {
         display: flex;
         justify-content: center;
         align-items: center; }
-        /* line 61, smash/styles/_page-team.scss */
+        /* line 63, smash/styles/_page-team.scss */
         .team .team-container .team-block .text-box .plus:hover {
           opacity: .4; }
 @media screen and (max-width: 768px) {
-  /* line 72, smash/styles/_page-team.scss */
+  /* line 74, smash/styles/_page-team.scss */
   .team .team-container {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 5px; } }
@@ -4708,38 +4766,46 @@ body.page-template-page-philosophy {
           grid-column: 1/-1; }
         /* line 188, smash/styles/_footer.scss */
         #colophon .site-info .footer-social a.social-icon {
-          font-size: 32px; } }
+          font-size: 22px;
+          text-align: right; }
+          /* line 192, smash/styles/_footer.scss */
+          #colophon .site-info .footer-social a.social-icon:last-child {
+            margin-right: 0; } }
   @media screen and (min-width: 768px) {
     /* line 2, smash/styles/_footer.scss */
     #colophon {
       height: 48vh;
       grid-template-columns: repeat(3, auto);
       padding-top: 3rem; }
-      /* line 202, smash/styles/_footer.scss */
+      /* line 207, smash/styles/_footer.scss */
       #colophon .site-info {
         grid-template-columns: repeat(4, auto); }
-        /* line 205, smash/styles/_footer.scss */
+        /* line 210, smash/styles/_footer.scss */
         #colophon .site-info #logo_wrap.grid-box1 {
           grid-column: 2/3;
           padding-left: 0; }
-        /* line 210, smash/styles/_footer.scss */
+          /* line 215, smash/styles/_footer.scss */
+          #colophon .site-info #logo_wrap.grid-box1 img {
+            max-height: 44px;
+            width: auto; }
+        /* line 220, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
           grid-column: 1/-1; }
-        /* line 213, smash/styles/_footer.scss */
+        /* line 223, smash/styles/_footer.scss */
         #colophon .site-info .form.grid-box3 {
           display: none; }
-        /* line 216, smash/styles/_footer.scss */
+        /* line 226, smash/styles/_footer.scss */
         #colophon .site-info .footer-menu-container {
           margin: 0 auto;
           grid-column: 1/-1; }
-          /* line 221, smash/styles/_footer.scss */
+          /* line 231, smash/styles/_footer.scss */
           #colophon .site-info .footer-menu-container #footer_menu {
             grid-template-columns: repeat(4, minmax(180px, 1fr));
             margin: 0 auto; }
-        /* line 231, smash/styles/_footer.scss */
+        /* line 241, smash/styles/_footer.scss */
         #colophon .site-info .footer-contact-info.grid-box4 {
           display: none !important; }
-        /* line 234, smash/styles/_footer.scss */
+        /* line 244, smash/styles/_footer.scss */
         #colophon .site-info .site-built {
           grid-column: 2/-1;
           display: flex;
@@ -4750,36 +4816,36 @@ body.page-template-page-philosophy {
       height: 35vh;
       padding: 7vh 4vw;
       grid-template-columns: 1.2fr 1fr 1fr 1fr; }
-      /* line 251, smash/styles/_footer.scss */
+      /* line 261, smash/styles/_footer.scss */
       #colophon .container-lg {
         max-width: unset; }
-      /* line 256, smash/styles/_footer.scss */
+      /* line 266, smash/styles/_footer.scss */
       #colophon .site-info #logo_wrap.grid-box1 {
         grid-column: 1/3;
         grid-row: 2/3;
         margin-left: -2vw; }
-      /* line 261, smash/styles/_footer.scss */
+      /* line 271, smash/styles/_footer.scss */
       #colophon .site-info .break {
         grid-column: 1/-1; }
-      /* line 264, smash/styles/_footer.scss */
+      /* line 274, smash/styles/_footer.scss */
       #colophon .site-info #footer_menu_container {
         grid-column: 3/4;
         grid-row: 2/3;
         margin-left: -3vw; }
-        /* line 269, smash/styles/_footer.scss */
+        /* line 279, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container #footer_menu {
           width: unset;
           grid-template-columns: repeat(3, minmax(150px, 1fr));
           margin: 0 auto; }
-          /* line 274, smash/styles/_footer.scss */
+          /* line 284, smash/styles/_footer.scss */
           #colophon .site-info #footer_menu_container #footer_menu li {
             padding-left: 2rem; }
-      /* line 279, smash/styles/_footer.scss */
+      /* line 289, smash/styles/_footer.scss */
       #colophon .site-info .footer-social {
         grid-column: 4/5;
         grid-row: 2/3;
         display: flex; }
-      /* line 284, smash/styles/_footer.scss */
+      /* line 294, smash/styles/_footer.scss */
       #colophon .site-info .site-built {
         grid-column: 1/5;
         justify-content: center; } }
@@ -4788,29 +4854,29 @@ body.page-template-page-philosophy {
     #colophon {
       grid-template-columns: repeat(5, auto);
       height: 35vh; }
-      /* line 296, smash/styles/_footer.scss */
+      /* line 306, smash/styles/_footer.scss */
       #colophon .site-info {
         padding-top: 1vh; }
-        /* line 299, smash/styles/_footer.scss */
+        /* line 309, smash/styles/_footer.scss */
         #colophon .site-info #logo_wrap.grid-box1 {
-          margin-left: -1vw; }
-        /* line 302, smash/styles/_footer.scss */
+          margin-left: 0; }
+        /* line 312, smash/styles/_footer.scss */
         #colophon .site-info .grid-box2 {
           margin-bottom: 1rem; }
-        /* line 305, smash/styles/_footer.scss */
+        /* line 315, smash/styles/_footer.scss */
         #colophon .site-info #footer_menu_container {
           grid-column: 2/4;
           margin-left: 4vw;
           display: flex;
           flex-direction: column;
           justify-content: center; }
-          /* line 312, smash/styles/_footer.scss */
+          /* line 322, smash/styles/_footer.scss */
           #colophon .site-info #footer_menu_container #footer_menu {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
             align-items: center; }
-        /* line 319, smash/styles/_footer.scss */
+        /* line 329, smash/styles/_footer.scss */
         #colophon .site-info .footer-social {
           justify-content: flex-end; } }
 
@@ -4866,55 +4932,58 @@ body.page-template-page-philosophy {
   /* line 89, smash/styles/_tax_year_published.scss */
   #taxonomy_page .press-holder .blog-card-inner {
     width: 100%;
-    border: 4px solid #141414;
-    padding: 15%; }
+    border: 1px solid #141414;
+    padding: 30px 20px; }
+    /* line 94, smash/styles/_tax_year_published.scss */
+    #taxonomy_page .press-holder .blog-card-inner .blog-card-bgr-pic {
+      margin: 0 auto; }
 
 @media only screen and (max-width: 1124px) {
-  /* line 99, smash/styles/_tax_year_published.scss */
+  /* line 103, smash/styles/_tax_year_published.scss */
   #taxonomy_page .custom-post-holder {
     padding: 2rem; } }
 @media only screen and (max-width: 600px) {
-  /* line 114, smash/styles/_tax_year_published.scss */
+  /* line 110, smash/styles/_tax_year_published.scss */
   #taxonomy_page .cat-nav-item {
     margin: 0 5px; }
-  /* line 118, smash/styles/_tax_year_published.scss */
+  /* line 114, smash/styles/_tax_year_published.scss */
   #taxonomy_page .custom-post-holder {
     padding: 5vw; }
-    /* line 121, smash/styles/_tax_year_published.scss */
+    /* line 117, smash/styles/_tax_year_published.scss */
     #taxonomy_page .custom-post-holder .press-holder {
       grid-gap: 1rem; }
-      /* line 123, smash/styles/_tax_year_published.scss */
+      /* line 119, smash/styles/_tax_year_published.scss */
       #taxonomy_page .custom-post-holder .press-holder h5 {
         padding: 5px 0;
         font-size: 14px; }
-      /* line 128, smash/styles/_tax_year_published.scss */
+      /* line 124, smash/styles/_tax_year_published.scss */
       #taxonomy_page .custom-post-holder .press-holder .blog-card-inner {
         border: 8px solid #141414; } }
 @media only screen and (max-width: 430px) {
-  /* line 140, smash/styles/_tax_year_published.scss */
+  /* line 136, smash/styles/_tax_year_published.scss */
   #taxonomy_page .custom-post-holder .press-holder {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); } }
 
-/* line 153, smash/styles/_tax_year_published.scss */
+/* line 149, smash/styles/_tax_year_published.scss */
 #taxonomy_page .video_press-holder {
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
-  /* line 156, smash/styles/_tax_year_published.scss */
+  /* line 152, smash/styles/_tax_year_published.scss */
   #taxonomy_page .video_press-holder .alm-reveal {
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
-  /* line 162, smash/styles/_tax_year_published.scss */
+  /* line 158, smash/styles/_tax_year_published.scss */
   #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic {
     border-radius: 3px; }
-    /* line 166, smash/styles/_tax_year_published.scss */
+    /* line 162, smash/styles/_tax_year_published.scss */
     #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic:hover {
       cursor: url("/app/themes/nina_magon/smash/images/circle-triangle-50x50.png") 25 25, auto; }
-    /* line 169, smash/styles/_tax_year_published.scss */
+    /* line 165, smash/styles/_tax_year_published.scss */
     #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic .blog-card-shade {
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-      /* line 176, smash/styles/_tax_year_published.scss */
+      /* line 172, smash/styles/_tax_year_published.scss */
       #taxonomy_page .video_press-holder .blog-card .blog-card-bgr-pic .blog-card-shade:hover img {
         display: none; }
 
@@ -5525,9 +5594,8 @@ input#postURL {
       -webkit-align-items: center !important;
       justify-content: center !important;
       -webkit-justify-content: center !important;
-      position: relative;
-      background-color: #fff7; }
-      /* line 32, smash/modules/block_share_icons/_block_share_icons.scss */
+      position: relative; }
+      /* line 31, smash/modules/block_share_icons/_block_share_icons.scss */
       .share-icons .social-share .social-share-inner.vertical-share {
         display: -webkit-flex !important;
         display: flex !important;
@@ -5537,10 +5605,10 @@ input#postURL {
         -webkit-align-items: center !important;
         justify-content: flex-start !important;
         -webkit-justify-content: flex-start !important; }
-        /* line 35, smash/modules/block_share_icons/_block_share_icons.scss */
+        /* line 34, smash/modules/block_share_icons/_block_share_icons.scss */
         .share-icons .social-share .social-share-inner.vertical-share .fa, .share-icons .social-share .social-share-inner.vertical-share .fab, .share-icons .social-share .social-share-inner.vertical-share .fal, .share-icons .social-share .social-share-inner.vertical-share .far, .share-icons .social-share .social-share-inner.vertical-share .fas, .share-icons .social-share .social-share-inner.vertical-share .icon {
           color: #141414; }
-        /* line 39, smash/modules/block_share_icons/_block_share_icons.scss */
+        /* line 38, smash/modules/block_share_icons/_block_share_icons.scss */
         .share-icons .social-share .social-share-inner.vertical-share .social-share-title {
           transform: rotate(90deg) translate(0, -167%);
           transform-origin: top left;
@@ -5550,7 +5618,7 @@ input#postURL {
           font-weight: bold;
           letter-spacing: 1px;
           font-size: 11px; }
-        /* line 50, smash/modules/block_share_icons/_block_share_icons.scss */
+        /* line 49, smash/modules/block_share_icons/_block_share_icons.scss */
         .share-icons .social-share .social-share-inner.vertical-share .share-icons-wrap {
           display: -webkit-flex !important;
           display: flex !important;
@@ -5563,10 +5631,10 @@ input#postURL {
           position: relative;
           opacity: 1;
           visibility: visible; }
-      /* line 61, smash/modules/block_share_icons/_block_share_icons.scss */
+      /* line 60, smash/modules/block_share_icons/_block_share_icons.scss */
       .share-icons .social-share .social-share-inner.fade-share .social-share-title {
         display: block; }
-      /* line 65, smash/modules/block_share_icons/_block_share_icons.scss */
+      /* line 64, smash/modules/block_share_icons/_block_share_icons.scss */
       .share-icons .social-share .social-share-inner.fade-share .share-icons-wrap {
         display: -webkit-flex !important;
         display: flex !important;
@@ -5580,10 +5648,7 @@ input#postURL {
         z-index: 1;
         background: #ffffff;
         padding: 2px 20px; }
-      /* line 74, smash/modules/block_share_icons/_block_share_icons.scss */
-      .share-icons .social-share .social-share-inner .social-share-title {
-        display: none; }
-      /* line 78, smash/modules/block_share_icons/_block_share_icons.scss */
+      /* line 73, smash/modules/block_share_icons/_block_share_icons.scss */
       .share-icons .social-share .social-share-inner .share-icons-wrap {
         display: -webkit-flex !important;
         display: flex !important;
@@ -5594,10 +5659,10 @@ input#postURL {
         justify-content: center !important;
         -webkit-justify-content: center !important;
         position: relative; }
-    /* line 84, smash/modules/block_share_icons/_block_share_icons.scss */
+    /* line 79, smash/modules/block_share_icons/_block_share_icons.scss */
     .share-icons .social-share .share {
       margin: 8px; }
-      /* line 88, smash/modules/block_share_icons/_block_share_icons.scss */
+      /* line 83, smash/modules/block_share_icons/_block_share_icons.scss */
       .share-icons .social-share .share span {
         margin-left: 6px;
         font-size: 10px;
@@ -5660,7 +5725,7 @@ input#postURL {
   justify-content: center !important;
   -webkit-justify-content: center !important;
   position: relative;
-  height: 100vh;
+  height: 101vh;
   color: #ffffff;
   flex-direction: column; }
   /* line 8, smash/modules/block_hero_image/_block_hero_image.scss */
@@ -5682,7 +5747,7 @@ input#postURL {
 
 /* line 2, smash/modules/block_under_header/_block_under_header.scss */
 .header-block-content {
-  padding: 10vh 25vw;
+  padding: 18vh 25vw;
   background-color: #141414;
   color: #fff;
   display: flex;
@@ -5713,14 +5778,14 @@ input#postURL {
   z-index: 500; }
   /* line 7, smash/modules/nav_mobile/_nav_mobile.scss */
   #mobile_nav_wrap:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
   /* line 11, smash/modules/nav_mobile/_nav_mobile.scss */
   #mobile_nav_wrap .mobile-nav-trigger-open {
     display: block;
-    margin: 0px 20px;
+    margin: 0;
     font-size: 18px;
-    width: 37px;
-    height: 21px; }
+    width: 25px;
+    height: 25px; }
     @media screen and (max-width: 768px) {
       /* line 11, smash/modules/nav_mobile/_nav_mobile.scss */
       #mobile_nav_wrap .mobile-nav-trigger-open {
@@ -5760,20 +5825,16 @@ input#postURL {
   top: 0;
   left: -500px;
   bottom: 0;
-  overflow-y: scroll;
   z-index: 1000000;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */ }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     /* line 60, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer {
       max-width: 355px; } }
-  /* line 80, smash/modules/nav_mobile/_nav_mobile.scss */
-  .mobile-nav-outer.toggled .mobile-nav-outer-inner {
-    left: 0; }
-  /* line 85, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 78, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-outer-inner {
     position: fixed;
     width: 100%;
@@ -5784,15 +5845,15 @@ input#postURL {
     left: -500px;
     bottom: 0;
     z-index: 2;
-    background-color: #5A5A5AFA; }
-    @media screen and (max-width: 600px) {
-      /* line 85, smash/modules/nav_mobile/_nav_mobile.scss */
+    background: radial-gradient(127.7% 62.56% at 98% 50.72%, rgba(116, 116, 116, 0.93) 0%, rgba(84, 84, 84, 0.93) 52.28%, rgba(135, 135, 135, 0) 100%), rgba(40, 40, 40, 0.93); }
+    @media screen and (max-width: 768px) {
+      /* line 78, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-outer-inner {
         max-width: 355px; } }
-  /* line 105, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 98, smash/modules/nav_mobile/_nav_mobile.scss */
   #colophon .mobile-nav-outer {
     color: #141414; }
-  /* line 118, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 108, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-trigger-close {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5808,47 +5869,47 @@ input#postURL {
     font-size: 9px;
     text-transform: uppercase;
     color: #ffffff;
-    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.png") 16 16, pointer; }
-    /* line 128, smash/modules/nav_mobile/_nav_mobile.scss */
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+    /* line 118, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close .icon {
       width: 10px;
       height: 10px;
       margin-right: 6px; }
-    /* line 134, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 124, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-trigger-close span {
       margin-top: 2px; }
-    /* line 139, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 129, smash/modules/nav_mobile/_nav_mobile.scss */
     #masthead.lock_nav .site-header-container .site-navigation-wrap {
       border-bottom: unset !important; }
-    /* line 143, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 133, smash/modules/nav_mobile/_nav_mobile.scss */
     #masthead.lock_nav #mobile_nav_wrap .mobile-nav-trigger-close {
       top: 13px; }
     @media screen and (max-width: 768px) {
-      /* line 118, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 108, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-trigger-close {
         top: 13px; } }
-  /* line 154, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 144, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar {
     width: 1px; }
-  /* line 158, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 148, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-track {
     background: #ffffff;
     width: 1px; }
-  /* line 163, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 153, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer::-webkit-scrollbar-thumb {
     background-color: #141414;
     width: 1px; }
-  /* line 171, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 161, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #mobile_nav_wrap .mobile-nav-outer {
     top: 32px; }
     @media screen and (max-width: 782px) {
-      /* line 171, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 161, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support #mobile_nav_wrap .mobile-nav-outer {
         top: 46px; } }
-  /* line 182, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 172, smash/modules/nav_mobile/_nav_mobile.scss */
   body.customize-support #masthead.lock_nav #mobile_nav_wrap .mobile-nav-outer {
     top: 0; }
-  /* line 190, smash/modules/nav_mobile/_nav_mobile.scss */
+  /* line 180, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .mobile-nav-inner {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5860,16 +5921,16 @@ input#postURL {
     -webkit-justify-content: flex-start !important;
     position: relative;
     width: 100%; }
-    /* line 195, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 185, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .mobile-nav-inner .mobile-nav-body {
       padding: 50px 0; }
-      /* line 198, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 188, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body > * {
         width: 100%; }
-      /* line 202, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 192, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container {
         width: auto; }
-        /* line 205, smash/modules/nav_mobile/_nav_mobile.scss */
+        /* line 195, smash/modules/nav_mobile/_nav_mobile.scss */
         .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu {
           display: -webkit-flex !important;
           display: flex !important;
@@ -5891,10 +5952,10 @@ input#postURL {
           margin: 0;
           list-style: none;
           transform: translate(-100%, 0); }
-          /* line 221, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 211, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu.selected {
             transform: translate(0, 0); }
-          /* line 225, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 215, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5910,21 +5971,21 @@ input#postURL {
             width: 100%;
             z-index: 1;
             transform: translate(-100%, 0); }
-            /* line 235, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 225, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links.selected {
               transform: translate(100%, 0); }
-          /* line 240, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 230, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu li {
             position: unset !important;
             margin: 0;
             padding: 0; }
-          /* line 246, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 236, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label {
             margin-bottom: 20px; }
-            /* line 250, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 240, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a .icon, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label .icon {
               margin: 0 10px; }
-          /* line 255, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 245, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .nav-back {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5937,7 +5998,7 @@ input#postURL {
             display: block;
             padding: 0 50px;
             margin-bottom: 70px; }
-          /* line 262, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 252, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item {
             position: relative;
             left: -500px;
@@ -5946,17 +6007,13 @@ input#postURL {
             padding: 0 50px;
             margin-bottom: 70px;
             letter-spacing: 2px; }
-            /* line 270, smash/modules/nav_mobile/_nav_mobile.scss */
-            .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item:hover {
-              text-decoration: none;
-              color: #b3b3b3; }
-            /* line 275, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 262, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a {
               margin-bottom: 20px; }
-            /* line 280, smash/modules/nav_mobile/_nav_mobile.scss */
+            /* line 267, smash/modules/nav_mobile/_nav_mobile.scss */
             .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item.light-menu-item {
               font-weight: 100; }
-          /* line 285, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 272, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links {
             display: -webkit-flex !important;
             display: flex !important;
@@ -5969,7 +6026,11 @@ input#postURL {
             padding: 0;
             margin: 0;
             list-style: none; }
-  /* line 297, smash/modules/nav_mobile/_nav_mobile.scss */
+  @media screen and (max-width: 600px) {
+    /* line 283, smash/modules/nav_mobile/_nav_mobile.scss */
+    .mobile-nav-outer .menu-images-wrapper {
+      display: none !important; } }
+  /* line 288, smash/modules/nav_mobile/_nav_mobile.scss */
   .mobile-nav-outer .menu-images-wrapper .menu-image {
     display: -webkit-flex !important;
     display: flex !important;
@@ -5985,11 +6046,28 @@ input#postURL {
     transform: translate(-100%, 0);
     transition: transform 1s ease;
     z-index: 1; }
-    /* line 309, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 300, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
-      transform: translate(0, 0); }
-    /* line 313, smash/modules/nav_mobile/_nav_mobile.scss */
+      transform: translate(0, 0);
+      left: 500px; }
+      /* line 304, smash/modules/nav_mobile/_nav_mobile.scss */
+      .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected::after {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.2);
+        z-index: 1; }
+      @media screen and (max-width: 768px) {
+        /* line 300, smash/modules/nav_mobile/_nav_mobile.scss */
+        .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
+          left: 355px; } }
+    /* line 321, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner {
+      position: relative;
       display: -webkit-flex !important;
       display: flex !important;
       flex-direction: column !important;
@@ -5998,20 +6076,21 @@ input#postURL {
       -webkit-align-items: center !important;
       justify-content: flex-end !important;
       -webkit-justify-content: flex-end !important;
-      width: calc(100% - 355px);
+      width: 100%;
       height: 100vh;
-      padding-bottom: 100px; }
-      /* line 319, smash/modules/nav_mobile/_nav_mobile.scss */
+      padding-bottom: 100px;
+      z-index: 2; }
+      /* line 329, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn {
         min-width: 250px !important;
         font-size: 15px !important;
         font-weight: 400 !important;
         padding: 10px 20px !important;
         background-color: #ffffff !important; }
-        /* line 325, smash/modules/nav_mobile/_nav_mobile.scss */
+        /* line 335, smash/modules/nav_mobile/_nav_mobile.scss */
         .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn:hover {
           opacity: .7 !important; }
-    /* line 332, smash/modules/nav_mobile/_nav_mobile.scss */
+    /* line 342, smash/modules/nav_mobile/_nav_mobile.scss */
     body.customize-support .mobile-nav-outer .menu-images-wrapper .menu-image {
       top: 32px; }
   @media screen and (max-width: 768px) {
@@ -6019,7 +6098,7 @@ input#postURL {
     .mobile-nav-outer {
       padding-top: 45px; } }
 
-/* line 346, smash/modules/nav_mobile/_nav_mobile.scss */
+/* line 356, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_bg {
   display: none;
   background: rgba(0, 0, 0, 0.4);
@@ -6086,7 +6165,7 @@ input#postURL {
   /* line 7, smash/modules/nav_subscribe/_nav_subscribe.scss */
   #subscribe_nav_wrap .subscribe-nav-trigger-open {
     display: block;
-    margin: 0px 20px;
+    margin: 0;
     font-size: 18px; }
     @media screen and (max-width: 768px) {
       /* line 7, smash/modules/nav_subscribe/_nav_subscribe.scss */
@@ -6127,7 +6206,7 @@ input#postURL {
   top: 0;
   right: -500px;
   bottom: 0;
-  overflow-y: scroll;
+  overflow: hidden;
   z-index: 1000000;
   color: #ffffff; }
   @media screen and (max-width: 600px) {
@@ -6138,7 +6217,7 @@ input#postURL {
   .subscribe-nav-outer .subscribe-nav-outer-inner {
     position: absolute;
     width: 100%;
-    padding: 100px 0;
+    padding: 55px 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -6266,7 +6345,7 @@ input#postURL {
     margin-bottom: 0; }
   /* line 8, smash/modules/slider_collection/_slider_collection.scss */
   .collection-slider-wrapper .slick-slider .slick-arrow.slick-next:hover {
-    cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.png") 16 16, pointer; }
+    cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.svg") 16 16, pointer; }
   /* line 12, smash/modules/slider_collection/_slider_collection.scss */
   .collection-slider-wrapper .collection-slider {
     width: 100%;
@@ -6430,7 +6509,7 @@ input#postURL {
     margin-bottom: 0; }
   /* line 9, smash/modules/slider_gallery/_slider_gallery.scss */
   .gallery-slider-wrapper .gallery-slider {
-    width: 100%;
+    width: 88%;
     max-width: 1160px; }
     /* line 16, smash/modules/slider_gallery/_slider_gallery.scss */
     .gallery-slider-wrapper .gallery-slider .gallery-slide .gallery-slide-inner {
@@ -6445,17 +6524,16 @@ input#postURL {
       padding: 50px 50px 0; }
       /* line 20, smash/modules/slider_gallery/_slider_gallery.scss */
       .gallery-slider-wrapper .gallery-slider .gallery-slide .gallery-slide-inner .gallery-image {
-        width: 100%;
         max-height: 500px;
         transition: max-height 0.8s ease-out; }
         @media screen and (max-width: 960px) {
           /* line 20, smash/modules/slider_gallery/_slider_gallery.scss */
           .gallery-slider-wrapper .gallery-slider .gallery-slide .gallery-slide-inner .gallery-image {
             max-height: 400px; } }
-    /* line 37, smash/modules/slider_gallery/_slider_gallery.scss */
+    /* line 36, smash/modules/slider_gallery/_slider_gallery.scss */
     .gallery-slider-wrapper .gallery-slider.slick-slider .slick-list {
       overflow: visible; }
-      /* line 42, smash/modules/slider_gallery/_slider_gallery.scss */
+      /* line 41, smash/modules/slider_gallery/_slider_gallery.scss */
       .gallery-slider-wrapper .gallery-slider.slick-slider .slick-list .slick-slide.slick-current .gallery-slide-inner {
         display: -webkit-flex !important;
         display: flex !important;
@@ -6466,11 +6544,11 @@ input#postURL {
         justify-content: center !important;
         -webkit-justify-content: center !important;
         padding: 0; }
-        /* line 46, smash/modules/slider_gallery/_slider_gallery.scss */
+        /* line 45, smash/modules/slider_gallery/_slider_gallery.scss */
         .gallery-slider-wrapper .gallery-slider.slick-slider .slick-list .slick-slide.slick-current .gallery-slide-inner .gallery-image {
           max-height: 600px; }
           @media screen and (max-width: 960px) {
-            /* line 46, smash/modules/slider_gallery/_slider_gallery.scss */
+            /* line 45, smash/modules/slider_gallery/_slider_gallery.scss */
             .gallery-slider-wrapper .gallery-slider.slick-slider .slick-list .slick-slide.slick-current .gallery-slide-inner .gallery-image {
               max-height: 400px; } }
 
@@ -6851,23 +6929,24 @@ input#postURL {
     height: 21vh;
     width: 10px;
     opacity: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.3);
-    background: linear-gradient(0deg, white 0%, rgba(244, 246, 246, 0.2) 33%, #f5f9fa 66%, rgba(245, 249, 250, 0.2) 100%);
+    background: white;
+    background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
     transition: opacity .7s ease-in-out;
-    animation: nina-bar 2.2s infinite reverse ease-in-out;
-    animation-fill-mode: backwards; }
-  /* line 29, smash/modules/scroll_down_bar/_scroll_down_bar.scss */
+    animation: nina-bar 2.2s infinite reverse ease-in-out; }
+  /* line 33, smash/modules/scroll_down_bar/_scroll_down_bar.scss */
   .bar-outer #bar.is-hidden {
     opacity: 0; }
 
-/* line 33, smash/modules/scroll_down_bar/_scroll_down_bar.scss */
+/* line 37, smash/modules/scroll_down_bar/_scroll_down_bar.scss */
 .bar-outer.is-hidden {
   opacity: 0; }
 
 @keyframes nina-bar {
   from {
-    transform: translateY(0); }
+    transform: translateY(100%); }
   to {
     transform: translateY(-100%); } }
 @keyframes nina-bar2 {

@@ -88,8 +88,12 @@
 
     .blog-card-inner {
         width: 100%;
-        border: 4px solid $primary_color;
-        padding: 15%;
+        border: 1px solid $primary_color;
+        padding: 30px 20px;
+        
+        .blog-card-bgr-pic {
+            margin: 0 auto;
+        }
     }
 
 }
@@ -98,15 +102,7 @@
          
         .custom-post-holder {
             padding: 2rem;
-
-            .press-holder {
-                
-                .blog-card-inner {
-                  
-                }
-            }
         }
-
     }
     
     @media only screen and (max-width: 600px ) {

@@ -27,7 +27,6 @@ input#postURL {
         .social-share-inner {
             @include flex(row, center, center);
             position: relative;
-            background-color: #fff7;
 
             &.vertical-share {
                 @include flex(col, center, start);
@@ -69,10 +68,6 @@ input#postURL {
                     background: $secondary_color;
                     padding: 2px 20px;
                 }
-            }
-
-            .social-share-title {
-                display: none;
             }
             
             .share-icons-wrap {

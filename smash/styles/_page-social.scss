@@ -71,6 +71,10 @@
             }
         }
       
+        @include respond-to(large, max){
+            overflow: unset !important;
+            height: auto;
+        }
     }
     .msnry-container-outer::-webkit-scrollbar {
         display: none;

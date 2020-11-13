@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     background-color: #fff;
     //this margin needs to be the same height as the footer - use js
-    margin-bottom: 87vh;
+    margin-bottom: 580px;
     z-index: 20;
 }
 
@@ -277,7 +277,7 @@ a.btn-tertiary, .btn-tertiary {
 .nina-btn {
     @extend %btn; 
     background: $btn_color_primary !important;
-    padding: 12px 50px !important;
+    padding: 12px 50px 12px 60px !important;
     //border: 2px solid $btn_border_primary !important;
     color: $secondary_color !important;
     font-size: 14px !important;
@@ -622,10 +622,10 @@ a .icon {
         }
     }
 }
-
+//for the footer
 @include respond-to(400, min) {
     #page {
-        margin-bottom: 77vh;
+        margin-bottom: 545px;
     }
 }
 // @include respond-to(medium, min) {
@@ -635,18 +635,18 @@ a .icon {
 // }
 @include respond-to(large, min) {
     #page {
-        margin-bottom: 43vh;
+        margin-bottom: 255px;
     }
 }
 
 @include respond-to( 960, min) {
     #page {
-        margin-bottom: 32vh;
+        margin-bottom: 275px;
     }
 }
 @include respond-to(xxlarge, min) {
     #page {
-        margin-bottom: 34vh;
+        margin-bottom: 260px;
     }
 }
 

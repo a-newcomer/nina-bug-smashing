@@ -71,9 +71,11 @@ add_action( 'wp_enqueue_scripts', function(){
     if(is_singular('post')){
         wp_enqueue_script( 'social-script', get_template_directory_uri().'/smash/js/social/social.min.js', array(), '1', true);
     }
-    wp_enqueue_script( 'vimeo-script',  get_template_directory_uri().'/smash/js/vimeo-player.js', array(), '20151215', true );
-    
-    wp_enqueue_script( 'video-about-script', get_template_directory_uri(). '/smash/js/video-about.js', array('vimeo-script'), '20151215', true );
+
+    if(is_page_template('page-main.php') || is_page_template('page-about.php') || is_page_template('page-services.php')){
+        wp_enqueue_script( 'vimeo-script',  get_template_directory_uri().'/smash/js/vimeo-player.js', array(), '20151215', true );
+        wp_enqueue_script( 'video-about-script', get_template_directory_uri(). '/smash/js/video-about.js', array('vimeo-script'), '20151215', true );
+    }
 	
     wp_enqueue_script( 'smash-scripts', get_template_directory_uri() . '/smash/js/smash-scripts.js', array(), '20151215', true );
     wp_enqueue_script( 'smash', get_template_directory_uri() . '/smash/js/smash.js', array(), '20151215', true );
@@ -83,7 +85,6 @@ add_action( 'wp_enqueue_scripts', function(){
     }
     
     wp_enqueue_script( 'nina_magon-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-    
 	wp_enqueue_script( 'nina_magon-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

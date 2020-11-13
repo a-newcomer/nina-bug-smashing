@@ -112,7 +112,7 @@ $btn_hover_text_tertiary: #141414;
 $bg_color: #FDFBFA;
 $bg_color_2: #F0EAD9;
 $header_bg: rgba(0,0,0,0);
-$header_shade:  rgba(0,0,0,.5);
+$header_shade:  rgba(0,0,0,0.75);
 $header_text: #444444;
 $header_hover: #BFCECE;
 $footer_bg: #000000;
@@ -161,7 +161,7 @@ $body: 14px;
 %heading {
     font-family: $font_title;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0.25em;
@@ -193,7 +193,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         color: $primary_color;
     }
 }
@@ -216,14 +216,14 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         color: $link_color;
     }
 }
 
 %white_link {
     @extend %ease;
-    color: $secondary_color;
+    color: shade($secondary_color, 30%);
     outline: none;
     text-decoration: none;
 
@@ -235,12 +235,12 @@ $body: 14px;
     }
 
     &:focus, &:active, &:visited {
-        color: $secondary_color;
+        color: shade($secondary_color, 30%);
     }
 
     &:hover {
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
-        text-decoration: underline;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
+        color: $secondary_color;
     }
 }
 
@@ -296,7 +296,7 @@ $body: 14px;
     }
 
     &:hover {
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         color: $header_hover;
     }
 }
@@ -319,7 +319,7 @@ $body: 14px;
     }
 
     &:hover {
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         color: $link_color;
     }
 }
@@ -440,7 +440,7 @@ $body: 14px;
             .sub-menu {
                 opacity: 1;
                 visibility: visible;
-                cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+                cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
             }
         }
 
@@ -516,10 +516,10 @@ $body: 14px;
     text-align: center !important;
 
     &:hover {
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
 
         a {
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         }
     }
 }
@@ -544,11 +544,11 @@ $body: 14px;
         background: $btn_hover_primary !important;
         border: 2px solid $btn_hover_border_primary !important;
         color: $btn_hover_text_primary !important;
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         
         a {
             color: $btn_hover_text_primary !important;
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         }
         
         .icon {
@@ -577,11 +577,11 @@ $body: 14px;
         background: $btn_hover_secondary !important;
         border: 2px solid $btn_hover_border_secondary !important;
         color: $btn_hover_text_secondary !important;
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         
         a {
             color: $btn_hover_text_secondary !important;
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         }
         
         .icon {
@@ -610,15 +610,61 @@ $body: 14px;
         background: $btn_hover_tertiary !important;
         border: 2px solid $btn_hover_border_tertiary !important;
         color: $btn_hover_text_tertiary !important;
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         
         a {
             color: $btn_hover_text_tertiary !important;
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         }
         
         .icon {
             fill: $btn_hover_text_tertiary !important;
+        }
+    }
+}
+
+%btn-nina {
+    @include flex(row, center, center);
+    position: relative;
+    padding: 12px 50px !important;
+    font-family: $font_title !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    border-radius: 30px !important;
+
+    .icon {
+        @extend %ease;
+        animation: hide-arrow .4s 1 both ease-in-out;
+    }
+
+    &:hover {
+        span {
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
+        }
+        .icon {
+            animation: show-arrow .4s 1 both ease-in-out;
+            opacity: 1;
+        }
+    }
+
+    @keyframes hide-arrow {
+        from  {
+            margin-left: 10px;
+            opacity: 1;
+        }
+        to  {
+            margin-left: -15px;
+            opacity: 0;
+        }
+    }
+    @keyframes show-arrow {
+        from  {
+            margin-left: -15px;
+            opacity: 0;
+        }
+        to  {
+            margin-left: 10px;
+            opacity: 1;
         }
     }
 }
