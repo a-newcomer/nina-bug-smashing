@@ -301,7 +301,7 @@
             right: 0;
             height: 100vh;
             opacity: 0;
-            transition: opacity 1s ease;
+            // transition: opacity 5s ease-out;
             z-index: 1;
 
             &::after {
@@ -323,21 +323,16 @@
                 height: 100vh;
                 padding-bottom: 100px;
                 z-index: 2;
+            }
 
-                .btn {
-                    min-width: 250px !important;
-                    font-size: 15px !important;
-                    font-weight: 400 !important;
-                    padding: 10px 20px !important;
-                    background-color: $secondary_color !important;
-                    &:hover {
-                        opacity: .7 !important;
-                    }
-                }
+            &.hide-image {
+                animation: hideImage 3s 0s 1 both ease-in-out;
             }
 
             &.image-selected {
+                animation: showImage 1s 0s 1 both ease-in-out;
                 opacity: 1;
+                z-index: 2;
 
                 @include respond-to(large, max){
                     left: 355px;
@@ -347,6 +342,23 @@
             @at-root body.customize-support {
                 .mobile-nav-outer .menu-images-wrapper .menu-image {
                     top: 32px;
+                }
+            }
+
+            @keyframes hideImage {
+                from  {
+                    opacity: 1;
+                }
+                to  {
+                    opacity: 0;
+                }
+            }
+            @keyframes showImage {
+                from  {
+                    opacity: 0;
+                }
+                to  {
+                    opacity: 1;
                 }
             }
         }

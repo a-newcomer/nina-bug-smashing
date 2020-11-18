@@ -71,14 +71,14 @@ jQuery(function($){
     }
 
     function closeMenu(){
-        $('.image-selected').removeClass('image-selected');
+        $('.image-selected').removeClass('image-selected').addClass('hide-image');
         $('#mobile_menu').addClass('selected');
         $('.menu-images-wrapper').removeClass('open');
     }
 
     function runMenu(){
         let triggers = $('.nav-block-trigger');
-        $('.image-selected').removeClass('image-selected');
+        $('.image-selected').removeClass('image-selected').addClass('hide-image');
         triggers.each(function(){
             let _ = $(this);
             _.click(function(){
@@ -86,7 +86,7 @@ jQuery(function($){
                 $('.menu-images-wrapper').stop().fadeToggle().addClass('open');
 
                 if(_.hasClass('nav-back')){
-                    $('.image-selected').removeClass('image-selected');
+                    $('.image-selected').removeClass('image-selected').addClass('hide-image');
                     $('.menu-images-wrapper').stop().fadeToggle(function(){
                         $(this).removeClass('open');
                     });
@@ -111,7 +111,7 @@ jQuery(function($){
                     e.preventDefault();
                 }
                 let c = $(this).data('menu-image');
-                $('.image-selected').removeClass('image-selected');
+                $('.image-selected').removeClass('image-selected').addClass('hide-image');
                 $('#'+c).toggleClass('image-selected');
             })
         })

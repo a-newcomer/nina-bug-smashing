@@ -1029,7 +1029,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 171, smash/styles/_vars.scss */
 p a, article.post .quick-links a,
-article.snapshot .quick-links a, .quick-links a, a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, #colophon .subscribe-nav-outer a, a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, #colophon .mobile-nav-outer a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"], a.nav-link, #masthead a, #colophon a, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .sub-menu, #masthead #primary_left_menu li .sub-menu, #masthead .site-navigation-wrap #primary_menu li .sub-menu, #masthead #primary-menu li .sub-menu, #shop_page .shop-nav #shop_menu li .sub-menu, #more_nav #category_menu li .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .sub-menu, .product .product-wrap .product-image-wrap > .fade, .post-block .post-block-image > .fade, .share-icons .social-share .social-share-inner.fade-share > .fade, .animate-right > *, .animate-right > .icon, .alm-btn-wrap .alm-load-more-btn span, #masthead, #masthead .site-header-container .page-nav-wrap .page-menu-toggle .page-menu-toggle-inner .icon, #masthead #primary-menu li, #logo_wrap.fixed, #logo_wrap.scrolled, #cta_blocks .cta-block .cta-wrap, .post-products-wrap .post-products, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links, .mobile-nav-outer .menu-images-wrapper .menu-image, .home-post .home-post-inner .home-post-image .social-share .share-actions, #more_posts .next-up-posts .next-up-post .next-up-post-image .btn, #load_more_posts .next-up-posts .next-up-post .next-up-post-image .btn {
+article.snapshot .quick-links a, .quick-links a, a, a.alt-link, .entry-footer a, #shop_page .shop-nav #shop_menu li a, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-brand, #shop_page .products-grid-wrapper .product-grid-item .flex-col .product-title, a.share-icon, .share-icons .social-share .share, .share-icons .social-share .share a, #colophon .subscribe-nav-outer a, a.white-link, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu a, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu label, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .menu-item a, #colophon .mobile-nav-outer a, .subscribe-nav-outer a, .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container input[type="button"], .subscribe-nav-outer .subscribe-nav-inner .subscribe-nav-body nf-field .nf-field-container textarea[type="button"], a.nav-link, #masthead a, #colophon a, #masthead .site-header-container .page-nav-wrap .page-nav-wrap-inner .page-nav li .sub-menu, #masthead #primary_left_menu li .sub-menu, #masthead .site-navigation-wrap #primary_menu li .sub-menu, #masthead #primary-menu li .sub-menu, #shop_page .shop-nav #shop_menu li .sub-menu, #more_nav #category_menu li .sub-menu, #snapshots_loop .snapshots-wrapper .snapshots-header .snapshots-menu-container .snapshots-menu li .sub-menu, .product .product-wrap .product-image-wrap > .fade, .post-block .post-block-image > .fade, .share-icons .social-share .social-share-inner.fade-share > .fade, .btn-nina .icon, .animate-right > *, .animate-right > .icon, .alm-btn-wrap .alm-load-more-btn span, #masthead, #masthead .site-header-container .page-nav-wrap .page-menu-toggle .page-menu-toggle-inner .icon, #masthead #primary-menu li, #logo_wrap.fixed, #logo_wrap.scrolled, #cta_blocks .cta-block .cta-wrap, .post-products-wrap .post-products, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu, .mobile-nav-outer .mobile-nav-inner .mobile-nav-body #mobile_menu_container #mobile_menu .sub-links, .mobile-nav-outer .menu-images-wrapper .menu-image, .home-post .home-post-inner .home-post-image .social-share .share-actions, #more_posts .next-up-posts .next-up-post .next-up-post-image .btn, #load_more_posts .next-up-posts .next-up-post .next-up-post-image .btn {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -1229,7 +1229,7 @@ a.nav-link, #masthead a {
   visibility: visible; }
 
 /* line 507, smash/styles/_vars.scss */
-a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"], a.btn-secondary, .btn-secondary, a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open, a.btn, .btn, .nina-btn {
+a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"], .modal #mc-embedded-subscribe-form input[type="submit"], .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"], #search-modal .modal-box .modal-inner input[type="submit"], a.btn-secondary, .btn-secondary, a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open, a.btn, .btn {
   display: inline-block !important;
   padding: 15px 25px !important;
   font-family: "futura-pt", sans-serif !important;
@@ -1240,10 +1240,10 @@ a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"]
   font-weight: 200 !important;
   text-align: center !important; }
   /* line 518, smash/styles/_vars.scss */
-  .btn-primary:hover, .modal .modal-box .modal-inner input[type="button"]:hover, .modal #mc-embedded-subscribe-form input[type="submit"]:hover, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover, #search-modal .modal-box .modal-inner input[type="submit"]:hover, .btn-secondary:hover, .btn-tertiary:hover, #masthead.lock_nav .subscribe-nav-trigger-open:hover, .btn:hover, .nina-btn:hover {
+  .btn-primary:hover, .modal .modal-box .modal-inner input[type="button"]:hover, .modal #mc-embedded-subscribe-form input[type="submit"]:hover, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover, #search-modal .modal-box .modal-inner input[type="submit"]:hover, .btn-secondary:hover, .btn-tertiary:hover, #masthead.lock_nav .subscribe-nav-trigger-open:hover, .btn:hover {
     cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 521, smash/styles/_vars.scss */
-    .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a, .btn-secondary:hover a, .btn-tertiary:hover a, #masthead.lock_nav .subscribe-nav-trigger-open:hover a, .btn:hover a, .nina-btn:hover a {
+    .btn-primary:hover a, .modal .modal-box .modal-inner input[type="button"]:hover a, .modal #mc-embedded-subscribe-form input[type="submit"]:hover a, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover a, #search-modal .modal-box .modal-inner input[type="submit"]:hover a, .btn-secondary:hover a, .btn-tertiary:hover a, #masthead.lock_nav .subscribe-nav-trigger-open:hover a, .btn:hover a {
       cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
 
 /* line 527, smash/styles/_vars.scss */
@@ -1270,59 +1270,88 @@ a.btn-primary, .btn-primary, .modal .modal-box .modal-inner input[type="button"]
       cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
     /* line 554, smash/styles/_vars.scss */
     .btn-primary:hover .icon, .modal .modal-box .modal-inner input[type="button"]:hover .icon, .modal #mc-embedded-subscribe-form input[type="submit"]:hover .icon, .modal[data-trigger="contact-popup"] .modal-box .modal-inner form nf-field .nf-field-container input[value="Submit"][type="button"]:hover .icon, #search-modal .modal-box .modal-inner input[type="submit"]:hover .icon {
+      color: #ffffff !important;
       fill: #ffffff !important; }
 
-/* line 561, smash/styles/_vars.scss */
+/* line 562, smash/styles/_vars.scss */
 a.btn-secondary, .btn-secondary {
   background: rgba(0, 0, 0, 0.5) !important;
   border: 2px solid transparent !important;
   color: #ffffff !important; }
-  /* line 567, smash/styles/_vars.scss */
+  /* line 568, smash/styles/_vars.scss */
   .btn-secondary a {
     color: #ffffff !important; }
-  /* line 571, smash/styles/_vars.scss */
+  /* line 572, smash/styles/_vars.scss */
   .btn-secondary .icon, .icon.btn-secondary {
     fill: #ffffff !important; }
-  /* line 576, smash/styles/_vars.scss */
+  /* line 577, smash/styles/_vars.scss */
   .btn-secondary:hover {
     background: #141414 !important;
     border: 2px solid #141414 !important;
     color: #ffffff !important;
     cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-    /* line 582, smash/styles/_vars.scss */
+    /* line 583, smash/styles/_vars.scss */
     .btn-secondary:hover a {
       color: #ffffff !important;
       cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-    /* line 587, smash/styles/_vars.scss */
+    /* line 588, smash/styles/_vars.scss */
     .btn-secondary:hover .icon {
+      color: #ffffff !important;
       fill: #ffffff !important; }
 
-/* line 593, smash/styles/_vars.scss */
+/* line 595, smash/styles/_vars.scss */
 a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
   background: rgba(255, 255, 255, 0.7) !important;
   border: 2px solid rgba(255, 255, 255, 0) !important;
   border-radius: 30px;
   color: #141414 !important; }
-  /* line 600, smash/styles/_vars.scss */
+  /* line 602, smash/styles/_vars.scss */
   .btn-tertiary a, #masthead.lock_nav .subscribe-nav-trigger-open a {
     color: #141414 !important; }
-  /* line 604, smash/styles/_vars.scss */
+  /* line 606, smash/styles/_vars.scss */
   .btn-tertiary .icon, #masthead.lock_nav .subscribe-nav-trigger-open .icon, .icon.btn-tertiary, #masthead.lock_nav .icon.subscribe-nav-trigger-open {
     fill: #141414 !important; }
-  /* line 609, smash/styles/_vars.scss */
+  /* line 611, smash/styles/_vars.scss */
   .btn-tertiary:hover, #masthead.lock_nav .subscribe-nav-trigger-open:hover {
     background: #ffffff !important;
     border: 2px solid rgba(255, 255, 255, 0) !important;
     color: #141414 !important;
     cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-    /* line 615, smash/styles/_vars.scss */
+    /* line 617, smash/styles/_vars.scss */
     .btn-tertiary:hover a, #masthead.lock_nav .subscribe-nav-trigger-open:hover a {
       color: #141414 !important;
       cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-    /* line 620, smash/styles/_vars.scss */
+    /* line 622, smash/styles/_vars.scss */
     .btn-tertiary:hover .icon, #masthead.lock_nav .subscribe-nav-trigger-open:hover .icon {
+      color: #141414 !important;
       fill: #141414 !important; }
 
+/* line 629, smash/styles/_vars.scss */
+a.btn-nina, .btn-nina {
+  display: -webkit-flex !important;
+  display: flex !important;
+  flex-direction: row !important;
+  -webkit-flex-direction: row !important;
+  align-items: center !important;
+  -webkit-align-items: center !important;
+  justify-content: center !important;
+  -webkit-justify-content: center !important;
+  position: relative;
+  padding: 12px 50px !important;
+  font-family: "futura-pt", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border-radius: 30px !important; }
+  /* line 638, smash/styles/_vars.scss */
+  .btn-nina .icon {
+    animation: hide-arrow .4s 1 both ease-in-out; }
+  /* line 644, smash/styles/_vars.scss */
+  .btn-nina:hover span {
+    cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
+  /* line 647, smash/styles/_vars.scss */
+  .btn-nina:hover .icon {
+    animation: show-arrow .4s 1 both ease-in-out;
+    opacity: 1; }
 @keyframes hide-arrow {
   from {
     margin-left: 10px;
@@ -1337,7 +1366,7 @@ a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
   to {
     margin-left: 10px;
     opacity: 1; } }
-/* line 672, smash/styles/_vars.scss */
+/* line 675, smash/styles/_vars.scss */
 .animate-right {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1352,14 +1381,14 @@ a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
-  /* line 684, smash/styles/_vars.scss */
+  /* line 687, smash/styles/_vars.scss */
   .animate-right > .icon {
     margin-left: 5px; }
-  /* line 691, smash/styles/_vars.scss */
+  /* line 694, smash/styles/_vars.scss */
   .animate-right:hover > .icon {
     transform: translate(10px, 0); }
 
-/* line 697, smash/styles/_vars.scss */
+/* line 700, smash/styles/_vars.scss */
 .adjust-center {
   display: -webkit-flex !important;
   display: flex !important;
@@ -1369,10 +1398,10 @@ a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
   -webkit-align-items: center !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
-  /* line 700, smash/styles/_vars.scss */
+  /* line 703, smash/styles/_vars.scss */
   .adjust-center > * {
     flex: 1; }
-    /* line 703, smash/styles/_vars.scss */
+    /* line 706, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(1) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1383,7 +1412,7 @@ a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
       justify-content: flex-start !important;
       -webkit-justify-content: flex-start !important;
       margin-right: auto; }
-    /* line 708, smash/styles/_vars.scss */
+    /* line 711, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(2) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1394,7 +1423,7 @@ a.btn-tertiary, .btn-tertiary, #masthead.lock_nav .subscribe-nav-trigger-open {
       justify-content: center !important;
       -webkit-justify-content: center !important;
       flex: 2; }
-    /* line 713, smash/styles/_vars.scss */
+    /* line 716, smash/styles/_vars.scss */
     .adjust-center > *:nth-child(3) {
       display: -webkit-flex !important;
       display: flex !important;
@@ -1629,96 +1658,75 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
 .block-fifth {
   width: 19%; }
 
-/* line 277, smash/styles/_general.scss */
-.nina-btn {
-  background: #141414 !important;
-  padding: 12px 50px 12px 60px !important;
-  color: #ffffff !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  border-radius: 30px !important; }
-  /* line 286, smash/styles/_general.scss */
-  .nina-btn h5 {
-    position: relative;
-    transition: .2s;
-    left: 0; }
-  /* line 292, smash/styles/_general.scss */
-  .nina-btn .icon {
-    opacity: 0;
-    position: relative;
-    right: 10px;
-    bottom: 2px;
-    transition: right .3s, opacity .4s ease-in-out; }
-
-/* line 301, smash/styles/_general.scss */
+/* line 282, smash/styles/_general.scss */
 .nina-btn:hover h5 {
   left: -10px;
   transform: scale(1);
   cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-/* line 308, smash/styles/_general.scss */
+/* line 289, smash/styles/_general.scss */
 .nina-btn:hover .icon {
   opacity: 1;
   right: -5px;
   transform: scale(1.3); }
 
-/* line 314, smash/styles/_general.scss */
+/* line 295, smash/styles/_general.scss */
 .nina-cta {
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px; }
-  /* line 320, smash/styles/_general.scss */
+  /* line 301, smash/styles/_general.scss */
   .nina-cta a {
     align-items: center;
     color: black; }
-    /* line 324, smash/styles/_general.scss */
+    /* line 305, smash/styles/_general.scss */
     .nina-cta a h5 {
       position: relative;
       transition: .2s ease-in-out;
       left: 0; }
-    /* line 330, smash/styles/_general.scss */
+    /* line 311, smash/styles/_general.scss */
     .nina-cta a .icon {
       position: relative;
       right: -5px;
       bottom: 2px;
       transition: right .3s ease-out, opacity .2s; }
-  /* line 339, smash/styles/_general.scss */
+  /* line 320, smash/styles/_general.scss */
   .nina-cta a:hover:hover {
     cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-  /* line 343, smash/styles/_general.scss */
+  /* line 324, smash/styles/_general.scss */
   .nina-cta a:hover h5 {
     left: -10px;
     transform: scale(1); }
-  /* line 348, smash/styles/_general.scss */
+  /* line 329, smash/styles/_general.scss */
   .nina-cta a:hover .icon {
     right: -15px;
     transform: scale(1.2); }
 
-/* line 356, smash/styles/_general.scss */
+/* line 337, smash/styles/_general.scss */
 .pad-section {
   padding: 30px 0;
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 382, smash/styles/_general.scss */
+/* line 363, smash/styles/_general.scss */
 #content {
   position: relative;
   padding: 0; }
-  /* line 386, smash/styles/_general.scss */
+  /* line 367, smash/styles/_general.scss */
   #content .site-branding {
     padding: 65px 0; }
-    /* line 389, smash/styles/_general.scss */
+    /* line 370, smash/styles/_general.scss */
     #content .site-branding #logo {
       display: block;
       margin: 0 auto;
       max-width: 380px; }
 
-/* line 397, smash/styles/_general.scss */
+/* line 378, smash/styles/_general.scss */
 .page-title {
   position: relative;
   text-align: center; }
-  /* line 401, smash/styles/_general.scss */
+  /* line 382, smash/styles/_general.scss */
   .page-title.has-bar:after {
     content: '';
     position: absolute;
@@ -1730,98 +1738,98 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
     background: #ffffff;
     margin: 0 auto; }
 
-/* line 414, smash/styles/_general.scss */
+/* line 395, smash/styles/_general.scss */
 .flex-wrap {
   display: -webkit-flex !important;
   display: flex !important;
   flex-wrap: wrap !important;
   -webkit-flex-wrap: wrap !important; }
 
-/* line 418, smash/styles/_general.scss */
+/* line 399, smash/styles/_general.scss */
 .flex-row {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row !important;
   -webkit-flex-direction: row !important; }
 
-/* line 422, smash/styles/_general.scss */
+/* line 403, smash/styles/_general.scss */
 .flex-row-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: row-reverse !important;
   -webkit-flex-direction: row-reverse !important; }
 
-/* line 426, smash/styles/_general.scss */
+/* line 407, smash/styles/_general.scss */
 .flex-col {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column !important;
   -webkit-flex-direction: column !important; }
 
-/* line 430, smash/styles/_general.scss */
+/* line 411, smash/styles/_general.scss */
 .flex-col-rev {
   display: -webkit-flex !important;
   display: flex !important;
   flex-direction: column-reverse !important;
   -webkit-flex-direction: column-reverse !important; }
 
-/* line 434, smash/styles/_general.scss */
+/* line 415, smash/styles/_general.scss */
 .align-start {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-start !important;
   -webkit-align-items: flex-start !important; }
 
-/* line 438, smash/styles/_general.scss */
+/* line 419, smash/styles/_general.scss */
 .align-center {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: center !important;
   -webkit-align-items: center !important; }
 
-/* line 442, smash/styles/_general.scss */
+/* line 423, smash/styles/_general.scss */
 .align-end {
   display: -webkit-flex !important;
   display: flex !important;
   align-items: flex-end !important;
   -webkit-align-items: flex-end !important; }
 
-/* line 446, smash/styles/_general.scss */
+/* line 427, smash/styles/_general.scss */
 .justify-start {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-start !important;
   -webkit-justify-content: flex-start !important; }
 
-/* line 450, smash/styles/_general.scss */
+/* line 431, smash/styles/_general.scss */
 .justify-end {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: flex-end !important;
   -webkit-justify-content: flex-end !important; }
 
-/* line 454, smash/styles/_general.scss */
+/* line 435, smash/styles/_general.scss */
 .justify-around {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-around !important;
   -webkit-justify-content: space-around !important; }
 
-/* line 458, smash/styles/_general.scss */
+/* line 439, smash/styles/_general.scss */
 .justify-center {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: center !important;
   -webkit-justify-content: center !important; }
 
-/* line 462, smash/styles/_general.scss */
+/* line 443, smash/styles/_general.scss */
 .justify-between {
   display: -webkit-flex !important;
   display: flex !important;
   justify-content: space-between !important;
   -webkit-justify-content: space-between !important; }
 
-/* line 466, smash/styles/_general.scss */
+/* line 447, smash/styles/_general.scss */
 .icon {
   display: inline-block;
   width: 15px;
@@ -1831,14 +1839,14 @@ button, input, input[type="button"], input[type="reset"], input[type="submit"] {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-/* line 476, smash/styles/_general.scss */
+/* line 457, smash/styles/_general.scss */
 a .icon {
   -webkit-transition: unset;
   -moz-transition: unset;
   -o-transition: unset;
   transition: unset; }
 
-/* line 483, smash/styles/_general.scss */
+/* line 464, smash/styles/_general.scss */
 .alm-btn-wrap .alm-load-more-btn {
   height: auto !important;
   background: unset !important;
@@ -1850,32 +1858,32 @@ a .icon {
   margin-bottom: 0px !important;
   margin-top: 50px !important;
   font-family: "futura-pt", sans-serif !important; }
-  /* line 501, smash/styles/_general.scss */
+  /* line 482, smash/styles/_general.scss */
   .alm-btn-wrap .alm-load-more-btn:hover span {
     margin-left: 10px; }
 
-/* line 508, smash/styles/_general.scss */
+/* line 489, smash/styles/_general.scss */
 .slick-slider {
   position: relative; }
-  /* line 511, smash/styles/_general.scss */
+  /* line 492, smash/styles/_general.scss */
   .slick-slider .slick-arrow {
     position: absolute;
     top: 35%;
     font-size: 20px;
     color: #141414; }
-    /* line 517, smash/styles/_general.scss */
+    /* line 498, smash/styles/_general.scss */
     .slick-slider .slick-arrow.slick-prev {
       left: -1%;
       cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-l.svg") 16 16, pointer; }
-    /* line 523, smash/styles/_general.scss */
+    /* line 504, smash/styles/_general.scss */
     .slick-slider .slick-arrow.slick-next {
       right: -1%;
       cursor: url("/app/themes/nina_magon/smash/images/circle-arrow-r.svg") 16 16, pointer; }
-    /* line 529, smash/styles/_general.scss */
+    /* line 510, smash/styles/_general.scss */
     .slick-slider .slick-arrow:hover {
       cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer;
       color: #ffffff; }
-  /* line 535, smash/styles/_general.scss */
+  /* line 516, smash/styles/_general.scss */
   .slick-slider .slick-dots {
     padding: 0;
     margin: 20px 0 40px;
@@ -1886,11 +1894,11 @@ a .icon {
     -webkit-align-items: center;
     justify-content: center;
     -webkit-justify-content: center; }
-    /* line 549, smash/styles/_general.scss */
+    /* line 530, smash/styles/_general.scss */
     .slick-slider .slick-dots li.slick-active button {
       padding: 0;
       background: #E7E7E7 !important; }
-    /* line 555, smash/styles/_general.scss */
+    /* line 536, smash/styles/_general.scss */
     .slick-slider .slick-dots li button {
       position: relative;
       color: transparent !important;
@@ -1901,28 +1909,28 @@ a .icon {
       border-radius: 100% !important;
       margin: 0 10px;
       padding: 0; }
-      /* line 566, smash/styles/_general.scss */
+      /* line 547, smash/styles/_general.scss */
       .slick-slider .slick-dots li button:hover {
         background: #E7E7E7 !important;
         cursor: url("/app/themes/nina_magon/smash/images/circle-lg.svg") 16 16, pointer; }
-        /* line 570, smash/styles/_general.scss */
+        /* line 551, smash/styles/_general.scss */
         .slick-slider .slick-dots li button:hover::after {
           background: unset !important; }
-      /* line 575, smash/styles/_general.scss */
+      /* line 556, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::after {
         background: unset !important; }
-      /* line 579, smash/styles/_general.scss */
+      /* line 560, smash/styles/_general.scss */
       .slick-slider .slick-dots li button::focus {
         outline: none !important; }
-  /* line 587, smash/styles/_general.scss */
+  /* line 568, smash/styles/_general.scss */
   .slick-slider .slick-slide:focus {
     outline: none !important; }
 
-/* line 598, smash/styles/_general.scss */
+/* line 579, smash/styles/_general.scss */
 .nf-form-wrap .nf-form-fields-required {
   display: none; }
 
-/* line 603, smash/styles/_general.scss */
+/* line 584, smash/styles/_general.scss */
 .numbered-pagination {
   position: relative;
   display: -webkit-flex !important;
@@ -1935,10 +1943,10 @@ a .icon {
   -webkit-justify-content: center !important;
   font-size: 12px;
   padding: 50px 20px; }
-  /* line 609, smash/styles/_general.scss */
+  /* line 590, smash/styles/_general.scss */
   .numbered-pagination > * {
     margin: 0 6px; }
-  /* line 613, smash/styles/_general.scss */
+  /* line 594, smash/styles/_general.scss */
   .numbered-pagination > .page-numbers {
     display: -webkit-flex !important;
     display: flex !important;
@@ -1949,28 +1957,28 @@ a .icon {
     width: 26px;
     height: 26px;
     text-align: center; }
-    /* line 619, smash/styles/_general.scss */
+    /* line 600, smash/styles/_general.scss */
     .numbered-pagination > .page-numbers.current {
       background: #FDFBFA;
       border-radius: 100%; }
 
 @media screen and (min-width: 400px) {
-  /* line 627, smash/styles/_general.scss */
+  /* line 608, smash/styles/_general.scss */
   #page {
     margin-bottom: 545px; } }
 @media screen and (min-width: 768px) {
-  /* line 637, smash/styles/_general.scss */
+  /* line 618, smash/styles/_general.scss */
   #page {
     margin-bottom: 266px; } }
 @media screen and (min-width: 960px) {
-  /* line 643, smash/styles/_general.scss */
+  /* line 624, smash/styles/_general.scss */
   #page {
     margin-bottom: 275px; } }
 @media screen and (min-width: 1024px) {
-  /* line 649, smash/styles/_general.scss */
+  /* line 630, smash/styles/_general.scss */
   #page {
     margin-bottom: 204px; } }
-/* line 654, smash/styles/_general.scss */
+/* line 635, smash/styles/_general.scss */
 .rising-card {
   margin-top: 100px; }
 
@@ -2343,11 +2351,8 @@ body.home #masthead {
       padding-bottom: 3px; }
       /* line 30, smash/styles/_front-page.scss */
       .home #page .front-page a h1:hover {
-        padding-bottom: 1px;
-        border-bottom: 1px solid #a6a6a6; }
-    /* line 36, smash/styles/_front-page.scss */
-    .home #page .front-page a:hover {
-      color: #b3b3b3; }
+        padding-bottom: 2px;
+        border-bottom: 1px solid #ffffff; }
   @media screen and (max-width: 768px) {
     /* line 43, smash/styles/_front-page.scss */
     .home #page .front-page .logo-holder {
@@ -2361,25 +2366,16 @@ body.home #masthead {
     .home #page .front-page a h1 {
       font-size: 16px; } }
 
-/* line 3, smash/styles/_archive.scss */
-#archive_page .page-header {
-  height: 100vh;
-  display: -webkit-flex !important;
-  display: flex !important;
-  align-items: center !important;
-  -webkit-align-items: center !important;
-  justify-content: center !important;
-  -webkit-justify-content: center !important; }
-  /* line 7, smash/styles/_archive.scss */
-  #archive_page .page-header .page-title {
-    color: #ffffff; }
-/* line 11, smash/styles/_archive.scss */
+/* line 5, smash/styles/_archive.scss */
+#archive_page .page-header .page-title {
+  color: #ffffff; }
+/* line 9, smash/styles/_archive.scss */
 #archive_page .header-block-content {
   background-color: #ffffff;
   color: #141414;
   padding-bottom: 7vh; }
 
-/* line 18, smash/styles/_archive.scss */
+/* line 16, smash/styles/_archive.scss */
 .post-item-image {
   display: -webkit-flex !important;
   display: flex !important;
@@ -2393,7 +2389,7 @@ body.home #masthead {
   display: block;
   width: 100%; }
 
-/* line 25, smash/styles/_archive.scss */
+/* line 23, smash/styles/_archive.scss */
 .archive-item {
   display: -webkit-flex !important;
   display: flex !important;
@@ -2408,7 +2404,7 @@ body.home #masthead {
   position: relative;
   padding: 10px;
   overflow: hidden; }
-  /* line 33, smash/styles/_archive.scss */
+  /* line 31, smash/styles/_archive.scss */
   .archive-item .archive-item-title {
     position: relative;
     font-size: 17px;
@@ -2420,7 +2416,7 @@ body.home #masthead {
     width: 90%;
     margin: -30px auto 0; }
 
-/* line 45, smash/styles/_archive.scss */
+/* line 43, smash/styles/_archive.scss */
 .archive-item-cat {
   font-size: 12px;
   background: #c0e2e1;
@@ -2430,31 +2426,31 @@ body.home #masthead {
   display: inline-block;
   margin-bottom: 10px; }
 
-/* line 55, smash/styles/_archive.scss */
+/* line 53, smash/styles/_archive.scss */
 body.archive .page-header {
   display: flex;
   flex-direction: column; }
-  /* line 67, smash/styles/_archive.scss */
+  /* line 65, smash/styles/_archive.scss */
   body.archive .page-header .page-title {
     margin-bottom: 0; }
 
-/* line 72, smash/styles/_archive.scss */
+/* line 70, smash/styles/_archive.scss */
 #load-more-from {
   padding: 50px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   margin: 50px 0px 27px; }
-  /* line 78, smash/styles/_archive.scss */
+  /* line 76, smash/styles/_archive.scss */
   #load-more-from .load-more-title {
     text-transform: uppercase;
     font-family: "futura-pt", sans-serif;
     font-size: 25px;
     margin-bottom: 20px; }
-  /* line 85, smash/styles/_archive.scss */
+  /* line 83, smash/styles/_archive.scss */
   #load-more-from .cat-nav {
     margin: 0 auto; }
 
-/* line 91, smash/styles/_archive.scss */
+/* line 89, smash/styles/_archive.scss */
 .cat-nav {
   display: -webkit-flex !important;
   display: flex !important;
@@ -2470,46 +2466,46 @@ body.archive .page-header {
   letter-spacing: 1px;
   font-family: "futura-pt", sans-serif;
   align-self: flex-end; }
-  /* line 100, smash/styles/_archive.scss */
+  /* line 98, smash/styles/_archive.scss */
   .cat-nav a {
     margin: 0px 15px;
     color: #ffffff; }
-  /* line 105, smash/styles/_archive.scss */
+  /* line 103, smash/styles/_archive.scss */
   .cat-nav .cat-nav-current {
     border-bottom: 1px solid #141414; }
 
 @media only screen and (max-width: 1200px) {
-  /* line 111, smash/styles/_archive.scss */
+  /* line 109, smash/styles/_archive.scss */
   .archive-item .archive-item-image {
     height: 400px; } }
 @media only screen and (max-width: 1100px) {
-  /* line 118, smash/styles/_archive.scss */
+  /* line 116, smash/styles/_archive.scss */
   .archive-item .archive-item-image {
     height: 350px; } }
 @media only screen and (max-width: 1000px) {
-  /* line 125, smash/styles/_archive.scss */
+  /* line 123, smash/styles/_archive.scss */
   .archive-item .archive-item-image {
     height: 315px; } }
 @media only screen and (max-width: 900px) {
-  /* line 131, smash/styles/_archive.scss */
+  /* line 129, smash/styles/_archive.scss */
   .archive-item {
     width: 47%; }
-    /* line 133, smash/styles/_archive.scss */
+    /* line 131, smash/styles/_archive.scss */
     .archive-item .archive-item-image {
       height: 275px; } }
 @media only screen and (max-width: 800px) {
-  /* line 140, smash/styles/_archive.scss */
+  /* line 138, smash/styles/_archive.scss */
   .archive-item .archive-item-image {
     height: 250px; } }
 @media only screen and (max-width: 768px) {
-  /* line 147, smash/styles/_archive.scss */
+  /* line 145, smash/styles/_archive.scss */
   .archive-item .archive-item-image {
     height: 350px; } }
 @media only screen and (max-width: 667px) {
-  /* line 153, smash/styles/_archive.scss */
+  /* line 151, smash/styles/_archive.scss */
   .archive-item {
     width: 100%; }
-    /* line 155, smash/styles/_archive.scss */
+    /* line 153, smash/styles/_archive.scss */
     .archive-item .archive-item-image {
       height: 425px; } }
 /* line 3, smash/styles/_single-post.scss */
@@ -2967,74 +2963,102 @@ article.snapshot {
       border-bottom: 1px solid #dadada;
       padding-bottom: 15px; }
 
-/* line 3, smash/styles/_single-work.scss */
-.project-page {
-  /* Close Button */
-  /* Animation */ }
-  /* line 4, smash/styles/_single-work.scss */
-  .project-page .entry-header-inner {
-    display: none; }
-  /* line 8, smash/styles/_single-work.scss */
-  .project-page .entry-content {
-    padding: 8vh 0 0; }
-  /* line 11, smash/styles/_single-work.scss */
-  .project-page .nina-cta {
-    padding: 10vh 0; }
-  /* line 16, smash/styles/_single-work.scss */
-  .project-page .ninaModal,
-  .project-page .ninaModal-box {
-    z-index: 900; }
-  /* line 21, smash/styles/_single-work.scss */
-  .project-page .ninaModal-sandbox {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: transparent; }
-  /* line 30, smash/styles/_single-work.scss */
-  .project-page .ninaModal {
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: black;
-    background: rgba(0, 0, 0, 0.6);
-    overflow: auto; }
-  /* line 42, smash/styles/_single-work.scss */
-  .project-page .ninaModal-box {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 960px;
-    animation-name: ninaModalbox;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(0, 0, 0.3, 1.6);
-    background: #ffffff;
-    margin: 125px auto 0 auto; }
-  /* line 55, smash/styles/_single-work.scss */
-  .project-page .ninaModal-header {
-    padding: 20px 40px 10px 40px; }
-  /* line 59, smash/styles/_single-work.scss */
-  .project-page .ninaModal-body {
-    background: #ffffff;
-    padding: 0px 40px 40px 40px; }
-  /* line 65, smash/styles/_single-work.scss */
-  .project-page .close-ninaModal {
-    text-align: right; }
-@-webkit-keyframes ninaModalbox {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes ninaModalbox {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+/* line 1, smash/styles/_single-snapshot.scss */
+.snapshot-post-wrapper {
+  padding: 50px; }
+  /* line 4, smash/styles/_single-snapshot.scss */
+  .snapshot-post-wrapper .snapshot-post-inner {
+    display: -webkit-flex !important;
+    display: flex !important;
+    flex-direction: row !important;
+    -webkit-flex-direction: row !important;
+    align-items: center !important;
+    -webkit-align-items: center !important;
+    justify-content: center !important;
+    -webkit-justify-content: center !important;
+    position: relative; }
+    /* line 8, smash/styles/_single-snapshot.scss */
+    .snapshot-post-wrapper .snapshot-post-inner .snapshot-image {
+      width: 50%; }
+    /* line 12, smash/styles/_single-snapshot.scss */
+    .snapshot-post-wrapper .snapshot-post-inner .snapshot-body {
+      position: relative;
+      width: 50%;
+      padding: 20px 50px;
+      z-index: 1; }
+      /* line 18, smash/styles/_single-snapshot.scss */
+      .snapshot-post-wrapper .snapshot-post-inner .snapshot-body h5.snapshot-label {
+        display: inline-block;
+        font-family: "magical", serif;
+        font-size: 50px;
+        line-height: 30px;
+        letter-spacing: 0; }
+      /* line 26, smash/styles/_single-snapshot.scss */
+      .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products {
+        width: 100%; }
+        /* line 30, smash/styles/_single-snapshot.scss */
+        .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products .product .product-image {
+          max-height: 150px;
+          width: auto; }
+        /* line 35, smash/styles/_single-snapshot.scss */
+        .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products .product .product-brand {
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 11px;
+          font-family: "futura-pt", sans-serif; }
+        /* line 42, smash/styles/_single-snapshot.scss */
+        .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products .product .product-link {
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 13px;
+          font-weight: bold;
+          margin-top: 20px; }
+  @media screen and (max-width: 1024px) {
+    /* line 56, smash/styles/_single-snapshot.scss */
+    .snapshot-post-wrapper .snapshot-post-inner .snapshot-body {
+      padding: 30px; } }
+  @media screen and (max-width: 768px) {
+    /* line 63, smash/styles/_single-snapshot.scss */
+    .snapshot-post-wrapper .snapshot-post-inner {
+      flex-direction: column !important; }
+      /* line 66, smash/styles/_single-snapshot.scss */
+      .snapshot-post-wrapper .snapshot-post-inner .snapshot-image {
+        width: 100%;
+        margin-bottom: 20px; }
+      /* line 71, smash/styles/_single-snapshot.scss */
+      .snapshot-post-wrapper .snapshot-post-inner .snapshot-body {
+        padding: 30px;
+        width: 100%;
+        margin-left: 0; } }
+  @media screen and (max-width: 600px) {
+    /* line 1, smash/styles/_single-snapshot.scss */
+    .snapshot-post-wrapper {
+      padding: 50px 20px; }
+      /* line 82, smash/styles/_single-snapshot.scss */
+      .snapshot-post-wrapper .snapshot-post-inner {
+        flex-direction: column !important; }
+        /* line 85, smash/styles/_single-snapshot.scss */
+        .snapshot-post-wrapper .snapshot-post-inner .snapshot-image {
+          width: 100%;
+          margin-bottom: 20px; }
+        /* line 90, smash/styles/_single-snapshot.scss */
+        .snapshot-post-wrapper .snapshot-post-inner .snapshot-body {
+          padding: 30px;
+          width: 100%;
+          margin-left: 0; }
+          /* line 95, smash/styles/_single-snapshot.scss */
+          .snapshot-post-wrapper .snapshot-post-inner .snapshot-body h2.snapshot-title {
+            line-height: 33px;
+            font-size: 29px;
+            margin-bottom: 15px; }
+          /* line 103, smash/styles/_single-snapshot.scss */
+          .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products .snapshot-product .snapshot-product-wrapper {
+            text-align: center; }
+            /* line 107, smash/styles/_single-snapshot.scss */
+            .snapshot-post-wrapper .snapshot-post-inner .snapshot-body .snapshot-products .snapshot-product .snapshot-product-wrapper .snapshot-product-brand h3 {
+              font-size: 28px;
+              text-align: center; } }
+
 /* line 3, smash/styles/_page-about.scss */
 #about_page .video-block-outer {
   padding: 12vw 50px; }
@@ -4595,6 +4619,16 @@ body.page-template-page-philosophy {
   /* line 94, smash/styles/_page-work.scss */
   #projects .project-card .img-box .featured-img {
     width: 100%; } }
+/* line 106, smash/styles/_page-work.scss */
+.project-page .entry-header-inner {
+  display: none; }
+/* line 110, smash/styles/_page-work.scss */
+.project-page .entry-content {
+  padding: 8vh 0 0; }
+/* line 113, smash/styles/_page-work.scss */
+.project-page .nina-cta {
+  padding: 10vh 0; }
+
 /* line 2, smash/styles/_footer.scss */
 #colophon {
   position: fixed;
@@ -6108,7 +6142,6 @@ input#postURL {
       right: 0;
       height: 100vh;
       opacity: 0;
-      transition: opacity 1s ease;
       z-index: 1; }
       /* line 307, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .menu-images-wrapper .menu-image::after {
@@ -6136,27 +6169,32 @@ input#postURL {
         height: 100vh;
         padding-bottom: 100px;
         z-index: 2; }
-        /* line 327, smash/modules/nav_mobile/_nav_mobile.scss */
-        .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn {
-          min-width: 250px !important;
-          font-size: 15px !important;
-          font-weight: 400 !important;
-          padding: 10px 20px !important;
-          background-color: #ffffff !important; }
-          /* line 333, smash/modules/nav_mobile/_nav_mobile.scss */
-          .mobile-nav-outer .menu-images-wrapper .menu-image .menu-image-inner .btn:hover {
-            opacity: .7 !important; }
-      /* line 339, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 328, smash/modules/nav_mobile/_nav_mobile.scss */
+      .mobile-nav-outer .menu-images-wrapper .menu-image.hide-image {
+        animation: hideImage 3s 0s 1 both ease-in-out; }
+      /* line 332, smash/modules/nav_mobile/_nav_mobile.scss */
       .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
-        opacity: 1; }
+        animation: showImage 1s 0s 1 both ease-in-out;
+        opacity: 1;
+        z-index: 2; }
         @media screen and (max-width: 768px) {
-          /* line 339, smash/modules/nav_mobile/_nav_mobile.scss */
+          /* line 332, smash/modules/nav_mobile/_nav_mobile.scss */
           .mobile-nav-outer .menu-images-wrapper .menu-image.image-selected {
             left: 355px; } }
-      /* line 348, smash/modules/nav_mobile/_nav_mobile.scss */
+      /* line 343, smash/modules/nav_mobile/_nav_mobile.scss */
       body.customize-support .mobile-nav-outer .menu-images-wrapper .menu-image {
         top: 32px; }
-    /* line 354, smash/modules/nav_mobile/_nav_mobile.scss */
+@keyframes hideImage {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes showImage {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+    /* line 366, smash/modules/nav_mobile/_nav_mobile.scss */
     .mobile-nav-outer .menu-images-wrapper.open {
       display: block !important; }
   @media screen and (max-width: 768px) {
@@ -6164,7 +6202,7 @@ input#postURL {
     .mobile-nav-outer {
       padding-top: 45px; } }
 
-/* line 366, smash/modules/nav_mobile/_nav_mobile.scss */
+/* line 378, smash/modules/nav_mobile/_nav_mobile.scss */
 #mobile_nav_bg {
   display: none;
   background: rgba(0, 0, 0, 0.4);
@@ -7026,9 +7064,9 @@ nav#dot-nav {
   nav#dot-nav a {
     display: block;
     margin: 15px;
-    padding: 10px;
-    width: 14px;
-    height: 14px;
+    padding: 3px;
+    width: 22px;
+    height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7037,10 +7075,10 @@ nav#dot-nav {
     nav#dot-nav a:before {
       content: '•';
       color: #ccc;
-      font-size: 24px; }
+      font-size: 30px; }
     /* line 25, smash/modules/block_dot_nav/_block_dot_nav.scss */
     nav#dot-nav a.active {
-      border: 1px solid #ccc;
+      border: 2px solid #ccc;
       border-radius: 50%;
       transition: none; }
 

@@ -274,29 +274,10 @@ a.btn-secondary, .btn-secondary {
 a.btn-tertiary, .btn-tertiary {
     @extend %btn-tertiary;
 }
-.nina-btn {
-    @extend %btn; 
-    background: $btn_color_primary !important;
-    padding: 12px 50px 12px 60px !important;
-    //border: 2px solid $btn_border_primary !important;
-    color: $secondary_color !important;
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    border-radius: 30px !important;
-    h5 {
-        position: relative;
-        transition: .2s;
-        left: 0;
-    }
-    
-    .icon {
-        opacity: 0;
-        position: relative;
-        right: 10px;
-        bottom: 2px;
-        transition: right .3s, opacity .4s ease-in-out;
-    }   
+a.btn-nina, .btn-nina {
+    @extend %btn-nina; 
 }
+
 .nina-btn:hover {
     h5 {
         left: -10px;

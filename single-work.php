@@ -29,38 +29,18 @@ get_header();
 
             
                 <div class="nina-cta flex-col container-lg flex-center header-block" id="nmsc-centered-cta">
-                    <a class="ninaModal-trigger flex-row" data-modal="ninaModal-name" href="#">
+                    <a class="flex-row" href="<?php if(get_field('bottom_cta_link')) : the_field('bottom_cta_link'); endif; ?>">
                         <h5><?php  if(get_field('bottom_cta_text')) : the_field('bottom_cta_text'); endif; ?> </h5>
                         <svg class="icon"><use xlink:href="#right-arrow" /></svg>
                     </a>
-                    <!-- <a href="#" class="ninaModal-trigger" data-modal="ninaModal-name">Modal open!</a> Trigger Modal. -->
                 </div> <!-- end cta-->
-               
 
-                <!-- Modal -->
-                <div class="ninaModal" id="ninaModal-name">
-                <div class="ninaModal-sandbox"></div>
-                <div class="ninaModal-box">
-                    <div class="ninaModal-header">
-                    <div class="close-ninaModal">&#10006;</div> 
-                    <h2><?php  if(get_field('project_detail_title')) : the_field('project_detail_title'); endif; ?></h2>
-                    </div>
-                    <div class="ninaModal-body">
-                    <?php  if(get_field('project_details')) : the_field('project_details'); endif; ?>
-                    <br />
-                    <button class="close-ninaModal nina-btn"><?php  if(get_field('close_button_text')) : the_field('close_button_text'); endif; ?></button>
-                    </div>
-                </div>
-                </div>
-                <!-- End Modal -->
-
-            </article><!-- #post-<?php //the_ID(); ?> -->
-            
+            </article><!-- #post-<?php the_ID(); ?> -->
 		
 		<?php endwhile; ?>
 
 		</main><!-- #main -->
     </div><!-- #primary -->
-   
+
 <?php
 get_footer();

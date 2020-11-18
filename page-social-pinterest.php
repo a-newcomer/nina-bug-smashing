@@ -56,7 +56,7 @@ get_header();
                                     if($pinImage) {
                                     ?>
                                     <a class="msnry-item-outer" href="<?php if($pinLink) { echo $pinLink;} ?>">
-                                    <img src="<?php echo $pinImage ?>" alt="Nina Magon Pinterest image">
+                                        <img src="<?php echo $pinImage ?>" alt="Nina Magon Pinterest image">
                                     </a><!-- .msnry-item-outer -->
 
                                     <?php } // End loop.

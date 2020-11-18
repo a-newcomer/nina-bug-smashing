@@ -84,7 +84,7 @@ get_header();
                         <?php }
                         
                         echo '<h3>'. $thisTerm->slug .' Press</h3>';
-                        press_list('press', 1.25, 1000);
+                        press_list('press', 1.25, 16);
 
                         //IF WE HAD BOTH PRESS TYPES, THE BELOW cta WOULD SEND US TO ALL POSTS, BUT NOW WE ARE DISPLAYING THEM AL HERE
 
@@ -136,9 +136,7 @@ get_header();
                                                         <div class="blog-card-shade">
                                                             <?php  if( $press_type == 'video_press') {
                                                                 echo '<img src="/app/themes/nina_magon/smash/images/circle-triangle-50x50.png" alt="video play symbol">';
-                                                            }
-                                                            
-                                                            ?>
+                                                            } ?>
                                                         </div>
                                                     </div>
                                                 </a>      

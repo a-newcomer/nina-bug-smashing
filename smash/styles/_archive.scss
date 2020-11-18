@@ -1,8 +1,6 @@
 #archive_page {
 
 	.page-header {
-		height: 100vh;
-		@include flex(column, center, center);
 
 		.page-title {
 			color: $secondary_color;
