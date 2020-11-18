@@ -14,7 +14,7 @@ get_header();
 		<main id="main" class="site-main">
         
             
-            <section id="taxonomy_page">
+            <div id="taxonomy_page">
                 <?php if ( have_posts() ) : ?>
                     <?php $thisTerm = get_queried_object(); ?>
                     <?php 
@@ -88,7 +88,7 @@ get_header();
                     
                 </section>
                     
-            </section>
+            </div>
 
 
 		</main><!-- #main -->

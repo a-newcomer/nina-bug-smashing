@@ -62,9 +62,18 @@ body.home #masthead{
                     @include flex(row, center, start);
 
                     .icon {
+                        @extend %ease;
                         width: 10px;
                         height: 10px;
                         margin-right: 5px;
+                    }
+                }
+
+                &.toggled {
+                    .page-menu-toggle-inner {
+                        .icon {
+                            transform: rotate(180deg);
+                        }
                     }
                 }
 

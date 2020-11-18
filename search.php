@@ -10,12 +10,12 @@
 get_header();
 ?>
 
-	<section id="primary" class="content-area">
+	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
         <?php if ( have_posts() ) : ?>
         
-            <section id="archive_page">
+            <div id="archive_page">
                 <header class="page-header">
                     <h1 class="page-title">
                         <?php
@@ -33,12 +33,12 @@ get_header();
                     get_template_part( 'template-parts/search', 'site' ); 
                 } ?>
 
-            </section>
+            </div>
 
 		<?php endif; ?>
 
 		</main><!-- #main -->
-	</section><!-- #primary -->
+	</div><!-- #primary -->
 
 <?php
 get_footer();

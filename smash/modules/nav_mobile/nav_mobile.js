@@ -73,6 +73,7 @@ jQuery(function($){
     function closeMenu(){
         $('.image-selected').removeClass('image-selected');
         $('#mobile_menu').addClass('selected');
+        $('.menu-images-wrapper').removeClass('open');
     }
 
     function runMenu(){
@@ -81,9 +82,16 @@ jQuery(function($){
         triggers.each(function(){
             let _ = $(this);
             _.click(function(){
+                console.log(_)
+                $('.menu-images-wrapper').stop().fadeToggle().addClass('open');
+
                 if(_.hasClass('nav-back')){
                     $('.image-selected').removeClass('image-selected');
+                    $('.menu-images-wrapper').stop().fadeToggle(function(){
+                        $(this).removeClass('open');
+                    });
                 }
+
                 let c = $(this).data('show');
                 $('.selected').removeClass('selected');
                 $('#'+c).toggleClass('selected');
@@ -99,9 +107,9 @@ jQuery(function($){
         triggers.each(function(){
             let _ = $(this);
             _.click(function(e){
-                // if(ww > 600){
-                //     e.preventDefault();
-                // }
+                if(ww > 600 && _.hasClass('menu-div')){
+                    e.preventDefault();
+                }
                 let c = $(this).data('menu-image');
                 $('.image-selected').removeClass('image-selected');
                 $('#'+c).toggleClass('image-selected');

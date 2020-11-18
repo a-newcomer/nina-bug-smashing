@@ -20,7 +20,7 @@ get_header();
 
         <?php if ( have_posts() ) : $pageID = get_option( 'page_for_posts' );  ?>
         
-            <section id="archive_page">
+            <div id="archive_page">
 
                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
                 <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
@@ -32,7 +32,7 @@ get_header();
 
                 <?php smash_under_header_block(['header' => get_field('headline_under_top_image', $pageID), 'text' => get_field('text_under_header_image', $pageID)]) ?> 
 
-                <div class="archive-bg blog-archive">
+                <section class="archive-bg blog-archive">
                     
                     <!-- Loop through selected categories to get banner and posts -->
                     <?php if ( get_field('categories', $pageID) ) : $cats = get_field('categories', $pageID); ?>
@@ -82,8 +82,8 @@ get_header();
                         <?php } ?>
             
                     <?php endif; ?>
-                <div><!-- end of archive-bg? -->
-            </section>
+                </section><!-- end of archive-bg? -->
+            </div>
 
 		<?php endif; ?>
 

@@ -23,9 +23,9 @@ get_header();
     <main>
            
         <!-- this is actually the video block - name needs to be updated, and SCSS adjusted -->
-        <div id="about_page">
+        <section id="about_page">
             <?php get_template_part( 'template-parts/content', 'page-about' ); ?>
-        </div>
+        </section>
 
         <section class="services-container flex-col">
 

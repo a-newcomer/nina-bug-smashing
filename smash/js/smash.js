@@ -16,6 +16,7 @@ jQuery(document).ready(function($){
 		runComments();
         runSliders();
         checkVisible();
+        runPageNavs();
         // centerSlides();
 
 		$(window).resize(function(){
@@ -395,6 +396,16 @@ jQuery(document).ready(function($){
         });
     }
 
+    function runPageNavs(){
+        let trigger = $('.page-menu-toggle');
+        let menu = $('.page-nav-wrap-inner');
+
+        trigger.click(function(){
+            $(this).toggleClass('toggled');
+            menu.fadeToggle();
+        })
+    }
+
 
 // CLICK TO SHOW COMMENT FORM
 	var runComments = function(){
@@ -405,4 +416,19 @@ jQuery(document).ready(function($){
 
 	init();
 
-});
+//	MODAL ON SINGLE WORK/PROJECT PAGE
+	//console.log('nina modal script loaded');
+	
+	$(".ninaModal-trigger").click(function(e){
+		e.preventDefault();
+		dataModal = $(this).attr("data-modal");
+		$("#" + dataModal).css({"display":"flex"});
+		// $("body").css({"overflow-y": "hidden"}); //Prevent double scrollbar.
+		});
+
+		$(".close-ninaModal, .ninaModal-sandbox").click(function(){
+		$(".ninaModal").css({"display":"none"});
+		// $("body").css({"overflow-y": "auto"}); //Prevent double scrollbar.
+		});
+
+	});

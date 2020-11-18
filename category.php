@@ -15,7 +15,7 @@ get_header();
         
             <?php if ( have_posts() ) : ?>
             
-                <section id="archive_page">
+                <div id="archive_page">
                     <?php $current_cat = get_queried_object(); ?>
                 
                     <?php $backgroundImg =  get_field('image', $current_cat); ?>
@@ -26,7 +26,7 @@ get_header();
 
                     <?php smash_under_header_block(['header' => $current_cat->name, 'text' => get_the_archive_description()]) ?> 
 
-                    <div class="archive-bg">
+                    <section class="archive-bg">
 
                         <div class="archive-items container-lg">
                             <div class="blog-card-holder">
@@ -50,8 +50,8 @@ get_header();
                         <!-- Load More -->
                         <?php echo do_shortcode('[ajax_load_more container_type="div" repeater="template_1" css_classes="archive-items container-lg" post_type="post" category="'.$current_cat->slug.'" posts_per_page="8" offset="8" pause="true" scroll="false" button_label="Load More"]'); ?>
 
-                    </div>
-                </section>
+                    </section>
+                </div>
 
             <?php endif;?>
 

@@ -225,6 +225,11 @@
                         &.selected {
                             transform: translate(100%, 0);
                         }
+
+                        .menu-item {
+                            margin-bottom: 30px;
+                            font-size: 14px;
+                        }
                     }
 
                     li {
@@ -281,6 +286,8 @@
     }
     
     .menu-images-wrapper {
+        display: none !important;
+
         @include respond-to(medium, max){
             display: none !important;
         }
@@ -290,32 +297,23 @@
             @include flex(row, null, end);
             position: fixed;
             top: 0;
-            left: 0;
+            left: 500px;
             right: 0;
             height: 100vh;
-            transform: translate(-100%, 0);
-            transition: transform 1s ease;
+            opacity: 0;
+            transition: opacity 1s ease;
             z-index: 1;
-    
-            &.image-selected {
-                transform: translate(0, 0);
+
+            &::after {
+                content: '';
+                display: block;
+                position: fixed;
+                top: 0;
                 left: 500px;
-
-                &::after {
-                    content: '';
-                    display: block;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    height: 100vh;
-                    background: rgba(0,0,0,0.2);
-                    z-index: 1;
-                }
-
-                @include respond-to(large, max){
-                    left: 355px;
-                }
+                right: 0;
+                height: 100vh;
+                background: rgba(0,0,0,0.2);
+                z-index: 1;
             }
     
             .menu-image-inner {
@@ -338,11 +336,23 @@
                 }
             }
 
+            &.image-selected {
+                opacity: 1;
+
+                @include respond-to(large, max){
+                    left: 355px;
+                }
+            }
+
             @at-root body.customize-support {
                 .mobile-nav-outer .menu-images-wrapper .menu-image {
                     top: 32px;
                 }
             }
+        }
+
+        &.open {
+            display: block !important;
         }
     }
 

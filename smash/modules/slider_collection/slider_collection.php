@@ -12,7 +12,7 @@ function smash_slider_collection($args = null) {
         <!-- <div class="slider slider-nav"></div> -->
         <!-- <div class="slider slider-for"></div> -->
 
-        <div class="collection-slider-wrapper slick-slider">
+        <section class="collection-slider-wrapper slick-slider">
             <div class="collection-sliders">
                 <div class="collection-slide">
                     <div class="collection-slide-inner">
@@ -65,6 +65,6 @@ function smash_slider_collection($args = null) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     <?php }
 }

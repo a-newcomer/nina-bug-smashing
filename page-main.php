@@ -24,17 +24,13 @@ get_header();
     <span id="nmsc-section-2"></span>
 
 	<div class="entry-content">
-		<?php
-		the_content();
-
-		?>
-
+		<?php the_content(); ?>
     <main>
            
             <!-- this is actually the video block - name needs to be updated, and SCSS adjusted -->
-            <div id="about_page">
+            <section id="about_page">
                 <?php get_template_part( 'template-parts/content', 'page-about' ); ?>
-            </div>
+            </section>
 
             <!-- Might have to think of a more generic id for this block for scroll-jacking -->
             <span id="nmsc-section-3"></span>

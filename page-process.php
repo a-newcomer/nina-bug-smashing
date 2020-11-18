@@ -22,40 +22,40 @@ get_header();
     <?php smash_under_header_block(['header' => get_field('headline_under_top_image'), 'text' => get_field('text_under_header_image')]) ?>
   
 	<main id="process_page">
-    <div class="slider" id="process-slider">
-        <?php
-        // check if the repeater field has rows of data
-        if( have_rows('services') ):
+        <section class="slider" id="process-slider">
+            <?php
+            // check if the repeater field has rows of data
+            if( have_rows('services') ):
 
-            // loop through the rows of data
-            while ( have_rows('services') ) : the_row();
-            //echo var_dump(get_sub_field('image'));
-                // display a sub field value ?>
-        <div class="slider-box">
-            <div class="process-block flex-row">
-            <?php if(get_sub_field('image')) : $image = get_sub_field('image'); endif; ?>
-                    <div class="img-box" data-bgratio=".75" style="background: url(<?php echo $image['sizes']['large']; ?>) no-repeat center/cover;">
-                    </div>
-                <div class="text-box flex-col justify-center">
-                <?php if(get_sub_field('header')) : $header = get_sub_field('header'); endif; ?>
-                            <h4><?php echo $header; ?></h4>
-                        <?php if(get_sub_field('text')) : $text = get_sub_field('text'); endif; ?>
-                            <p><?php echo $text; ?></p>
-                </div>
-            </div><!-- .process-block -->
-        </div> 
-            <?php  
-                endwhile;
-            else :
-                // no rows found
-                echo '<h3>Please add some slides.</h3>';
+                // loop through the rows of data
+                while ( have_rows('services') ) : the_row();
+                //echo var_dump(get_sub_field('image'));
+                    // display a sub field value ?>
+                    <div class="slider-box">
+                        <div class="process-block flex-row">
+                        <?php if(get_sub_field('image')) : $image = get_sub_field('image'); endif; ?>
+                                <div class="img-box" data-bgratio=".75" style="background: url(<?php echo $image['sizes']['large']; ?>) no-repeat center/cover;">
+                                </div>
+                            <div class="text-box flex-col justify-center">
+                            <?php if(get_sub_field('header')) : $header = get_sub_field('header'); endif; ?>
+                                        <h4><?php echo $header; ?></h4>
+                                    <?php if(get_sub_field('text')) : $text = get_sub_field('text'); endif; ?>
+                                        <p><?php echo $text; ?></p>
+                            </div>
+                        </div><!-- .process-block -->
+                    </div> 
+                <?php  
+                    endwhile;
+                else :
+                    // no rows found
+                    echo '<h3>Please add some slides.</h3>';
 
-            endif;
-            ?>
+                endif;
+                ?>
 
-        
-        </div>
-    </div><!-- .slider -->
+            
+            </div>
+        </section><!-- .slider -->
 
     </main><!-- #process_page -->
     <script>

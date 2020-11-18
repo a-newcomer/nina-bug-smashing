@@ -17,10 +17,10 @@ get_header();
         
             <?php if ( have_posts() ) : ?>
             
-                <section id="archive_page">
+                <div id="archive_page">
                     <?php smash_block_hero(['post' => $post]) ?>
                     <?php smash_under_header_block(['header' => get_field('headline_under_top_image'), 'text' => get_field('text_under_header_image')]) ?>
-                </section>
+                </div>
 
                 <?php   
                 $args = array(
@@ -30,7 +30,7 @@ get_header();
                 $workQ = new WP_Query($args); ?>
 
                 <?php if($workQ->have_posts()) : ?>
-                    <div id="projects">
+                    <section id="projects">
                         <?php while($workQ->have_posts()) : $workQ->the_post(); ?>
 
                             <div class="rising-card project-card flex-col align-center">
@@ -43,7 +43,7 @@ get_header();
                             </div><!-- end .project-card -->
 
                         <?php endwhile; ?>
-                    </div><!-- end #projects -->
+                    </section><!-- end #projects -->
                 <?php endif; wp_reset_query(); ?>
 
 		</main><!-- #main -->

@@ -20,7 +20,7 @@ get_header();
         <span id="nmsc-section-1"></span>
         <?php if ( have_posts() ) : ?>
         
-            <section id="archive_page">
+            <div id="archive_page">
 
                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
                     <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
@@ -31,7 +31,7 @@ get_header();
                     <?php smash_under_header_block(['header' => get_field('headline_under_top_image'), 'text' => get_field('text_under_header_image')]) ?>
                     <!-- Parameters for the function - 2 differing cat slugs, which need to look like this '$slug', then the category id #, then the # of posts you want per page -->
                     <span id="nmsc-section-2"></span>
-                <div class="archive-bg blog-archive">
+                <section class="archive-bg blog-archive">
                     
                     <!-- Loop through selected categories to get banner and posts -->
                     <?php if ( get_field('categories') ) : $cats = get_field('categories'); ?>
@@ -82,9 +82,9 @@ get_header();
                         <?php } ?>
             
                     <?php endif; ?>
-                <div><!-- end of archive-bg? -->
+                </section><!-- end of archive-bg? -->
                     <!-- <?php wp_reset_postdata(); ?> -->
-            </section>
+            </div>
 
 		<?php endif; ?>
 

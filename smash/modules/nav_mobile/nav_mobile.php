@@ -32,7 +32,7 @@ function smash_nav_mobile() {
         
                                             <li>
                                                 <?php if($isHeader && $label){ ?>
-                                                    <label class="menu-item nav-block-trigger nav-image-trigger first-label nav-back" data-show="sub-1-<?php echo $linkIndex; ?>" data-menu-image="menu_image_<?php echo $linkIndex . '_1'; ?>">
+                                                    <label class="menu-item nav-block-trigger nav-image-trigger first-label" data-show="sub-1-<?php echo $linkIndex; ?>" data-menu-image="menu_image_<?php echo $linkIndex . '_1'; ?>">
                                                         <span><?php echo $label; ?></span>
                                                     </label>
                                                 <?php } else { ?>
@@ -51,13 +51,12 @@ function smash_nav_mobile() {
                                                         </li>
                                                         <?php while( have_rows('sub_links','option') ) : the_row(); 
                                                             $sublinkIndex = get_row_index(); 
-                                                            $otype = (get_sub_field('image','option')) ? 'div' : 'a href="'.get_sub_field('link','option').'"';
-                                                            $ctype = (get_sub_field('image','option')) ? 'div' : 'a';
+                                                            $type = (get_sub_field('image','option')) ? 'menu-div' : 'menu-anchor';
                                                         ?>
                                                             <li>
-                                                                <<?php echo $otype; ?> class="menu-item nav-image-trigger" data-menu-image="menu_image_<?php echo $linkIndex . '_' . $sublinkIndex; ?>">
+                                                                <a href="<?php echo get_sub_field('link','option'); ?>" class="menu-item nav-image-trigger <?php echo $type; ?>" data-menu-image="menu_image_<?php echo $linkIndex . '_' . $sublinkIndex; ?>">
                                                                     <?php echo get_sub_field('label','option'); ?>
-                                                                </<?php echo $ctype; ?>>
+                                                                </a>
                                                             </li>
                                                         <?php endwhile; ?>
                                                     </ul>

@@ -22,13 +22,13 @@ get_header();
 
 	        <?php smash_block_hero(['post' => $post]) ?>
 	
-            <div id="pinterest_page" class="social-page">
+            <section id="pinterest_page" class="social-page">
                 <!-- could make template part starting here -->
                 <?php 
                 $feedLink = get_field('link_to_page');
                 $feedCTA = get_field('cta');
                 $feedTitle = get_field('social_media_title'); ?>
-                <section class="title-block">
+                <div class="title-block">
                     <?php if($feedTitle) { ?>
                         <h2><?php echo $feedTitle; ?></h2>
                     <?php } ?>
@@ -37,9 +37,9 @@ get_header();
                             <span>+</span><?php echo $feedCTA ?>
                         </a>
                     <?php } ?>
-                </section>
+                </div>
 
-                <section class="msnry-container-outer feed-shortcode-outer">
+                <div class="msnry-container-outer feed-shortcode-outer">
                     <div class="msnry-container-inner">
                         <?php 
                         $feed = get_field('feed');
@@ -48,9 +48,9 @@ get_header();
                             }
                         ?>
                     </div>
-                </section>
+                </div>
 
-            </div><!-- #pinterest_page.social-page -->
+            </section><!-- #pinterest_page.social-page -->
 
         </main><!-- #main -->
         

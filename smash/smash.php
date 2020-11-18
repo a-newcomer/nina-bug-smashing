@@ -72,7 +72,7 @@ add_action( 'wp_enqueue_scripts', function(){
         wp_enqueue_script( 'social-script', get_template_directory_uri().'/smash/js/social/social.min.js', array(), '1', true);
     }
 
-    if( is_page_template('page-main.php') || is_page_template('page-about.php') || is_page_template('page-services.php')){
+    if(is_page_template('page-main.php') || is_page_template('page-about.php') || is_page_template('page-services.php')){
         wp_enqueue_script( 'vimeo-script',  get_template_directory_uri().'/smash/js/vimeo-player.js', array(), '20151215', true );
         wp_enqueue_script( 'video-about-script', get_template_directory_uri(). '/smash/js/video-about.js', array('vimeo-script'), '20151215', true );
     }

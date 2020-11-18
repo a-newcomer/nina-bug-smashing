@@ -19,10 +19,12 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-	
-            <div id="contact_page">
-                <?php get_template_part( 'template-parts/content', 'page-contact' ); ?>
-            </div>
+
+            <?php while ( have_posts() ) : the_post(); ?>
+                <div id="contact_page">
+                    <?php get_template_part( 'template-parts/content', 'page-contact' ); ?>
+                </div>
+            <?php endwhile; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -23,6 +23,7 @@ const dotNav = (elem, easing) => {
         const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
         const destinationOffset = typeof destination === 'number' ? destination : destination.offsetTop;
         const destinationOffsetToScroll = Math.round(documentHeight - destinationOffset < windowHeight ? documentHeight - windowHeight : destinationOffset);
+        console.log(destinationOffsetToScroll)
         if ('requestAnimationFrame' in window === false) {
             window.scroll(0, destinationOffsetToScroll);
             if (callback) {
@@ -55,7 +56,7 @@ const dotNav = (elem, easing) => {
             for (let i = 0; i < allElements.length; i++) {  //  loop through the sections
                 let viewportOffset = allElements[i].getBoundingClientRect();  //  returns the size of an element and its position relative to the viewport
                 let top = viewportOffset.top;  //  get the offset top
-                if(top < windowHeight){  //  if the top offset is less than the window height
+                if(top < (windowHeight/2)){  //  if the top offset is less than the window height
                     allElements[i].classList.add('in-viewport');  //  add the class
                 } else{
                     allElements[i].classList.remove('in-viewport');  //  remove the class

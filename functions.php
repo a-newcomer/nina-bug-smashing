@@ -172,11 +172,11 @@ require get_template_directory() . '/smash/smash.php';
  
 //Detect on from admin side, which template part is loaded for that page - look for path at bottom
  
-// function nmsc_which_template_is_loaded() {
-// 	if ( is_super_admin() ) {
-// 		global $template;
-// 		print_r( $template );
-// 	}
-// }
+function nmsc_which_template_is_loaded() {
+	if ( is_super_admin() ) {
+		global $template;
+		print_r( $template );
+	}
+}
  
 // add_action( 'wp_footer', 'nmsc_which_template_is_loaded' );

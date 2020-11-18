@@ -26,7 +26,7 @@ get_header();
 
        if ( have_posts() ) : ?>
         
-            <section id="all-press-page">
+            <div id="all-press-page">
 
                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'full' ); ?>
                 <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
@@ -49,7 +49,7 @@ get_header();
 
                     if($terms){ ?>
                     <div class="cat-nav container-lrg flex-wrap align-end justify-center">
-                       
+                        <!-- Later, make this link to a general archive page? -->
                         <!-- <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="cat-nav-item cat-nav-current">All</a> -->
                         
                         <?php foreach($terms as $term){
@@ -58,7 +58,7 @@ get_header();
                     </div>
                     <?php } ?>
 
-                <div class="archive-bg blog-archive all-press-archive">
+                <section class="archive-bg blog-archive all-press-archive">
                 
                     <div class="">
 
@@ -98,9 +98,9 @@ get_header();
                                 
                         <?php endif; wp_reset_query(); ?>
                     </div>
-                <div><!-- end of archive-bg? -->
+                </section><!-- end of archive-bg? -->
                 <?php //wp_reset_postdata(); ?>
-        </section>
+            </div>
 
 		<?php endif; ?>
 
