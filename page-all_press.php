@@ -49,7 +49,7 @@ get_header();
 
                     if($terms){ ?>
                     <div class="cat-nav container-lrg flex-wrap align-end justify-center">
-                        <!-- Later, make this link to a general archive page? -->
+                       
                         <!-- <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="cat-nav-item cat-nav-current">All</a> -->
                         
                         <?php foreach($terms as $term){

@@ -267,6 +267,7 @@
                 img {
                     max-height: 95px;
                     width: auto;
+                    margin-top: 1rem;
                 }
             }
             .grid-box2 {
@@ -323,9 +324,13 @@
                 grid-column: 1/3;
                 grid-row: 2/3;
                 margin-left: -3vw;
+                img {
+                    margin-top: 0;
+                }
             }
             .break {
                 grid-column: 1/-1;
+                height: 2px;
             }
             #footer_menu_container {
                 grid-column: 2/4;
@@ -362,7 +367,8 @@
     //@1024px
     @include respond-to(xxlarge, min) {
         grid-template-columns: repeat(5, auto);
-        height: 275px;
+        height: 265px;
+        padding-top: 13vh;
         .site-info {
             padding-top: 1vh;
             .grid-box {
@@ -370,7 +376,10 @@
             }
 
             #logo_wrap.grid-box1 {
-                margin-left: -2rem;
+                margin: -1.5rem 0 -2.5rem -2rem;
+            }
+            .grid-box2, .grid-box5 {
+                height: unset;
             }
             .grid-box2 {
                 margin-bottom: 1rem;
@@ -391,6 +400,9 @@
             }
             .footer-social {
                 justify-content: flex-end;
+            }
+            .site-built {
+                margin-top: -11px;
             }
         }
 

@@ -10,7 +10,7 @@ function smash_block_hero($args = null)
 
     <header class="entry-header hero-img"  id="nmsc-section-1">
         <section class="hero-img-inner" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(<?php echo $backgroundImg[0]; ?>) no-repeat center/cover;"></section>
-        <?php if (is_single()) { ?>
+        <?php if (is_single() && get_post_type() != 'work') { ?>
             <div class="hero-content entry-header-inner">
                 <?php $cats = get_the_category(); 
                 if($cats) { ?>

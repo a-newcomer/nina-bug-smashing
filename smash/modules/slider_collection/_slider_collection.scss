@@ -1,3 +1,4 @@
+body *:not(.slick-track):not(.slick-list){}
 .collection-slider-wrapper {
     position: relative;
     overflow: hidden;
@@ -9,83 +10,101 @@
         cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-r.svg') 16 16, pointer;
     }
 
-    .collection-slider {
+    .slick-slider div { transition: none; }
+
+    .collection-sliders {
         width: 100%;
-        max-width: 1160px;
-        // height: 600px;
 
         .collection-slide {
             
             .collection-slide-inner {
-                @include flex(row, end, start);
-                padding: 50px 50px 0;
-                height: 490px;
+                @include flex(row, end, between);
+                padding: 50px 0;
 
-                .collection-image {
-                    width: 70%;
-                    max-height: 330px;
-                    transition: max-height 0.8s ease-out;
-                }
-
-                .collection-body {
-                    @include flex(col, start, start);
-                    align-self: flex-start;
-                    -webkit-align-self: flex-start;
-                    width: 30%;
-                    padding-top: 50px;
-                    padding-left: 30px;
-                }
-
-                @include respond-to(xlarge, max){
-                    @include flex(col, center, center);
-                    height: unset;
+                .collection-image-slider {
+                    width: 53%;
+                    // max-height: 330px;
+                    // transition: max-height 0.8s ease-out;
 
                     .collection-image {
                         width: 100%;
                     }
-
-                    .collection-body {
-                        width: 100%;
-                    }
                 }
-            }
-        }
 
-        &.slick-slider {
-            .slick-list {
-                overflow: visible;
+                .collection-body-slider {
+                    width: 20%;
+                    
+                    .collection-body {
+                        @include flex(col, start, start);
+                        align-self: flex-start;
+                        -webkit-align-self: flex-start;
+                        width: 30%;
+                        opacity: 0;
+                        transition-timing-function: ease-out;
+                        transition: opacity 250ms;
 
-                .slick-slide {
-                    &.slick-current {
-                        .collection-slide-inner {
-                            @include flex(row, null, center);
-                            padding: 0;
+                        &.slick-cloned {
+                            opacity: 0.1;
+                            transition-timing-function: ease-in;
+                            transition: opacity 1000ms;
+                            transition-delay: 1000ms;
+                            animation: opacity 100ms ease;
+                        }
 
-                            .collection-image {
-                                max-height: 490px;
-
-                                @include respond-to(xlarge, max){
-                                    max-height: 400px;
-                                }
-                            }
-
-                            @include respond-to(xlarge, max){
-                                @include flex(col, center, center);
-                                height: unset;
-            
-                                .collection-image {
-                                    width: 100%;
-                                }
-            
-                                .collection-body {
-                                    width: 100%;
-                                }
-                            }
+                        &.slick-current {
+                            opacity: 1;
+                            transition-timing-function: ease-in;
+                            transition: opacity 2000ms;
+                            transition-delay: 600ms;
                         }
                     }
                 }
+
+                .collection-image-sub-slider {
+                    width: 20%;
+
+                    &:hover {
+                        cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-r.svg') 16 16, pointer;
+                    }
+                }
+
+
+                @include respond-to(large, max){
+                    @include flex(wrap, end, between);
+
+                    .collection-image-slider {
+                        order: 1;
+                        width: 73%;
+                    }
+
+                    .collection-body-slider {
+                        order: 3;
+                        padding: 20px !important;
+                        width: 100%;
+
+                        .collection-body {
+                            padding: 0;
+                        }
+                    }
+
+                    .collection-image-sub-slider {
+                        order: 2;
+                    }
+                }
             }
         }
+
+        // &.slick-slider {
+        //     .slick-list {
+        //         overflow: visible;
+
+        //         .slick-slide {
+        //             &.slick-current {
+        //                 opacity: 1;
+        //             }
+        //         }
+        //     }
+        // }
 
         // @include respond-to(xlarge, max){
         //     height: 400px;

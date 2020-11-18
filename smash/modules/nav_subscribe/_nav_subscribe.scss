@@ -56,16 +56,16 @@
     position: fixed;
     padding: 115px 0;
     width: 90%;
-    max-width: 500px;
+    max-width: 300px;
     top: 0;
-    right: -500px;
+    right: -300px;
     bottom: 0;
     overflow: hidden;
     z-index: 1000000;
     color: $secondary_color;
 
     @include respond-to(medium, max){
-        max-width: 355px;
+        max-width: 255px;
     }
     
     .subscribe-nav-outer-inner {

@@ -24,9 +24,12 @@
                 font-size: 20px;
                 letter-spacing: 2.5px;
                 animation: 'text-decoration' 500ms ease;
+                //padding to stop the jump on hover
+                padding-bottom: 3px;
 
                 &:hover {
-                    text-decoration: underline;
+                    padding-bottom: 1px;
+                    border-bottom: 1px solid shade($secondary_color, 35% );
                 }
             }
             

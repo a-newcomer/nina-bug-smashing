@@ -84,18 +84,12 @@ get_header();
                         <?php }
                         
                         echo '<h3>'. $thisTerm->slug .' Press</h3>';
-                        press_list('press', 1.25, 1000);
+                        press_list('press', 1.25, 16);
 
-                        //IF WE HAD BOTH PRESS TYPES, THE BELOW cta WOULD SEND US TO ALL POSTS, BUT NOW WE ARE DISPLAYING THEM AL HERE
-
-                        //echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
-
-
-                        // IF WE WANTED INCLUDE VIDEO PRESS, WE COULD ADD THIS LOOP 
-
-                        // echo '<h3>'. $thisTerm->slug .' Videos</h3>';
-                        // press_list('video_press', .65, 4);
-                        // echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=video_press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
+                        echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
+                        echo '<h3>'. $thisTerm->slug .' Videos</h3>';
+                        press_list('video_press', .65, 4);
+                        echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=video_press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
                     } ?>
 
                     <?php 

@@ -16,7 +16,8 @@ get_header();
             
             <section id="taxonomy_page">
                 <?php if ( have_posts() ) : ?>
-                    <?php $thisTerm = get_queried_object(); ?>
+                    <?php $thisTerm = get_queried_object();
+                    //echo var_dump($thisTerm); ?>
                     <?php 
                         if(!empty(get_field('image', $thisTerm))) {
                             $backgroundImg =  get_field('image', $thisTerm); 
@@ -25,21 +26,11 @@ get_header();
                         }
                     ?>
                     <header class="page-header hero-img" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg['url']; ?>') no-repeat center center; background-size: cover;">
-                        <?php 
-                        $title = "Press Page";
-                        $pt = get_query_var('post_type');
-                        if( $pt == 'video_press') {
-                                $title =  "Video " . $thisTerm->name;
-                        } elseif($pt != '') {
-                            $title = $pt ." ". $thisTerm->name;
-                        } else {
-                            $title = "Press Page";
-                        } ?>
+                        <?php $title =  "All " . $thisTerm ->name; ?>
 
                         <h1 class="page-title cat-title">
                             <?php echo $title; ?>
                         </h1>
-                        <?php smash_scroll_down_bar() ?>
                     </header><!-- .page-header -->
                    
                     <?php smash_under_header_block(['header' => $title, 'text' => get_queried_object()->description]) ?>
@@ -48,22 +39,7 @@ get_header();
 
                 <!-- FUNCTION FOR PRESS LOOPS STARTS HERE -->
                 <section class="custom-post-holder container-lg">
-                    <?php 
-                    if (isset($_GET['post_type']) ) {
-                        $press_type = $_GET['post_type'];
-                        
-                        if ($press_type == 'video_press') { 
-                            press_list('video_press', .65, 8, true);
-                            
-                        }elseif($press_type == 'press'){ 
-                            press_list('press', 1.45, 16, true);
-                        } else {
-                            echo "<h5>something went wrong</h5>";
-                        }
-                    } else {
-                        //move menu in here and everything
-                        
-                        //YEAR CATEGORY/TAX MENU
+                <?php //YEAR CATEGORY/TAX MENU
                         $terms = get_terms( array(
                             'taxonomy' => 'year_published',
                             'hide_empty' => false,
@@ -82,39 +58,14 @@ get_header();
                                 } ?>
                             </div>
                         <?php }
-                        
-                        echo '<h3>'. $thisTerm->slug .' Press</h3>';
-                        press_list('press', 1.25, 1000);
 
-                        //IF WE HAD BOTH PRESS TYPES, THE BELOW cta WOULD SEND US TO ALL POSTS, BUT NOW WE ARE DISPLAYING THEM AL HERE
-
-                        //echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
-
-
-                        // IF WE WANTED INCLUDE VIDEO PRESS, WE COULD ADD THIS LOOP 
-
-                        // echo '<h3>'. $thisTerm->slug .' Videos</h3>';
-                        // press_list('video_press', .65, 4);
-                        // echo '<div class="nina-cta"><a class="flex-row justify-center align-center" href="/year_published/'.get_queried_object()->slug. '?post_type=video_press"><h5> See All From '.get_queried_object()->name.' </h5><svg class="icon"><use xlink:href="#right-arrow" /></svg></a></div>';
-                    } ?>
+                    press_list('press', 1.45, 16, true); ?>
 
                     <?php 
                     function press_list($press_type, $aspect_ratio, $ppp, $more = false) {
                         
-                        echo '<div class="blog-holder '. $press_type.'-holder" >'; 
-                            $pressQ = new WP_Query([
-                                'post_type' => $press_type,
-                                'posts_per_page' => $ppp,
-                                'tax_query'  => array(
-                                    array(
-                                        'taxonomy' => 'year_published',
-                                        'field'    => 'slug',
-                                        'terms'    => array(get_queried_object()->slug)
-                                    ),
-                                ),
-                            ]);
-
-                            while($pressQ->have_posts()) : $pressQ->the_post(); ?>
+                        echo '<div class="blog-holder '. $press_type.'-holder" >';
+                            while(have_posts()) : the_post(); ?>
                                 <?php $p = get_post(get_the_ID());
 
                                 if($press_type == get_post_type($p) ) {
@@ -132,13 +83,8 @@ get_header();
                                                     ?>
                                                 <a href="<?php echo $link ?>">
                                                     
-                                                    <div class="blog-card-bgr-pic" data-bgratio="<?php echo $aspect_ratio;?>" style="background: url(<?php echo get_the_post_thumbnail_url($p->ID, 'large'); ?>) no-repeat center/contain;">
+                                                    <div class="blog-card-bgr-pic" data-bgratio="<?php echo $aspect_ratio;?>" style="background: url(<?php echo get_the_post_thumbnail_url($p->ID, 'large'); ?>) no-repeat center; background-size: cover;">
                                                         <div class="blog-card-shade">
-                                                            <?php  if( $press_type == 'video_press') {
-                                                                echo '<img src="/app/themes/nina_magon/smash/images/circle-triangle-50x50.png" alt="video play symbol">';
-                                                            }
-                                                            
-                                                            ?>
                                                         </div>
                                                     </div>
                                                 </a>      
@@ -153,8 +99,7 @@ get_header();
                         echo '</div>'; ?>
 
                         <?php if($more){  
-                            $repeater = ($press_type == 'press') ? 'template_3' : 'template_4';
-                            echo do_shortcode('[ajax_load_more container_type="div" repeater="'.$repeater.'" css_classes="'.$press_type.'-holder" post_type="'.$press_type.'" taxonomy="year_published" taxonomy_terms="'.get_queried_object()->slug.'" taxonomy_operator="IN" posts_per_page="'.$ppp.'" offset="'.$ppp.'" pause="true" scroll="false" button_label="Load More"]'); 
+                            echo do_shortcode('[ajax_load_more container_type="div" repeater="template_4" css_classes="'.$press_type.'-holder" post_type="'.$press_type.'" posts_per_page="'.$ppp.'" offset="'.$ppp.'" pause="true" scroll="false" button_label="Load More"]'); 
                         } ?>
 
                     <?php } ?>

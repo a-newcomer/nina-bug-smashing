@@ -36,7 +36,7 @@ get_header();
                             <div class="rising-card project-card flex-col align-center">
                                 <a class="img-box" href="<?php the_permalink(); ?>">
                                     <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' ); ?>
-                                        <div class="featured-img" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
+                                        <div class="featured-img" data-bgratio=".85" style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('<?php echo $backgroundImg[0]; ?>') no-repeat center center; background-size: cover;">
                                         </div>
                                 </a>
                                 <h4><?php the_title(); ?></h4>
@@ -51,4 +51,4 @@ get_header();
             <?php endif; ?>
 <?php
 get_footer();
-
+//<div class="" data-bgratio="" style="background: url(<?php echo $image['sizes']['large']; ?>) no-repeat center/cover;"></div>

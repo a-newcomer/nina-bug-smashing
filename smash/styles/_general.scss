@@ -2,7 +2,7 @@
 
 body {
     color: $primary_color;
-    cursor: url('/app/themes/nina_magon/smash/images/circle-sm.png') 8 9, pointer;
+    cursor: url('/app/themes/nina_magon/smash/images/circle-sm.svg') 8 9, pointer;
 }
 
 // GENERAL STYLES
@@ -85,7 +85,7 @@ a {
 
     &:hover {
         color: $link_color;
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
     }
 }
 
@@ -100,7 +100,7 @@ p {
     a {
         @extend %link;
         font-weight: bold; 
-        cursor: url('/app/themes/nina_magon/smash/images/circle-sm.png') 8 9, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-sm.svg') 8 9, pointer;
     }
 }
 
@@ -301,7 +301,7 @@ a.btn-tertiary, .btn-tertiary {
     h5 {
         left: -10px;
         transform: scale(1);
-        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+        cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
        
     }
 
@@ -337,7 +337,7 @@ a.btn-tertiary, .btn-tertiary {
     }
     a:hover {
         &:hover {
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
         }
         
         h5 {
@@ -516,18 +516,18 @@ a .icon {
 
         &.slick-prev {
             left: -1%;
-            cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-l.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-l.svg') 16 16, pointer;
            
         }
         
         &.slick-next {
             right: -1%;
-            cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-r.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-arrow-r.svg') 16 16, pointer;
 
         }
 
         &:hover {
-            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+            cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
             color: $secondary_color;
         }
     }
@@ -565,7 +565,7 @@ a .icon {
 
                 &:hover {
                     background: #E7E7E7 !important;
-                    cursor: url('/app/themes/nina_magon/smash/images/circle-lg.png') 16 16, pointer;
+                    cursor: url('/app/themes/nina_magon/smash/images/circle-lg.svg') 16 16, pointer;
 
                     &::after {
                         background: unset !important;
@@ -635,7 +635,7 @@ a .icon {
 // }
 @include respond-to(large, min) {
     #page {
-        margin-bottom: 255px;
+        margin-bottom: 266px;
     }
 }
 
@@ -644,9 +644,10 @@ a .icon {
         margin-bottom: 275px;
     }
 }
+//1024px
 @include respond-to(xxlarge, min) {
     #page {
-        margin-bottom: 260px;
+        margin-bottom: 204px;
     }
 }
 

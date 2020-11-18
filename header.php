@@ -154,7 +154,8 @@
             <?php } ?>
         
         </div>
-
+    
     </header><!-- #masthead -->
 
     <div id="content" class="site-content">
+    <?php smash_dot_nav(); ?>

@@ -30,15 +30,16 @@ get_header();
             
                 <div class="nina-cta flex-col container-lg flex-center header-block" id="nmsc-centered-cta">
                     <a class="flex-row" href="<?php if(get_field('bottom_cta_link')) : the_field('bottom_cta_link'); endif; ?>">
+                    
                         <h5><?php  if(get_field('bottom_cta_text')) : the_field('bottom_cta_text'); endif; ?> </h5>
                         <svg class="icon"><use xlink:href="#right-arrow" /></svg>
                     </a>
                 </div> <!-- end cta-->
 
-            </article><!-- #post-<?php the_ID(); ?> -->
+            </article><!-- #post-<?php //the_ID(); ?> -->
 		
-		<?php endwhile; ?>
-
+        <?php endwhile; ?>
+        
 		</main><!-- #main -->
     </div><!-- #primary -->
 

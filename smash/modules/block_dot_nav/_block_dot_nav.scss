@@ -1,38 +1,71 @@
-.nav-dots {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 20;
-    height: 100vh;
-    justify-content: center;
-    margin-left: -1vw;
-    list-style-type: none;
-}
-.dot-item {
-    margin-bottom: 1.5vh;
-}
-.dot-item::marker {
-    display: none;
-}
-.smash-dot {
-    color: #999;
-    font-size: 7px;
-    padding: 8px;
-}
-a.smash-dot.active {
-    border: 1.5px solid #f1f1f1;
-    padding: 8px;
-    border-radius: 50%;
-}
-a.focus {
-    border: 1.5px solid #bbb;
-    padding: 8px;
-    border-radius: 50%;
-}
 
-// .smash-dot.active {
+nav{
+    &#dot-nav{
+        position: fixed;
+        left: 40px;
+        z-index: 5;
+        a{
+            display: block;
+            margin: 15px;
+            padding: 10px;
+            width: 10px;
+            height: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+          &:before {
+                content: '•';
+                color: #ccc;
+                font-size: 24px;
+            
+          }
+            &.active{
+              border: 1px solid #ccc;
+              border-radius: 50%
+            }
+        }
+    }
+}
+@include respond-to(large, max){
+    nav{
+        &#dot-nav{
+            display: none;
+            z-index: 0;
+        }
+    }
+ }
+
+//FIRST TRY
+
+// .nav-dots {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 20;
+//     height: 100vh;
+//     justify-content: center;
+//     margin-left: -1vw;
+//     list-style-type: none;
+// }
+// .dot-item {
+//     margin-bottom: 1.5vh;
+// }
+// .dot-item::marker {
+//     display: none;
+// }
+// .smash-dot {
+//     color: #999;
+//     font-size: 7px;
+//     padding: 8px;
+// }
+// a.smash-dot.active {
 //     border: 1.5px solid #f1f1f1;
 //     padding: 8px;
 //     border-radius: 50%;
-//     //font-size: 7px;
+// }
+// a.focus {
+//     border: 1.5px solid #bbb;
+//     padding: 8px;
+//     border-radius: 50%;
 // }

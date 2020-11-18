@@ -7,11 +7,11 @@ add_action( 'wp_enqueue_scripts', function(){
 
 function smash_scroll_down_bar() {
     ?>
-    <section class="bar-outer">
+    <div class="bar-outer">
         <div id="bar">
 
         </div>
-    </section>
+    </div>
 
 
     <?php
